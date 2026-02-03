@@ -12,7 +12,8 @@ Interactive vocabulary trainer (Day 1).
 - HTML5
 
 ## Live Demo
-
+[GitHub](https://github.com/keeyplay/WordForge)
+[Twitter](https://x.com/keeyplay)
 
 ## Next Features
 1. localStorage integration
