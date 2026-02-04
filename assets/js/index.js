@@ -9,10 +9,18 @@ document.getElementById('btn_start').addEventListener('click', function() {
         document.body.style.background = "white";
         
         document.body.innerHTML = infoHTML;
+        // document.body.style.display = "block";
         
         const newContent = `
-            <h1>I will continue developing this project tomorrow</h1>
+            <div id="new-content">
+                <div id="logo-name"><h1>WordForge</h1></div>
+            </div>
+            <div>
+                <!-- <h1 style="display: flex; justigy-content: end;">EN</h1> -->
+            </div>
         `;
-        document.body.innerHTML += newContent;
-    }, 2000); 
+        // getElementById("logo-name").classList.add('ani');
+        document.body.innerHTML += newContent; 
+    }, 1500); 
+    
 });
