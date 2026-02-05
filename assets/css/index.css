@@ -3,9 +3,12 @@
     padding: 0px;
 }
 body {
-    height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     background: black;
+}
+
+#container {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,11 +73,23 @@ body {
         position: absolute;
         float: left;
     }
+    #logo-name {
+        font-size: 50;
+        width: 30px;
+        height: 30px;
+        background-color: orange;
+    }
 }
 @media (max-width: 908px) {
     #info {
         position: absolute;
         float: left;
+    }
+    #logo-name {
+        font-size: 50;
+        width: 30px;
+        height: 30px;
+        background-color: orange;
     }
 }
 
@@ -104,6 +119,17 @@ body {
 
 #new-content {
     animation: fadeIn 0.5s ease forwards;
+    min-height: 92vh; 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+#abtme {
+    display: flex;
+    justify-content: end;
 }
 
 /* #logo-name {
@@ -132,3 +158,27 @@ body {
     transform: scale(0.95);
 }
 
+#links {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.3));
+    padding-right: 20px;
+}
+
+#links div {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+#links div:hover {
+    /* min-width: 60px;
+    min-height: 60px; */
+    gap: 25px;
+    transform: translateX(-5px) translateY(-10px) scale(1.2);
+    cursor: pointer;
+}
+
+#all-content {
+    height: 100vh;
+}
