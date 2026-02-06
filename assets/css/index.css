@@ -33,6 +33,8 @@ body {
     box-sizing: border-box;
     z-index: 100;
     background: rgba(0, 0, 0, 0.5);
+
+    animation-duration: 0.5s;
 }
 
 #btn_start {
@@ -65,34 +67,6 @@ body {
     }
 }
 
-@media (max-width: 768px) {
-    #btn_start {
-        font-size: 10vh;
-    }
-    #info {
-        position: absolute;
-        float: left;
-    }
-    #logo-name {
-        font-size: 50;
-        width: 30px;
-        height: 30px;
-        background-color: orange;
-    }
-}
-@media (max-width: 908px) {
-    #info {
-        position: absolute;
-        float: left;
-    }
-    #logo-name {
-        font-size: 50;
-        width: 30px;
-        height: 30px;
-        background-color: orange;
-    }
-}
-
 
 @keyframes fadeIn {
     0% {
@@ -119,9 +93,8 @@ body {
 
 #new-content {
     animation: fadeIn 0.5s ease forwards;
-    min-height: 92vh; 
+    min-height: 85vh; 
     display: flex;
-    justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
     align-items: center;
@@ -141,8 +114,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     /* background-image: url("logo_png_cr.png"); */
     border-radius: 150px;
 
@@ -152,6 +125,8 @@ body {
 #logo-name:hover {
     cursor:pointer;
     background-color: orange;
+    width: 300px;
+    height: 300px;
 }
 
 #logo-name:active  {
@@ -179,6 +154,152 @@ body {
     cursor: pointer;
 }
 
+#abt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
 #all-content {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#new-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+#logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#about-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.about-left, .about-right {
+    width: 45%;
+}
+
+.about-left h2 {
+    padding-left: 100px;
+}
+
+.about-right h2 {
+    padding-right: 200px;
+}
+
+.about-left {
+    text-align: left;
+}
+
+.about-right {
+    text-align: right;
+}
+
+.about-left h2, .about-right h2 {
+    font-size: 2rem;
+    margin: 0;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.about-left h2:hover, .about-right h2:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#textabtword {
+    max-width: 600px;
+    line-height: 1.6;
+    word-spacing: 0.2em;
+    font-size: 20px;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#textabtme {
+    text-align: left;
+    max-width:  1000px;
+    line-height: 1.6;
+    padding-left: 200px;
+    word-spacing: 0.2em;
+    font-size: 20px;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#textabtword span {
+    font-weight: 1000;
+}
+
+#textabtme span {
+    font-weight: 1000;
+}
+
+#logoabt {
+    transition: transform 5s ease-in-out;
+    filter: drop-shadow(0 20px 10px rgba(0, 0, 0, 0.3));
+}
+
+#logoabt:hover {
+    transform: rotate(360deg);
+    cursor: grabbing;
+}
+
+@media (max-width: 768px) {
+    #btn_start {
+        font-size: 100px;
+    }
+    
+    #info {
+        position: absolute;
+        float: left;
+    }
+    #logo-name {
+        font-size: 50;
+        width: 30px;
+        height: 30px;
+        background-color: orange;
+    }
+    #new-content div h1 {
+        font-size: 10;
+    }
+}
+@media (max-width: 908px) {
+    #info {
+        position: absolute;
+        float: left;
+    }
+    #logo-name {
+        font-size: 50;
+        width: 30px;
+        height: 30px;
+        background-color: orange;
+    }
+    #logo-name:hover {
+        font-size: 50;
+        width: 30px;
+        height: 30px;
+        background-color: orange;
+    }
 }
