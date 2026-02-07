@@ -31,7 +31,7 @@ body {
     opacity: 0.8;
     padding: 15px;
     box-sizing: border-box;
-    z-index: 100;
+    z-index: 50;
     background: rgba(0, 0, 0, 0.5);
 
     animation-duration: 0.5s;
@@ -56,6 +56,11 @@ body {
     animation-fill-mode: forwards;
 }
 
+#logo-name.clicked {
+    animation: clickAnimation1 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
 @keyframes clickAnimation {
     0% {
         transform: scale(1);
@@ -64,6 +69,19 @@ body {
         transform: scale(100);
         margin-top: 5000px;
         font-size: 30vh;
+    }
+}
+
+@keyframes clickAnimation1 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        position: relative;
+        z-index: -1;
+        transform: scale(100);
+        color: orange;
+        background: orange;
     }
 }
 
@@ -118,11 +136,13 @@ body {
     height: 200px;
     /* background-image: url("logo_png_cr.png"); */
     border-radius: 150px;
+    position: relative; 
+    z-index: 100;
 
     transition-duration: 0.5s;
 }
 
-#logo-name:hover {
+#logo-name:not(.clicked):hover {
     cursor:pointer;
     background-color: orange;
     width: 300px;
@@ -284,6 +304,15 @@ body {
     #new-content div h1 {
         font-size: 10;
     }
+    #new-content {
+        flex-direction: column;
+    }
+    #logo-name h1 {
+        font-size: 10px;
+    }
+    #links {
+        display: fixed;
+    }
 }
 @media (max-width: 908px) {
     #info {
@@ -301,5 +330,207 @@ body {
         width: 30px;
         height: 30px;
         background-color: orange;
+    }
+}
+
+<!-- -->
+@media (max-width: 1208px) { 
+    body {
+        overflow-y: auto !important;
+        height: auto !important;
+    }
+    #all-content {
+        padding-top: 120px;
+    }
+    
+    #new-content {
+        padding: 20px 15px !important;
+        min-height: auto;
+    }
+    
+    #logo-container {
+        position: relative;
+        margin: 20px auto;
+    }
+    
+    #logo-name {
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+    }
+    
+    #logo-name h1 {
+        font-size: 20px;
+    }
+    
+    #about-section {
+        flex-direction: column;
+        padding: 0 !important;
+        gap: 30px;
+    }
+    
+    .about-left, .about-right {
+        width: 100% !important;
+    }
+    
+    .about-left h2, .about-right h2 {
+        font-size: 24px;
+        padding: 10px 0 !important;
+        text-align: center;
+    }
+    
+    #textabtword, #textabtme {
+        font-size: 16px;
+        padding: 15px !important;
+        background: rgba(255,255,255,0.1);
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    
+    #logoabt {
+        max-width: 200px;
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    #links {
+        display: flex !important;
+        justify-content: center;
+        padding: 20px !important;
+        gap: 20px;
+    }
+    
+    #links div img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    #logo-name {
+        width: 80px;
+        height: 80px;
+    }
+    
+    #logo-name h1 {
+        font-size: 16px;
+    }
+    
+    .about-left h2, .about-right h2 {
+        font-size: 20px;
+    }
+    
+    #textabtword, #textabtme {
+        font-size: 14px;
+        padding: 12px !important;
+    }
+    
+    #logoabt {
+        max-width: 150px;
+    }
+    
+    #links {
+        padding: 15px !important;
+        gap: 15px;
+    }
+    
+    #links div img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {  
+    #about-section {
+        padding: 40px !important;
+    }
+    
+    .about-left, .about-right {
+        width: 48% !important;
+    }
+    
+    #textabtword, #textabtme {
+        font-size: 18px;
+    }
+    
+    #logoabt {
+        max-width: 300px;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+    #info {
+        height: 40px;
+        padding: 5px;
+    }
+    
+    #container {
+        height: calc(100vh - 50px);
+        margin-top: 50px;
+    }
+    
+    #about-section {
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .about-left, .about-right {
+        width: 48% !important;
+    }
+    
+    #textabtword, #textabtme {
+        font-size: 14px;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 1208px) {
+    #new-content {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    
+    #logo-container {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        order: 3; 
+        margin: 30px auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #logo-name {
+        width: 150px;
+        height: 150px;
+        background: orange;
+    }
+
+    #logo-name:hover {
+        width: 150px;
+        height: 150px;
+        background: orange;
+    }
+    
+    #about-section {
+        order: 1; 
+        width: 100%;
+        padding: 20px 15px !important;
+    }
+    
+    #links {
+        order: 4; 
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    #logo-container {
+        margin: 20px auto;
     }
 }

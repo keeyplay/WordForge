@@ -53,6 +53,14 @@ document.getElementById('btn_start').addEventListener('click', function() {
         // document.getElementById("info").style.animationDuration = "0.5s";
         // document.getElementById("info").style.justifyContent = "space-between";
         // document.getElementById("infoup").innerText = "WordForge";
+
+        document.getElementById("logo-name").addEventListener('click', function() {
+            this.classList.add('clicked');
+            document.getElementById("links").style.display = "none";
+            document.getElementById("info").style.display = "none";
+            setTimeout(() => {         
+                window.location.href = 'trainer.html';
+            }, 2000); 
+        });
     }, 1500); 
-    
 });
