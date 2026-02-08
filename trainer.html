@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WordForge - Simple Vocabulary trainer</title>
+    <title>WordForge — Vocabulary Trainer</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/trainer.css">
 </head>
-<body style="background: orange;">
-    <h1>i will continue build it tomorrow...</h1>
+<body>
+    <div class="trainer-page">
+        <header class="trainer-header">
+            <a href="index.html" class="trainer-brand">
+                <img src="assets/pic/logo_png_cr.png" alt="" class="trainer-logo-img">
+                <span class="trainer-logo">WordForge</span>
+            </a>
+            <nav class="trainer-nav">
+                <span class="trainer-stats">
+                    <span class="stat-badge cards-count" id="stat-cards">0 cards</span>
+                    <span class="stat-badge streak" id="stat-streak">🔥 0</span>
+                </span>
+            </nav>
+        </header>
+
+        <main class="trainer-main">
+            <section class="cards-zone" id="cards-zone">
+                <p class="cards-hint" id="cards-hint">Swipe left — don't know · right — know</p>
+                <div class="cards-stack" id="cards-stack">
+                    <article class="card card-top" id="card-current" data-card-id="">
+                        <div class="card-inner" id="card-inner">
+                            <div class="card-face card-front">
+                                <img src="assets/pic/logo_png_cr.png" alt="" class="card-corner-logo" aria-hidden="true">
+                                <span class="card-label">Word</span>
+                                <p class="card-word" id="card-word">—</p>
+                            </div>
+                            <div class="card-face card-back">
+                                <span class="card-label">Translation</span>
+                                <p class="card-word" id="card-translation">—</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card card-under card-under-1" aria-hidden="true"></article>
+                    <article class="card card-under card-under-2" aria-hidden="true"></article>
+                </div>
+                <div class="swipe-actions" id="swipe-actions">
+                    <button type="button" class="btn-swipe btn-swipe-no" id="btn-dont-know" aria-label="Don't know">
+                        <span class="btn-swipe-icon">✕</span>
+                        <span class="btn-swipe-label">Don't know</span>
+                    </button>
+                    <button type="button" class="btn-swipe btn-swipe-yes" id="btn-know" aria-label="Know">
+                        <span class="btn-swipe-icon">✓</span>
+                        <span class="btn-swipe-label">Know</span>
+                    </button>
+                </div>
+                <div class="empty-state" id="empty-state" hidden>
+                    <div class="empty-logo-wrap">
+                        <img src="assets/pic/logo_png_cr.png" alt="" class="empty-state-logo">
+                    </div>
+                    <p class="empty-title">No cards yet</p>
+                    <p class="empty-desc">Add your first card below to start learning.</p>
+                </div>
+                <div class="done-state" id="done-state" hidden>
+                    <div class="done-logo-wrap">
+                        <img src="assets/pic/logo_png_cr.png" alt="" class="done-state-logo">
+                    </div>
+                    <p class="done-title">All done</p>
+                    <p class="done-desc">You've gone through the deck. Add more cards or start again.</p>
+                    <button type="button" class="btn-start-again" id="btn-start-again">Start again</button>
+                </div>
+            </section>
+
+            <section class="create-zone">
+                <button type="button" class="btn-create-card" id="btn-create-card">
+                    <span class="btn-create-icon">+</span>
+                    <span class="btn-create-text">Add card</span>
+                </button>
+                <p class="create-hint">New words appear in the deck</p>
+            </section>
+        </main>
+
+        <footer class="trainer-footer">
+            <a href="index.html" class="footer-link">
+                <img src="assets/pic/logo_png_cr.png" alt="" class="footer-logo">
+                <span>Home</span>
+            </a>
+        </footer>
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay" hidden>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <img src="assets/pic/logo_png_cr.png" alt="" class="modal-logo">
+                <h2 class="modal-title">Add card</h2>
+            </div>
+            <form class="modal-form" id="modal-form">
+                <label class="modal-label" for="input-word">Word</label>
+                <input type="text" id="input-word" class="modal-input" placeholder="e.g. apple" autocomplete="off" required>
+                <label class="modal-label" for="input-translation">Translation</label>
+                <input type="text" id="input-translation" class="modal-input" placeholder="e.g. яблоко" autocomplete="off" required>
+                <div class="modal-actions">
+                    <button type="button" class="btn-modal-cancel" id="btn-modal-cancel">Cancel</button>
+                    <button type="button" class="btn-modal-save" id="btn-modal-save">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/trainer.js"></script>
 </body>
 </html>
