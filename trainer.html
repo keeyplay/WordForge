@@ -71,12 +71,21 @@
                 </div>
             </section>
 
-            <section class="create-zone">
-                <button type="button" class="btn-create-card" id="btn-create-card">
-                    <span class="btn-create-icon">+</span>
-                    <span class="btn-create-text">Add card</span>
-                </button>
-                <p class="create-hint">New words appear in the deck</p>
+            <section id="edit-section" style="display: flex; gap: 20px; flex-direction: column;">
+                <section class="create-zone">
+                    <button type="button" class="btn-create-card" id="btn-create-card">
+                        <span class="btn-create-icon">+</span>
+                        <span class="btn-create-text">Add card</span>
+                    </button>
+                    <p class="create-hint">New words appear in the deck</p>
+                </section>
+                <section class="create-zone" id="create-zone">
+                    <button type="button" class="btn-create-card" id="btn-edit-card">
+                        <span class="btn-create-icon">/</span>
+                        <span class="btn-create-text">Edit card</span>
+                    </button>
+                    <p class="create-hint">Edit Cards</p>
+                </section>
             </section>
         </main>
 

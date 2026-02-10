@@ -1,13 +1,46 @@
 let cards = JSON.parse(localStorage.getItem('languageCards')) || [];  //parse all cards // if hasnt create empty array
+let cardsAdd = cards;
 
 let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
 
 function renderCards() {
-    cardWord.textContent = cards[cards.length-1].word; //show last card
-    countCards.textContent = cards.length + " cards";
+    if(cards.length !== 0) {
+        cardWord.textContent = cardsAdd[cardsAdd.length-1].word; //show last card
+        countCards.textContent = cards.length + " cards";
+    }
+    if(cardsAdd.length === 1) {
+        document.getElementById("card-inner").display = "none";
+    }
 };
 renderCards()
+
+//dont know
+document.getElementById("btn-dont-know").addEventListener('click', function() {
+    cardsAdd[cardsAdd.length-1].fliped = true;
+    cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+    setTimeout(() => {
+        document.getElementById("card-inner").classList.add("card-swipe-left");
+        setTimeout(() => {
+            //cardsAdd.pop();
+            renderCards();
+            document.getElementById("card-inner").classList.remove("card-swipe-left");
+        }, 400);
+    }, 1500);
+    
+});
+
+// know
+document.getElementById("btn-know").addEventListener('click', function() {
+    cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+        document.getElementById("card-inner").classList.add("card-swipe-right");
+    setTimeout(() => {
+        cardsAdd.pop();
+        renderCards();
+        document.getElementById("card-inner").classList.remove("card-swipe-right");
+    }, 500);
+    
+});
 
 //pressed button of save
 document.getElementById("btn-modal-save").addEventListener('click', function() {
