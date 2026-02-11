@@ -125,7 +125,7 @@ body {
     margin: 0 auto;
 }
 
-.cards-zone { margin-bottom: 2rem; }
+.cards-zone { margin-bottom: 2rem; display: block;}
 
 .cards-hint {
     text-align: center;
@@ -305,8 +305,12 @@ body {
     padding: 2rem 1rem;
 }
 
-.empty-state[hidden],
-.done-state[hidden] { display: none !important; }
+.done-state {
+    display: none;
+}
+
+/* .empty-state[hidden],
+.done-state[hidden] { display: none !important; } */
 
 .empty-logo-wrap,
 .done-logo-wrap {
