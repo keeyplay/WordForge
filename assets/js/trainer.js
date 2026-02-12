@@ -6,7 +6,7 @@ let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
 
 function renderCards() {
-    if(cards.length === 0) {
+    if(cards.length === 0 && cardsAdd.length === 0) {
         document.getElementById("cards-stack").style.display = "none";
         document.getElementById("swipe-actions").style.display = "none";
         document.getElementById("empty-state").style.display = "block";
@@ -84,17 +84,49 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
     }
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowLeft') {
+    if(swipping === false) {
+        swipping = true;
+        // cardsAdd[cardsAdd.length-1].fliped = true;
+        cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+        setTimeout(() => {
+            document.getElementById("card-inner").classList.add("card-swipe-left");
+            setTimeout(() => {
+                //cardsAdd.pop();
+                swipping = false;
+                renderCards();
+                document.getElementById("card-inner").classList.remove("card-swipe-left");
+            }, 400);
+        }, 1500);
+    }
+  } else if (event.key === 'ArrowRight') {
+    if(swipping === false) {
+        swipping = true;
+        cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+            document.getElementById("card-inner").classList.add("card-swipe-right");
+        setTimeout(() => {
+            swipping = false;
+            cardsAdd.pop();
+            renderCards();
+            document.getElementById("card-inner").classList.remove("card-swipe-right");
+        }, 500);
+    }
+  }
+});
+
+
 
 
 
 //other buttons
 //--------------------------------------------------
 
-//open modal
+//open modal add
 document.getElementById("btn-create-card").addEventListener('click', function() {
-    document.getElementById("modal-overlay").style.display = "block";
+    document.getElementById("modal-overlay").style.display = "flex";
 });
-//close modal
+//close modal add
 document.getElementById("btn-modal-cancel").addEventListener('click', function() {
     document.getElementById("modal-overlay").style.display = "none"; 
 });
@@ -105,4 +137,15 @@ document.getElementById("btn-start-again").addEventListener('click', function() 
     document.getElementById("cards-stack").style.display = "flex";
     document.getElementById("swipe-actions").style.display = "flex";
     document.getElementById("done-state").style.display = "none";
+});
+
+//open modal edit
+document.getElementById("btn-edit-card").addEventListener('click', function() {
+    document.getElementById("modal-overlay-edit").style.display = "flex";
+    document.getElementById("all-cards-county").innerText = "All Cards (" + cards.length + ")";
+    //tomorrow will create system of show cards
+});
+//close modal edit
+document.getElementById("btn-modal-cancel-edit").addEventListener('click', function() {
+    document.getElementById("modal-overlay-edit").style.display = "none"; 
 });
