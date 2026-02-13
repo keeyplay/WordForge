@@ -156,6 +156,12 @@ body {
     user-select: none;
 }
 
+.cards-edit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .card:active { cursor: grabbing; }
 
 .card-inner {
@@ -468,6 +474,34 @@ body {
 
     transition-duration: 0.5s;
 }
+
+.card-edit {
+    width: 100%;
+    min-height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 172, 37, 0.5);
+    font-size: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.btn-delete-card {
+    color: red;
+
+    transition-duration: 0.5s;
+}
+
+.btn-delete-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
 
 .modal {
     width: 100%;

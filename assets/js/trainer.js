@@ -1,6 +1,7 @@
 let cards = JSON.parse(localStorage.getItem('languageCards')) || [];  //parse all cards // if hasnt create empty array
 let cardsAdd = JSON.parse(localStorage.getItem('languageCards')) || [];
 let swipping = false;
+let editLoad = false;
 
 let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
@@ -143,7 +144,18 @@ document.getElementById("btn-start-again").addEventListener('click', function() 
 document.getElementById("btn-edit-card").addEventListener('click', function() {
     document.getElementById("modal-overlay-edit").style.display = "flex";
     document.getElementById("all-cards-county").innerText = "All Cards (" + cards.length + ")";
-    //tomorrow will create system of show cards
+    
+    if(editLoad === false) {
+        editLoad = true;
+        for(let el = 0; el <= cards.length; el++) {
+            document.getElementById("cards-edit").innerHTML += `
+                <div class='card-edit'>
+                    <h2>${el+1}. ${cards[el].word} - ${cards[el].translation}</h2>
+                    <h2 class="btn-delete-card" id="btn-delete-card">Delete</h2>
+                </div>
+            `;
+        }
+    };
 });
 //close modal edit
 document.getElementById("btn-modal-cancel-edit").addEventListener('click', function() {
