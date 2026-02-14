@@ -576,6 +576,24 @@ body {
     margin-top: 0.5rem;
 }
 
+#btn-modal-delete-all-edit {
+    color: white;
+    background: var(--orange);
+    flex: 1;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+}
+#btn-modal-delete-all-edit:hover {
+    color: red;
+    transform: scale(0.9);
+}
+
 .btn-modal-cancel,
 .btn-modal-save {
     flex: 1;

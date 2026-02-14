@@ -13,10 +13,12 @@ function renderCards() {
         document.getElementById("empty-state").style.display = "block";
     }
     if(cards.length !== 0 && cardsAdd.length !== 0) {
+        document.getElementById("empty-state").style.display = "none";
         cardWord.textContent = cardsAdd[cardsAdd.length-1].word; //show last card
         countCards.textContent = cards.length + " cards";
     }
     if(cardsAdd.length === 0 && cards.length !== 0) {
+        document.getElementById("empty-state").style.display = "none";
         document.getElementById("cards-stack").style.display = "none";
         document.getElementById("swipe-actions").style.display = "none";
         document.getElementById("done-state").style.display = "block";
@@ -78,13 +80,22 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
             // fliped: false //if true again try to show this card latter
         });
 
+        cardsAdd.push({
+            word: newWord,
+            translation: newTranslate,
+            // fliped: false //if true again try to show this card latter
+        });
+
         localStorage.setItem('languageCards', JSON.stringify(cards)); //update in localstorage
         renderCards(); //update card in front
 
         document.getElementById("modal-overlay").style.display = "none"; //close modal window
     }
+    document.getElementById("input-word").value = '';
+    document.getElementById("input-translation").value = '';
 });
 
+//arrows navigarions
 document.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowLeft') {
     if(swipping === false) {
@@ -140,24 +151,46 @@ document.getElementById("btn-start-again").addEventListener('click', function() 
     document.getElementById("done-state").style.display = "none";
 });
 
+//------------------------modal edit---------------------------------
 //open modal edit
-document.getElementById("btn-edit-card").addEventListener('click', function() {
+document.getElementById("btn-edit-card").addEventListener('click', openModalEdit);
+function openModalEdit() {
     document.getElementById("modal-overlay-edit").style.display = "flex";
     document.getElementById("all-cards-county").innerText = "All Cards (" + cards.length + ")";
     
-    if(editLoad === false) {
-        editLoad = true;
-        for(let el = 0; el <= cards.length; el++) {
-            document.getElementById("cards-edit").innerHTML += `
-                <div class='card-edit'>
-                    <h2>${el+1}. ${cards[el].word} - ${cards[el].translation}</h2>
-                    <h2 class="btn-delete-card" id="btn-delete-card">Delete</h2>
-                </div>
-            `;
-        }
-    };
-});
+    for(let el = 0; el < cards.length; el++) {
+        document.getElementById("cards-edit").innerHTML += `
+            <div class='card-edit'>
+                <h2>${el+1}. ${cards[el].word} - ${cards[el].translation}</h2>
+                <h2 class="btn-delete-card" id="btn-delete-card/${el}">Delete</h2>
+            </div>
+        `;
+    }
+
+    //delete card
+    document.querySelectorAll('.btn-delete-card').forEach(button => {
+        button.addEventListener('click', function() {
+            let cardDelete = this.id;
+            let index = Number(cardDelete.split("/")[1]);
+            cards.splice(index, 1);
+            cardsAdd.splice(index, 1);
+            localStorage.setItem("languageCards", JSON.stringify(cards));
+            renderCards();
+
+            document.getElementById("cards-edit").innerHTML = "";
+            openModalEdit();
+        });
+    });
+};
+
 //close modal edit
 document.getElementById("btn-modal-cancel-edit").addEventListener('click', function() {
     document.getElementById("modal-overlay-edit").style.display = "none"; 
+    document.getElementById("cards-edit").innerHTML = "";
+});
+
+//delete all cards
+document.getElementById("btn-modal-delete-all-edit").addEventListener('click', function() {
+    let sure = confirm("Are you sure you want to delete your progress?");
+    if(sure === true) { localStorage.setItem("languageCards", JSON.stringify([])); renderCards(); location.reload(); }    
 });
