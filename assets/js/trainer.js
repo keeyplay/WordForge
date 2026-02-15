@@ -1,10 +1,86 @@
 let cards = JSON.parse(localStorage.getItem('languageCards')) || [];  //parse all cards // if hasnt create empty array
 let cardsAdd = JSON.parse(localStorage.getItem('languageCards')) || [];
 let swipping = false;
-let editLoad = false;
+let streaks = JSON.parse(localStorage.getItem('streaks')) || {
+    streakCount: 0,
+    lastVisitDate: null,
+    streakClaimedToday: false
+};
 
 let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
+
+// streaks load -------------------------------------------------------------
+//get streaks
+function saveStreaks() {
+    localStorage.setItem('streaks', JSON.stringify(streaks));
+}
+
+function getTodayDateString() {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`; // for example: 2026-10-27
+}
+
+function getYesterdayDateString() {
+    const today = new Date();
+    const yesterday = new Date(today);
+    yesterday.setDate(today.getDate() - 1);
+    const year = yesterday.getFullYear();
+    const month = String(yesterday.getMonth() + 1).padStart(2, '0');
+    const day = String(yesterday.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+function updateStreak() {
+    const today = getTodayDateString();
+    const yesterday = getYesterdayDateString();
+
+    // streak already couted
+    if (streaks.lastVisitDate === today && streaks.streakClaimedToday) {
+        renderStreak();
+        return;
+    }
+
+    // first time
+    if (streaks.lastVisitDate !== today) {
+        
+        // user was here yesterday
+        if (streaks.lastVisitDate === yesterday) {
+            streaks.streakCount += 1;
+        } 
+        // streak start or lose streak
+        else {
+            streaks.streakCount = 1;
+        }
+
+        // update data
+        streaks.lastVisitDate = today;
+        streaks.streakClaimedToday = true;
+        saveStreaks();
+        renderStreak();
+    } 
+
+    else if (streaks.lastVisitDate === today && !streaks.streakClaimedToday) {
+        if (streaks.lastVisitDate === yesterday) {
+            streaks.streakCount += 1;
+        } else {
+            streaks.streakCount = 1;
+        }
+        streaks.streakClaimedToday = true;
+        saveStreaks();
+        renderStreak();
+    }
+}
+
+function renderStreak() {
+    document.getElementById("stat-streak").innerText = "🔥 " + streaks.streakCount;
+}
+updateStreak()
+
+//render cards ---------------------------------------------------------------------
 
 function renderCards() {
     if(cards.length === 0 && cardsAdd.length === 0) {
