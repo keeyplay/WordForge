@@ -19,8 +19,8 @@ function saveStreaks() {
 function getTodayDateString() {
     const today = new Date();
     const year = today.getFullYear();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
+    const month = String(today.getMonth() + 1).padStart(2, '0'); // from 1 to 12 month
+    const day = String(today.getDate()).padStart(2, '0'); // from 1 to 30 day
     return `${year}-${month}-${day}`; // for example: 2026-10-27
 }
 
@@ -29,8 +29,8 @@ function getYesterdayDateString() {
     const yesterday = new Date(today);
     yesterday.setDate(today.getDate() - 1);
     const year = yesterday.getFullYear();
-    const month = String(yesterday.getMonth() + 1).padStart(2, '0');
-    const day = String(yesterday.getDate()).padStart(2, '0');
+    const month = String(yesterday.getMonth() + 1).padStart(2, '0'); // from 1 to 12 month
+    const day = String(yesterday.getDate()).padStart(2, '0'); // from 1 to 30 day
     return `${year}-${month}-${day}`;
 }
 

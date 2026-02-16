@@ -576,6 +576,18 @@ body {
     margin-top: 0.5rem;
 }
 
+#change_language {
+    display: flex;
+    align-items: center;
+
+    transition-duration: 0.2s;
+}
+
+#change_language:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 #btn-modal-delete-all-edit {
     color: white;
     background: var(--orange);
