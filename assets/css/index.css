@@ -15,6 +15,19 @@ body {
     position: relative;
 }
 
+#change_language {
+    display: flex;
+    align-items: center;
+    
+
+    transition-duration: 0.2s;
+}
+
+#change_language:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 #info {
     position: fixed; 
     top: 0;
@@ -333,7 +346,7 @@ body {
     }
 }
 
-<!-- -->
+
 @media (max-width: 1208px) { 
     body {
         overflow-y: auto !important;

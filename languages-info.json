@@ -1,0 +1,12 @@
+{
+  "en": {
+    "infoup": "WordForge — an interactive vocabulary trainer with flashcards. Learn words, earn coins, track progress — all in your browser with auto-save.",
+    "btn_start": "start",
+    "change_language": "🇬🇧"
+  },
+  "ru": {
+    "infoup": "WordForge — интерактивный тренажёр словарного запаса. Учите слова, получайте монеты, отслеживайте прогресс — всё в браузере с автосохранением.",
+    "btn_start": "начнем",
+    "change_language": "🇷🇺"
+  }
+}

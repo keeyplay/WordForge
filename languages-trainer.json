@@ -20,17 +20,20 @@
     "input-translation-placeholder": "e.g. яблоко",
     "btn-modal-cancel": "Cancel",
     "btn-modal-save": "Save",
-    "all-cards-county": "All Cards",
     "btn-modal-delete-all-edit": "Delete all",
     "btn-modal-cancel-edit": "Cancel",
     "card-label-front": "Word",
     "card-label-back": "Translation",
-    "change_language": "EN",
+    "change_language": "🇬🇧",
     "alert-fill-fields": "Please fill out all fields",
     "alert-max-chars": "Maximum 15 characters",
     "confirm-delete": "Are you sure you want to delete your progress?",
-    "addcard":"Add card"
-  },
+    "addcard": "Add card",
+    "addcardD": "New words appear in the deck",
+    "editcard": "Edit Cards",
+    "editcardD": "Edit Cards", 
+    "btn-delete-card": "Delete"
+  }, 
   "ru": {
     "cards-hint": "Свайп влево — не знаю · вправо — знаю",
     "btn-dont-know": "Не знаю",
@@ -52,15 +55,18 @@
     "input-translation-placeholder": "например: apple",
     "btn-modal-cancel": "Отмена",
     "btn-modal-save": "Сохранить",
-    "all-cards-county": "Все карточки",
     "btn-modal-delete-all-edit": "Удалить всё",
     "btn-modal-cancel-edit": "Отмена",
     "card-label-front": "Слово",
     "card-label-back": "Перевод",
-    "change_language": "RU",
+    "change_language": "🇷🇺",
     "alert-fill-fields": "Заполните все поля",
     "alert-max-chars": "Максимум 15 символов",
     "confirm-delete": "Вы уверены, что хотите удалить весь прогресс?",
-    "addcard":"Добавить карту"
+    "addcard":"Добавить карту",
+    "addcardD":"Добавить новую карту в колоду",
+    "editcard": "Редактировать",
+    "editcardD": "Редактировать Карты",
+    "btn-delete-card": "Удалить"
   }
 }

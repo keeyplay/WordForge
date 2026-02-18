@@ -18,7 +18,7 @@
                 <span class="trainer-stats">
                     <span class="stat-badge cards-count" id="stat-cards">0 cards</span>
                     <span class="stat-badge streak" id="stat-streak">🔥 0</span>
-                    <div id="change_language" style="color: white; align-items: center;">EN</div>
+                    <div id="change_language" style="color: white; align-items: center;" onclick="switchLanguage()">🇬🇧</div>
                 </span>
             </nav>
             
@@ -58,15 +58,15 @@
                     <div class="empty-logo-wrap">
                         <img src="assets/pic/logo_png_cr.png" alt="" class="empty-state-logo">
                     </div>
-                    <p class="empty-title">No cards yet</p>
-                    <p class="empty-desc">Add your first card below to start learning.</p>
+                    <p class="empty-title" id="empty-title">No cards yet</p>
+                    <p class="empty-desc" id="empty-desc">Add your first card below to start learning.</p>
                 </div>
                 <div class="done-state" id="done-state">
                     <div class="done-logo-wrap">
                         <img src="assets/pic/logo_png_cr.png" alt="" class="done-state-logo">
                     </div>
-                    <p class="done-title">All done</p>
-                    <p class="done-desc">You've gone through the deck. Add more cards or start again.</p>
+                    <p class="done-title" id="done-title">All done</p>
+                    <p class="done-desc" id="done-desc">You've gone through the deck. Add more cards or start again.</p>
                     <button type="button" class="btn-start-again" id="btn-start-again">Start again</button>
                 </div>
             </section>
@@ -77,20 +77,20 @@
                         <span class="btn-create-icon">+</span>
                         <span class="btn-create-text" id="addcard">Add card</span>
                     </button>
-                    <p class="create-hint">New words appear in the deck</p>
+                    <p class="create-hint" id="addcardD">New words appear in the deck</p>
                 </section>
                 <section class="create-zone" id="create-zone-edit">
                     <button type="button" class="btn-create-card" id="btn-edit-card">
                         <span class="btn-create-icon">/</span>
-                        <span class="btn-create-text">Edit card</span>
+                        <span class="btn-create-text" id="editcard">Edit card</span>
                     </button>
-                    <p class="create-hint">Edit Cards</p>
+                    <p class="create-hint" id="editcardD">Edit Cards</p>
                 </section>
             </section>
         </main>
 
         <footer class="trainer-footer">
-            <a href="index.html" class="footer-link">
+            <a href="index.html" class="footer-link" id="footer-link">
                 <img src="assets/pic/logo_png_cr.png" alt="" class="footer-logo">
                 <span>Home</span>
             </a>
@@ -135,6 +135,6 @@
 
     <script src="assets/js/trainer.js"></script>
     <script src="assets/js/validator.js"></script>
-    <script src="assets/js/changeLanguages.js"></script>
+    <script src="assets/js/changeLanguagesTrainer.js"></script>
 </body>
 </html>

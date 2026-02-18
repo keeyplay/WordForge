@@ -1,21 +1,51 @@
 # WordForge 🃏
-Interactive vocabulary trainer (Day 1).
 
-## Current Status
-- Button with growth animation
-- Basic UI transitions
-- Early prototype
+A simple vocabulary trainer to learn words — built with vanilla JavaScript.
 
-## Tech Stack
+🔗 **Live demo:** [GitHub](https://github.com/keeyplay)
+🐦 **Dev logs:** [Twitter](https://x.com/keeyplay)
+
+---
+
+## ✨ Features
+
+- Flip cards to learn words
+- Language switch (RU/EN)
+- Streak counter
+- All data saved in your browser
+- Works offline
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5 / CSS3
 - Vanilla JavaScript
-- CSS Animations
-- HTML5
+- LocalStorage API
 
-## Live Demo
-[GitHub](https://github.com/keeyplay/WordForge)
-[Twitter](https://x.com/keeyplay)
+---
 
-## Next Features
-1. localStorage integration
-2. Flashcards system
-3. Progress tracking
+## 🚀 Upcoming
+
+- More languages
+- Progress stats
+- Import/export word lists
+- Mobile app? maybe
+
+---
+
+## ☕ Support
+
+If you like WordForge and want to support my work:
+
+[Donate](https://www.donationalerts.com/r/keyplay01)
+
+---
+
+## 📬 Contact
+
+Built by [@keeyplay](https://x.com/keeyplay) — 15 years old, learning in public, building stuff.
+
+---
+
+⭐ Star this repo if you find it useful!

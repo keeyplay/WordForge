@@ -242,6 +242,7 @@ function openModalEdit() {
             </div>
         `;
     }
+    switchLanguageForModal(localStorage.getItem("language"));
 
     //delete card
     document.querySelectorAll('.btn-delete-card').forEach(button => {
