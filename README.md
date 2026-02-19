@@ -3,7 +3,7 @@
 
 A simple vocabulary trainer to learn words — built with vanilla JavaScript.
 
-💫 **Site:** [WordForge](wordforgeapp.vercel.app)
+💫 **Site:** [WordForge](https://wordforgeapp.vercel.app/)
 🔗 **Live demo:** [GitHub](https://github.com/keeyplay)
 🐦 **Dev logs:** [Twitter](https://x.com/keeyplay)
 
