@@ -41,7 +41,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                             <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
                         </div>
                         <div id="mysite">
-                            <a href="" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                             <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
                         </div>
                         <div id="mysite">
-                            <a href="" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
                         </div>
                     </div>
                 </div>

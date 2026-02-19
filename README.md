@@ -1,4 +1,5 @@
 # WordForge 🃏
+![Image alt](https://github.com/keeyplay/wordforge/raw/main/assets/pic/wordforge_BANNER.png)
 
 A simple vocabulary trainer to learn words — built with vanilla JavaScript.
 
@@ -38,7 +39,7 @@ A simple vocabulary trainer to learn words — built with vanilla JavaScript.
 
 If you like WordForge and want to support my work:
 
-[Donate](https://www.donationalerts.com/r/keyplay01)
+[Donate](https://www.donationalerts.com/r/keeyplay)
 
 ---
 

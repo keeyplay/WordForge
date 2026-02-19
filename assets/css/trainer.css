@@ -607,6 +607,26 @@ body {
     transform: scale(0.9);
 }
 
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.3));
+}
+
+#links div {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+#links div:hover {
+    /* min-width: 60px;
+    min-height: 60px; */
+    gap: 25px;
+    transform: translateY(-10px) scale(1.2);
+    cursor: pointer;
+}
+
 .btn-modal-cancel,
 .btn-modal-save {
     flex: 1;
@@ -647,4 +667,10 @@ body {
     .swipe-actions { gap: 0.75rem; margin-top: 1.25rem; }
     .btn-swipe { padding: 0.6rem 0.85rem; font-size: 0.7rem; }
     .btn-swipe-icon { font-size: 1.25rem; }
+
+    #links {gap: 20px}
+    #links div {
+        padding-top: 10px;
+        transform: scale(1.5);
+    }
 }
