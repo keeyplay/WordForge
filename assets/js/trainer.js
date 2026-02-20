@@ -124,8 +124,7 @@ document.getElementById("btn-dont-know").addEventListener('click', function() {
 document.getElementById("btn-know").addEventListener('click', function() {
     if(swipping === false) {
         swipping = true;
-        cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
-            document.getElementById("card-inner").classList.add("card-swipe-right");
+        document.getElementById("card-inner").classList.add("card-swipe-right");
         setTimeout(() => {
             swipping = false;
             cardsAdd.pop();
@@ -148,7 +147,6 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
     if(letAdd === true) {
         let newWord = document.getElementById("input-word").value; 
         let newTranslate = document.getElementById("input-translation").value;
-        
         //push cards
         cards.push({
             word: newWord,
@@ -162,7 +160,12 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
             // fliped: false //if true again try to show this card latter
         });
 
-        localStorage.setItem('languageCards', JSON.stringify(cards)); //update in localstorage
+        if(cards.length === 1 && cardsAdd.length === 1) {
+            document.getElementById("cards-stack").style.display = "flex";
+            document.getElementById("swipe-actions").style.display = "flex";
+        }
+
+        localStorage.setItem('languageCards', JSON.stringify(cards)); //update in localstorage 
         renderCards(); //update card in front
 
         document.getElementById("modal-overlay").style.display = "none"; //close modal window
