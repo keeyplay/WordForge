@@ -1,6 +1,7 @@
 let cards = JSON.parse(localStorage.getItem('languageCards')) || [];  //parse all cards // if hasnt create empty array
 let cardsAdd = JSON.parse(localStorage.getItem('languageCards')) || [];
 let swipping = false;
+let randomCount = Math.floor(Math.random() * cardsAdd.length);
 let streaks = JSON.parse(localStorage.getItem('streaks')) || {
     streakCount: 0,
     lastVisitDate: null,
@@ -9,6 +10,13 @@ let streaks = JSON.parse(localStorage.getItem('streaks')) || {
 
 let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
+
+//update random count func
+function updateRandomCount() {
+    if (cardsAdd.length > 0) {
+        randomCount = Math.floor(Math.random() * cardsAdd.length);
+    }
+}
 
 // streaks load -------------------------------------------------------------
 //get streaks
@@ -90,7 +98,12 @@ function renderCards() {
     }
     if(cards.length !== 0 && cardsAdd.length !== 0) {
         document.getElementById("empty-state").style.display = "none";
-        cardWord.textContent = cardsAdd[cardsAdd.length-1].word; //show last card
+
+        if (randomCount >= cardsAdd.length) {
+            updateRandomCount();
+        }
+
+        cardWord.textContent = cardsAdd[randomCount].word; //show random card
         countCards.textContent = cards.length + " cards";
     }
     if(cardsAdd.length === 0 && cards.length !== 0) {
@@ -107,12 +120,13 @@ document.getElementById("btn-dont-know").addEventListener('click', function() {
     if(swipping === false) {
         swipping = true;
         // cardsAdd[cardsAdd.length-1].fliped = true;
-        cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+        cardWord.textContent = cardsAdd[randomCount].translation;
         setTimeout(() => {
             document.getElementById("card-inner").classList.add("card-swipe-left");
             setTimeout(() => {
                 //cardsAdd.pop();
                 swipping = false;
+                updateRandomCount();
                 renderCards();
                 document.getElementById("card-inner").classList.remove("card-swipe-left");
             }, 400);
@@ -127,7 +141,8 @@ document.getElementById("btn-know").addEventListener('click', function() {
         document.getElementById("card-inner").classList.add("card-swipe-right");
         setTimeout(() => {
             swipping = false;
-            cardsAdd.pop();
+            cardsAdd.splice(randomCount, 1);
+            updateRandomCount();
             renderCards();
             document.getElementById("card-inner").classList.remove("card-swipe-right");
         }, 500);
@@ -166,6 +181,7 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
         }
 
         localStorage.setItem('languageCards', JSON.stringify(cards)); //update in localstorage 
+        updateRandomCount(); // update random count
         renderCards(); //update card in front
 
         document.getElementById("modal-overlay").style.display = "none"; //close modal window
@@ -180,12 +196,13 @@ document.addEventListener('keydown', (event) => {
     if(swipping === false) {
         swipping = true;
         // cardsAdd[cardsAdd.length-1].fliped = true;
-        cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+        cardWord.textContent = cardsAdd[randomCount].translation;
         setTimeout(() => {
             document.getElementById("card-inner").classList.add("card-swipe-left");
             setTimeout(() => {
                 //cardsAdd.pop();
                 swipping = false;
+                updateRandomCount();
                 renderCards();
                 document.getElementById("card-inner").classList.remove("card-swipe-left");
             }, 400);
@@ -198,7 +215,8 @@ document.addEventListener('keydown', (event) => {
             document.getElementById("card-inner").classList.add("card-swipe-right");
         setTimeout(() => {
             swipping = false;
-            cardsAdd.pop();
+            cardsAdd.splice(randomCount, 1);
+            updateRandomCount();
             renderCards();
             document.getElementById("card-inner").classList.remove("card-swipe-right");
         }, 500);
@@ -224,6 +242,7 @@ document.getElementById("btn-modal-cancel").addEventListener('click', function()
 //start again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
     cardsAdd = JSON.parse(localStorage.getItem('languageCards')) || [];
+    updateRandomCount();
     renderCards();
     document.getElementById("cards-stack").style.display = "flex";
     document.getElementById("swipe-actions").style.display = "flex";
