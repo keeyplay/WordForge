@@ -1,9 +1,10 @@
+const infoElement = document.getElementById('info');
+const infoHTML = infoElement.outerHTML;
 document.getElementById('btn_start').addEventListener('click', function() {
     this.classList.add('clicked');
+    isStartButtonClicked = true; 
 
     setTimeout(() => {     
-        const infoElement = document.getElementById('info');
-        const infoHTML = infoElement.outerHTML;
         
         document.body.innerHTML = '';
         document.body.style.background = "white";
