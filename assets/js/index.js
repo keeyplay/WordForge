@@ -93,6 +93,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
         // document.getElementById("info").style.justifyContent = "space-between";
         // document.getElementById("infoup").innerText = "WordForge";
 
+        //button to main page 
         document.getElementById("logo-name").addEventListener('click', function() {
             this.classList.add('clicked');
             document.getElementById("links").style.display = "none";

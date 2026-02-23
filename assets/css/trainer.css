@@ -607,6 +607,26 @@ body {
     transform: scale(0.9);
 }
 
+#but_stats {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    background: white;
+    border: 2px solid black;
+
+    transition-duration: 0.5s;
+}
+#but_stats:hover {
+    transform: scale(1.2);
+}
+
+#but_stats_div {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
 #links {
     padding-top: 10px;
     display: flex;
