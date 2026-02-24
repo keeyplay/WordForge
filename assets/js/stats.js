@@ -5,7 +5,23 @@ let streaksSt = JSON.parse(localStorage.getItem('streaks')) || {
     streakClaimedToday: false
 };
 
-
+// migrate old cards to new structure
+function migrateOldCards() {
+    let changed = false;
+    
+    for(let i = 0; i < cardsSt.length; i++) {
+        // if hasnt date or know Count
+        if (!cardsSt[i].date || !cardsSt[i].knowCount) {
+            cardsSt[i].date = getTodayDateString();
+            cardsSt[i].knowCount = 0;
+            changed = true;
+        }
+    }
+    
+    // Если были изменения - сохраняем
+    if (changed) localStorage.setItem('languageCards', JSON.stringify(cardsSt));
+}
+migrateOldCards();
 
 // Follow every click in pages
 document.addEventListener('DOMContentLoaded', function() {
