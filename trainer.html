@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/trainer.css">
     <link rel="icon" href="assets/pic/logo_png_cr.png">
+    <link rel="stylesheet" href="assets/css/stats.css">
 
     <!-- vercel analytics -->
     <script>
@@ -96,13 +97,114 @@
             </section>
         </main>
 
-        <!-- <section style="position: fixed; display: flex; justify-content: end; margin-left: 20px; margin-top: 20px;">
+        <section id="section_but_stats">
             <section id="but_stats">
                 <div id="but_stats_div">
-                    <h1>📈</h1>
+                    <span class="stats-icon">📊</span>
                 </div>
             </section>
-        </section> -->
+        </section>
+
+        <!-- Overlay for background dimming -->
+        <div class="stats-overlay" id="stats-overlay"></div>
+
+        <!-- Sliding statistics panel -->
+        <div class="stats-panel" id="stats-panel">
+            <div class="stats-panel-header">
+                <h3>📈 Statistics</h3>
+                <button class="stats-panel-close" id="stats-panel-close">×</button>
+            </div>
+            
+            <div class="stats-content">
+                <!-- Learning progress -->
+                <div class="stats-section">
+                    <div class="stats-label">
+                        <span>Progress</span>
+                        <span class="stats-value" id="stats-progress-value">75%</span>
+                    </div>
+                    <div id="progress_a1_c1">
+                        <h3>A1</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                        <h3>C1</h3>
+                    </div>
+                    <h4 id="progressTxT"></h4>
+                </div>
+
+                <!-- Pie chart -->
+                <div class="stats-section">
+                    <div class="stats-label">Distribution</div>
+                    <div class="chart-container">
+                        <div class="pie-chart" id="pie-chart">
+                            <div class="pie-segment known" style="--percentage: 60"></div>
+                            <div class="pie-segment learning" style="--percentage: 25"></div>
+                            <div class="pie-segment new" style="--percentage: 15"></div>
+                        </div>
+                        <div class="chart-legend" id="chart-legend">
+                            <div class="legend-item">
+                                <span class="legend-color known"></span>
+                                <span>Known (60%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color learning"></span>
+                                <span>Learning (25%)</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color new"></span>
+                                <span>New (15%)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daily activity -->
+                <!-- <div class="stats-section">
+                    <div class="stats-label">Activity</div>
+                    <div class="activity-grid">
+                        <div class="activity-day active" data-tooltip="Monday - 12 cards"></div>
+                        <div class="activity-day active" data-tooltip="Tuesday - 8 cards"></div>
+                        <div class="activity-day" data-tooltip="Wednesday - 0 cards"></div>
+                        <div class="activity-day active" data-tooltip="Thursday - 15 cards"></div>
+                        <div class="activity-day" data-tooltip="Friday - 0 cards"></div>
+                        <div class="activity-day active" data-tooltip="Saturday - 22 cards"></div>
+                        <div class="activity-day active" data-tooltip="Sunday - 10 cards"></div>
+                    </div>
+                </div> -->
+
+                <!-- Overall statistics -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📚</div>
+                        <div class="stat-info">
+                            <span class="stat-label">Total cards</span>
+                            <span class="stat-number" id="stats-total-cards">124</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-info">
+                            <span class="stat-label">Learned</span>
+                            <span class="stat-number" id="stats-learned-cards">89</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🔥</div>
+                        <div class="stat-info">
+                            <span class="stat-label">Streak</span>
+                            <span class="stat-number" id="stats-streak">7</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⏱️</div>
+                        <div class="stat-info">
+                            <span class="stat-label">Today</span>
+                            <span class="stat-number" id="stats-today">12</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer class="trainer-footer">
             <a href="index.html" class="footer-link" id="footer-link">
@@ -162,5 +264,6 @@
     <script src="assets/js/trainer.js"></script>
     <script src="assets/js/validator.js"></script>
     <script src="assets/js/changeLanguagesTrainer.js"></script>
+    <script src="assets/js/stats.js"></script>
 </body>
 </html>

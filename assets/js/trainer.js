@@ -139,6 +139,11 @@ document.getElementById("btn-know").addEventListener('click', function() {
     if(swipping === false) {
         swipping = true;
         document.getElementById("card-inner").classList.add("card-swipe-right");
+
+        //Cards know count 
+        cards[randomCount].knowCount++;
+        localStorage.setItem('languageCards', JSON.stringify(cards));
+
         setTimeout(() => {
             swipping = false;
             cardsAdd.splice(randomCount, 1);
@@ -166,12 +171,16 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
         cards.push({
             word: newWord,
             translation: newTranslate,
+            date: getTodayDateString(),
+            knowCount: 0
             // fliped: false //if true again try to show this card latter
         });
 
         cardsAdd.push({
             word: newWord,
             translation: newTranslate,
+            date: getTodayDateString(),
+            knowCount: 0
             // fliped: false //if true again try to show this card latter
         });
 
