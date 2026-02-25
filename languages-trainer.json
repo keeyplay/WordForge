@@ -32,7 +32,14 @@
     "addcardD": "New words appear in the deck",
     "editcard": "Edit Cards",
     "editcardD": "Edit Cards", 
-    "btn-delete-card": "Delete"
+    "btn-delete-card": "Delete",
+    "statistic": "📈 Statistics",
+    "progress": "Progress",
+    "distrib": "Distribution",
+    "total_card": "Total cards",
+    "learned": "Learned",
+    "streksStat": "Streak",
+    "today": "Today"
   }, 
   "ru": {
     "cards-hint": "Свайп влево — не знаю · вправо — знаю",
@@ -67,6 +74,13 @@
     "addcardD":"Добавить новую карту в колоду",
     "editcard": "Редактировать",
     "editcardD": "Редактировать Карты",
-    "btn-delete-card": "Удалить"
+    "btn-delete-card": "Удалить",
+    "statistic": "📈 Статистика",
+    "progress": "Прогресс",
+    "distrib": "Диаграмма",
+    "total_card": "Всего карточек",
+    "learned": "Выученные",
+    "streksStat": "Стрик",
+    "today": "Сегодня"
   }
 }

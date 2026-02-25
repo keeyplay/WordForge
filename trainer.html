@@ -111,7 +111,7 @@
         <!-- Sliding statistics panel -->
         <div class="stats-panel" id="stats-panel">
             <div class="stats-panel-header">
-                <h3>📈 Statistics</h3>
+                <h3 id="statistic">📈 Statistics</h3>
                 <button class="stats-panel-close" id="stats-panel-close">×</button>
             </div>
             
@@ -119,7 +119,7 @@
                 <!-- Learning progress -->
                 <div class="stats-section">
                     <div class="stats-label">
-                        <span>Progress</span>
+                        <span id="progress">Progress</span>
                         <span class="stats-value" id="stats-progress-value">75%</span>
                     </div>
                     <div id="progress_a1_c1">
@@ -134,7 +134,7 @@
 
                 <!-- Pie chart -->
                 <div class="stats-section">
-                    <div class="stats-label">Distribution</div>
+                    <div class="stats-label" id="distrib">Distribution</div>
                     <div class="chart-container">
                         <div class="pie-chart" id="pie-chart">
                             <div class="pie-segment known" style="--percentage: 60"></div>
@@ -177,28 +177,28 @@
                     <div class="stat-card">
                         <div class="stat-icon">📚</div>
                         <div class="stat-info">
-                            <span class="stat-label">Total cards</span>
+                            <span class="stat-label" id="total_card">Total cards</span>
                             <span class="stat-number" id="stats-total-cards">124</span>
                         </div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">✅</div>
                         <div class="stat-info">
-                            <span class="stat-label">Learned</span>
+                            <span class="stat-label" id="learned">Learned</span>
                             <span class="stat-number" id="stats-learned-cards">89</span>
                         </div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">🔥</div>
                         <div class="stat-info">
-                            <span class="stat-label">Streak</span>
+                            <span class="stat-label" id="streksStat">Streak</span>
                             <span class="stat-number" id="stats-streak">7</span>
                         </div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">⏱️</div>
                         <div class="stat-info">
-                            <span class="stat-label">Today</span>
+                            <span class="stat-label" id="today">Today</span>
                             <span class="stat-number" id="stats-today">12</span>
                         </div>
                     </div>
