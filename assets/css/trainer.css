@@ -628,6 +628,13 @@ body {
     cursor: pointer;
 }
 
+#import-export-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
 .btn-modal-cancel,
 .btn-modal-save {
     flex: 1;
