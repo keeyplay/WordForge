@@ -3,6 +3,8 @@ document.getElementById("export").addEventListener('click', function() {exportCa
 function exportCards() {
     // get cards from localstorage
     const cards = localStorage.getItem('languageCards');
+    const lang = localStorage.getItem('language');
+    const streaks = localStorage.getItem('streaks');
     
     if (!cards) {
         alert("You don't have any cards");
@@ -13,7 +15,9 @@ function exportCards() {
     const exportData = {
         version: '1.0',
         exportDate: new Date().toISOString(), // "2025-01-15T14:30:45.123Z" for example
-        data: JSON.parse(cards)
+        lang: lang,
+        streaks: JSON.parse(streaks),
+        cards: JSON.parse(cards)
     };
     
     const jsonString = JSON.stringify(exportData);
