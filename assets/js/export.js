@@ -28,7 +28,7 @@ function exportCards() {
 
 function downloadFile(content, fileName, contentType) {
     const blob = new Blob([content], { type: contentType });
-    const url = URL.createObjectURL(blob);
+    const url = URL.createObjectURL(blob); //url
     const link = document.createElement('a');
     
     link.href = url;
