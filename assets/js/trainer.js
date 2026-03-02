@@ -107,6 +107,7 @@ function renderCards() {
         countCards.textContent = cards.length + " cards";
     }
     if(cardsAdd.length === 0 && cards.length !== 0) {
+        cardWord = false;
         document.getElementById("empty-state").style.display = "none";
         document.getElementById("cards-stack").style.display = "none";
         document.getElementById("swipe-actions").style.display = "none";
@@ -202,34 +203,38 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
 //arrows navigarions
 document.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowLeft') {
-    if(swipping === false) {
-        swipping = true;
-        // cardsAdd[cardsAdd.length-1].fliped = true;
-        cardWord.textContent = cardsAdd[randomCount].translation;
-        setTimeout(() => {
-            document.getElementById("card-inner").classList.add("card-swipe-left");
+    if(cardWord) {
+        if(swipping === false) {
+            swipping = true;
+            // cardsAdd[cardsAdd.length-1].fliped = true;
+            cardWord.textContent = cardsAdd[randomCount].translation;
             setTimeout(() => {
-                //cardsAdd.pop();
+                document.getElementById("card-inner").classList.add("card-swipe-left");
+                setTimeout(() => {
+                    //cardsAdd.pop();
+                    swipping = false;
+                    updateRandomCount();
+                    renderCards();
+                    document.getElementById("card-inner").classList.remove("card-swipe-left");
+                }, 400);
+            }, 1500);
+        }
+    } else alert("ss")
+  } else if (event.key === 'ArrowRight') {
+    if(cardWord) {
+        if(swipping === false) {
+            swipping = true;
+            cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+                document.getElementById("card-inner").classList.add("card-swipe-right");
+            setTimeout(() => {
                 swipping = false;
+                cardsAdd.splice(randomCount, 1);
                 updateRandomCount();
                 renderCards();
-                document.getElementById("card-inner").classList.remove("card-swipe-left");
-            }, 400);
-        }, 1500);
-    }
-  } else if (event.key === 'ArrowRight') {
-    if(swipping === false) {
-        swipping = true;
-        cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
-            document.getElementById("card-inner").classList.add("card-swipe-right");
-        setTimeout(() => {
-            swipping = false;
-            cardsAdd.splice(randomCount, 1);
-            updateRandomCount();
-            renderCards();
-            document.getElementById("card-inner").classList.remove("card-swipe-right");
-        }, 500);
-    }
+                document.getElementById("card-inner").classList.remove("card-swipe-right");
+            }, 500);
+        }
+    } 
   }
 });
 
@@ -250,6 +255,7 @@ document.getElementById("btn-modal-cancel").addEventListener('click', function()
 });
 //start again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
+    cardWord = document.getElementById("card-word");
     cardsAdd = JSON.parse(localStorage.getItem('languageCards')) || [];
     updateRandomCount();
     renderCards();

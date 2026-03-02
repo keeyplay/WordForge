@@ -86,8 +86,8 @@ function UpdateStats() {
     todayStat.innerText = UpdateTodayCards();
 
     //progress
-    progressValue.innerText = ( UpdateLearnCards() / 10000) * 100 + "%";
-    progressFill.style.width = ( UpdateLearnCards() / 10000) * 100 + '%';
+    progressValue.innerText = (( UpdateLearnCards() / 10000) * 100).toFixed(2) + "%";
+    progressFill.style.width = (( UpdateLearnCards() / 10000) * 100).toFixed(2) + '%';
     progressTxT.innerText = "(" + UpdateLearnCards() + "/10000)"
 
     updatePieChart();
