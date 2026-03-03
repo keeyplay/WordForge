@@ -635,6 +635,16 @@ body {
     gap: 10%;
 }
 
+#switchTheme {
+    animation-duration: 0.5s;
+}
+
+#switchTheme:hover {
+    transform: scale(1.1);
+    rotate: 10deg;
+    cursor: pointer;
+}
+
 .btn-modal-cancel,
 .btn-modal-save {
     flex: 1;
