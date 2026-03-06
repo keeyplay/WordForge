@@ -16,7 +16,7 @@
     <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-    <div class="trainer-page">
+    <div class="trainer-page" id="trainer-page">
         <header class="trainer-header">
             <a href="index.html" class="trainer-brand">
                 <img src="assets/pic/logo_png_cr.png" alt="" class="trainer-logo-img">
@@ -38,7 +38,7 @@
                 <div class="cards-stack" id="cards-stack">
                     <article class="card card-top" id="card-current" data-card-id="">
                         <div class="card-inner" id="card-inner">
-                            <div class="card-face card-front">
+                            <div class="card-face card-front" id="card-front">
                                 <img src="assets/pic/logo_png_cr.png" alt="" class="card-corner-logo" aria-hidden="true">
                                 <span class="card-label">Word</span>
                                 <p class="card-word" id="card-word">—</p>
@@ -49,8 +49,8 @@
                             </div>
                         </div>
                     </article>
-                    <article class="card card-under card-under-1" aria-hidden="true"></article>
-                    <article class="card card-under card-under-2" aria-hidden="true"></article>
+                    <article class="card card-under card-under-1" aria-hidden="false" id="under-card"></article>
+                    <article class="card card-under card-under-2" aria-hidden="false" id="under-card1"></article>
                 </div>
                 <div class="swipe-actions" id="swipe-actions">
                     <button type="button" class="btn-swipe btn-swipe-no" id="btn-dont-know" aria-label="Don't know">
@@ -82,14 +82,14 @@
             <section id="edit-section" style="display: flex; gap: 20px; flex-direction: column;">
                 <section class="create-zone">
                     <button type="button" class="btn-create-card" id="btn-create-card">
-                        <span class="btn-create-icon">+</span>
+                        <span class="btn-create-icon" id="addcardSym">+</span>
                         <span class="btn-create-text" id="addcard">Add card</span>
                     </button>
                     <p class="create-hint" id="addcardD">New words appear in the deck</p>
                 </section>
                 <section class="create-zone" id="create-zone-edit">
                     <button type="button" class="btn-create-card" id="btn-edit-card">
-                        <span class="btn-create-icon">/</span>
+                        <span class="btn-create-icon" id="editcardSym">/</span>
                         <span class="btn-create-text" id="editcard">Edit card</span>
                     </button>
                     <p class="create-hint" id="editcardD">Edit Cards</p>
@@ -222,13 +222,13 @@
                 <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme">
             </div> -->
             <div id="links">
-                <div id="github">
+                <div id="github" class="link">
                     <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 20px"></a>
                 </div>
-                <div id="twitter">
+                <div id="twitter" class="link">
                     <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 20px"></a>
                 </div>
-                <div id="mysite">
+                <div id="mysite" class="link">
                     <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 20px"></a>
                 </div>
             </div>
