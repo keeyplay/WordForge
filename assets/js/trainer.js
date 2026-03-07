@@ -274,12 +274,13 @@ function openModalEdit() {
     for(let el = 0; el < cards.length; el++) {
         document.getElementById("cards-edit").innerHTML += `
             <div class='card-edit'>
-                <h2>${el+1}. ${cards[el].word} - ${cards[el].translation}</h2>
+                <h2 class="text-of-card">${el+1}. ${cards[el].word} - ${cards[el].translation}</h2>
                 <h2 class="btn-delete-card" id="btn-delete-card/${el}">Delete</h2>
             </div>
         `;
     }
     switchLanguageForModal(localStorage.getItem("language"));
+    ThemeSwitchFunc();
 
     //delete card
     document.querySelectorAll('.btn-delete-card').forEach(button => {

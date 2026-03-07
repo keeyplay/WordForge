@@ -39,7 +39,10 @@
     "total_card": "Total cards",
     "learned": "Learned",
     "streksStat": "Streak",
-    "today": "Today"
+    "today": "Today",
+    "import": "Import",
+    "export": "Export",
+    "importexportcardD": "Import / export Cards"
   }, 
   "ru": {
     "cards-hint": "Свайп влево — не знаю · вправо — знаю",
@@ -81,6 +84,9 @@
     "total_card": "Всего карточек",
     "learned": "Выученные",
     "streksStat": "Стрик",
-    "today": "Сегодня"
+    "today": "Сегодня",
+    "import": "Импорт",
+    "export": "Экспорт",
+    "importexportcardD": "Импорт / экспорт карточек"
   }
 }
