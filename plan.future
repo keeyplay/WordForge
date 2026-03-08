@@ -2,7 +2,7 @@ i need add
 - icon in pages +
 - fix bug for first card +
 - redisaign info page
-- export/import cards etc.
+- export/import cards etc +
 - random cards +
 - fix bugs with translate in info page +
 - page of stats +
@@ -10,7 +10,7 @@ i need add
 - activity in stats
 - translate stats +
 - congratulations with confetti on the page (10, 100, 1000, 10000)
-- dark/light theme
+- dark/light theme +
 - export/import language, streaks +
 - fix bug with proccent +
 - fix bug with keyboards +
@@ -18,10 +18,16 @@ i need add
 - swipe system cards
 - swipe stats
 - add translate export/import +
-- progress bar visibility in dark theme
+- progress bar visibility in dark theme +
 - smooth switch themes
 - theme in modal pages +
 - theme in stats page +
 - theme in info page
 - progress bar to A2, after B1 etc
 - translate site to serbian, german
+- replace old picture of dark theme +
+- dark theme to info page
+- social network in wordforge for share your cards
+ - load test where shows your level of language
+- dont show learned cards
+- fix bug with language in info page

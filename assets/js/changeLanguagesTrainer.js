@@ -28,6 +28,17 @@ function switchLanguage() {
         }
         // localStorage.setItem('language', "ru");
     } else if(switchLanCount === "ru") {
+        document.getElementById("change_language").innerText = "🇩🇪";
+        switchLanCount = "de";
+        localStorage.setItem("language", switchLanCount);
+        const deTranslations = Translate.de;
+        for(let id in deTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = deTranslations[id];
+            }
+        }
+    } else if(switchLanCount === "de") {
         document.getElementById("change_language").innerText = "🇬🇧";
         switchLanCount = "en";
         localStorage.setItem("language", switchLanCount);
@@ -57,6 +68,14 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             const element = document.getElementById(id);
             if(element) {
                 element.innerText = ruTranslations[id];
+            }
+        }
+    } else if(switchLanCountLS === "de") {
+        const deTranslations = Translate.de;
+        for(let id in deTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = deTranslations[id];
             }
         }
     }

@@ -8,5 +8,10 @@
     "infoup": "WordForge — интерактивный тренажёр словарного запаса. Учите слова, получайте монеты, отслеживайте прогресс — всё в браузере с автосохранением.",
     "btn_start": "начнем",
     "change_language": "🇷🇺"
+  },
+  "de": {
+    "infoup": "WordForge — ein interaktiver Vokabeltrainer mit Karteikarten. Lerne Wörter, sammle Münzen, verfolge deinen Fortschritt — alles im Browser mit automatischem Speichern.",
+    "btn_start": "starten",
+    "change_language": "🇩🇪"
   }
 }

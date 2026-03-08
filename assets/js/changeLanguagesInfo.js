@@ -96,6 +96,69 @@ function switchLanguage() {
                             
                             <div id="about-section">
                                 <div class="about-left">
+                                    <h2>Über WordForge</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> ist ein leichtgewichtiger, interaktiver Vokabeltrainer, der mit reinem JavaScript entwickelt wurde. Es verwandelt das Sprachenlernen in ein lohnendes Spiel.<br><span>Kernidee:</span> Erstelle digitale Karteikarten, teste dich selbst mit einer Flip-Animation und verdiene Münzen für richtige Antworten. Dein gesamter Fortschritt wird direkt in deinem Browser gespeichert.<br><span>Technologie-Stack:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. Keine Frameworks, kein Backend, keine Konten — nur schnelles, privates Lernen.<br><span>Warum ich es entwickelt habe:</span> Ich brauchte ein einfaches, spielerisches Werkzeug für meine eigene Englischpraxis. Dieses Projekt ist meine Reise des öffentlichen Lernens (#buildinpublic), von der ersten Codezeile bis zum funktionierenden Produkt.</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>Über mich</h2>
+                                    <h3 id="textabtme">Hallo, ich bin <span>keeyplay</span>, ein 15-jähriger Autodidakt-Entwickler aus Russland 🇷🇺.<br><span>Meine Mission:</span> Bedeutungsvolle digitale Produkte zu entwickeln und den Weg für eine zukünftige Karriere in der Tech-Branche in der EU 🇪🇺 oder den USA 🇺🇸 zu ebnen.<br><span>Was ich mache:</span><br>→ Ich programmiere öffentlich. Ich dokumentiere meine Full-Stack-Reise (JS, PHP, React) auf Twitter.<br>→ Ich baue und verwalte einen Live-Minecraft-Server und eine Community (mein erstes Geschäftsvorhaben).<br>→ Ich lerne täglich Englisch, um in die globale Tech-Szene einzusteigen.<br><span>Meine Überzeugung:</span> Beständigkeit schafft Möglichkeiten. Ich konzentriere mich darauf, Projekte zu veröffentlichen, meine Fähigkeiten zu erweitern und mich mit der weltweiten Entwickler-Community zu vernetzen.<br><span>Lass uns auf <a href="https://x.com/keeyplay">Twitter</a> vernetzen oder schau dir den Code auf <a href="https://github.com/keeyplay/WordForge">GitHub</a> an.</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                document.getElementById("change_language").innerText = "🇩🇪";
+                switchLanCount = "de";
+                localStorage.setItem("language", switchLanCount);
+
+                //click to new button
+                document.getElementById("logo-name").addEventListener('click', function() {
+                    this.classList.add('clicked');
+                    document.getElementById("links").style.display = "none";
+                    document.getElementById("info").style.display = "none";
+                    setTimeout(() => {         
+                        window.location.href = 'trainer.html';
+                    }, 2000); 
+                });
+        } else {
+            document.getElementById("change_language").innerText = "🇩🇪";
+            switchLanCount = "de";
+            localStorage.setItem("language", switchLanCount);
+            const deTranslations = Translate.de;
+            for(let id in deTranslations) {
+                const element = document.getElementById(id);
+                if(element) {
+                    element.innerText = deTranslations[id];
+                }
+            }
+
+        }
+    } else if(switchLanCount === "de") {
+        if(isStartButtonClicked) {
+                document.body.innerHTML = infoHTML;
+                document.body.innerHTML += `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
                                     <h2>About WordForge</h2>
                                     <h3 id="textabtword"><span>WordForge</span> is a lightweight, interactive vocabulary trainer built with pure JavaScript. It turns language learning into a rewarding game.<br><span>Core Idea:</span> Create digital flashcards, test yourself with a flip animation, and earn coins for correct answers. Your entire progress is saved right in your browser.<br><span>Tech Stack:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. No frameworks, no backend, no accounts — just fast, private learning.<br><span>Why I Built It:</span> I needed a simple, gamified tool for my own English practice. This project is my journey of learning in public (#buildinpublic), from the first line of code to a working product.</h3>
                                     <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
@@ -164,6 +227,14 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             const element = document.getElementById(id);
             if(element) {
                 element.innerText = ruTranslations[id];
+            }
+        }
+    } else if(switchLanCountLS === "de") {
+        const deTranslations = Translate.de;
+        for(let id in deTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = deTranslations[id];
             }
         }
     }
