@@ -281,6 +281,16 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+#switchTheme {
+    transition: transform 0.5s ease;
+}
+
+#switchTheme:hover {
+    transform: scale(1.2);
+    transform: rotate(10deg);
+    cursor: pointer;
+}
+
 #textabtword span {
     font-weight: 1000;
 }

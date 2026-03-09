@@ -31,6 +31,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                             <div class="about-right">
                                 <h2>About me</h2>
                                 <h3 id="textabtme">Hi, I'm <span>keeyplay</span>, a 15-year-old self-taught developer from Russia 🇷🇺.<br><span>My Mission:</span> To build impactful digital products and carve a path for a future tech career in the EU 🇪🇺 or US 🇺🇸.<br><span>What I Do:</span><br>→ Code in public. I document my full-stack journey (JS, PHP, React) on Twitter.<br>→ Build & Manage a live Minecraft server and community (my first business venture).<br>→ Learn English daily to break into the global tech scene.<br><span>My Belief:</span> Consistency creates opportunity. I focus on shipping projects, growing my skills, and connecting with the worldwide dev community.<br><span>Let's connect on <a href="https://x.com/keeyplay">Twitter</a> or check out the code on <a href="https://github.com/keeyplay/WordForge">GitHub</a>.</span></h3>
+                                <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme">
                             </div>
                         </div>
                     </div>
@@ -47,7 +48,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                     </div>
                 </div>
             `;
-        } else {
+        } else if(localStorage.getItem("language") === "ru") {
             newContent = `
                 <div id="all-content">
                     <div id="new-content">
@@ -66,6 +67,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                             <div class="about-right">
                                 <h2>Обо мне</h2>
                                 <h3 id="textabtme">Привет, я <span>keeyplay</span>, 15-летний самоучка-разработчик из России 🇷🇺.<br><span>Моя миссия:</span> Создавать значимые цифровые продукты и проложить путь к будущей карьере в технологиях в ЕС 🇪🇺 или США 🇺🇸.<br><span>Что я делаю:</span><br>→ Пишу код публично. Документирую свой full-stack путь (JS, PHP, React) в Twitter.<br>→ Создаю и управляю Minecraft сервером и сообществом (мой первый бизнес-опыт).<br>→ Ежедневно учу английский, чтобы ворваться в мировую технологическую сцену.<br><span>Мое убеждение:</span> Постоянство создает возможности. Я сосредоточен на выпуске проектов, развитии навыков и общении с мировым сообществом разработчиков.<br><span>Давайте свяжемся в <a href="https://x.com/keeyplay">Twitter</a> или посмотрите код на <a href="https://github.com/keeyplay/WordForge">GitHub</a>.</span></h3>
+                                <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme">
                             </div>
                         </div>
                     </div>
@@ -82,6 +84,42 @@ document.getElementById('btn_start').addEventListener('click', function() {
                     </div>
                 </div>
             `;
+        } else {
+            newContent = `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
+                                    <h2>Über WordForge</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> ist ein leichtgewichtiger, interaktiver Vokabeltrainer, der mit reinem JavaScript entwickelt wurde. Es verwandelt das Sprachenlernen in ein lohnendes Spiel.<br><span>Kernidee:</span> Erstelle digitale Karteikarten, teste dich selbst mit einer Flip-Animation und verdiene Münzen für richtige Antworten. Dein gesamter Fortschritt wird direkt in deinem Browser gespeichert.<br><span>Technologie-Stack:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. Keine Frameworks, kein Backend, keine Konten — nur schnelles, privates Lernen.<br><span>Warum ich es entwickelt habe:</span> Ich brauchte ein einfaches, spielerisches Werkzeug für meine eigene Englischpraxis. Dieses Projekt ist meine Reise des öffentlichen Lernens (#buildinpublic), von der ersten Codezeile bis zum funktionierenden Produkt.</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>Über mich</h2>
+                                    <h3 id="textabtme">Hallo, ich bin <span>keeyplay</span>, ein 15-jähriger Autodidakt-Entwickler aus Russland 🇷🇺.<br><span>Meine Mission:</span> Bedeutungsvolle digitale Produkte zu entwickeln und den Weg für eine zukünftige Karriere in der Tech-Branche in der EU 🇪🇺 oder den USA 🇺🇸 zu ebnen.<br><span>Was ich mache:</span><br>→ Ich programmiere öffentlich. Ich dokumentiere meine Full-Stack-Reise (JS, PHP, React) auf Twitter.<br>→ Ich baue und verwalte einen Live-Minecraft-Server und eine Community (mein erstes Geschäftsvorhaben).<br>→ Ich lerne täglich Englisch, um in die globale Tech-Szene einzusteigen.<br><span>Meine Überzeugung:</span> Beständigkeit schafft Möglichkeiten. Ich konzentriere mich darauf, Projekte zu veröffentlichen, meine Fähigkeiten zu erweitern und mich mit der weltweiten Entwickler-Community zu vernetzen.<br><span>Lass uns auf <a href="https://x.com/keeyplay">Twitter</a> vernetzen oder schau dir den Code auf <a href="https://github.com/keeyplay/WordForge">GitHub</a> an.</span></h3>
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
         }
         
         document.body.style.height = "100vh";
