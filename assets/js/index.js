@@ -31,18 +31,18 @@ document.getElementById('btn_start').addEventListener('click', function() {
                             <div class="about-right">
                                 <h2>About me</h2>
                                 <h3 id="textabtme">Hi, I'm <span>keeyplay</span>, a 15-year-old self-taught developer from Russia 🇷🇺.<br><span>My Mission:</span> To build impactful digital products and carve a path for a future tech career in the EU 🇪🇺 or US 🇺🇸.<br><span>What I Do:</span><br>→ Code in public. I document my full-stack journey (JS, PHP, React) on Twitter.<br>→ Build & Manage a live Minecraft server and community (my first business venture).<br>→ Learn English daily to break into the global tech scene.<br><span>My Belief:</span> Consistency creates opportunity. I focus on shipping projects, growing my skills, and connecting with the worldwide dev community.<br><span>Let's connect on <a href="https://x.com/keeyplay">Twitter</a> or check out the code on <a href="https://github.com/keeyplay/WordForge">GitHub</a>.</span></h3>
-                                <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme">
+                                <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
                             </div>
                         </div>
                     </div>
                     <div id="links">
-                        <div id="github">
+                        <div id="github" class="links">
                             <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
                         </div>
-                        <div id="twitter">
+                        <div id="twitter" class="links">
                             <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
                         </div>
-                        <div id="mysite">
+                        <div id="mysite" class="links">
                             <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
                         </div>
                     </div>
@@ -67,18 +67,18 @@ document.getElementById('btn_start').addEventListener('click', function() {
                             <div class="about-right">
                                 <h2>Обо мне</h2>
                                 <h3 id="textabtme">Привет, я <span>keeyplay</span>, 15-летний самоучка-разработчик из России 🇷🇺.<br><span>Моя миссия:</span> Создавать значимые цифровые продукты и проложить путь к будущей карьере в технологиях в ЕС 🇪🇺 или США 🇺🇸.<br><span>Что я делаю:</span><br>→ Пишу код публично. Документирую свой full-stack путь (JS, PHP, React) в Twitter.<br>→ Создаю и управляю Minecraft сервером и сообществом (мой первый бизнес-опыт).<br>→ Ежедневно учу английский, чтобы ворваться в мировую технологическую сцену.<br><span>Мое убеждение:</span> Постоянство создает возможности. Я сосредоточен на выпуске проектов, развитии навыков и общении с мировым сообществом разработчиков.<br><span>Давайте свяжемся в <a href="https://x.com/keeyplay">Twitter</a> или посмотрите код на <a href="https://github.com/keeyplay/WordForge">GitHub</a>.</span></h3>
-                                <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme">
+                                <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
                             </div>
                         </div>
                     </div>
                     <div id="links">
-                        <div id="github">
+                        <div id="github" class="links">
                             <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
                         </div>
-                        <div id="twitter">
+                        <div id="twitter" class="links">
                             <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
                         </div>
-                        <div id="mysite">
+                        <div id="mysite" class="links">
                             <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
                         </div>
                     </div>
@@ -103,18 +103,18 @@ document.getElementById('btn_start').addEventListener('click', function() {
                                 <div class="about-right">
                                     <h2>Über mich</h2>
                                     <h3 id="textabtme">Hallo, ich bin <span>keeyplay</span>, ein 15-jähriger Autodidakt-Entwickler aus Russland 🇷🇺.<br><span>Meine Mission:</span> Bedeutungsvolle digitale Produkte zu entwickeln und den Weg für eine zukünftige Karriere in der Tech-Branche in der EU 🇪🇺 oder den USA 🇺🇸 zu ebnen.<br><span>Was ich mache:</span><br>→ Ich programmiere öffentlich. Ich dokumentiere meine Full-Stack-Reise (JS, PHP, React) auf Twitter.<br>→ Ich baue und verwalte einen Live-Minecraft-Server und eine Community (mein erstes Geschäftsvorhaben).<br>→ Ich lerne täglich Englisch, um in die globale Tech-Szene einzusteigen.<br><span>Meine Überzeugung:</span> Beständigkeit schafft Möglichkeiten. Ich konzentriere mich darauf, Projekte zu veröffentlichen, meine Fähigkeiten zu erweitern und mich mit der weltweiten Entwickler-Community zu vernetzen.<br><span>Lass uns auf <a href="https://x.com/keeyplay">Twitter</a> vernetzen oder schau dir den Code auf <a href="https://github.com/keeyplay/WordForge">GitHub</a> an.</span></h3>
-                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme">
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
                                 </div>
                             </div>
                         </div>
                         <div id="links">
-                            <div id="github">
+                            <div id="github" class="links">
                                 <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
                             </div>
-                            <div id="twitter">
+                            <div id="twitter" class="links">
                                 <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
                             </div>
-                            <div id="mysite">
+                            <div id="mysite" class="links">
                                 <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
                             </div>
                         </div>
@@ -125,6 +125,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
         document.body.style.height = "100vh";
         // getElementById("logo-name").classList.add('ani');
         document.body.innerHTML += newContent; 
+        ThemeSwitchFunc();
 
         //info up
         // document.getElementById("info").style.animationDuration = "0.5s";
