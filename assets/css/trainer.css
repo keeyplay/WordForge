@@ -692,3 +692,11 @@ body {
         transform: scale(1.5);
     }
 }
+
+* {
+    transition: background-color 0.3s ease-in-out, 
+                color 0.3s ease-in-out, 
+                border 0.3s ease-in-out, 
+                filter 0.3s ease-in-out,
+                text-shadow 0.3s ease-in-out;
+}
