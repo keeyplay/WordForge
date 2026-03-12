@@ -11,7 +11,7 @@ function ThemeSwitchFunc() {
     document.body.style.color = isDark ? "white" : "black";
 
     document.querySelectorAll(".links").forEach(el => {
-        el.style.filter = isDark ? "drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5))" : "none";
+        el.style.filter = isDark ? "drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5))" : "drop-shadow(0 5px 2px rgba(0, 0, 0, 0.3))";
     });
 }
 
