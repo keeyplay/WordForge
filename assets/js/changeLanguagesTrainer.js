@@ -1,5 +1,13 @@
 //change language button (front)
-let switchLanCount = localStorage.getItem("language") || "en";
+let UserLang = navigator.language.split('-')[0];
+let switchLanCount = localStorage.getItem("language");
+if(!switchLanCount) {
+    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru") {
+        switchLanCount = "en";
+    } else {
+        switchLanCount = UserLang;
+    }
+}
 let Translate;
 
 //get languages.json
