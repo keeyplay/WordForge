@@ -1,4 +1,4 @@
-i need add 
+i need add/fix: 
 - icon in pages +
 - fix bug for first card +
 - redisaign info page
@@ -22,9 +22,9 @@ i need add
 - smooth switch themes +
 - theme in modal pages +
 - theme in stats page +
-- theme in info page
+- theme in info page +
 - progress bar to A2, after B1 etc
-- translate site to serbian, german
+- translate site to serbian, german +-
 - replace old picture of dark theme +
 - dark theme to info page +
 - social network in wordforge for share your cards
@@ -32,3 +32,5 @@ i need add
 - dont show learned cards
 - fix bug with language in info page
 - authomatic switch language +
+- refactoring old code
+- news page (maybe create my own site where's will be news page of WordForge)
