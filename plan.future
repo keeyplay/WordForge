@@ -29,8 +29,9 @@ i need add/fix:
 - dark theme to info page +
 - social network in wordforge for share your cards
  - load test where shows your level of language
-- dont show learned cards
+- dont show learned cards (procent to shows up cards and low procent for already learned cards` )
 - fix bug with language in info page
 - authomatic switch language +
 - refactoring old code
 - news page (maybe create my own site where's will be news page of WordForge)
+- create site-portfolio with news about me and about wordforge !!!!!!!!!!!!!!!!!

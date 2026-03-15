@@ -428,6 +428,10 @@ body {
 }
 
 .footer-link {
+    border: 1px white solid;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding:  5px 10px;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
