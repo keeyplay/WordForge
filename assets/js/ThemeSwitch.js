@@ -5,6 +5,7 @@ function ThemeSwitchFunc() {
     
     // Update theme toggle icon
     document.getElementById("switchTheme").src = isDark ? "assets/pic/dark.png" : "assets/pic/sun.png";
+    document.getElementById("buttonLocalAccounts").src = isDark ? "assets/pic/3lines_dark.png" : "assets/pic/3lines_light.png";
     
     // Core layout elements
     document.body.style.background = isDark ? "black" : "white";
