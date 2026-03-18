@@ -706,6 +706,12 @@ body {
         padding-top: 10px;
         transform: scale(1.5);
     }
+    #buttonLocalAccounts {
+        transform: scale(0.8);
+    }
+    #trainer-logo {
+        font-size: 10px;
+    }
 }
 
 * {
