@@ -43,6 +43,7 @@ function ThemeSwitchFunc() {
     // Modal windows background
     document.getElementById("modal").style.background = isDark ? "black" : "white";
     document.getElementById("modal-edit").style.background = isDark ? "black" : "white";
+    document.getElementById("modal-account").style.background = isDark ? "black" : "white";
     
     // Modal buttons (keep orange in both themes)
     document.getElementById("btn-modal-save").style.background = isDark ? "var(--orange-pale-2)" : "orange";

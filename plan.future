@@ -38,3 +38,5 @@ i need add/fix:
 - Local accounts for different languages - first visit creates account (name + target language), switch anytime, delete if needed, all saved in browser. No sign-ups, just separate cards per language
  - first time in site - create first account (with button deleate all data)
  - make frontend of this idea (tommorow)
+ - create deleate all button
+ - system create
