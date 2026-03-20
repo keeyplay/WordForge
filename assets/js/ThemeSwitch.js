@@ -24,7 +24,11 @@ function ThemeSwitchFunc() {
     document.getElementById("editcardSym").style.color = textColor;
     document.getElementById("import").style.color = textColor;
     document.getElementById("export").style.color = textColor;
-    
+
+    document.getElementById("modalAccountsContainerText").style.color = isDark ? "white" : "dark";
+    document.getElementById("modalAccountsContainerTextContainer").style.background = isDark ? "black" : "white";
+    document.getElementById("whatsit").style.color = isDark ? "white" : "black";
+
     // Stats page
     document.getElementById("stats-panel").style.background = isDark ? "black" : "white";
     document.getElementById("progressTxT").style.color = isDark ? "gray" : "black";

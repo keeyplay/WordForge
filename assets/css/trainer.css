@@ -723,6 +723,7 @@ body {
 }
 
 #modalAccountsContainer {
+    display: none;
     position: fixed;
     inset: 0;
     z-index: 100;
@@ -735,6 +736,44 @@ body {
 
     transition-duration: 0.5s;  
 }
-#modal-account {
-    
+#modalAccountsContainerText {
+    font-size: 17.5px;
+}
+
+#modalAccountsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+#deletealldata {
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    color: white;
+}
+
+#modalDeleteAllData {
+    padding: 1px;
+    height: 50px;
+    background-color: #ff5e3a;
+    box-shadow: #ff5e3a;
+
+    transition-duration: 0.5s;
+}
+
+#modalDeleteAllData:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#addAccount {
+    border: 1px solid #ff5e3a;
+}
+
+#addAccountContainer {
+    display: flex;
+    width: 100%;
+    justify-content: start;
 }

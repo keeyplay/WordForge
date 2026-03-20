@@ -242,21 +242,34 @@
         </footer>
     </div>
 
-    <div class="modal-overlay" id="modalAccountsContainer" hidden>
+    <div class="modal-overlay" id="modalAccountsContainer" hidden style="display: none;">
         <div class="modal" id="modal-account">
             <button class="stats-panel-close" id="accounts-panel-close">×</button>
             <div class="modal-header">
                 <img src="assets/pic/logo_png_cr.png" alt="" class="modal-logo">
-                <h2 class="modal-title" id="all-cards-county">Multi-verse Accounts (0)</h2>
-                <div class="serch" id="serch"></div>
+                <h2 class="modal-title" id="all-cards-county">Multi-Verse Accounts (0)</h2>
                 <div class="cards-edit" id="accounts">
 
+                </div>
+                <div class="modal-actions" id="addAccountContainer">
+                    <button class="stats-panel-close" id="addAccount">+</button>
                 </div>
                 <div class="modal-actions">
                     
                 </div>
             </div>
             
+        </div>
+        <div class="modal" id="modalAccountsContainerTextContainer">
+            <div class="modal-header">
+                <h1 id="whatsit">What's it?</h1>
+                <p id="modalAccountsContainerText">Multi-Verse Profiles - separate accounts for each language. <br>Learn English? German? Russian? Switch anytime, cards never mix</p>
+            </div>
+        </div>
+        <div class="modal" id="modalDeleteAllData">
+            <div class="modal-header">
+                <p id="deletealldata">Delete all data</p>
+            </div>
         </div>
     </div>
     <div class="modal-overlay" id="modal-overlay" hidden>
