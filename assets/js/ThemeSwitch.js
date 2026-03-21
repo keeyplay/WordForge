@@ -28,6 +28,8 @@ function ThemeSwitchFunc() {
     document.getElementById("modalAccountsContainerText").style.color = isDark ? "white" : "dark";
     document.getElementById("modalAccountsContainerTextContainer").style.background = isDark ? "black" : "white";
     document.getElementById("whatsit").style.color = isDark ? "white" : "black";
+    document.getElementById("modal-accountAdd").style.background = isDark ? "black" : "white";
+    document.getElementById("whatslang").style.color = isDark ? "white" : "black";
 
     // Stats page
     document.getElementById("stats-panel").style.background = isDark ? "black" : "white";
