@@ -752,6 +752,7 @@ body {
     height: 50px;
     align-items: center;
     color: white;
+    transition: all 0.5s ease;
 }
 
 #modalDeleteAllData {
@@ -760,7 +761,7 @@ body {
     background-color: #ff5e3a;
     box-shadow: #ff5e3a;
 
-    transition-duration: 0.5s;
+    transition: all 0.5s ease;
 }
 
 #modalDeleteAllData:hover {
