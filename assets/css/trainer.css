@@ -895,3 +895,11 @@ body {
 .dropdown-content::-webkit-scrollbar-thumb:hover {
     background: #555;       
 }
+
+#buttonLocalAccounts {
+    transition-duration: 0.5s;
+}
+
+#buttonLocalAccounts.clicked {
+    transform: rotate(90deg);
+}

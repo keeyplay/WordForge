@@ -6,12 +6,14 @@ function openModalLocalAccounts() {
         modalAccounts.style.display = "none";
     } else {
         modalAccounts.style.display = "flex";
+        document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
         ThemeSwitchFunc();
     } 
 }
 
 document.getElementById("accounts-panel-close").addEventListener("click", function() { //close modal
     modalAccounts.style.display = "none";
+    document.getElementById("buttonLocalAccounts").classList.remove("clicked");
 });
 
 document.getElementById("deletealldata").addEventListener("click", function() {
