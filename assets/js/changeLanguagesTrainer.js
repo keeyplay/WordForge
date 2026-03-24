@@ -60,6 +60,10 @@ function switchLanguage() {
     }
 };
 
+function openModalChoose() {
+    document.getElementById("modal-overlay-choose-language").style.display = "flex";
+}
+
 function switchLanguageForModal(switchLanCountLS = "en") {
     if(!Translate) return;
     if(switchLanCountLS === "en") {
@@ -87,6 +91,7 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             }
         }
     }
+    document.getElementById("modal-overlay-choose-language").style.display = "none";
 };
 
 

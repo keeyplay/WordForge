@@ -26,7 +26,7 @@
                 <span class="trainer-stats">
                     <span class="stat-badge cards-count" id="stat-cards">0 cards</span>
                     <span class="stat-badge streak" id="stat-streak">🔥 0</span>
-                    <div id="change_language" style="color: white; align-items: center;" onclick="switchLanguage()">🇬🇧</div>
+                    <div id="change_language" style="color: white; align-items: center;" onclick="openModalChoose()">🇬🇧</div>
                     <img src="assets/pic/3lines_light.png" alt="" onclick="openModalLocalAccounts()" id="buttonLocalAccounts" style="width: 30px; height: 30px; display: flex;">
                 </span>
             </nav>
@@ -335,7 +335,7 @@
                 <p id="whatslang-first">What language do you want to learn?</p>
                 <button class="dropdown-btn" id="dropdownBtn-first">Choose language</button>
     
-                <div class="dropdown-content" id="dropdownContent">
+                <div class="dropdown-content" id="dropdownContent1">
                     <a href="#" data-lang="English">English 🇬🇧</a>
                     <a href="#" data-lang="Spanish">Spanish 🇪🇸</a>
                     <a href="#" data-lang="French">French 🇫🇷</a>
@@ -413,6 +413,15 @@
                 </div>
             </div>
             
+        </div>
+    </div>
+    <div class="modal-overlay" id="modal-overlay-choose-language">
+        <div id="modal-choose-language">
+            <div class="dropdown-content1" id="dropdownContent-choose-lang">
+                <a href="#" data-lang="en" onclick="switchLanguageForModal('en')">English 🇬🇧</a>
+                <a href="#" data-lang="de" onclick="switchLanguageForModal('de')">German 🇩🇪</a>
+                <a href="#" data-lang="ru" onclick="switchLanguageForModal('ru')">Russian 🇷🇺</a>
+            </div>
         </div>
     </div>
 
