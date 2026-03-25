@@ -9,11 +9,13 @@ function openModalLocalAccounts() {
         document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
         ThemeSwitchFunc();
     } 
+    document.body.style.overflow = 'hidden';
 }
 
 document.getElementById("accounts-panel-close").addEventListener("click", function() { //close modal
     modalAccounts.style.display = "none";
     document.getElementById("buttonLocalAccounts").classList.remove("clicked");
+    document.body.style.overflow = '';
 });
 
 document.getElementById("deletealldata").addEventListener("click", function() {

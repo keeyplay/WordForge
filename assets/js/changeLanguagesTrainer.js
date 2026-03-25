@@ -67,6 +67,7 @@ function openModalChoose() {
 function switchLanguageForModal(switchLanCountLS = "en") {
     if(!Translate) return;
     if(switchLanCountLS === "en") {
+        localStorage.setItem("language", switchLanCountLS);
         const enTranslations = Translate.en;
         for(let id in enTranslations) {
             const element = document.getElementById(id);
@@ -75,6 +76,7 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             }
         }
     } else if(switchLanCountLS === "ru") {
+        localStorage.setItem("language", switchLanCountLS);
         const ruTranslations = Translate.ru;
         for(let id in ruTranslations) {
             const element = document.getElementById(id);
@@ -83,6 +85,7 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             }
         }
     } else if(switchLanCountLS === "de") {
+        localStorage.setItem("language", switchLanCountLS);
         const deTranslations = Translate.de;
         for(let id in deTranslations) {
             const element = document.getElementById(id);

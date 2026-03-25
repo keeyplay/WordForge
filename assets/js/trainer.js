@@ -158,6 +158,7 @@ document.getElementById("btn-know").addEventListener('click', function() {
 
 //pressed button of save
 document.getElementById("btn-modal-save").addEventListener('click', function() {
+    document.body.style.overflow = '';
     let word = document.getElementById("input-word").value
     let trans = document.getElementById("input-translation").value 
     let letAdd = true;
@@ -248,10 +249,12 @@ document.addEventListener('keydown', (event) => {
 //open modal add
 document.getElementById("btn-create-card").addEventListener('click', function() {
     document.getElementById("modal-overlay").style.display = "flex";
+    document.body.style.overflow = 'hidden';
 });
 //close modal add
 document.getElementById("btn-modal-cancel").addEventListener('click', function() {
     document.getElementById("modal-overlay").style.display = "none"; 
+    document.body.style.overflow = '';
 });
 //start again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
@@ -270,6 +273,7 @@ document.getElementById("btn-edit-card").addEventListener('click', openModalEdit
 function openModalEdit() {
     document.getElementById("modal-overlay-edit").style.display = "flex";
     document.getElementById("all-cards-county").innerText = "All Cards (" + cards.length + ")";
+    document.body.style.overflow = 'hidden';
     
     for(let el = 0; el < cards.length; el++) {
         document.getElementById("cards-edit").innerHTML += `
@@ -302,10 +306,12 @@ function openModalEdit() {
 document.getElementById("btn-modal-cancel-edit").addEventListener('click', function() {
     document.getElementById("modal-overlay-edit").style.display = "none"; 
     document.getElementById("cards-edit").innerHTML = "";
+    document.body.style.overflow = '';
 });
 
 //delete all cards
 document.getElementById("btn-modal-delete-all-edit").addEventListener('click', function() {
     let sure = confirm("Are you sure you want to delete your progress?");
+    document.body.style.overflow = '';
     if(sure === true) { localStorage.setItem("languageCards", JSON.stringify([])); renderCards(); location.reload(); }    
 });
