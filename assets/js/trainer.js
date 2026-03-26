@@ -1,8 +1,10 @@
-let cards = JSON.parse(localStorage.getItem('languageCards')) || [];  //parse all cards // if hasnt create empty array
-let cardsAdd = JSON.parse(localStorage.getItem('languageCards')) || [];
+let profile = localStorage.getItem('Profile') || "";
+let profileData = profile ? (() => { try { return JSON.parse(localStorage.getItem(profile)) || {}; } catch { return {}; } })() : {};
+let cards = profileData.languageCards || [];
+let cardsAdd = [...cards];
 let swipping = false;
 let randomCount = Math.floor(Math.random() * cardsAdd.length);
-let streaks = JSON.parse(localStorage.getItem('streaks')) || {
+let streaks = profileData.streaks || {
     streakCount: 0,
     lastVisitDate: null,
     streakClaimedToday: false
@@ -10,6 +12,11 @@ let streaks = JSON.parse(localStorage.getItem('streaks')) || {
 
 let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
+
+if(localStorage.length === 0) {
+    document.getElementById("modalAddAccounts").style.display = "flex";
+    document.getElementById("accountsAdd-panel-close").style.display = "none";
+}
 
 //update random count func
 function updateRandomCount() {
@@ -21,7 +28,10 @@ function updateRandomCount() {
 // streaks load -------------------------------------------------------------
 //get streaks
 function saveStreaks() {
-    localStorage.setItem('streaks', JSON.stringify(streaks));
+    profileData.streaks = streaks;
+    if(profile !== "") {
+        localStorage.setItem(profile, JSON.stringify(profileData));
+    }
 }
 
 function getTodayDateString() {
@@ -66,6 +76,7 @@ function updateStreak() {
 
         // update data
         streaks.lastVisitDate = today;
+        profileData.streaks = streaks; 
         streaks.streakClaimedToday = true;
         saveStreaks();
         renderStreak();
@@ -78,6 +89,7 @@ function updateStreak() {
             streaks.streakCount = 1;
         }
         streaks.streakClaimedToday = true;
+        profileData.streaks = streaks; 
         saveStreaks();
         renderStreak();
     }
@@ -95,25 +107,31 @@ function renderCards() {
         document.getElementById("cards-stack").style.display = "none";
         document.getElementById("swipe-actions").style.display = "none";
         document.getElementById("empty-state").style.display = "block";
+        document.getElementById("done-state").style.display = "none";
     }
-    if(cards.length !== 0 && cardsAdd.length !== 0) {
+    else if(cards.length !== 0 && cardsAdd.length !== 0) {
         document.getElementById("empty-state").style.display = "none";
+        document.getElementById("done-state").style.display = "none";
+        document.getElementById("cards-stack").style.display = "flex";
+        document.getElementById("swipe-actions").style.display = "flex";
 
         if (randomCount >= cardsAdd.length) {
             updateRandomCount();
         }
 
-        cardWord.textContent = cardsAdd[randomCount].word; //show random card
+        if(cardsAdd.length > 0) {
+            cardWord.textContent = cardsAdd[randomCount].word;
+        }
         countCards.textContent = cards.length + " cards";
     }
-    if(cardsAdd.length === 0 && cards.length !== 0) {
+    else if(cardsAdd.length === 0 && cards.length !== 0) {
         cardWord = false;
         document.getElementById("empty-state").style.display = "none";
         document.getElementById("cards-stack").style.display = "none";
         document.getElementById("swipe-actions").style.display = "none";
         document.getElementById("done-state").style.display = "block";
     }
-};
+}
 renderCards()
 
 //dont know
@@ -125,7 +143,6 @@ document.getElementById("btn-dont-know").addEventListener('click', function() {
         setTimeout(() => {
             document.getElementById("card-inner").classList.add("card-swipe-left");
             setTimeout(() => {
-                //cardsAdd.pop();
                 swipping = false;
                 updateRandomCount();
                 renderCards();
@@ -143,11 +160,14 @@ document.getElementById("btn-know").addEventListener('click', function() {
 
         //Cards know count 
         cards[randomCount].knowCount++;
-        localStorage.setItem('languageCards', JSON.stringify(cards));
+        profileData.languageCards = cards;
+        localStorage.setItem(profile, JSON.stringify(profileData));
 
         setTimeout(() => {
             swipping = false;
             cardsAdd.splice(randomCount, 1);
+            profileData.languageCards = cards;
+            localStorage.setItem(profile, JSON.stringify(profileData));
             updateRandomCount();
             renderCards();
             document.getElementById("card-inner").classList.remove("card-swipe-right");
@@ -191,7 +211,8 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
             document.getElementById("swipe-actions").style.display = "flex";
         }
 
-        localStorage.setItem('languageCards', JSON.stringify(cards)); //update in localstorage 
+        profileData.languageCards = cards;
+        localStorage.setItem(profile, JSON.stringify(profileData)); //update in localstorage 
         updateRandomCount(); // update random count
         renderCards(); //update card in front
 
@@ -225,7 +246,7 @@ document.addEventListener('keydown', (event) => {
     if(cardWord) {
         if(swipping === false) {
             swipping = true;
-            cardWord.textContent = cardsAdd[cardsAdd.length-1].translation;
+            cardWord.textContent = cardsAdd[randomCount].translation;
                 document.getElementById("card-inner").classList.add("card-swipe-right");
             setTimeout(() => {
                 swipping = false;
@@ -259,7 +280,8 @@ document.getElementById("btn-modal-cancel").addEventListener('click', function()
 //start again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
     cardWord = document.getElementById("card-word");
-    cardsAdd = JSON.parse(localStorage.getItem('languageCards')) || [];
+    cardsAdd = [...cards];
+    localStorage.setItem(profile, JSON.stringify(profileData));
     updateRandomCount();
     renderCards();
     document.getElementById("cards-stack").style.display = "flex";
@@ -293,7 +315,8 @@ function openModalEdit() {
             let index = Number(cardDelete.split("/")[1]);
             cards.splice(index, 1);
             cardsAdd.splice(index, 1);
-            localStorage.setItem("languageCards", JSON.stringify(cards));
+            profileData.languageCards = cards;
+            localStorage.setItem(profile, JSON.stringify(profileData));
             renderCards();
 
             document.getElementById("cards-edit").innerHTML = "";
@@ -311,7 +334,12 @@ document.getElementById("btn-modal-cancel-edit").addEventListener('click', funct
 
 //delete all cards
 document.getElementById("btn-modal-delete-all-edit").addEventListener('click', function() {
-    let sure = confirm("Are you sure you want to delete your progress?");
-    document.body.style.overflow = '';
-    if(sure === true) { localStorage.setItem("languageCards", JSON.stringify([])); renderCards(); location.reload(); }    
+    if(sure === true) { 
+        cards = [];
+        cardsAdd = [];
+        profileData.languageCards = cards;
+        localStorage.setItem(profile, JSON.stringify(profileData)); 
+        renderCards(); 
+        location.reload(); 
+    };
 });

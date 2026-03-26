@@ -8,11 +8,21 @@ function openModalLocalAccounts() {
         modalAccounts.style.display = "flex";
         document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
         ThemeSwitchFunc();
+        for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
+            if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode") {
+                document.getElementById("accounts").innerHTML += `
+                    <div class='card-edit'>
+                        <h2 class="text-of-card">${localStorage.key(accountsCount)}</h2>
+                    </div>
+                `;
+            }
+        }
     } 
     document.body.style.overflow = 'hidden';
 }
 
 document.getElementById("accounts-panel-close").addEventListener("click", function() { //close modal
+    document.getElementById("accounts").innerHTML = "";
     modalAccounts.style.display = "none";
     document.getElementById("buttonLocalAccounts").classList.remove("clicked");
     document.body.style.overflow = '';
@@ -65,3 +75,23 @@ document.getElementById("accountsAdd-panel-close").addEventListener("click", fun
     modalAccounts.style.display = "flex";
     document.getElementById("modalAddAccounts").style.display = "none";
 });
+
+document.getElementById("continue").addEventListener('click', function() {
+    localStorage.setItem("Profile", selectedLang);
+    localStorage.setItem(selectedLang, []);
+    document.getElementById("modalAddAccounts").style.display = "none";
+    window.location.reload();
+});
+
+function migrationOldSystem() {
+    if(!localStorage.getItem("Profile")) {
+        const storageObject = Object.keys(localStorage).reduce((obj, key) => {
+            obj[key] = localStorage.getItem(key);
+            return obj;
+        }, {});
+
+        localStorage.setItem("Profile", "other");
+        localStorage.setItem("other", JSON.stringify(storageObject));
+    }
+}
+migrationOldSystem()
