@@ -1,5 +1,5 @@
-let cardsSt = JSON.parse(localStorage.getItem('languageCards')) || [];
-let streaksSt = JSON.parse(localStorage.getItem('streaks')) || {
+let cardsSt = JSON.parse(localStorage.getItem(profile)).languageCards || [];
+let streaksSt = JSON.parse(localStorage.getItem(profile)).streaks || {
     streakCount: 0,
     lastVisitDate: null,
     streakClaimedToday: false

@@ -83,15 +83,14 @@ document.getElementById("continue").addEventListener('click', function() {
     window.location.reload();
 });
 
-function migrationOldSystem() {
-    if(!localStorage.getItem("Profile")) {
-        const storageObject = Object.keys(localStorage).reduce((obj, key) => {
-            obj[key] = localStorage.getItem(key);
-            return obj;
-        }, {});
+// function migrationOldSystem() {
+//     if(!localStorage.getItem("Profile")) {
+//         const storageObject = Object.keys(localStorage).reduce((obj, key) => {
+//             obj[key] = localStorage.getItem(key);
+//             return obj;
+//         }, {});
 
-        localStorage.setItem("Profile", "other");
-        localStorage.setItem("other", JSON.stringify(storageObject));
-    }
-}
-migrationOldSystem()
+//         localStorage.setItem("Profile", "other");
+//         localStorage.setItem("other", JSON.stringify(storageObject));
+//     }
+// }
