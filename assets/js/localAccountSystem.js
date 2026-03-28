@@ -9,18 +9,31 @@ function openModalLocalAccounts() {
         document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
         ThemeSwitchFunc();
         for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
-            if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode") {
-                document.getElementById("accounts").innerHTML += `
-                    <div class='card-edit'>
-                        <h2 class="text-of-card">${localStorage.key(accountsCount)}</h2>
-                    </div>
-                `;
+            if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
+                if(localStorage.key(accountsCount) === profile) {
+                    document.getElementById("accounts").innerHTML += `
+                        <div>
+                            <h2 class="OneProfile">${localStorage.key(accountsCount)} ✔️</h2>
+                        </div>
+                    `;
+                } else {
+                    document.getElementById("accounts").innerHTML += `
+                        <div>
+                            <h2 class="OneProfile">${localStorage.key(accountsCount)}</h2>
+                        </div>
+                    `;
+                }
             }
         }
+        document.querySelectorAll(".OneProfile").forEach(function(e) {
+            e.addEventListener('click', function() {
+                localStorage.setItem("Profile", e.textContent);
+                window.location.reload();
+            });
+        });
     } 
     document.body.style.overflow = 'hidden';
 }
-
 document.getElementById("accounts-panel-close").addEventListener("click", function() { //close modal
     document.getElementById("accounts").innerHTML = "";
     modalAccounts.style.display = "none";

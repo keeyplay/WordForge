@@ -846,6 +846,18 @@ body {
     transition-duration: 0.5s;
 }
 
+.OneProfile {
+    text-shadow: white 1px 1px 10px;
+    transition: padding 0.5s ease, color 0.5s ease;
+}
+
+.OneProfile:hover {
+    cursor: pointer;
+    padding: 20px;
+    transform: scale(1.1);
+    color: blue;
+}
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
