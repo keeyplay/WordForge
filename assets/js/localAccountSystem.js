@@ -12,13 +12,15 @@ function openModalLocalAccounts() {
             if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
                 if(localStorage.key(accountsCount) === profile) {
                     document.getElementById("accounts").innerHTML += `
-                        <div>
+                        <div class="containerMenuAccounts">
+                            <h2 class="deleteAccountButton">×</h2>
                             <h2 class="OneProfile">${localStorage.key(accountsCount)} ✔️</h2>
                         </div>
                     `;
                 } else {
                     document.getElementById("accounts").innerHTML += `
-                        <div>
+                        <div class="containerMenuAccounts">
+                            <h2 class="deleteAccountButton">×</h2>
                             <h2 class="OneProfile">${localStorage.key(accountsCount)}</h2>
                         </div>
                     `;

@@ -851,12 +851,39 @@ body {
     transition: padding 0.5s ease, color 0.5s ease;
 }
 
-.OneProfile:hover {
+.containerMenuAccounts {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    transition: padding 0.5s ease, 0.5s ease;
+}
+
+.containerMenuAccounts:hover {
     cursor: pointer;
     padding: 20px;
     transform: scale(1.1);
+}
+
+.deleteAccountButton {
+    color: red;
+
+    transition: padding 0.5s ease, 0.5s ease;
+}
+
+.deleteAccountButton:hover {
+    margin: 0px 10px;
+    transform: scale(2);
+}
+
+
+.OneProfile:hover {
+    /* cursor: pointer;
+    padding: 20px;
+    transform: scale(1.1); */
     color: blue;
 }
+
+
 
 .dropdown-content a {
     color: black;
