@@ -33,6 +33,16 @@ function openModalLocalAccounts() {
                 window.location.reload();
             });
         });
+        document.querySelectorAll(".deleteAccountButton").forEach(function(e) {
+            // let lang = e.textContent;
+            // e.addEventListener('click', function() {
+            //     if(HowManyProfiles() === 1) {
+            //         for(let el = 0; el < localStorage.length; el++) {
+            //             if(localStorage.key(el) === lang)
+            //         }
+            //     }
+            // });
+        });
     } 
     document.body.style.overflow = 'hidden';
 }
@@ -47,6 +57,17 @@ document.getElementById("deletealldata").addEventListener("click", function() {
     let conf = confirm("Are you sure? If all data is deleted, you won't be able to get it back.");
     if(conf === true) { localStorage.clear(); window.location.reload(); }
 });
+
+function HowManyProfiles() {
+    let count = 0;
+    for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
+        if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
+            count++
+                
+        }
+    };
+    return count;
+}
 
 
 //open modals create new account
