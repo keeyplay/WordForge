@@ -1,10 +1,6 @@
 let modalAccounts = document.getElementById("modalAccountsContainer");
 
 function openModalLocalAccounts() {
-    // document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
-    if(modalAccounts.style.display === "flex") {
-        modalAccounts.style.display = "none";
-    } else {
         modalAccounts.style.display = "flex";
         document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
         ThemeSwitchFunc();
@@ -13,14 +9,14 @@ function openModalLocalAccounts() {
                 if(localStorage.key(accountsCount) === profile) {
                     document.getElementById("accounts").innerHTML += `
                         <div class="containerMenuAccounts">
-                            <h2 class="deleteAccountButton">×</h2>
+                            <h2 class="deleteAccountButton" data-profile="${localStorage.key(accountsCount)}">×</h2>
                             <h2 class="OneProfile">${localStorage.key(accountsCount)} ✔️</h2>
                         </div>
                     `;
                 } else {
                     document.getElementById("accounts").innerHTML += `
                         <div class="containerMenuAccounts">
-                            <h2 class="deleteAccountButton">×</h2>
+                            <h2 class="deleteAccountButton" data-profile="${localStorage.key(accountsCount)}">×</h2>
                             <h2 class="OneProfile">${localStorage.key(accountsCount)}</h2>
                         </div>
                     `;
@@ -34,16 +30,53 @@ function openModalLocalAccounts() {
             });
         });
         document.querySelectorAll(".deleteAccountButton").forEach(function(e) {
-            // let lang = e.textContent;
-            // e.addEventListener('click', function() {
-            //     if(HowManyProfiles() === 1) {
-            //         for(let el = 0; el < localStorage.length; el++) {
-            //             if(localStorage.key(el) === lang)
-            //         }
-            //     }
-            // });
+            let SelectedProfile = e.getAttribute("data-profile");
+            e.addEventListener('click', function() {
+                if(HowManyProfiles() === 1) {
+                    for(let el = 0; el < localStorage.length; el++) {
+                        if(localStorage.key(el) === SelectedProfile) {
+                            localStorage.removeItem(localStorage.key(el));
+                        }
+                    }
+                    document.getElementById("accounts").innerHTML = "";
+                    modalAccounts.style.display = "none";
+                    document.getElementById("buttonLocalAccounts").classList.remove("clicked");
+                    document.body.style.overflow = '';
+                    openModalLocalAccounts();
+
+                    localStorage.removeItem("Profile");
+
+                    document.getElementById("modalAddAccounts").style.display = "flex";
+                    document.getElementById("accountsAdd-panel-close").style.display = "none";
+
+                } else {
+                    if(localStorage.getItem("Profile") === SelectedProfile) {
+                        for(let el = 0; el < localStorage.length; el++) {
+                            if(localStorage.key(el) === SelectedProfile) {
+                                localStorage.removeItem(localStorage.key(el));
+                            }
+                        }
+                        profile = ArrayOfProfiles()[0];
+                        localStorage.setItem("Profile", ArrayOfProfiles()[0]);
+
+                        window.location.reload();
+                    } else {
+                        for(let el = 0; el < localStorage.length; el++) {
+                            if(localStorage.key(el) === SelectedProfile) {
+                                localStorage.removeItem(localStorage.key(el));
+                            }
+                        }
+                        document.getElementById("accounts").innerHTML = "";
+                        modalAccounts.style.display = "none";
+                        document.getElementById("buttonLocalAccounts").classList.remove("clicked");
+                        document.body.style.overflow = '';
+                        openModalLocalAccounts()
+
+                        localStorage.removeItem("Profile");   
+                    }
+                }
+            });
         });
-    } 
     document.body.style.overflow = 'hidden';
 }
 document.getElementById("accounts-panel-close").addEventListener("click", function() { //close modal
@@ -67,6 +100,16 @@ function HowManyProfiles() {
         }
     };
     return count;
+}
+
+function ArrayOfProfiles() {
+    let arr = [];
+    for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
+        if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
+            arr.push(localStorage.key(accountsCount));      
+        }
+    };
+    return arr;
 }
 
 
