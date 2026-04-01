@@ -1,26 +1,34 @@
 document.getElementById("export").addEventListener('click', function() {exportCards()});
 
 function exportCards() {
-    // get cards from localstorage
-    const cards = localStorage.getItem('languageCards');
-    const lang = localStorage.getItem('language');
-    const streaks = localStorage.getItem('streaks');
+    // get profile from localstorage
+    const profileEx = localStorage.getItem('Profile');
     
-    if (!cards) {
+    if (!profileEx) {
         alert("You don't have any cards");
         return;
     }
     
+    // parse profile with error handling
+    let profile = JSON.parse(localStorage.getItem(profileEx));
+    
+    const cards = profile.languageCards;
+    if(!cards) {
+        alert("You don't have any cards");
+        return;
+    }
+    const streaks = profile.streaks;
+    
     // export data
     const exportData = {
-        version: '1.0',
-        exportDate: new Date().toISOString(), // "2025-01-15T14:30:45.123Z" for example
-        lang: lang,
-        streaks: JSON.parse(streaks),
-        cards: JSON.parse(cards)
+        version: '2.0',
+        exportDate: new Date().toISOString(),
+        profile: profileEx,
+        streaks: streaks,
+        cards: cards,
     };
     
-    const jsonString = JSON.stringify(exportData);
+    const jsonString = JSON.stringify(exportData, null, 2);
     
     // create and download file
     downloadFile(jsonString, 'vocab-cards.json', 'application/json');
@@ -28,7 +36,7 @@ function exportCards() {
 
 function downloadFile(content, fileName, contentType) {
     const blob = new Blob([content], { type: contentType });
-    const url = URL.createObjectURL(blob); //url
+    const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     
     link.href = url;
@@ -36,7 +44,7 @@ function downloadFile(content, fileName, contentType) {
     document.body.appendChild(link);
     link.click();
     
-    // clear
+    // cleanup
     setTimeout(() => {
         document.body.removeChild(link);
         URL.revokeObjectURL(url);
