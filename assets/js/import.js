@@ -20,9 +20,14 @@ function importCards() {
                 // validate data
                 if (validateImportedData(importedData)) {
                     // save in localStorage
-                    localStorage.setItem('languageCards', JSON.stringify(importedData.cards));
-                    localStorage.setItem('language', JSON.stringify(importedData.lang));
-                    localStorage.setItem('streaks', JSON.stringify(importedData.streaks));
+                    localStorage.setItem('Profile', importedData.profile);
+
+                    let dataProfile = {
+                        "streaks": importedData.streaks,
+                        "languageCards": importedData.cards
+                    };
+
+                    localStorage.setItem(importedData.profile, JSON.stringify(dataProfile));
                     
                     
                     location.reload();
@@ -45,9 +50,12 @@ function importCards() {
 function validateImportedData(data) {
     // is object?
     if (!data || typeof data !== 'object') return false;
+
+    //profile?
+    if (!data.profile) return false;
     
     // correct?
-    if (!data.version || !data.lang) return false;
+    // if (!data.version || !data.lang) return false;
     
     // validate streaks
     if (data.streaks) {
