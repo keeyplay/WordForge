@@ -479,6 +479,27 @@ body {
     transition-duration: 0.5s;
 }
 
+#importFirst {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 8.75rem;
+    background: var(--white);
+    color: var(--orange);
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.importFirst:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
 .card-edit {
     width: 100%;
     min-height: 10px;
