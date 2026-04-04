@@ -1,4 +1,5 @@
 document.getElementById("import").addEventListener('click', function() {importCards()});
+document.getElementById("import-export-div-first").addEventListener('click', function() {importCards()});
 
 function importCards() {
     // open file input
