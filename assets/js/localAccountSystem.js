@@ -23,6 +23,7 @@ function openModalLocalAccounts() {
                 }
             }
         }
+        document.getElementById("all-cards-county").innerText = "Multi-Verse Accounts (" + HowManyProfiles() + ")";
         document.querySelectorAll(".OneProfile").forEach(function(e) {
             e.addEventListener('click', function() {
                 localStorage.setItem("Profile", e.textContent);
