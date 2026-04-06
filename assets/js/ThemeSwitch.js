@@ -17,6 +17,7 @@ function ThemeSwitchFunc() {
     document.getElementById("under-card1").style.background = isDark ? "black" : "white";
     document.getElementById("importFirst").style.background = isDark ? "black" : "white";
     document.getElementById("importFirst").style.color = isDark ? "white" : "black";
+    document.getElementById("modalAccountsContainerText").style.color = isDark ? "white" : "black";
     document.getElementById("importFirst").style.boxShadow = isDark ? "0px 0px 2px white" : "";
     
     // Action buttons text color

@@ -3,7 +3,7 @@ let modalAccounts = document.getElementById("modalAccountsContainer");
 function openModalLocalAccounts() {
         modalAccounts.style.display = "flex";
         document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
-        ThemeSwitchFunc();
+        switchLanguageForModal(localStorage.getItem("language"));
         for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
             if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
                 if(localStorage.key(accountsCount) === profile) {
