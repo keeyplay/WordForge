@@ -136,45 +136,56 @@ renderCards()
 
 //dont know
 document.getElementById("btn-dont-know").addEventListener('click', function() {
-    if(swipping === false) {
-        swipping = true;
-        // cardsAdd[cardsAdd.length-1].fliped = true;
-        cardWord.textContent = cardsAdd[randomCount].translation;
-        setTimeout(() => {
-            document.getElementById("card-inner").classList.add("card-swipe-left");
-            setTimeout(() => {
-                swipping = false;
-                updateRandomCount();
-                renderCards();
-                document.getElementById("card-inner").classList.remove("card-swipe-left");
-            }, 400);
-        }, 1500);
-    }
+    ClickDontKnown();
 });
+
+function ClickDontKnown() {
+    if(cardWord) {
+        if(swipping === false) {
+            swipping = true;
+            // cardsAdd[cardsAdd.length-1].fliped = true;
+            cardWord.textContent = cardsAdd[randomCount].translation;
+            setTimeout(() => {
+                document.getElementById("card-inner").classList.add("card-swipe-left");
+                setTimeout(() => {
+                    swipping = false;
+                    updateRandomCount();
+                    renderCards();
+                    document.getElementById("card-inner").classList.remove("card-swipe-left");
+                }, 400);
+            }, 1500);
+        }
+    }
+}
 
 // know
 document.getElementById("btn-know").addEventListener('click', function() {
-    if(swipping === false) {
-        swipping = true;
-        document.getElementById("card-inner").classList.add("card-swipe-right");
+    ClickKnown()
+});
 
-        //Cards know count 
-        cards[randomCount].knowCount++;
-        profileData.languageCards = cards;
-        localStorage.setItem(profile, JSON.stringify(profileData));
+function ClickKnown() {
+    if(cardWord) {
+        if(swipping === false) {
+            swipping = true;
+            document.getElementById("card-inner").classList.add("card-swipe-right");
 
-        setTimeout(() => {
-            swipping = false;
-            cardsAdd.splice(randomCount, 1);
+            //Cards know count 
+            cards[randomCount].knowCount++;
             profileData.languageCards = cards;
             localStorage.setItem(profile, JSON.stringify(profileData));
-            updateRandomCount();
-            renderCards();
-            document.getElementById("card-inner").classList.remove("card-swipe-right");
-        }, 500);
+
+            setTimeout(() => {
+                swipping = false;
+                cardsAdd.splice(randomCount, 1);
+                profileData.languageCards = cards;
+                localStorage.setItem(profile, JSON.stringify(profileData));
+                updateRandomCount();
+                renderCards();
+                document.getElementById("card-inner").classList.remove("card-swipe-right");
+            }, 500);
+        }
     }
-    
-});
+}
 
 //pressed button of save
 document.getElementById("btn-modal-save").addEventListener('click', function() {
@@ -343,3 +354,30 @@ document.getElementById("btn-modal-delete-all-edit").addEventListener('click', f
         location.reload(); 
     };
 });
+
+//swipe system 
+let touchStartX = 0;
+let touchEndX = 0;
+
+const minDistance = 50;
+
+const handleSwipe = () => {
+  const distance = touchEndX - touchStartX;
+
+  if (Math.abs(distance) > minDistance) {
+    if (distance > 0) {
+        ClickKnown();
+    } else {
+        ClickDontKnown();
+    }
+  }
+};
+
+document.addEventListener('touchstart', e => {
+  touchStartX = e.changedTouches[0].screenX;
+}, false);
+
+document.addEventListener('touchend', e => {
+  touchEndX = e.changedTouches[0].screenX;
+  handleSwipe();
+}, false);
