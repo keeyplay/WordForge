@@ -365,12 +365,16 @@ const handleSwipe = () => {
   const distance = touchEndX - touchStartX;
 
   if (Math.abs(distance) > minDistance) {
-    if (distance > 0) {
+    if (distance > 500) {
+        StatsPanel(true);   
+    } else if(distance > 0) {
         ClickKnown();
-    } else {
+    }else {
         ClickDontKnown();
     }
   }
+  touchEndX = 0;
+  touchEndX = 0;
 };
 
 document.addEventListener('touchstart', e => {

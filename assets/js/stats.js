@@ -25,6 +25,10 @@ migrateOldCards();
 
 // Follow every click in pages
 document.addEventListener('DOMContentLoaded', function() {
+    StatsPanel();
+});
+
+function StatsPanel(Open) {
             const statsButton = document.getElementById('but_stats');
             const statsPanel = document.getElementById('stats-panel');
             const statsOverlay = document.getElementById('stats-overlay');
@@ -49,6 +53,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Open panel when stats button is clicked
             statsButton.addEventListener('click', openStatsPanel);
+
+            if(Open === true) openStatsPanel();
             
             // Close panel when close button is clicked
             closeButton.addEventListener('click', closeStatsPanel);
@@ -62,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     closeStatsPanel();
                 }
             });
-});
+};
 
 function UpdateStats() {
     let cardsSt = JSON.parse(localStorage.getItem('languageCards')) || [];
