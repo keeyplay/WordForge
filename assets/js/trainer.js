@@ -7,8 +7,13 @@ let randomCount = Math.floor(Math.random() * cardsAdd.length);
 let streaks = profileData.streaks || {
     streakCount: 0,
     lastVisitDate: null,
-    streakClaimedToday: false
+    streakClaimedToday: false,
+    CongToday: false
 };
+
+if(profileData.streaks.length === 3) {
+    profileData.streaks.CongToday = false;
+}
 
 let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
@@ -97,6 +102,16 @@ function updateStreak() {
 
 function renderStreak() {
     document.getElementById("stat-streak").innerText = "🔥 " + streaks.streakCount;
+    if(streaks.streakCount % 5 === 0 && streaks.streakCount != 0) {
+        if(!streaks.CongToday) {
+            alert(streaks.streakCount + " - New streak unlocked! 🚀 Consistency over intensity. Every single day counts.");
+            streaks.CongToday = true;
+            localStorage.setItem(profile, JSON.stringify(profileData));
+        } 
+    } else {
+        streaks.CongToday = false;
+        localStorage.setItem(profile, JSON.stringify(profileData));
+    }
 }
 updateStreak()
 
