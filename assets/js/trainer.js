@@ -11,14 +11,21 @@ let streaks = profileData.streaks || {
     CongToday: false
 };
 
-if(profileData.streaks.length === 3) {
-    profileData.streaks.CongToday = false;
+if(profileData.streaks) {
+    if(profileData.streaks.length === 3) {
+        profileData.streaks.CongToday = false;
+    }
 }
 
 let cardWord = document.getElementById("card-word"); //front card
 let countCards = document.getElementById("stat-cards"); //count of cards
 
 if(localStorage.length === 0) {
+    document.getElementById("modalAddAccounts").style.display = "flex";
+    document.getElementById("accountsAdd-panel-close").style.display = "none";
+}
+
+if(HowManyProfiles() === 0) {
     document.getElementById("modalAddAccounts").style.display = "flex";
     document.getElementById("accountsAdd-panel-close").style.display = "none";
 }
@@ -285,8 +292,6 @@ document.addEventListener('keydown', (event) => {
     } 
   }
 });
-
-
 
 
 

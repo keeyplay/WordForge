@@ -113,6 +113,22 @@ function ArrayOfProfiles() {
     return arr;
 }
 
+function ProfileEmpty(dlt = false) {
+    let Empty = false;
+    if(localStorage.length === 0) Empty = true;
+    for(let prof = 0; prof < localStorage.length; prof++) {
+        if(localStorage.key(prof) === "") {
+            Empty = true;
+            if(dlt === true) {
+                localStorage.removeItem(prof);
+            }
+        }
+    }
+    
+    if(dlt === false) return Empty;
+}
+
+ProfileEmpty(true);
 
 //open modals create new account
 document.getElementById("addAccount").addEventListener("click", function() {
