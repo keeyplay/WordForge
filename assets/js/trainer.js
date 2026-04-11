@@ -107,11 +107,29 @@ function updateStreak() {
     }
 }
 
+const streakMessages = [
+  "New streak unlocked! 🚀 Consistency over intensity. Every single day counts.",
+  "Streak continues! 🔥 Not fast, but steady. That's how you win.",
+  "Another day, another step. 🐢 Your streak is growing. Keep going.",
+  "You showed up again. 💪 That's the whole secret. Streak alive.",
+  "No zero days. ✅ Streak preserved. Tomorrow is the next battle.",
+  "Brick by brick. 🧱 Your streak is becoming a wall. Don't stop.",
+  "1 day closer to the goal. 🎯 Streak intact. Respect.",
+  "Not every day is a leap. But every day counts. 🦾 Streak updated.",
+  "You didn't quit today. 🔥 That's the win. Streak lives.",
+  "Small step, big streak. 🐢 Consistency > talent. Every time.",
+  "Streak extended. 📈 Not perfect, but present. That's enough.",
+  "Another day in the books. 📚 Streak = proof you can trust yourself.",
+  "The streak is a mirror. 🪞 It shows who you really are. Today: strong.",
+  "You could've skipped. You didn't. 👊 Streak honored.",
+  "One more day. One more commit. One more step toward the life you want. 🚀 Streak secured."
+];
+
 function renderStreak() {
     document.getElementById("stat-streak").innerText = "🔥 " + streaks.streakCount;
     if(streaks.streakCount % 5 === 0 && streaks.streakCount != 0) {
         if(!streaks.CongToday) {
-            alert(streaks.streakCount + " - New streak unlocked! 🚀 Consistency over intensity. Every single day counts.");
+            alert(streaks.streakCount + " - " + streakMessages[Math.floor(Math.random() * 15)]);
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
         } 
