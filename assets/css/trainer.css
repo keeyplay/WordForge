@@ -465,7 +465,7 @@ body {
     transition-duration: 0.5s;
 }
 
-#modal-overlay-edit {
+#modal-overlay-edit, #modal-overlay-streak {
     position: fixed;
     inset: 0;
     z-index: 100;
@@ -672,6 +672,15 @@ body {
     gap: 10%;
 }
 
+#btn-modal-streak-yay-main {
+    transition: 0.3s ease-in-out;
+}
+
+#btn-modal-streak-yay-main:hover {
+    transform: scale(1.2);
+    rotate: 360deg;
+}
+
 #switchTheme {
     transition: transform 0.5s ease;
 }
@@ -683,7 +692,7 @@ body {
 }
 
 .btn-modal-cancel,
-.btn-modal-save {
+.btn-modal-save, #btn-modal-streak-yay {
     flex: 1;
     padding: 0.6rem;
     border: none;
