@@ -129,7 +129,9 @@ function renderStreak() {
     document.getElementById("stat-streak").innerText = "🔥 " + streaks.streakCount;
     if(streaks.streakCount % 5 === 0 && streaks.streakCount != 0) {
         if(!streaks.CongToday) {
-            alert(streaks.streakCount + " - " + streakMessages[Math.floor(Math.random() * 15)]);
+            document.getElementById("modal-overlay-streak").style.display = "flex";
+            document.getElementById("message-streak").innerText = streakMessages[Math.floor(Math.random() * 15)];
+            document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
         } 
@@ -423,3 +425,8 @@ document.addEventListener('touchend', e => {
   touchEndX = e.changedTouches[0].screenX;
   handleSwipe();
 }, false);
+
+//close modal of streak's congr 
+document.getElementById("btn-modal-streak-yay").addEventListener('click', function() {
+    document.getElementById("modal-overlay-streak").style.display = "none";
+});
