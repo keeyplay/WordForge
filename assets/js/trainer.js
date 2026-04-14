@@ -135,9 +135,17 @@ function renderStreak() {
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
         } 
+    } else if(streaks.streakCount === 1 && streaks.streakCount != 0) {
+        if(!streaks.CongToday) {
+            document.getElementById("modal-overlay-streak").style.display = "flex";
+            document.getElementById("message-streak").innerText = streakMessages[Math.floor(Math.random() * 15)];
+            document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
+            streaks.CongToday = true;
+            localStorage.setItem(profile, JSON.stringify(profileData));
+        } 
     } else {
-        streaks.CongToday = false;
-        localStorage.setItem(profile, JSON.stringify(profileData));
+            streaks.CongToday = false;
+            localStorage.setItem(profile, JSON.stringify(profileData));
     }
 }
 updateStreak()
@@ -405,11 +413,13 @@ const handleSwipe = () => {
   const distance = touchEndX - touchStartX;
 
   if (Math.abs(distance) > minDistance) {
-    if (distance > 500) {
-        StatsPanel(true);   
+    if(distance < -500) {
+        openModalLocalAccounts();
+    } else if (distance > 500) {
+        StatsPanel(true);
     } else if(distance > 0) {
         ClickKnown();
-    }else {
+    } else {
         ClickDontKnown();
     }
   }
