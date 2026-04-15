@@ -691,6 +691,28 @@ body {
     cursor: pointer;
 }
 
+#fullscreen-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 100; 
+    object-fit: cover;
+    mix-blend-mode: screen;
+    pointer-events: none;
+}
+
+video {
+    border: 5px solid red !important;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+
+
 .btn-modal-cancel,
 .btn-modal-save, #btn-modal-streak-yay {
     flex: 1;

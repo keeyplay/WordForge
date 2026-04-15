@@ -134,6 +134,7 @@ function renderStreak() {
             document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
+            ShowConfetti();
         } 
     } else if(streaks.streakCount === 1 && streaks.streakCount != 0) {
         if(!streaks.CongToday) {
@@ -142,6 +143,7 @@ function renderStreak() {
             document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
+            ShowConfetti();
         } 
     } else {
             streaks.CongToday = false;
@@ -440,3 +442,18 @@ document.addEventListener('touchend', e => {
 document.getElementById("btn-modal-streak-yay").addEventListener('click', function() {
     document.getElementById("modal-overlay-streak").style.display = "none";
 });
+
+
+//confetti system
+// let cofettiVideo = document.getElementById("fullscreen-bg");
+
+function ShowConfetti() {
+    document.body.innerHTML += `
+        <video autoplay muted playsinline id="fullscreen-bg">
+            <source src="assets/pic/confetti.mp4">
+        </video>
+    `;
+    setTimeout(function() {
+        document.getElementById("fullscreen-bg").innerHTML = "";
+    }, 12000)
+}
