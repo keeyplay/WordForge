@@ -479,6 +479,19 @@ body {
     transition-duration: 0.5s;
 }
 
+#cards-edit {
+    max-height: 600px; 
+    min-width: 100%; 
+    overflow-y: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+#cards-edit::-webkit-scrollbar {
+    display: none;
+}
+
+
 #importFirst {
     display: inline-flex;
     align-items: center;
@@ -503,7 +516,7 @@ body {
 
 .card-edit {
     width: 100%;
-    min-height: 10px;
+    min-height: 40px;
     padding: 10px;
     border-radius: 10px;
     background: rgba(255, 172, 37, 0.5);
