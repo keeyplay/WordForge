@@ -355,7 +355,7 @@ document.getElementById("btn-start-again").addEventListener('click', function() 
 document.getElementById("btn-edit-card").addEventListener('click', openModalEdit);
 function openModalEdit() {
     document.getElementById("modal-overlay-edit").style.display = "flex";
-    document.getElementById("all-cards-county").innerText = "All Cards (" + cards.length + ")";
+    document.getElementById("all-cards-county1").innerText = "All Cards (" + cards.length + ")";
     document.body.style.overflow = 'hidden';
     
     for(let el = 0; el < cards.length; el++) {
