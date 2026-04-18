@@ -134,16 +134,16 @@ function renderStreak() {
             document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
-            ShowConfetti();
+            
         } 
     } else if(streaks.streakCount === 1 && streaks.streakCount != 0) {
-        if(!streaks.CongToday) {
+        if(!streaks.CongToday && localStorage.length >= 3) {
             document.getElementById("modal-overlay-streak").style.display = "flex";
             document.getElementById("message-streak").innerText = streakMessages[Math.floor(Math.random() * 15)];
             document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
-            ShowConfetti();
+            
         } 
     } else {
             streaks.CongToday = false;
