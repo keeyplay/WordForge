@@ -1,5 +1,6 @@
 const infoElement = document.getElementById('info');
 const infoHTML = infoElement.outerHTML;
+// const ModalLang = document.getElementById('modal-overlay-choose-language').outerHTML;
 document.getElementById('btn_start').addEventListener('click', function() {
     this.classList.add('clicked');
     isStartButtonClicked = true; 
@@ -10,6 +11,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
         document.body.style.background = "white";
         
         document.body.innerHTML = infoHTML;
+        // document.body.innerHTML += ModalLang;
         // document.body.style.display = "block";
         let newContent;
         if(localStorage.getItem("language") === "en") {

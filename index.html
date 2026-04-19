@@ -14,6 +14,7 @@
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
+    <script src="assets/js/changeLanguagesInfo.js"></script>
 </head>
 <body>
     <div id="container">
@@ -24,9 +25,17 @@
         </div>
         <h1 id="btn_start">start</h1>   
     </div>
+    <div class="modal-overlay" id="modal-overlay-choose-language">
+        <div id="modal-choose-language">
+            <div class="dropdown-content1" id="dropdownContent-choose-lang">
+                <a href="#" data-lang="en" onclick="switchLanguage('en')">English 🇬🇧</a>
+                <a href="#" data-lang="de" onclick="switchLanguage('de')">German 🇩🇪</a>
+                <a href="#" data-lang="ru" onclick="switchLanguage('ru')">Russian 🇷🇺</a>
+            </div>
+        </div>
+    </div>
     </a>
     <script src="assets/js/index.js"></script>
-    <script src="assets/js/changeLanguagesInfo.js"></script>
     <script src="assets/js/ThemeSwitchInfo.js"></script>
 </body>
 </html>

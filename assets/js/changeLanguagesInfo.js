@@ -24,6 +24,10 @@ async function loadLanguages() {
 }
 loadLanguages();
 
+function openModalChoose() {
+    document.getElementById("modal-overlay-choose-language").style.display = "flex";
+}
+
 function switchLanguage() {
     const startButton = document.getElementById('btn_start');
     isStartButtonClicked = startButton ? startButton.classList.contains('clicked') : isStartButtonClicked;
