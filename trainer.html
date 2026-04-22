@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/trainer.css">
     <link rel="icon" href="assets/pic/logo_png_cr.png">
     <link rel="stylesheet" href="assets/css/stats.css">
+    <link rel="stylesheet" href="assets/css/info-modal.css">
 
     <!-- vercel analytics -->
     <script>
@@ -390,13 +391,51 @@
             
         </div>
     </div>
-    <!-- <section id="section_but_info" onclick="classList.add('active')" ondblclick="classList.remove('active')">
+    <section id="section_but_info" onclick="openInfoModal();">
             <section id="but_info">
                 <div id="but_info_div">
                     <span class="stats-icon">?</span>
                 </div>
             </section>
-    </section> -->
+    </section>
+    <div id="info-modal-overlay" class="info-overlay">
+    <div class="modal-content">
+            <button class="modal-close" onclick="closeInfoModal()">✕</button>
+            
+            <div class="modal-grid">
+                <section class="modal-card">
+                    <span class="label">ABOUT</span>
+                    <h2 class="orange-text">WordForge</h2>
+                    <p>Simple vocabulary trainer. No sign-up, no payments. Just open and learn.</p>
+                    
+                    <div class="features-grid">
+                        <div class="f-item">🌗 LocalStorage</div>
+                        <div class="f-item">🌍 Online</div>
+                        <div class="f-item">📊 Stats</div>
+                        <div class="f-item">🎯 Streaks</div>
+                    </div>
+                    
+                    <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.6;">
+                        Built by 15-yo dev • 77 days #buildinpublic
+                    </p>
+                </section>
+
+                <section class="modal-card">
+                    <span class="label">NEWS</span>
+                    <div class="news-list">
+                        <div class="news-entry">
+                            <span class="date">LATEST</span>
+                            <p>Stable version released! Added smooth Orange UI.</p>
+                        </div>
+                        <div class="news-entry">
+                            <span class="date">YESTERDAY</span>
+                            <p>Fixed positioning bugs in mobile version.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
 
 
     <script src="assets/js/changeLanguagesTrainer.js"></script>
@@ -406,5 +445,6 @@
     <script src="assets/js/import.js"></script>
     <script src="assets/js/export.js"></script>
     <script src="assets/js/ThemeSwitch.js"></script>
+    <script src="assets/js/info-modal.js"></script>
 </body>
 </html>
