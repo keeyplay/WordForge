@@ -1,6 +1,7 @@
 function openInfoModal() {
     const modal = document.getElementById('info-modal-overlay');
     modal.style.display = 'flex'; 
+
     setTimeout(() => {
         modal.classList.add('active');
     }, 10);
