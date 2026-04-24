@@ -57,7 +57,7 @@ function switchLanguage() {
                 element.innerText = enTranslations[id];
             }
         }
-    }
+    } 
 };
 
 function openModalChoose() {
@@ -91,6 +91,15 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             const element = document.getElementById(id);
             if(element) {
                 element.innerText = deTranslations[id];
+            }
+        }
+    } else if(switchLanCountLS === "pl") {
+        localStorage.setItem("language", switchLanCountLS);
+        const plTranslations = Translate.pl;
+        for(let id in plTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = plTranslations[id];
             }
         }
     }
