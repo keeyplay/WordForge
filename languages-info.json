@@ -13,5 +13,10 @@
     "infoup": "WordForge — ein interaktiver Vokabeltrainer mit Karteikarten. Lerne Wörter, sammle Münzen, verfolge deinen Fortschritt — alles im Browser mit automatischem Speichern.",
     "btn_start": "starten",
     "change_language": "🇩🇪"
+  },
+  "pl": {
+    "infoup": "WordForge — interaktywny trener słownictwa z fiszkami. Ucz się słów, zdobywaj monety, śledź postępy — wszystko w przeglądarce z automatycznym zapisywaniem.",
+    "btn_start": "start",
+    "change_language": "🇵🇱"
   }
 }

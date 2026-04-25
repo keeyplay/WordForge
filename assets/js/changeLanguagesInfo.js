@@ -69,6 +69,7 @@ function switchLanguage() {
                         </div>
                     </div>
                 `;
+                switchLanguageForModal(localStorage.getItem("language"));
                 document.getElementById("change_language").innerText = "🇷🇺";
                 switchLanCount = "ru";
                 localStorage.setItem("language", switchLanCount);
@@ -95,6 +96,7 @@ function switchLanguage() {
             }
             // localStorage.setItem('language', "ru");
         }
+        switchLanguageForModal("ru");
     } else if(switchLanCount === "ru") {
         if(isStartButtonClicked) {
                 document.body.innerHTML = infoHTML;
@@ -159,7 +161,73 @@ function switchLanguage() {
             }
 
         }
+        switchLanguageForModal("de");
     } else if(switchLanCount === "de") {
+        if(isStartButtonClicked) {
+                document.body.innerHTML = infoHTML;
+                document.body.innerHTML += `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
+                                    <h2>O WordForge</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> to lekki, interaktywny trener słownictwa zbudowany w czystym JavaScript. Zamienia naukę języka w satysfakcjonującą grę.<br><span>Główna idea:</span> Twórz cyfrowe fiszki, testuj się za pomocą animacji odwracania i zdobywaj monety za poprawne odpowiedzi. Cały twój postęp zapisywany jest bezpośrednio w twojej przeglądarce.<br><span>Stos technologiczny:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. Żadnych frameworków, backendu ani kont — tylko szybka i prywatna nauka.<br><span>Dlaczego to zbudowałem:</span> Potrzebowałem prostego, grywalnego narzędzia do własnej nauki angielskiego. Ten projekt to moja podróż uczenia się publicznie (#buildinpublic), od pierwszej linijki kodu po działający produkt.</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>O mnie</h2>
+                                    <h3 id="textabtme">Cześć, jestem <span>keeyplay</span>, 15-letni samouk programista z Rosji 🇷🇺.<br><span>Moja misja:</span> Tworzyć wpływowe produkty cyfrowe i wytyczyć ścieżkę do przyszłej kariery w technologii w UE 🇪🇺 lub USA 🇺🇸.<br><span>Co robię:</span><br>→ Programuję publicznie. Dokumentuję moją podróż full-stack (JS, PHP, React) na Twitterze.<br>→ Buduję i zarządzam serwerem Minecraft oraz społecznością (moje pierwsze przedsięwzięcie biznesowe).<br>→ Codziennie uczę się angielskiego, aby wejść do globalnej sceny technologicznej.<br><span>Moje przekonanie:</span> Konsekwencja stwarza okazje. Skupiam się na dostarczaniu projektów, rozwijaniu umiejętności i nawiązywaniu kontaktów z globalną społecznością programistów.<br><span>Połączmy się na <a href="https://x.com/keeyplay">Twitterze</a> lub sprawdź kod na <a href="https://github.com/keeyplay/WordForge">GitHubie</a>.</span></h3>
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                document.getElementById("change_language").innerText = "🇵🇱";
+                switchLanCount = "pl";
+                localStorage.setItem("language", switchLanCount);
+
+                //click to new button
+                document.getElementById("logo-name").addEventListener('click', function() {
+                    this.classList.add('clicked');
+                    document.getElementById("links").style.display = "none";
+                    document.getElementById("info").style.display = "none";
+                    setTimeout(() => {         
+                        window.location.href = 'trainer.html';
+                    }, 2000); 
+                });
+        } else {
+            document.getElementById("change_language").innerText = "🇵🇱";
+            switchLanCount = "pl";
+            localStorage.setItem("language", switchLanCount);
+            const plTranslations = Translate.pl;
+            for(let id in plTranslations) {
+                const element = document.getElementById(id);
+                if(element) {
+                    element.innerText = plTranslations[id];
+                }
+            }
+
+        }
+        switchLanguageForModal("pl");
+    } else if(switchLanCount === "pl") {
         if(isStartButtonClicked) {
                 document.body.innerHTML = infoHTML;
                 document.body.innerHTML += `
@@ -223,6 +291,7 @@ function switchLanguage() {
             }
 
         }
+        switchLanguageForModal("en");
     }
 };
 
@@ -250,6 +319,14 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             const element = document.getElementById(id);
             if(element) {
                 element.innerText = deTranslations[id];
+            }
+        }
+    } else if(switchLanCountLS === "pl") {
+        const plTranslations = Translate.pl;
+        for(let id in plTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = plTranslations[id];
             }
         }
     }

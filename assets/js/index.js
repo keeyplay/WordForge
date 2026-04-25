@@ -50,6 +50,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                     </div>
                 </div>
             `;
+            switchLanguageForModal(localStorage.getItem("language"));
         } else if(localStorage.getItem("language") === "ru") {
             newContent = `
                 <div id="all-content">
@@ -86,7 +87,8 @@ document.getElementById('btn_start').addEventListener('click', function() {
                     </div>
                 </div>
             `;
-        } else {
+            switchLanguageForModal(localStorage.getItem("language"));
+        } else if(localStorage.getItem("language") === "de") {
             newContent = `
                     <div id="all-content">
                         <div id="new-content">
@@ -122,6 +124,44 @@ document.getElementById('btn_start').addEventListener('click', function() {
                         </div>
                     </div>
                 `;
+                switchLanguageForModal(localStorage.getItem("language"));
+        } else if(localStorage.getItem("language") === "pl") {
+            newContent = `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
+                                    <h2>O WordForge</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> to lekki, interaktywny trener słownictwa zbudowany w czystym JavaScript. Zamienia naukę języka w satysfakcjonującą grę.<br><span>Główna idea:</span> Twórz cyfrowe fiszki, testuj się za pomocą animacji odwracania i zdobywaj monety za poprawne odpowiedzi. Cały twój postęp zapisywany jest bezpośrednio w twojej przeglądarce.<br><span>Stos technologiczny:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. Żadnych frameworków, backendu ani kont — tylko szybka i prywatna nauka.<br><span>Dlaczego to zbudowałem:</span> Potrzebowałem prostego, grywalnego narzędzia do własnej nauki angielskiego. Ten projekt to moja podróż uczenia się publicznie (#buildinpublic), od pierwszej linijki kodu po działający produkt.</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>O mnie</h2>
+                                    <h3 id="textabtme">Cześć, jestem <span>keeyplay</span>, 15-letni samouk programista z Rosji 🇷🇺.<br><span>Moja misja:</span> Tworzyć wpływowe produkty cyfrowe i wytyczyć ścieżkę do przyszłej kariery w technologii w UE 🇪🇺 lub USA 🇺🇸.<br><span>Co robię:</span><br>→ Programuję publicznie. Dokumentuję moją podróż full-stack (JS, PHP, React) na Twitterze.<br>→ Buduję i zarządzam serwerem Minecraft oraz społecznością (moje pierwsze przedsięwzięcie biznesowe).<br>→ Codziennie uczę się angielskiego, aby wejść do globalnej sceny technologicznej.<br><span>Moje przekonanie:</span> Konsekwencja stwarza okazje. Skupiam się na dostarczaniu projektów, rozwijaniu umiejętności i nawiązywaniu kontaktów z globalną społecznością programistów.<br><span>Połączmy się na <a href="https://x.com/keeyplay">Twitterze</a> lub sprawdź kod na <a href="https://github.com/keeyplay/WordForge">GitHubie</a>.</span></h3>
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github" class="links">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter" class="links">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite" class="links">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                switchLanguageForModal(localStorage.getItem("language"));
         }
         
         document.body.style.height = "100vh";
