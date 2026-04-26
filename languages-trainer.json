@@ -56,7 +56,15 @@
     "all_cards": "All Cards",
     "word_label": "Word",
     "translation_label": "Translation",
-    "other": "Other"
+    "other": "Other",
+    "abt": "ABOUT",
+    "discribe-abt": "Simple vocabulary trainer. No sign-up, no payments. Just open and learn.",
+    "localstorage-f": "🌗 LocalStorage",
+    "Online-f": "🌍 Online",
+    "Stats-f": "📊 Stats",
+    "Streaks-f": "🎯 Streaks",
+    "footer-info": "Built by 15-yo dev • 80+ days #buildinpublic",
+    "news-txt": "NEWS"
   },
   "ru": {
     "cards-hint": "Свайп влево — не знаю · вправо — знаю",
@@ -115,7 +123,15 @@
     "all_cards": "Все карточки",
     "word_label": "Слово",
     "translation_label": "Перевод",
-    "other": "Другой"
+    "other": "Другой",
+    "abt": "О ПРОЕКТЕ",
+    "discribe-abt": "Простой тренажёр словарного запаса. Без регистрации, без платежей. Просто открой и учи.",
+    "localstorage-f": "🌗 Локальное хранилище",
+    "Online-f": "🌍 Онлайн",
+    "Stats-f": "📊 Статистика",
+    "Streaks-f": "🎯 Серии",
+    "footer-info": "Сделано 15-летним разработчиком • 80+ дней #buildinpublic",
+    "news-txt": "НОВОСТИ"
   },
   "de": {
     "cards-hint": "Nach links wischen — nicht gewusst · nach rechts — gewusst",
@@ -174,7 +190,15 @@
     "all_cards": "Alle Karten",
     "word_label": "Wort",
     "translation_label": "Übersetzung",
-    "other": "Andere"
+    "other": "Andere",
+    "abt": "ÜBER",
+    "discribe-abt": "Einfacher Vokabeltrainer. Keine Anmeldung, keine Zahlungen. Einfach öffnen und lernen.",
+    "localstorage-f": "🌗 Lokaler Speicher",
+    "Online-f": "🌍 Online",
+    "Stats-f": "📊 Statistiken",
+    "Streaks-f": "🎯 Serien",
+    "footer-info": "Entwickelt von 15-jährigem Dev • 80+ Tage #buildinpublic",
+    "news-txt": "NEUIGKEITEN"
   },
   "pl": {
     "cards-hint": "Przesuń w lewo — nie wiem · w prawo — wiem",
@@ -233,6 +257,14 @@
     "all_cards": "Wszystkie karty",
     "word_label": "Słowo",
     "translation_label": "Tłumaczenie",
-    "other": "Inne"
+    "other": "Inne",
+    "abt": "O PROJEKCIE",
+    "discribe-abt": "Prosty trener słownictwa. Bez rejestracji, bez opłat. Po prostu otwórz i ucz się.",
+    "localstorage-f": "🌗 Magazyn lokalny",
+    "Online-f": "🌍 Online",
+    "Stats-f": "📊 Statystyki",
+    "Streaks-f": "🎯 Serie",
+    "footer-info": "Stworzone przez 15-letniego dewelopera • 80+ dni #buildinpublic",
+    "news-txt": "AKTUALNOŚCI"
   }
 }
