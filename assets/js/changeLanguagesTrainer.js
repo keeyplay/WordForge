@@ -2,7 +2,7 @@
 let UserLang = navigator.language.split('-')[0];
 let switchLanCount = localStorage.getItem("language");
 if(!switchLanCount) {
-    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru") {
+    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr") {
         switchLanCount = "en";
     } else {
         switchLanCount = UserLang;
@@ -100,6 +100,15 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             const element = document.getElementById(id);
             if(element) {
                 element.innerText = plTranslations[id];
+            }
+        }
+    } else if(switchLanCountLS === "sr") {
+        localStorage.setItem("language", switchLanCountLS);
+        const srTranslations = Translate.sr;
+        for(let id in srTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = srTranslations[id];
             }
         }
     }

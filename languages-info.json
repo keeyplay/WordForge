@@ -18,5 +18,10 @@
     "infoup": "WordForge — interaktywny trener słownictwa z fiszkami. Ucz się słów, zdobywaj monety, śledź postępy — wszystko w przeglądarce z automatycznym zapisywaniem.",
     "btn_start": "start",
     "change_language": "🇵🇱"
+  },
+  "sr": {
+    "infoup": "WordForge — interaktivni trener reči sa flashcards. Učite reči, zarađujte novčiće, pratite napredak — sve u vašem pretraživaču sa automatskim čuvanjem.",
+    "btn_start": "start",
+    "change_language": "🇷🇸"
   }
 }

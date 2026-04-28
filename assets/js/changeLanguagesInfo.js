@@ -2,7 +2,7 @@
 let UserLang = navigator.language.split('-')[0];
 let switchLanCount = localStorage.getItem("language");
 if(!switchLanCount) {
-    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru") {
+    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr") {
         switchLanCount = "en";
     } else {
         switchLanCount = UserLang;
@@ -241,6 +241,71 @@ function switchLanguage() {
                             
                             <div id="about-section">
                                 <div class="about-left">
+                                    <h2>O WordForge</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> je lagan, interaktivan trener reči napravljen čistim JavaScript-om. Pretvara učenje jezika u igru sa nagradama.<br><span>Osnovna ideja:</span> Kreirajte digitalne kartice, testirajte sebe animacijom okretanja i zarađujte novčiće za tačne odgovore. Ceo vaš napredak čuva se direktno u vašem pretraživaču.<br><span>Tehnologije:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. Bez frejmvorkova, bez bekenda, bez naloga — samo brzo i privatno učenje.<br><span>Zašto sam ovo napravio:</span> Trebao mi je jednostavan, gamifikovan alat za moju sopstvenu vežbu engleskog. Ovaj projekat je moje putovanje javnog učenja (#buildinpublic), od prve linije koda do funkcionalnog proizvoda.</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>O meni</h2>
+                                    <h3 id="textabtme">Zdravo, ja sam <span>keeyplay</span>, 15-godišnji samouki programer iz Rusije 🇷🇺.<br><span>Moja misija:</span> Da pravim uticajne digitalne proizvode i krčim put ka budućoj tehničkoj karijeri u EU 🇪🇺 ili SAD 🇺🇸.<br><span>Šta radim:</span><br>→ Javno programiram. Dokumentujem svoje full-stack putovanje (JS, PHP, React) na Twitter-u.<br>→ Gradim i upravljam Minecraft serverom i zajednicom (moj prvi poslovni poduhvat).<br>→ Učim engleski svakodnevno da bih ušao u globalnu tech scenu.<br><span>Moje verovanje:</span> Doslednost stvara prilike. Fokusiram se na izbacivanje projekata, razvijanje veština i povezivanje sa globalnom programerskom zajednicom.<br><span>Povežimo se na <a href="https://x.com/keeyplay">Twitter-u</a> ili pogledajte kod na <a href="https://github.com/keeyplay/WordForge">GitHub-u</a>.</span></h3>
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                document.getElementById("change_language").innerText = "🇷🇸";
+                switchLanCount = "sr";
+                localStorage.setItem("language", switchLanCount);
+
+                //click to new button
+                document.getElementById("logo-name").addEventListener('click', function() {
+                    this.classList.add('clicked');
+                    document.getElementById("links").style.display = "none";
+                    document.getElementById("info").style.display = "none";
+                    setTimeout(() => {         
+                        window.location.href = 'trainer.html';
+                    }, 2000); 
+                });
+        } else {
+            document.getElementById("change_language").innerText = "🇷🇸";
+            switchLanCount = "sr";
+            localStorage.setItem("language", switchLanCount);
+            const srTranslations = Translate.sr;
+            for(let id in srTranslations) {
+                const element = document.getElementById(id);
+                if(element) {
+                    element.innerText = srTranslations[id];
+                }
+            }
+
+        }
+        switchLanguageForModal("sr");
+    } else if(switchLanCount === "sr") {
+        if(isStartButtonClicked) {
+                document.body.innerHTML = infoHTML;
+                document.body.innerHTML += `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
                                     <h2>About WordForge</h2>
                                     <h3 id="textabtword"><span>WordForge</span> is a lightweight, interactive vocabulary trainer built with pure JavaScript. It turns language learning into a rewarding game.<br><span>Core Idea:</span> Create digital flashcards, test yourself with a flip animation, and earn coins for correct answers. Your entire progress is saved right in your browser.<br><span>Tech Stack:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. No frameworks, no backend, no accounts — just fast, private learning.<br><span>Why I Built It:</span> I needed a simple, gamified tool for my own English practice. This project is my journey of learning in public (#buildinpublic), from the first line of code to a working product.</h3>
                                     <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
@@ -327,6 +392,14 @@ function switchLanguageForModal(switchLanCountLS = "en") {
             const element = document.getElementById(id);
             if(element) {
                 element.innerText = plTranslations[id];
+            }
+        }
+    } else if(switchLanCountLS === "sr") {
+        const srTranslations = Translate.sr;
+        for(let id in srTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = srTranslations[id];
             }
         }
     }

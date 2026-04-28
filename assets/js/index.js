@@ -162,6 +162,43 @@ document.getElementById('btn_start').addEventListener('click', function() {
                     </div>
                 `;
                 switchLanguageForModal(localStorage.getItem("language"));
+        } else if(localStorage.getItem("language") === "sr") {
+            newContent = `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
+                                    <h2>O WordForge</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> je lagan, interaktivan trener reči napravljen čistim JavaScript-om. Pretvara učenje jezika u igru sa nagradama.<br><span>Osnovna ideja:</span> Kreirajte digitalne kartice, testirajte sebe animacijom okretanja i zarađujte novčiće za tačne odgovore. Ceo vaš napredak čuva se direktno u vašem pretraživaču.<br><span>Tehnologije:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. Bez frejmvorkova, bez bekenda, bez naloga — samo brzo i privatno učenje.<br><span>Zašto sam ovo napravio:</span> Trebao mi je jednostavan, gamifikovan alat za moju sopstvenu vežbu engleskog. Ovaj projekat je moje putovanje javnog učenja (#buildinpublic), od prve linije koda do funkcionalnog proizvoda.</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>O meni</h2>
+                                    <h3 id="textabtme">Zdravo, ja sam <span>keeyplay</span>, 15-godišnji samouki programer iz Rusije 🇷🇺.<br><span>Moja misija:</span> Da pravim uticajne digitalne proizvode i krčim put ka budućoj tehničkoj karijeri u EU 🇪🇺 ili SAD 🇺🇸.<br><span>Šta radim:</span><br>→ Javno programiram. Dokumentujem svoje full-stack putovanje (JS, PHP, React) na Twitter-u.<br>→ Gradim i upravljam Minecraft serverom i zajednicom (moj prvi poslovni poduhvat).<br>→ Učim engleski svakodnevno da bih ušao u globalnu tech scenu.<br><span>Moje verovanje:</span> Doslednost stvara prilike. Fokusiram se na izbacivanje projekata, razvijanje veština i povezivanje sa globalnom programerskom zajednicom.<br><span>Povežimo se na <a href="https://x.com/keeyplay">Twitter-u</a> ili pogledajte kod na <a href="https://github.com/keeyplay/WordForge">GitHub-u</a>.</span></h3>
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                switchLanguageForModal(localStorage.getItem("language"));
         }
         
         document.body.style.height = "100vh";
