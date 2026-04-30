@@ -980,8 +980,6 @@ video {
     transition: transform 0.3s ease;
     padding: 10px;
     border-radius: 100px;
-    border: 1px solid white;
-    background: black;
     color: white;
     transform: scale(0.8);
 
@@ -992,6 +990,32 @@ video {
     transform: scale(1.0);
     cursor: pointer;
     bottom: 30px;
+    border: 1px solid white;
+    background: black;
+}
+
+.commit-structure {
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--wf-orange);
+}
+
+#last-commit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.commit {
+    color: white;
+    text-decoration:none;
+}
+
+.commit-date {
+    display: flex;
+    justify-content: end;
+    color: #888;
 }
 
 #section_but_info.active {

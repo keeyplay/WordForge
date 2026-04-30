@@ -62,6 +62,10 @@ function switchLanguage() {
 
 function openModalChoose() {
     document.getElementById("modal-overlay-choose-language").style.display = "flex";
+
+    document.getElementById("modal-overlay-choose-language").addEventListener('click', function() {
+        document.getElementById("modal-overlay-choose-language").style.display = "none";
+    });
 }
 
 function switchLanguageForModal(switchLanCountLS = "en") {

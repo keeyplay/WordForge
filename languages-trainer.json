@@ -64,7 +64,7 @@
     "Stats-f": "📊 Stats",
     "Streaks-f": "🎯 Streaks",
     "footer-info": "Built by 15-yo dev • 80+ days #buildinpublic",
-    "news-txt": "NEWS"
+    "news-txt": "LATEST NEWS"
   },
   "ru": {
     "cards-hint": "Свайп влево — не знаю · вправо — знаю",
@@ -131,7 +131,7 @@
     "Stats-f": "📊 Статистика",
     "Streaks-f": "🎯 Серии",
     "footer-info": "Сделано 15-летним разработчиком • 80+ дней #buildinpublic",
-    "news-txt": "НОВОСТИ"
+    "news-txt": "ПОСЛЕДНЯЯ НОВОСТЬ"
   },
   "de": {
     "cards-hint": "Nach links wischen — nicht gewusst · nach rechts — gewusst",
@@ -198,7 +198,7 @@
     "Stats-f": "📊 Statistiken",
     "Streaks-f": "🎯 Serien",
     "footer-info": "Entwickelt von 15-jährigem Dev • 80+ Tage #buildinpublic",
-    "news-txt": "NEUIGKEITEN"
+    "news-txt": "AKTUELL NEU"
   },
   "pl": {
     "cards-hint": "Przesuń w lewo — nie wiem · w prawo — wiem",
@@ -265,7 +265,7 @@
     "Stats-f": "📊 Statystyki",
     "Streaks-f": "🎯 Serie",
     "footer-info": "Stworzone przez 15-letniego dewelopera • 80+ dni #buildinpublic",
-    "news-txt": "AKTUALNOŚCI"
+    "news-txt": "NOWOŚĆ"
   },
   "sr": {
     "cards-hint": "Prevucite levo — ne znam · desno — znam",
