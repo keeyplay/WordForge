@@ -243,34 +243,68 @@
         </footer>
     </div>
 
-    <div class="modal-overlay" id="modalAccountsContainer" style="display: none;">
-        <div class="modal" id="modal-account">
-            <button class="stats-panel-close" id="accounts-panel-close">×</button>
-            <div class="modal-header">
-                <img src="assets/pic/logo_png_cr.png" alt="" class="modal-logo">
-                <h2 class="modal-title" id="all-cards-county">Multi-Verse Accounts (0)</h2>
-                <div class="cards-edit" id="accounts">
+    <div class="modal-overlay" id="modalAccountsContainer" style="display: none; flex-direction: row;">
+        <div id="block-1" style="display:flex; flex-direction: column; gap: 10px">
+            <div class="modal" id="modal-account">
+                <button class="stats-panel-close" id="accounts-panel-close">×</button>
+                <div class="modal-header">
+                    <img src="assets/pic/logo_png_cr.png" alt="" class="modal-logo">
+                    <h2 class="modal-title" id="all-cards-county">Multi-Verse Accounts (0)</h2>
+                    <div class="cards-edit" id="accounts">
 
+                    </div>
+                    <div class="modal-actions" id="addAccountContainer">
+                        <button class="stats-panel-close" id="addAccount">+</button>
+                    </div>
+                    <div class="modal-actions">
+                        
+                    </div>
                 </div>
-                <div class="modal-actions" id="addAccountContainer">
-                    <button class="stats-panel-close" id="addAccount">+</button>
-                </div>
-                <div class="modal-actions">
-                    
+                
+            </div>
+            <div class="modal" id="modalAccountsContainerTextContainer">
+                <div class="modal-header">
+                    <h1 id="whatsit">What's it?</h1>
+                    <p id="modalAccountsContainerText">Multi-Verse Profiles - separate accounts for each language. <br>Learn English? German? Russian? Switch anytime, cards never mix</p>
                 </div>
             </div>
-            
+            <div class="modal" id="modalDeleteAllData">
+                <div class="modal-header">
+                    <p id="deletealldata">Delete all data</p>
+                </div>
+            </div>
         </div>
-        <div class="modal" id="modalAccountsContainerTextContainer">
-            <div class="modal-header">
-                <h1 id="whatsit">What's it?</h1>
-                <p id="modalAccountsContainerText">Multi-Verse Profiles - separate accounts for each language. <br>Learn English? German? Russian? Switch anytime, cards never mix</p>
+        <div id="block-2" style="display: flex; flex-direction: column; gap: 10px;">
+            <div class="premium-modal-light">
+                
+                <div class="premium-title">
+                    <div class="premium-title-main">WordForge Premium</div>
+                    <div class="premium-subtitle">Stop memorizing. Start owning.</div>
+                </div>
+
+                <div class="premium-features">
+                    <div class="premium-feature"><span class="premium-feature-icon">🌗</span> Custom themes</div>
+                    <div class="premium-feature"><span class="premium-feature-icon">📊</span> Visual stats</div>
+                    <div class="premium-feature"><span class="premium-feature-icon">☁️</span> Cloud sync</div>
+                    <div class="premium-feature"><span class="premium-feature-icon">📑</span> Anki/PDF</div>
+                    <div class="premium-feature"><span class="premium-feature-icon">🔓</span> Unlimited cards</div>
+                    <div class="premium-feature"><span class="premium-feature-icon">⚡</span> Priority support</div>
+                </div>
+
+                <div class="premium-pricing">
+                    <div class="premium-price"><span class="premium-price-dollar">$</span>3 <span class="premium-price-period">/month</span></div>
+                    <div class="premium-save">or $25/year (save 30%)</div>
+                </div>
+
+                <button class="premium-btn-light" onclick="alert('Premium activation coming soon 🔥')">
+                    Get Premium →
+                </button>
+                <div class="premium-footer">Free version works forever.</div>
             </div>
-        </div>
-        <div class="modal" id="modalDeleteAllData">
-            <div class="modal-header">
-                <p id="deletealldata">Delete all data</p>
+            <div class="modal" id="code-modal" style="max-width: 450px; display: flex; flex-direction: row; gap: 10px">
+                <h2 style="margin-top: 3px;">code: </h2><input id="input-code-premium"><h2 id="active-premium" class="premium-btn-light">Active</h2>
             </div>
+            <div class="premium-footer">Special secure code for active Premium mode without sing-up.</div>
         </div>
     </div>
     <div class="modal-overlay" id="modalAddAccounts" style="display: none;">

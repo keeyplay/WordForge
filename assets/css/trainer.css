@@ -780,6 +780,9 @@ video {
     #trainer-logo {
         font-size: 10px;
     }
+    #modalAccountsContainer {
+        flex-direction: column !important;
+    }
 }
 
 * {
@@ -800,7 +803,6 @@ video {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    display: none;
 
     transition-duration: 0.5s;  
 }
@@ -812,6 +814,25 @@ video {
     display: flex;
     flex-direction: column;
     gap: 10px
+}
+
+#modalAccountsContainer {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#modalAccountsContainer .modal,
+#modalAccountsContainer .premium-modal-light {
+    max-height: 90vh;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; 
 }
 
 #deletealldata {
@@ -1007,6 +1028,10 @@ video {
     gap: 10px;
 }
 
+#logo-wordforge-premium {
+    font-size: 25px;
+}
+
 .commit {
     color: white;
     text-decoration:none;
@@ -1116,4 +1141,107 @@ video {
 
 #buttonLocalAccounts.clicked {
     transform: rotate(90deg);
+}
+/* Premium Modal — светлая тема */
+.premium-modal-light {
+    background: white;
+    border-radius: 24px;
+    padding: 24px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.premium-title {
+    text-align: center;
+}
+
+.premium-title-main {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #c084fc, #db2777, #f59e0b, #ec4899);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.premium-subtitle {
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+/* Сетка фич */
+.premium-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.premium-feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.premium-feature-icon {
+    font-size: 18px;
+}
+
+/* Цена */
+.premium-pricing {
+    text-align: center;
+    margin: 8px 0 12px;
+}
+
+.premium-price {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.premium-price-dollar {
+    font-size: 16px;
+}
+
+.premium-price-period {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.premium-save {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+/* Кнопка */
+.premium-btn-light {
+    background: linear-gradient(135deg, #c084fc, #db2777);
+    border: none;
+    padding: 12px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: auto;
+    text-align: center;
+}
+
+.premium-btn-light:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(192, 132, 252, 0.3);
+}
+
+.premium-footer {
+    text-align: center;
+    font-size: 10px;
+    color: #9ca3af;
+    margin-top: 12px;
 }
