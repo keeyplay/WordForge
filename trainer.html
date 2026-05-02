@@ -276,35 +276,38 @@
         </div>
         <div id="block-2" style="display: flex; flex-direction: column; gap: 10px;">
             <div class="premium-modal-light">
-                
-                <div class="premium-title">
-                    <div class="premium-title-main">WordForge Premium</div>
-                    <div class="premium-subtitle">Stop memorizing. Start owning.</div>
+                    <div class="premium-title">
+                        <div id="premiumTitle" class="premium-title-main">WordForge Premium</div>
+                        <div id="premiumSubtitle" class="premium-subtitle">Stop memorizing. Start owning.</div>
+                    </div>
+
+                    <div class="premium-features">
+                        <div id="feat1" class="premium-feature"><span class="premium-feature-icon">🌗</span> Custom themes</div>
+                        <div id="feat2" class="premium-feature"><span class="premium-feature-icon">📊</span> Visual stats</div>
+                        <div id="feat3" class="premium-feature"><span class="premium-feature-icon">☁️</span> Cloud sync</div>
+                        <div id="feat4" class="premium-feature"><span class="premium-feature-icon">📑</span> Anki/PDF</div>
+                        <div id="feat5" class="premium-feature"><span class="premium-feature-icon">🔓</span> Unlimited cards</div>
+                        <div id="feat6" class="premium-feature"><span class="premium-feature-icon">⚡</span> Priority support</div>
+                    </div>
+
+                    <div class="premium-pricing">
+                        <div id="premiumPrice" class="premium-price"><span class="premium-price-dollar">$</span>3 <span class="premium-price-period">/month</span></div>
+                        <div id="premiumSave" class="premium-save">or $25/year (save 30%)</div>
+                    </div>
+
+                    <button id="premiumButton" class="premium-btn-light" onclick="alert('Premium activation coming soon 🔥')">
+                        Get Premium →
+                    </button>
+                    <div id="premiumFooterFree" class="premium-footer">Free version works forever.</div>
                 </div>
 
-                <div class="premium-features">
-                    <div class="premium-feature"><span class="premium-feature-icon">🌗</span> Custom themes</div>
-                    <div class="premium-feature"><span class="premium-feature-icon">📊</span> Visual stats</div>
-                    <div class="premium-feature"><span class="premium-feature-icon">☁️</span> Cloud sync</div>
-                    <div class="premium-feature"><span class="premium-feature-icon">📑</span> Anki/PDF</div>
-                    <div class="premium-feature"><span class="premium-feature-icon">🔓</span> Unlimited cards</div>
-                    <div class="premium-feature"><span class="premium-feature-icon">⚡</span> Priority support</div>
+                <div class="modal" id="code-modal" style="max-width: 450px; display: flex; flex-direction: row; gap: 10px; align-items: center;">
+                    <h2 id="codeLabel" style="margin-top: 3px;">code:</h2>
+                    <input id="input-code-premium" placeholder="XXXX-XXXX">
+                    <h2 id="activateButton" class="premium-btn-light" style="padding: 8px 16px; cursor: pointer;">Active</h2>
                 </div>
-
-                <div class="premium-pricing">
-                    <div class="premium-price"><span class="premium-price-dollar">$</span>3 <span class="premium-price-period">/month</span></div>
-                    <div class="premium-save">or $25/year (save 30%)</div>
-                </div>
-
-                <button class="premium-btn-light" onclick="alert('Premium activation coming soon 🔥')">
-                    Get Premium →
-                </button>
-                <div class="premium-footer">Free version works forever.</div>
+                <div id="premiumFooterSecure" class="premium-footer">Special secure code for active Premium mode without sign-up.</div>
             </div>
-            <div class="modal" id="code-modal" style="max-width: 450px; display: flex; flex-direction: row; gap: 10px">
-                <h2 style="margin-top: 3px;">code: </h2><input id="input-code-premium"><h2 id="active-premium" class="premium-btn-light">Active</h2>
-            </div>
-            <div class="premium-footer">Special secure code for active Premium mode without sing-up.</div>
         </div>
     </div>
     <div class="modal-overlay" id="modalAddAccounts" style="display: none;">
