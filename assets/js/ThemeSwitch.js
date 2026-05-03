@@ -37,6 +37,24 @@ function ThemeSwitchFunc() {
     document.getElementById("modal-accountAdd").style.background = isDark ? "black" : "white";
     document.getElementById("whatslang").style.color = isDark ? "white" : "black";
 
+    // premium
+    document.querySelector('.premium-modal-light').style.background = isDark ? "#000000" : "white";
+    document.querySelector(".premium-modal-light").style.boxShadow = isDark ? "0px 0px 2px white" : "";
+    document.querySelector('.premium-modal-light').style.color = isDark ? "white" : "#000000";
+    document.getElementById("premiumTitle").style.color = isDark ? "white" : "#000000";
+    document.getElementById("premiumSubtitle").style.color = isDark ? "#a1a1aa" : "#6b7280";
+    document.querySelectorAll('.premium-feature').forEach(el => el.style.color = isDark ? "#e5e5e5" : "#374151");
+    document.getElementById("premiumPrice").style.color = isDark ? "white" : "#1a1a1a";
+    document.getElementById("premiumSave").style.color = isDark ? "#a1a1aa" : "#6b7280";
+    document.getElementById("premiumFooterFree").style.color = isDark ? "#9ca3af" : "#9ca3af";
+    document.getElementById("code-modal").style.background = isDark ? "#000000" : "white";
+    document.getElementById("code-modal").style.boxShadow = isDark ? "0px 0px 2px white" : "";
+    document.getElementById("codeLabel").style.color = isDark ? "white" : "#1a1a1a";
+    document.getElementById("input-code-premium").style.background = isDark ? "#2a2a2a" : "white";
+    document.getElementById("input-code-premium").style.color = isDark ? "white" : "#1a1a1a";
+    document.getElementById("input-code-premium").style.border = isDark ? "1px solid #444" : "1px solid #ccc";
+    document.getElementById("premiumFooterSecure").style.color = isDark ? "#ffffff" : "#9ca3af";
+
     // Stats page
     document.getElementById("stats-panel").style.background = isDark ? "black" : "white";
     document.getElementById("progressTxT").style.color = isDark ? "gray" : "black";
