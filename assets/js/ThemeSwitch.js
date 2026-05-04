@@ -36,6 +36,10 @@ function ThemeSwitchFunc() {
     document.getElementById("whatsit").style.color = isDark ? "white" : "black";
     document.getElementById("modal-accountAdd").style.background = isDark ? "black" : "white";
     document.getElementById("whatslang").style.color = isDark ? "white" : "black";
+    document.getElementById("dropdownContent-choose-lang").style.background = isDark ? "black" : "white";
+    document.querySelectorAll('#dropdownContent-choose-lang a').forEach(link => {
+        link.style.color = isDark ? "white" : "black";
+    });
 
     // premium
     document.querySelector('.premium-modal-light').style.background = isDark ? "#000000" : "white";

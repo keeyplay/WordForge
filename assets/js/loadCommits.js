@@ -21,7 +21,7 @@ async function getLastCommit() {
             `;
         }
     } catch (error) {
-        console.error('Ошибка загрузки коммита:', error);
+        console.error('Error:', error);
     }
 }
 
