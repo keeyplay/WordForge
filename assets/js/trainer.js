@@ -344,12 +344,22 @@ function openModalEdit() {
     document.body.style.overflow = 'hidden';
     
     for(let el = 0; el < cards.length; el++) {
-        document.getElementById("cards-edit").innerHTML += `
-            <div class='card-edit'>
-                <h2 class="text-of-card">${el+1}. ${cards[el].word} - ${cards[el].translation}</h2>
-                <h2 class="btn-delete-card" id="btn-delete-card/${el}">Delete</h2>
-            </div>
-        `;
+        if(cards[el].knowCount >= 5) {
+            document.getElementById("cards-edit").innerHTML += `
+                <div class='card-edit'>
+                    <h2 class="text-of-card">${el+1}. ${cards[el].word} - ${cards[el].translation} <span title="Learned card (you clicked 'know' 5+ times)">✔️<span></h2>
+                    <h2 class="btn-delete-card" id="btn-delete-card/${el}">Delete</h2>
+                </div>
+            `;
+        } else {
+            document.getElementById("cards-edit").innerHTML += `
+                <div class='card-edit'>
+                    <h2 class="text-of-card">${el+1}. ${cards[el].word} - ${cards[el].translation}</h2>
+                    <h2 class="btn-delete-card" id="btn-delete-card/${el}">Delete</h2>
+                </div>
+            `;
+        }
+        
     }
     switchLanguageForModal(localStorage.getItem("language"));
     ThemeSwitchFunc();
