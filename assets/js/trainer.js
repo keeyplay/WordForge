@@ -359,6 +359,7 @@ function openModalEdit() {
                 </div>
             `;
         }
+        document.getElementById("counter-of-learned-cards").innerText = CounterLernedCards();
         
     }
     switchLanguageForModal(localStorage.getItem("language"));
@@ -451,4 +452,12 @@ function ShowConfetti() {
     setTimeout(function() {
         document.getElementById("fullscreen-bg").innerHTML = "";
     }, 12000)
+}
+
+function CounterLernedCards() {
+    let count = 0;
+    for(let el = 0; el < cards.length; el++) {
+        if(cards[el].knowCount >= 5) count++;
+    }
+    return count;
 }
