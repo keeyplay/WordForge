@@ -151,6 +151,15 @@ function renderCards() {
         document.getElementById("done-state").style.display = "none";
         document.getElementById("cards-stack").style.display = "flex";
         document.getElementById("swipe-actions").style.display = "flex";
+        if(profileData.hide) {
+            let cardAddUpdate = [];
+            for(let el = 0; el < cardsAdd.length; el++) {
+                if(cardsAdd[el].knowCount < 5) {
+                    cardAddUpdate.push(cardsAdd[el]);
+                }
+            }
+            cardsAdd = cardAddUpdate;
+        }
 
         if (randomCount >= cardsAdd.length) {
             updateRandomCount();
@@ -323,7 +332,7 @@ document.getElementById("btn-modal-cancel").addEventListener('click', function()
     document.getElementById("modal-overlay").style.display = "none"; 
     document.body.style.overflow = '';
 });
-//start again 
+//`start` again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
     cardWord = document.getElementById("card-word");
     cardsAdd = [...cards];
@@ -461,3 +470,10 @@ function CounterLernedCards() {
     }
     return count;
 }
+
+document.getElementById('hidelearnedCards').addEventListener('change', function() {
+    let isChecked = this.checked; 
+    
+    profileData.hide = isChecked;
+    localStorage.setItem(profile, JSON.stringify(profileData));
+});
