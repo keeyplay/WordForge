@@ -79,7 +79,9 @@
     "premiumFooterFree": "Free version works forever.",
     "codeLabel": "code:",
     "activateButton": "Active",
-    "premiumFooterSecure": "Special secure code for active Premium mode without sign-up."
+    "premiumFooterSecure": "Special secure code for active Premium mode without sign-up.",
+    "learnedCount": "Learned cards",
+    "hideLearned": "Hide learned cards"
   },
   "ru": {
     "cards-hint": "Свайп влево — не знаю · вправо — знаю",
@@ -161,7 +163,9 @@
     "premiumFooterFree": "Бесплатная версия работает вечно.",
     "codeLabel": "код:",
     "activateButton": "Активировать",
-    "premiumFooterSecure": "Специальный код для активации Premium без регистрации."
+    "premiumFooterSecure": "Специальный код для активации Premium без регистрации.",
+    "learnedCount": "Выученные карточки",
+    "hideLearned": "Скрыть выученные"
   },
   "de": {
     "cards-hint": "Nach links wischen — nicht gewusst · nach rechts — gewusst",
@@ -243,7 +247,9 @@
     "premiumFooterFree": "Die kostenlose Version funktioniert für immer.",
     "codeLabel": "Code:",
     "activateButton": "Aktivieren",
-    "premiumFooterSecure": "Spezieller Sicherheitscode zur Aktivierung von Premium ohne Registrierung."
+    "premiumFooterSecure": "Spezieller Sicherheitscode zur Aktivierung von Premium ohne Registrierung.",
+    "learnedCount": "Gelernte Karten",
+    "hideLearned": "Gelernte ausblenden"
   },
   "pl": {
     "cards-hint": "Przesuń w lewo — nie wiem · w prawo — wiem",
@@ -325,7 +331,9 @@
     "premiumFooterFree": "Darmowa wersja działa zawsze.",
     "codeLabel": "kod:",
     "activateButton": "Aktywuj",
-    "premiumFooterSecure": "Specjalny kod bezpieczeństwa do aktywacji Premium bez rejestracji."
+    "premiumFooterSecure": "Specjalny kod bezpieczeństwa do aktywacji Premium bez rejestracji.",
+    "learnedCount": "Nauczone karty",
+    "hideLearned": "Ukryj nauczone"
   },
   "sr": {
     "cards-hint": "Prevucite levo — ne znam · desno — znam",
@@ -407,6 +415,8 @@
     "premiumFooterFree": "Besplatna verzija radi zauvek.",
     "codeLabel": "kod:",
     "activateButton": "Aktiviraj",
-    "premiumFooterSecure": "Poseban sigurnosni kod za aktivaciju Premiuma bez registracije."
+    "premiumFooterSecure": "Poseban sigurnosni kod za aktivaciju Premiuma bez registracije.",
+    "learnedCount": "Naučene kartice",
+    "hideLearned": "Sakrij naučene"
   }
 }
