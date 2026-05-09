@@ -295,7 +295,7 @@
                         <div id="premiumSave" class="premium-save">or $25/year (save 30%)</div>
                     </div>
 
-                    <button id="premiumButton" class="premium-btn-light" onclick="alert('Premium activation coming soon 🔥')">
+                    <button id="premiumButton" class="premium-btn-light">
                         Get Premium →
                     </button>
                     <div id="premiumFooterFree" class="premium-footer">Free version works forever.</div>
@@ -304,7 +304,7 @@
                 <div class="modal" id="code-modal" style="max-width: 450px; display: flex; flex-direction: row; gap: 10px; align-items: center;">
                     <h2 id="codeLabel" style="margin-top: 3px;">code:</h2>
                     <input id="input-code-premium" placeholder="XXXX-XXXX">
-                    <h2 id="activateButton" class="premium-btn-light" style="padding: 8px 16px; cursor: pointer;">Active</h2>
+                    <h2 id="activateButton" class="premium-btn-light" style="padding: 8px 16px; cursor: pointer;" onclick="checkPremium()">Active</h2>
                 </div>
                 <div id="premiumFooterSecure" class="premium-footer">Special secure code for active Premium mode without sign-up.</div>
             </div>
@@ -373,16 +373,16 @@
         <div class="modal" id="modal">
             <div class="modal-header">
                 <img src="assets/pic/logo_png_cr.png" alt="" class="modal-logo">
-                <h2 class="modal-title">Add card</h2>
+                <h2 class="modal-title" id="modal-title-add">Add card</h2>
             </div>
             <form class="modal-form" id="modal-form">
-                <label class="modal-label" for="input-word">Word</label>
+                <label class="modal-label" for="input-word" id="modal-label-word">Word</label>
                 <input type="text" id="input-word" class="modal-input" placeholder="e.g. apple" autocomplete="off" required>
-                <label class="modal-label" for="input-translation">Translation</label>
+                <label class="modal-label" for="input-translation" id="modal-label-translation">Translation</label>
                 <input type="text" id="input-translation" class="modal-input" placeholder="e.g. яблоко" autocomplete="off" required>
                 <div class="modal-actions">
-                    <button type="button" class="btn-modal-cancel" id="btn-modal-cancel">Cancel</button>
-                    <button type="button" class="btn-modal-save" id="btn-modal-save">Save</button>
+                    <button type="button" class="btn-modal-cancel" id="btn-modal-cancel" id="btn-modal-cancel">Cancel</button>
+                    <button type="button" class="btn-modal-save" id="btn-modal-save" id="btn-modal-cancel">Save</button>
                 </div>
             </form>
         </div>
@@ -494,5 +494,6 @@
     <script src="assets/js/export.js"></script>
     <script src="assets/js/ThemeSwitch.js"></script>
     <script src="assets/js/info-modal.js"></script>
+    <script src="assets/js/checkPremium.js"></script>
 </body>
 </html>

@@ -80,8 +80,8 @@
     "codeLabel": "code:",
     "activateButton": "Active",
     "premiumFooterSecure": "Special secure code for active Premium mode without sign-up.",
-    "learnedCount": "Learned cards",
-    "hideLearned": "Hide learned cards"
+    "translate-learned-count": "Learned cards",
+    "translate-hide-learned-cards": "Hide learned cards"
   },
   "ru": {
     "cards-hint": "Свайп влево — не знаю · вправо — знаю",
@@ -164,8 +164,8 @@
     "codeLabel": "код:",
     "activateButton": "Активировать",
     "premiumFooterSecure": "Специальный код для активации Premium без регистрации.",
-    "learnedCount": "Выученные карточки",
-    "hideLearned": "Скрыть выученные"
+    "translate-learned-count": "Выученные карточки",
+    "translate-hide-learned-cards": "Скрыть выученные"
   },
   "de": {
     "cards-hint": "Nach links wischen — nicht gewusst · nach rechts — gewusst",
@@ -248,8 +248,8 @@
     "codeLabel": "Code:",
     "activateButton": "Aktivieren",
     "premiumFooterSecure": "Spezieller Sicherheitscode zur Aktivierung von Premium ohne Registrierung.",
-    "learnedCount": "Gelernte Karten",
-    "hideLearned": "Gelernte ausblenden"
+    "translate-learned-count": "Gelernte Karten",
+    "translate-hide-learned-cards": "Gelernte ausblenden"
   },
   "pl": {
     "cards-hint": "Przesuń w lewo — nie wiem · w prawo — wiem",
@@ -332,8 +332,8 @@
     "codeLabel": "kod:",
     "activateButton": "Aktywuj",
     "premiumFooterSecure": "Specjalny kod bezpieczeństwa do aktywacji Premium bez rejestracji.",
-    "learnedCount": "Nauczone karty",
-    "hideLearned": "Ukryj nauczone"
+    "translate-learned-count": "Nauczone karty",
+    "translate-hide-learned-cards": "Ukryj nauczone"
   },
   "sr": {
     "cards-hint": "Prevucite levo — ne znam · desno — znam",
@@ -416,7 +416,7 @@
     "codeLabel": "kod:",
     "activateButton": "Aktiviraj",
     "premiumFooterSecure": "Poseban sigurnosni kod za aktivaciju Premiuma bez registracije.",
-    "learnedCount": "Naučene kartice",
-    "hideLearned": "Sakrij naučene"
+    "translate-learned-count": "Naučene kartice",
+    "translate-hide-learned-cards": "Sakrij naučene"
   }
 }
