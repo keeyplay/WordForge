@@ -7,7 +7,7 @@ async function getLastCommit() {
 
         for(let i = 0; i < 5; i++) {
             lastCommit = commits[0+i];
-            let commitMessage = lastCommit.commit.message.split('\n')[0]; // первая строка
+            let commitMessage = lastCommit.commit.message.split('\n')[0]; // first line
             let commitDate = new Date(lastCommit.commit.author.date).toLocaleDateString();
             let commitUrl = lastCommit.html_url;
             document.getElementById('last-commit').innerHTML += `
