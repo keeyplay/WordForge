@@ -140,6 +140,7 @@ updateStreak()
 //render cards ---------------------------------------------------------------------
 
 function renderCards() {
+    UpdateWithoutLearnedCards();
     if(cards.length === 0 && cardsAdd.length === 0) {
         document.getElementById("cards-stack").style.display = "none";
         document.getElementById("swipe-actions").style.display = "none";
@@ -151,15 +152,6 @@ function renderCards() {
         document.getElementById("done-state").style.display = "none";
         document.getElementById("cards-stack").style.display = "flex";
         document.getElementById("swipe-actions").style.display = "flex";
-        if(profileData.hide) {
-            let cardAddUpdate = [];
-            for(let el = 0; el < cardsAdd.length; el++) {
-                if(cardsAdd[el].knowCount < 5) {
-                    cardAddUpdate.push(cardsAdd[el]);
-                }
-            }
-            cardsAdd = cardAddUpdate;
-        }
 
         if (randomCount >= cardsAdd.length) {
             updateRandomCount();
@@ -334,14 +326,18 @@ document.getElementById("btn-modal-cancel").addEventListener('click', function()
 });
 //`start` again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
-    cardWord = document.getElementById("card-word");
-    cardsAdd = [...cards];
-    localStorage.setItem(profile, JSON.stringify(profileData));
-    updateRandomCount();
-    renderCards();
-    document.getElementById("cards-stack").style.display = "flex";
-    document.getElementById("swipe-actions").style.display = "flex";
-    document.getElementById("done-state").style.display = "none";
+    if(CounterLernedCards() !== cards.length) {
+        cardWord = document.getElementById("card-word");
+        cardsAdd = [...cards];
+        localStorage.setItem(profile, JSON.stringify(profileData));
+        updateRandomCount();
+        renderCards();
+        document.getElementById("cards-stack").style.display = "flex";
+        document.getElementById("swipe-actions").style.display = "flex";
+        document.getElementById("done-state").style.display = "none";
+    } else {
+        alert("all cards are learned");
+    }
 });
 
 //------------------------modal edit---------------------------------
@@ -476,4 +472,18 @@ document.getElementById('hidelearnedCards').addEventListener('change', function(
     
     profileData.hide = isChecked;
     localStorage.setItem(profile, JSON.stringify(profileData));
+    UpdateWithoutLearnedCards();
+    renderCards();
 });
+
+function UpdateWithoutLearnedCards() {
+    if(profileData.hide) {
+        let cardAddUpdate = [];
+        for(let el = 0; el < cardsAdd.length; el++) {
+            if(cardsAdd[el].knowCount < 5) {
+                cardAddUpdate.push(cardsAdd[el]);
+            }
+        }
+        cardsAdd = cardAddUpdate;
+    }
+}

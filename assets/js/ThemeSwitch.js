@@ -30,7 +30,8 @@ function ThemeSwitchFunc() {
     document.getElementById("editcardSym").style.color = textColor;
     document.getElementById("import").style.color = textColor;
     document.getElementById("export").style.color = textColor;
-    document.getElementById("translate-hide-learned-cards").style.color = isDark ? "white" : "black"; 
+    document.getElementById("translate-hide-learned-cards").style.color = isDark ? "white" : "black";
+    document.getElementById("btn-start-again").style.color = isDark ? "black" : "orange"; 
 
     document.getElementById("modalAccountsContainerText").style.color = isDark ? "white" : "dark";
     document.getElementById("modalAccountsContainerTextContainer").style.background = isDark ? "black" : "white";
