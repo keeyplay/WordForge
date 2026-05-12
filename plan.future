@@ -66,3 +66,6 @@ i need add/fix:
 - System of learned cards (show all learned cards, dont show learned cards) +
 - counter of learned cards +
 - able to cancel show learned cards (button in the edit modal) +
+- make main system of premium
+- cloudflare connect to protect premium mode
+- esc - like close modal
