@@ -11,6 +11,10 @@ let streaks = profileData.streaks || {
     CongToday: false
 };
 
+let PremiumActivated = reloadPremium().then(result => {
+    PremiumActivated = result;
+});
+
 let streakMessages = [];
 
 if(profileData.streaks) {
@@ -227,48 +231,97 @@ function ClickKnown() {
 
 //pressed button of save
 document.getElementById("btn-modal-save").addEventListener('click', function() {
-    document.body.style.overflow = '';
-    let word = document.getElementById("input-word").value
-    let trans = document.getElementById("input-translation").value 
-    let letAdd = true;
+    if(cards.length >= 299) {
+        if(PremiumActivated) {
+            document.body.style.overflow = '';
+            let word = document.getElementById("input-word").value
+            let trans = document.getElementById("input-translation").value 
+            let letAdd = true;
 
-    if(word.trim().length === 0 || trans.trim().length === 0) { alert("Please fill out all fields"); letAdd = false; }
-    if(word.length >= 15 || trans.length >= 15) { alert("Maximum 15 characters"); letAdd = false; }
+            if(word.trim().length === 0 || trans.trim().length === 0) { alert("Please fill out all fields"); letAdd = false; }
+            if(word.length >= 15 || trans.length >= 15) { alert("Maximum 15 characters"); letAdd = false; }
 
-    if(letAdd === true) {
-        let newWord = document.getElementById("input-word").value; 
-        let newTranslate = document.getElementById("input-translation").value;
-        //push cards
-        cards.push({
-            word: newWord,
-            translation: newTranslate,
-            date: getTodayDateString(),
-            knowCount: 0
-            // fliped: false //if true again try to show this card latter
-        });
+            if(letAdd === true) {
+                let newWord = document.getElementById("input-word").value; 
+                let newTranslate = document.getElementById("input-translation").value;
+                //push cards
+                cards.push({
+                    word: newWord,
+                    translation: newTranslate,
+                    date: getTodayDateString(),
+                    knowCount: 0
+                    // fliped: false //if true again try to show this card latter
+                });
 
-        cardsAdd.push({
-            word: newWord,
-            translation: newTranslate,
-            date: getTodayDateString(),
-            knowCount: 0
-            // fliped: false //if true again try to show this card latter
-        });
+                cardsAdd.push({
+                    word: newWord,
+                    translation: newTranslate,
+                    date: getTodayDateString(),
+                    knowCount: 0
+                    // fliped: false //if true again try to show this card latter
+                });
 
-        if(cards.length === 1 && cardsAdd.length === 1) {
-            document.getElementById("cards-stack").style.display = "flex";
-            document.getElementById("swipe-actions").style.display = "flex";
+                if(cards.length === 1 && cardsAdd.length === 1) {
+                    document.getElementById("cards-stack").style.display = "flex";
+                    document.getElementById("swipe-actions").style.display = "flex";
+                }
+
+                profileData.languageCards = cards;
+                localStorage.setItem(profile, JSON.stringify(profileData)); //update in localstorage 
+                updateRandomCount(); // update random count
+                renderCards(); //update card in front
+
+                document.getElementById("modal-overlay").style.display = "none"; //close modal window
+            }
+            document.getElementById("input-word").value = '';
+            document.getElementById("input-translation").value = '';
+        } else {
+            alert("Upradge to premium mode for new cards");
         }
+    } else {
+        document.body.style.overflow = '';
+        let word = document.getElementById("input-word").value
+        let trans = document.getElementById("input-translation").value 
+        let letAdd = true;
 
-        profileData.languageCards = cards;
-        localStorage.setItem(profile, JSON.stringify(profileData)); //update in localstorage 
-        updateRandomCount(); // update random count
-        renderCards(); //update card in front
+        if(word.trim().length === 0 || trans.trim().length === 0) { alert("Please fill out all fields"); letAdd = false; }
+        if(word.length >= 15 || trans.length >= 15) { alert("Maximum 15 characters"); letAdd = false; }
 
-        document.getElementById("modal-overlay").style.display = "none"; //close modal window
+        if(letAdd === true) {
+            let newWord = document.getElementById("input-word").value; 
+            let newTranslate = document.getElementById("input-translation").value;
+            //push cards
+            cards.push({
+                word: newWord,
+                translation: newTranslate,
+                date: getTodayDateString(),
+                knowCount: 0
+                // fliped: false //if true again try to show this card latter
+            });
+
+            cardsAdd.push({
+                word: newWord,
+                translation: newTranslate,
+                date: getTodayDateString(),
+                knowCount: 0
+                // fliped: false //if true again try to show this card latter
+            });
+
+            if(cards.length === 1 && cardsAdd.length === 1) {
+                document.getElementById("cards-stack").style.display = "flex";
+                document.getElementById("swipe-actions").style.display = "flex";
+            }
+
+            profileData.languageCards = cards;
+            localStorage.setItem(profile, JSON.stringify(profileData)); //update in localstorage 
+            updateRandomCount(); // update random count
+            renderCards(); //update card in front
+
+            document.getElementById("modal-overlay").style.display = "none"; //close modal window
+        }
+        document.getElementById("input-word").value = '';
+        document.getElementById("input-translation").value = '';
     }
-    document.getElementById("input-word").value = '';
-    document.getElementById("input-translation").value = '';
 });
 
 //arrows navigarions
