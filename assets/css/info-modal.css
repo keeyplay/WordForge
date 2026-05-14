@@ -1,8 +1,8 @@
 
 :root {
-    --wf-orange: #ff8c00;
-    --wf-black: #0a0a0a;
-    --wf-dark: #161616;
+    --wf-orange-always: #ff8c00;
+    --wf-black-always: #0a0a0a;
+    --wf-dark-always: #161616;
 }
 
 
@@ -30,7 +30,7 @@
 
 
 .modal-content {
-    background: var(--wf-black) !important;
+    background: var(--wf-black-always) !important;
     width: 90% !important;
     max-width: 800px !important;
     border-radius: 28px !important;
@@ -56,15 +56,15 @@
 
 .modal-card {
     flex: 1 !important;
-    background: var(--wf-dark) !important;
+    background: var(--wf-dark-always) !important;
     padding: 25px !important;
     border-radius: 20px !important;
     border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
 
-.orange-text { color: var(--wf-orange) !important; font-size: 2.2rem !important; margin: 10px 0 !important; font-weight: bold; }
-.label { color: var(--wf-orange) !important; font-size: 0.7rem !important; letter-spacing: 2px; font-weight: bold; opacity: 0.8; }
+.orange-text { color: var(--wf-orange-always) !important; font-size: 2.2rem !important; margin: 10px 0 !important; font-weight: bold; }
+.label { color: var(--wf-orange-always) !important; font-size: 0.7rem !important; letter-spacing: 2px; font-weight: bold; opacity: 0.8; }
 .modal-card p { color: #ccc !important; line-height: 1.5; font-size: 0.9rem; }
 
 .features-grid {
@@ -84,12 +84,12 @@
 
 
 .news-entry {
-    border-left: 3px solid var(--wf-orange) !important;
+    border-left: 3px solid var(--wf-orange-always) !important;
     padding-left: 15px !important;
     margin-bottom: 20px !important;
 }
 
-.news-entry .date { color: var(--wf-orange) !important; font-size: 0.75rem; font-weight: bold; }
+.news-entry .date { color: var(--wf-orange-always) !important; font-size: 0.75rem; font-weight: bold; }
 
 
 .modal-close {
@@ -106,7 +106,7 @@
     font-size: 18px !important;
     transition: 0.2s;
 }
-.modal-close:hover { background: var(--wf-orange) !important; color: black !important; }
+.modal-close:hover { background: var(--wf-orange-always) !important; color: black !important; }
 
 @media (max-width: 768px) {
     .modal-grid { flex-direction: column !important; }
