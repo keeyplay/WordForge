@@ -52,22 +52,43 @@ function saveStreaks() {
     }
 }
 
+function getPastDateString(daysAgo) {
+    const targetDate = new Date();
+    targetDate.setDate(targetDate.getDate() - daysAgo);
+    
+    const year = targetDate.getFullYear();
+    const month = String(targetDate.getMonth() + 1).padStart(2, '0');
+    const day = String(targetDate.getDate()).padStart(2, '0');
+    
+    return `${year}-${month}-${day}`;
+}
+
 function getTodayDateString() {
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = String(today.getMonth() + 1).padStart(2, '0'); // from 1 to 12 month
-    const day = String(today.getDate()).padStart(2, '0'); // from 1 to 30 day
-    return `${year}-${month}-${day}`; // for example: 2026-10-27
+    return getPastDateString(0); 
 }
 
 function getYesterdayDateString() {
-    const today = new Date();
-    const yesterday = new Date(today);
-    yesterday.setDate(today.getDate() - 1);
-    const year = yesterday.getFullYear();
-    const month = String(yesterday.getMonth() + 1).padStart(2, '0'); // from 1 to 12 month
-    const day = String(yesterday.getDate()).padStart(2, '0'); // from 1 to 30 day
-    return `${year}-${month}-${day}`;
+    return getPastDateString(1); 
+}
+
+function getBeforeYesterdayDateString() {
+    return getPastDateString(2); 
+}
+
+function get3DaysAgoDateString() {
+    return getPastDateString(3); 
+}
+
+function get4DaysAgoDateString() {
+    return getPastDateString(4); 
+}
+
+function get5DaysAgoDateString() {
+    return getPastDateString(5); 
+}
+
+function get6DaysAgoDateString() {
+    return getPastDateString(6);
 }
 
 function updateStreak() {

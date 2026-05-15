@@ -41,6 +41,7 @@ function StatsPanel(Open) {
                 document.body.style.overflow = 'hidden'; // Prevent scrolling
 
                 UpdateStats();
+                updateGraph();
             }
             UpdateStats();
             
@@ -114,6 +115,14 @@ function UpdateTodayCards() {
     let count = 0;
     for(let card = 0; card < cardsSt.length; card++) {
         if((cardsSt[card].date).split("-")[2] === (getTodayDateString()).split("-")[2]) count++;
+    }
+    return count;
+}
+
+function CardsInThisDay(func) {
+    let count = 0;
+    for(let card = 0; card < cardsSt.length; card++) {
+        if((cardsSt[card].date) === (func)) count++;
     }
     return count;
 }
@@ -196,4 +205,76 @@ function updatePieChart() {
             <span>New (${newPercent}%)</span>
         </div>
     `;
+}
+
+// get today week day
+function getWeekdayFromDate(dateString) {
+    const date = new Date(`${dateString}T00:00:00Z`);
+    
+    if (isNaN(date.getTime())) {
+        return { error: "Invalid date format. Use YYYY-MM-DD" };
+    }
+
+    const short = date.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' });
+    return short;
+}
+
+
+// graphic of week activities
+const ctx = document.getElementById('GraphWeek');
+
+function updateGraph() {
+    function getdates(key = false) {
+        let dates = {
+            [getWeekdayFromDate(getTodayDateString()).full]: CardsInThisDay(getTodayDateString()),
+            [getWeekdayFromDate(getYesterdayDateString()).full]: CardsInThisDay(getYesterdayDateString()),
+            [getWeekdayFromDate(getBeforeYesterdayDateString()).full]: CardsInThisDay(getBeforeYesterdayDateString()),
+            [getWeekdayFromDate(get3DaysAgoDateString()).full]: CardsInThisDay(get3DaysAgoDateString()),
+            [getWeekdayFromDate(get4DaysAgoDateString()).full]: CardsInThisDay(get4DaysAgoDateString()),
+            [getWeekdayFromDate(get5DaysAgoDateString()).full]: CardsInThisDay(get5DaysAgoDateString()),
+            [getWeekdayFromDate(get6DaysAgoDateString()).full]: CardsInThisDay(get6DaysAgoDateString())
+        };
+
+        if(!key) {
+            return [
+                dates[getWeekdayFromDate(get6DaysAgoDateString()).full],   
+                dates[getWeekdayFromDate(get5DaysAgoDateString()).full],     
+                dates[getWeekdayFromDate(get4DaysAgoDateString()).full],   
+                dates[getWeekdayFromDate(get3DaysAgoDateString()).full], 
+                dates[getWeekdayFromDate(getBeforeYesterdayDateString()).full],
+                dates[getWeekdayFromDate(getYesterdayDateString()).full],   
+                dates[getWeekdayFromDate(getTodayDateString()).full]          
+            ];
+        } else {
+            return [
+                getWeekdayFromDate(get6DaysAgoDateString()).full,   
+                getWeekdayFromDate(get5DaysAgoDateString()).full,     
+                getWeekdayFromDate(get4DaysAgoDateString()).full,   
+                getWeekdayFromDate(get3DaysAgoDateString()).full, 
+                getWeekdayFromDate(getBeforeYesterdayDateString()).full,
+                getWeekdayFromDate(getYesterdayDateString()).full,   
+                getWeekdayFromDate(getTodayDateString()).full
+            ]
+        }
+    }
+
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+        labels: getdates(true),
+        datasets: [{
+            label: 'Cards of Week',
+            data: getdates(false),
+            borderWidth: 1
+        }]
+        },
+        options: {
+        scales: {
+            y: {
+            beginAtZero: true
+            }
+        }
+        }
+  });
 }
