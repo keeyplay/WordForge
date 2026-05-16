@@ -224,42 +224,43 @@ function getWeekdayFromDate(dateString) {
 const ctx = document.getElementById('GraphWeek');
 
 function updateGraph() {
+    ctx.innerHTML = '';
     function getdates(key = false) {
         let dates = {
-            [getWeekdayFromDate(getTodayDateString()).full]: CardsInThisDay(getTodayDateString()),
-            [getWeekdayFromDate(getYesterdayDateString()).full]: CardsInThisDay(getYesterdayDateString()),
-            [getWeekdayFromDate(getBeforeYesterdayDateString()).full]: CardsInThisDay(getBeforeYesterdayDateString()),
-            [getWeekdayFromDate(get3DaysAgoDateString()).full]: CardsInThisDay(get3DaysAgoDateString()),
-            [getWeekdayFromDate(get4DaysAgoDateString()).full]: CardsInThisDay(get4DaysAgoDateString()),
-            [getWeekdayFromDate(get5DaysAgoDateString()).full]: CardsInThisDay(get5DaysAgoDateString()),
-            [getWeekdayFromDate(get6DaysAgoDateString()).full]: CardsInThisDay(get6DaysAgoDateString())
+            [getWeekdayFromDate(getTodayDateString())]: CardsInThisDay(getTodayDateString()),
+            [getWeekdayFromDate(getYesterdayDateString())]: CardsInThisDay(getYesterdayDateString()),
+            [getWeekdayFromDate(getBeforeYesterdayDateString())]: CardsInThisDay(getBeforeYesterdayDateString()),
+            [getWeekdayFromDate(get3DaysAgoDateString())]: CardsInThisDay(get3DaysAgoDateString()),
+            [getWeekdayFromDate(get4DaysAgoDateString())]: CardsInThisDay(get4DaysAgoDateString()),
+            [getWeekdayFromDate(get5DaysAgoDateString())]: CardsInThisDay(get5DaysAgoDateString()),
+            [getWeekdayFromDate(get6DaysAgoDateString())]: CardsInThisDay(get6DaysAgoDateString())
         };
 
         if(!key) {
             return [
-                dates[getWeekdayFromDate(get6DaysAgoDateString()).full],   
-                dates[getWeekdayFromDate(get5DaysAgoDateString()).full],     
-                dates[getWeekdayFromDate(get4DaysAgoDateString()).full],   
-                dates[getWeekdayFromDate(get3DaysAgoDateString()).full], 
-                dates[getWeekdayFromDate(getBeforeYesterdayDateString()).full],
-                dates[getWeekdayFromDate(getYesterdayDateString()).full],   
-                dates[getWeekdayFromDate(getTodayDateString()).full]          
+                dates[getWeekdayFromDate(get6DaysAgoDateString())],   
+                dates[getWeekdayFromDate(get5DaysAgoDateString())],     
+                dates[getWeekdayFromDate(get4DaysAgoDateString())],   
+                dates[getWeekdayFromDate(get3DaysAgoDateString())], 
+                dates[getWeekdayFromDate(getBeforeYesterdayDateString())],
+                dates[getWeekdayFromDate(getYesterdayDateString())],   
+                dates[getWeekdayFromDate(getTodayDateString())]          
             ];
         } else {
             return [
-                getWeekdayFromDate(get6DaysAgoDateString()).full,   
-                getWeekdayFromDate(get5DaysAgoDateString()).full,     
-                getWeekdayFromDate(get4DaysAgoDateString()).full,   
-                getWeekdayFromDate(get3DaysAgoDateString()).full, 
-                getWeekdayFromDate(getBeforeYesterdayDateString()).full,
-                getWeekdayFromDate(getYesterdayDateString()).full,   
-                getWeekdayFromDate(getTodayDateString()).full
+                getWeekdayFromDate(get6DaysAgoDateString()),   
+                getWeekdayFromDate(get5DaysAgoDateString()),     
+                getWeekdayFromDate(get4DaysAgoDateString()),   
+                getWeekdayFromDate(get3DaysAgoDateString()), 
+                getWeekdayFromDate(getBeforeYesterdayDateString()),
+                getWeekdayFromDate(getYesterdayDateString()),   
+                getWeekdayFromDate(getTodayDateString())
             ]
         }
     }
 
 
-    new Chart(ctx, {
+    let chart = new Chart(ctx, {
         type: 'bar',
         data: {
         labels: getdates(true),
@@ -276,5 +277,18 @@ function updateGraph() {
             }
         }
         }
+  });
+
+  let count = 0;
+  ctx.addEventListener('click', function() {
+    if(!count) {
+        chart.config.type = 'line';
+        chart.update();
+        count = 1;
+    } else if(count) {
+        chart.config.type = 'bar';
+        chart.update();
+        count = 0;
+    }
   });
 }

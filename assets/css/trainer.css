@@ -821,6 +821,10 @@ video {
                 text-shadow 0.3s ease-in-out;
 }
 
+#GraphWeek:hover {
+    cursor: pointer;
+}
+
 #modalAccountsContainer {
     display: none;
     position: fixed;
