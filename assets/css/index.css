@@ -1,7 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    transition: background-color 0.3s ease-in-out, 
+    color 0.3s ease-in-out, 
+    border 0.3s ease-in-out, 
+    filter 0.3s ease-in-out,
 }
+
 body {
     overflow: auto;
     background: black;
@@ -156,20 +161,6 @@ body {
     }
 }
 
-/* @keyframes ani {
-    from {
-        align-items: center;
-    }
-    to {
-        align-items: start;
-    }
-} */
-
-/* #logo-name.ani {
-    animation: ani 0.5s ease-in-out;
-    animation-fill-mode: forwards;
-} */
-
 #new-content {
     animation: fadeIn 0.5s ease forwards;
     min-height: 85vh; 
@@ -184,10 +175,6 @@ body {
     justify-content: end;
 }
 
-/* #logo-name {
-    
-} */
-
 #logo-name {
     font-size: 150;
     display: flex;
@@ -195,7 +182,6 @@ body {
     align-items: center;
     width: 200px;
     height: 200px;
-    /* background-image: url("logo_png_cr.png"); */
     border-radius: 150px;
     position: relative; 
     z-index: 100;
@@ -228,8 +214,6 @@ body {
 }
 
 #links div:hover {
-    /* min-width: 60px;
-    min-height: 60px; */
     gap: 25px;
     transform: translateX(-5px) translateY(-10px) scale(1.2);
     cursor: pointer;
@@ -479,7 +463,10 @@ body {
 }
 
 @media (max-width: 375px) {
-    
+    #logo-container {
+        margin: 20px auto;
+    }
+
     #logo-name {
         width: 80px;
         height: 80px;
@@ -598,18 +585,4 @@ body {
         order: 4; 
         margin-top: 0;
     }
-}
-
-@media (max-width: 375px) {
-    #logo-container {
-        margin: 20px auto;
-    }
-}
-
-* {
-    transition: background-color 0.3s ease-in-out, 
-                color 0.3s ease-in-out, 
-                border 0.3s ease-in-out, 
-                filter 0.3s ease-in-out,
-                
 }

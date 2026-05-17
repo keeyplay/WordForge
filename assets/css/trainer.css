@@ -34,6 +34,12 @@
     padding: 0;
     box-sizing: border-box;
     animation: open 0.5s;
+
+    transition: background-color 0.3s ease-in-out, 
+    color 0.3s ease-in-out, 
+    border 0.3s ease-in-out, 
+    filter 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out;
 }
 
 @keyframes open {
@@ -763,64 +769,6 @@ video {
 .cards-zone.deck-done .swipe-actions,
 .cards-zone.deck-done .cards-hint { display: none; }
 
-/* Responsive */
-@media (max-width: 480px) {
-    .trainer-main { padding: 1rem 0.75rem 2rem; }
-    .cards-stack { height: 280px; }
-    .card { height: 240px; max-width: 280px; }
-    .card-word { font-size: 1.5rem; }
-    .swipe-actions { gap: 0.75rem; margin-top: 1.25rem; }
-    .btn-swipe { padding: 0.6rem 0.85rem; font-size: 0.7rem; }
-    .btn-swipe-icon { font-size: 1.25rem; }
-    #cards-edit {
-        max-height: 200px; 
-    }
-    #links {gap: 20px}
-    #links div {
-        padding-top: 10px;
-        transform: scale(1.5);
-    }
-    #buttonLocalAccounts {
-        transform: scale(0.8);
-    }
-    #trainer-logo {
-        font-size: 10px;
-    }
-    #modalAccountsContainer {
-        flex-direction: column !important;
-    }
-}
-@media (max-width: 768px) {
-    #modalAccountsContainer {
-        padding: 40px 16px; 
-        justify-content: start !important;
-    }
-
-    #block-1,
-    #block-2 {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    .premium-modal-light,
-    #modal-account,
-    #modalAccountsContainerTextContainer,
-    #modalDeleteAllData {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-}
-
-* {
-    transition: background-color 0.3s ease-in-out, 
-                color 0.3s ease-in-out, 
-                border 0.3s ease-in-out, 
-                filter 0.3s ease-in-out,
-                text-shadow 0.3s ease-in-out;
-}
-
 #GraphWeek:hover {
     cursor: pointer;
 }
@@ -912,13 +860,11 @@ video {
     justify-content: start;
 }
 
-
 .dropdown {
     position: relative;
     display: inline-block;
     font-family: Arial, sans-serif;
 }
-
 
 .dropdown-btn {
     background-color: var(--wf-orange);
@@ -1010,8 +956,6 @@ video {
 .OneProfile:hover {
     color: blue;
 }
-
-
 
 .dropdown-content a {
     color: black;
@@ -1211,7 +1155,6 @@ video {
     margin-top: 4px;
 }
 
-/* Сетка фич */
 .premium-features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1231,7 +1174,6 @@ video {
     font-size: 18px;
 }
 
-/* Цена */
 .premium-pricing {
     text-align: center;
     margin: 8px 0 12px;
@@ -1256,7 +1198,6 @@ video {
     color: var(--wf-muted);
 }
 
-/* Кнопка */
 .premium-btn-light {
     background: var(--wf-premium-btn);
     border: none;
@@ -1281,4 +1222,54 @@ video {
     font-size: 10px;
     color: var(--wf-light-gray);
     margin-top: 12px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .trainer-main { padding: 1rem 0.75rem 2rem; }
+    .cards-stack { height: 280px; }
+    .card { height: 240px; max-width: 280px; }
+    .card-word { font-size: 1.5rem; }
+    .swipe-actions { gap: 0.75rem; margin-top: 1.25rem; }
+    .btn-swipe { padding: 0.6rem 0.85rem; font-size: 0.7rem; }
+    .btn-swipe-icon { font-size: 1.25rem; }
+    #cards-edit {
+        max-height: 200px; 
+    }
+    #links {gap: 20px}
+    #links div {
+        padding-top: 10px;
+        transform: scale(1.5);
+    }
+    #buttonLocalAccounts {
+        transform: scale(0.8);
+    }
+    #trainer-logo {
+        font-size: 10px;
+    }
+    #modalAccountsContainer {
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 768px) {
+    #modalAccountsContainer {
+        padding: 40px 16px; 
+        justify-content: start !important;
+    }
+
+    #block-1,
+    #block-2 {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .premium-modal-light,
+    #modal-account,
+    #modalAccountsContainerTextContainer,
+    #modalDeleteAllData {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 }

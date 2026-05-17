@@ -206,7 +206,6 @@ function ClickDontKnown() {
     if(cardWord) {
         if(swipping === false) {
             swipping = true;
-            // cardsAdd[cardsAdd.length-1].fliped = true;
             cardWord.textContent = cardsAdd[randomCount].translation;
             setTimeout(() => {
                 document.getElementById("card-inner").classList.add("card-swipe-left");
@@ -517,10 +516,6 @@ document.addEventListener('touchend', e => {
 document.getElementById("btn-modal-streak-yay").addEventListener('click', function() {
     document.getElementById("modal-overlay-streak").style.display = "none";
 });
-
-
-//confetti system
-// let cofettiVideo = document.getElementById("fullscreen-bg");
 
 function ShowConfetti() {
     document.body.innerHTML += `

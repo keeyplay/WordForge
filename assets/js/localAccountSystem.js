@@ -5,7 +5,7 @@ function openModalLocalAccounts() {
         document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
         switchLanguageForModal(localStorage.getItem("language"));
         for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
-            if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
+            if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") { //will refactor
                 if(localStorage.key(accountsCount) === profile) {
                     document.getElementById("accounts").innerHTML += `
                         <div class="containerMenuAccounts">
@@ -178,15 +178,3 @@ document.getElementById("continue").addEventListener('click', function() {
     document.getElementById("modalAddAccounts").style.display = "none";
     window.location.reload();
 });
-
-// function migrationOldSystem() {
-//     if(!localStorage.getItem("Profile")) {
-//         const storageObject = Object.keys(localStorage).reduce((obj, key) => {
-//             obj[key] = localStorage.getItem(key);
-//             return obj;
-//         }, {});
-
-//         localStorage.setItem("Profile", "other");
-//         localStorage.setItem("other", JSON.stringify(storageObject));
-//     }
-// }

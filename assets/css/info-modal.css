@@ -1,4 +1,3 @@
-
 :root {
     --wf-orange-always: #ff8c00;
     --wf-black-always: #0a0a0a;
@@ -14,7 +13,7 @@
     height: 100vh !important;
     background: rgba(0, 0, 0, 0.9) !important;
     backdrop-filter: blur(10px) !important;
-    display: none; /* Управляется через JS */
+    display: none;
     justify-content: center !important;
     align-items: center !important;
     z-index: 999999 !important; 
@@ -63,9 +62,26 @@
 }
 
 
-.orange-text { color: var(--wf-orange-always) !important; font-size: 2.2rem !important; margin: 10px 0 !important; font-weight: bold; }
-.label { color: var(--wf-orange-always) !important; font-size: 0.7rem !important; letter-spacing: 2px; font-weight: bold; opacity: 0.8; }
-.modal-card p { color: #ccc !important; line-height: 1.5; font-size: 0.9rem; }
+.orange-text { 
+    color: var(--wf-orange-always) !important; 
+    font-size: 2.2rem !important; 
+    margin: 10px 0 !important; 
+    font-weight: bold; 
+}
+
+.label { 
+    color: var(--wf-orange-always) !important; 
+    font-size: 0.7rem !important; 
+    letter-spacing: 2px; 
+    font-weight: bold; 
+    opacity: 0.8; 
+}
+
+.modal-card p { 
+    color: #ccc !important; 
+    line-height: 1.5; 
+    font-size: 0.9rem; 
+}
 
 .features-grid {
     display: grid !important;
@@ -108,11 +124,11 @@
 }
 .modal-close:hover { background: var(--wf-orange-always) !important; color: black !important; }
 
+.news-list {
+    margin-top: 20px;
+}
+
 @media (max-width: 768px) {
     .modal-grid { flex-direction: column !important; }
     .modal-content { max-height: 90vh; overflow-y: auto; }
-}
-
-.news-list {
-    margin-top: 20px;
 }
