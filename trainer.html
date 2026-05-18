@@ -165,21 +165,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Daily activity -->
-                <!-- <div class="stats-section">
-                    <div class="stats-label">Activity</div>
-                    <div class="activity-grid">
-                        <div class="activity-day active" data-tooltip="Monday - 12 cards"></div>
-                        <div class="activity-day active" data-tooltip="Tuesday - 8 cards"></div>
-                        <div class="activity-day" data-tooltip="Wednesday - 0 cards"></div>
-                        <div class="activity-day active" data-tooltip="Thursday - 15 cards"></div>
-                        <div class="activity-day" data-tooltip="Friday - 0 cards"></div>
-                        <div class="activity-day active" data-tooltip="Saturday - 22 cards"></div>
-                        <div class="activity-day active" data-tooltip="Sunday - 10 cards"></div>
-                    </div>
-                </div> -->
-
                 <!-- Overall statistics -->
                 <div class="stats-grid">
                     <div class="stat-card">
@@ -382,7 +367,7 @@
             <form class="modal-form" id="modal-form">
                 <label class="modal-label" for="input-word" id="modal-label-word">Word</label>
                 <input type="text" id="input-word" class="modal-input" placeholder="e.g. apple" autocomplete="off" required>
-                <label class="modal-label" for="input-translation" id="modal-label-translation">Translation</label>
+                <div style="display: flex; flex-direction: row; gap: 20px;"><label class="modal-label" for="input-translation" id="modal-label-translation">Translation</label><div class="modal-label" id="TranslateAI">Translate with AI</div></div>
                 <input type="text" id="input-translation" class="modal-input" placeholder="e.g. яблоко" autocomplete="off" required>
                 <div class="modal-actions">
                     <button type="button" class="btn-modal-cancel" id="btn-modal-cancel" id="btn-modal-cancel">Cancel</button>

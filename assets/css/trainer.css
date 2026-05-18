@@ -1224,6 +1224,20 @@ video {
     margin-top: 12px;
 }
 
+#TranslateAI {
+    background: var(--wf-orange-col);
+    color: var(--wf-card-bg);
+    padding: 1px 4px;
+    border-radius: 5px;
+
+    transition: ease 0.2s all;
+}
+
+#TranslateAI:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     .trainer-main { padding: 1rem 0.75rem 2rem; }
