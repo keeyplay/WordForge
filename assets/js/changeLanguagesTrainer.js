@@ -34,6 +34,7 @@ function switchLanguage() {
                 element.innerText = ruTranslations[id];
             }
         }
+        FontsChange();
         // localStorage.setItem('language', "ru");
     } else if(switchLanCount === "ru") {
         document.getElementById("change_language").innerText = "🇩🇪";
@@ -46,6 +47,7 @@ function switchLanguage() {
                 element.innerText = deTranslations[id];
             }
         }
+        FontsChange();
     } else if(switchLanCount === "de") {
         document.getElementById("change_language").innerText = "🇬🇧";
         switchLanCount = "en";
@@ -57,6 +59,7 @@ function switchLanguage() {
                 element.innerText = enTranslations[id];
             }
         }
+        FontsChange();
     } 
 };
 
@@ -79,6 +82,7 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = enTranslations[id];
             }
         }
+        FontsChange();
     } else if(switchLanCountLS === "ru") {
         localStorage.setItem("language", switchLanCountLS);
         const ruTranslations = Translate.ru;
@@ -88,6 +92,7 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = ruTranslations[id];
             }
         }
+        FontsChange();
     } else if(switchLanCountLS === "de") {
         localStorage.setItem("language", switchLanCountLS);
         const deTranslations = Translate.de;
@@ -106,6 +111,7 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = plTranslations[id];
             }
         }
+        FontsChange();
     } else if(switchLanCountLS === "sr") {
         localStorage.setItem("language", switchLanCountLS);
         const srTranslations = Translate.sr;
@@ -115,6 +121,7 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = srTranslations[id];
             }
         }
+        FontsChange();
     }
     document.getElementById("modal-overlay-choose-language").style.display = "none";
 };

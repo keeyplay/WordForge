@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .archivo-black-regular {
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+.andika-regular {
+  font-family: "Andika", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.andika-bold {
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.andika-regular-italic {
+  font-family: "Andika", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.andika-bold-italic {
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 body {
-    font-family: "Archivo Black", sans-serif;
+    /* font-family: "Archivo Black", sans-serif; */
+    font-family: "Andika", sans-serif;
 }

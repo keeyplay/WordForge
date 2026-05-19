@@ -299,7 +299,7 @@ body {
     word-spacing: 0.2em;
     font-size: 20px;
     font-weight: 100;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Andika", sans-serif;
 }
 
 #textabtme {
@@ -310,7 +310,7 @@ body {
     word-spacing: 0.2em;
     font-size: 20px;
     font-weight: 100;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Andika", sans-serif;
 }
 
 #switchTheme {
@@ -498,6 +498,10 @@ body {
         width: 35px;
         height: 35px;
     }
+
+    #infoup {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {  
@@ -526,7 +530,7 @@ body {
     
     #container {
         height: calc(100vh - 50px);
-        margin-top: 50px;
+        margin-top: 20px;
     }
     
     #about-section {
