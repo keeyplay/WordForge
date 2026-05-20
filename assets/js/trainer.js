@@ -556,3 +556,7 @@ function UpdateWithoutLearnedCards() {
         cardsAdd = cardAddUpdate;
     }
 }
+
+document.getElementById('TranslateAI').addEventListener('click', function() {
+    checkTranslate();
+});
