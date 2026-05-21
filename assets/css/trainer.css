@@ -127,6 +127,11 @@ body {
     color: var(--wf-white);
     letter-spacing: 0.02em;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-family: "Archivo Black", sans-serif;
+}
+
+#premiumTitle {
+    font-family: "Archivo Black", sans-serif;
 }
 
 .trainer-stats { display: flex; gap: 0.5rem; }
