@@ -721,6 +721,17 @@ body {
     cursor: pointer;
 }
 
+#font {
+    max-width: 35px;
+    transition: transform 0.5s ease;
+}
+
+#font:hover {
+    transform: scale(1.2);
+    transform: rotate(10deg);
+    cursor: pointer;
+}
+
 #fullscreen-bg {
     position: fixed;
     right: 0;

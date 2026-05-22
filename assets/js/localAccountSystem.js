@@ -5,7 +5,7 @@ function openModalLocalAccounts() {
         document.getElementById("buttonLocalAccounts").classList.toggle("clicked")
         switchLanguageForModal(localStorage.getItem("language"));
         for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
-            if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") { //will refactor
+            if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards" && localStorage.key(accountsCount) !== "font") { //will refactor
                 if(localStorage.key(accountsCount) === profile) {
                     document.getElementById("accounts").innerHTML += `
                         <div class="containerMenuAccounts">
@@ -95,7 +95,7 @@ document.getElementById("deletealldata").addEventListener("click", function() {
 function HowManyProfiles() {
     let count = 0;
     for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
-        if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
+        if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards" && localStorage.key(accountsCount) !== "font") {
             count++
                 
         }
@@ -106,7 +106,7 @@ function HowManyProfiles() {
 function ArrayOfProfiles() {
     let arr = [];
     for(let accountsCount = 0; accountsCount < localStorage.length; accountsCount++) {
-        if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards") {
+        if(localStorage.key(accountsCount) !== "language" && localStorage.key(accountsCount) !== "Profile" && localStorage.key(accountsCount) !== "ThemeMode" && localStorage.key(accountsCount) !== "languageCards" && localStorage.key(accountsCount) !== "font") {
             arr.push(localStorage.key(accountsCount));      
         }
     };

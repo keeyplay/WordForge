@@ -83,7 +83,6 @@ function switchLanguage() {
                         window.location.href = 'trainer.html';
                     }, 2000); 
                 });
-                FontsChange();
         } else {
             document.getElementById("change_language").innerText = "🇷🇺";
             switchLanCount = "ru";
@@ -95,7 +94,6 @@ function switchLanguage() {
                     element.innerText = ruTranslations[id];
                 }
             }
-            FontsChange();
             // localStorage.setItem('language', "ru");
         }
         switchLanguageForModal("ru");
@@ -150,7 +148,6 @@ function switchLanguage() {
                         window.location.href = 'trainer.html';
                     }, 2000); 
                 });
-                FontsChange();
         } else {
             document.getElementById("change_language").innerText = "🇩🇪";
             switchLanCount = "de";
@@ -162,7 +159,6 @@ function switchLanguage() {
                     element.innerText = deTranslations[id];
                 }
             }
-            FontsChange();
         }
         switchLanguageForModal("de");
     } else if(switchLanCount === "de") {
@@ -216,7 +212,6 @@ function switchLanguage() {
                         window.location.href = 'trainer.html';
                     }, 2000); 
                 });
-                FontsChange();
         } else {
             document.getElementById("change_language").innerText = "🇵🇱";
             switchLanCount = "pl";
@@ -228,7 +223,6 @@ function switchLanguage() {
                     element.innerText = plTranslations[id];
                 }
             }
-            FontsChange();
         }
         switchLanguageForModal("pl");
     } else if(switchLanCount === "pl") {
@@ -282,7 +276,6 @@ function switchLanguage() {
                         window.location.href = 'trainer.html';
                     }, 2000); 
                 });
-                FontsChange();
         } else {
             document.getElementById("change_language").innerText = "🇷🇸";
             switchLanCount = "sr";
@@ -294,7 +287,6 @@ function switchLanguage() {
                     element.innerText = srTranslations[id];
                 }
             }
-            FontsChange();
         }
         switchLanguageForModal("sr");
     } else if(switchLanCount === "sr") {
@@ -348,7 +340,6 @@ function switchLanguage() {
                         window.location.href = 'trainer.html';
                     }, 2000); 
                 });
-                FontsChange();
         } else {
             document.getElementById("change_language").innerText = "🇬🇧";
             switchLanCount = "en";
@@ -360,7 +351,6 @@ function switchLanguage() {
                     element.innerText = enTranslations[id];
                 }
             }
-            FontsChange();
         }
         switchLanguageForModal("en");
     }
@@ -376,7 +366,6 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = enTranslations[id];
             }
         }
-        FontsChange();
     } else if(switchLanCountLS === "ru") {
         const ruTranslations = Translate.ru;
         for(let id in ruTranslations) {
@@ -385,7 +374,6 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = ruTranslations[id];
             }
         }
-        FontsChange();
     } else if(switchLanCountLS === "de") {
         const deTranslations = Translate.de;
         for(let id in deTranslations) {
@@ -394,7 +382,6 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = deTranslations[id];
             }
         }
-        FontsChange();
     } else if(switchLanCountLS === "pl") {
         const plTranslations = Translate.pl;
         for(let id in plTranslations) {
@@ -403,7 +390,6 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = plTranslations[id];
             }
         }
-        FontsChange();
     } else if(switchLanCountLS === "sr") {
         const srTranslations = Translate.sr;
         for(let id in srTranslations) {
@@ -412,7 +398,6 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = srTranslations[id];
             }
         }
-        FontsChange();
     }
 };
 
