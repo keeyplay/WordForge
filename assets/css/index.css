@@ -341,6 +341,15 @@ body {
     cursor: grabbing;
 }
 
+#font {
+    transition: ease 0.3s;
+}
+
+#font:hover {
+    cursor: pointer;
+    transform: rotate(5deg);
+}
+
 @media (max-width: 768px) {
     #btn_start {
         font-size: 100px;

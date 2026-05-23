@@ -34,6 +34,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                                 <h2>About me</h2>
                                 <h3 id="textabtme">Hi, I'm <span>keeyplay</span>, a 15-year-old self-taught developer from Russia 🇷🇺.<br><span>My Mission:</span> To build impactful digital products and carve a path for a future tech career in the EU 🇪🇺 or US 🇺🇸.<br><span>What I Do:</span><br>→ Code in public. I document my full-stack journey (JS, PHP, React) on Twitter.<br>→ Build & Manage a live Minecraft server and community (my first business venture).<br>→ Learn English daily to break into the global tech scene.<br><span>My Belief:</span> Consistency creates opportunity. I focus on shipping projects, growing my skills, and connecting with the worldwide dev community.<br><span>Let's connect on <a href="https://x.com/keeyplay">Twitter</a> or check out the code on <a href="https://github.com/keeyplay/WordForge">GitHub</a>.</span></h3>
                                 <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                <img src="assets/pic/FontLogo.png" alt="" style="width: 35px;" id="font" onclick="FontsChange()">
                             </div>
                         </div>
                     </div>
@@ -71,6 +72,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                                 <h2>Обо мне</h2>
                                 <h3 id="textabtme">Привет, я <span>keeyplay</span>, 15-летний самоучка-разработчик из России 🇷🇺.<br><span>Моя миссия:</span> Создавать значимые цифровые продукты и проложить путь к будущей карьере в технологиях в ЕС 🇪🇺 или США 🇺🇸.<br><span>Что я делаю:</span><br>→ Пишу код публично. Документирую свой full-stack путь (JS, PHP, React) в Twitter.<br>→ Создаю и управляю Minecraft сервером и сообществом (мой первый бизнес-опыт).<br>→ Ежедневно учу английский, чтобы ворваться в мировую технологическую сцену.<br><span>Мое убеждение:</span> Постоянство создает возможности. Я сосредоточен на выпуске проектов, развитии навыков и общении с мировым сообществом разработчиков.<br><span>Давайте свяжемся в <a href="https://x.com/keeyplay">Twitter</a> или посмотрите код на <a href="https://github.com/keeyplay/WordForge">GitHub</a>.</span></h3>
                                 <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                <img src="assets/pic/FontLogo.png" alt="" style="width: 35px;" id="font" onclick="FontsChange()">
                             </div>
                         </div>
                     </div>
@@ -108,6 +110,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                                     <h2>Über mich</h2>
                                     <h3 id="textabtme">Hallo, ich bin <span>keeyplay</span>, ein 15-jähriger Autodidakt-Entwickler aus Russland 🇷🇺.<br><span>Meine Mission:</span> Bedeutungsvolle digitale Produkte zu entwickeln und den Weg für eine zukünftige Karriere in der Tech-Branche in der EU 🇪🇺 oder den USA 🇺🇸 zu ebnen.<br><span>Was ich mache:</span><br>→ Ich programmiere öffentlich. Ich dokumentiere meine Full-Stack-Reise (JS, PHP, React) auf Twitter.<br>→ Ich baue und verwalte einen Live-Minecraft-Server und eine Community (mein erstes Geschäftsvorhaben).<br>→ Ich lerne täglich Englisch, um in die globale Tech-Szene einzusteigen.<br><span>Meine Überzeugung:</span> Beständigkeit schafft Möglichkeiten. Ich konzentriere mich darauf, Projekte zu veröffentlichen, meine Fähigkeiten zu erweitern und mich mit der weltweiten Entwickler-Community zu vernetzen.<br><span>Lass uns auf <a href="https://x.com/keeyplay">Twitter</a> vernetzen oder schau dir den Code auf <a href="https://github.com/keeyplay/WordForge">GitHub</a> an.</span></h3>
                                     <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                    <img src="assets/pic/FontLogo.png" alt="" style="width: 35px;" id="font" onclick="FontsChange()">
                                 </div>
                             </div>
                         </div>
@@ -145,6 +148,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                                     <h2>O mnie</h2>
                                     <h3 id="textabtme">Cześć, jestem <span>keeyplay</span>, 15-letni samouk programista z Rosji 🇷🇺.<br><span>Moja misja:</span> Tworzyć wpływowe produkty cyfrowe i wytyczyć ścieżkę do przyszłej kariery w technologii w UE 🇪🇺 lub USA 🇺🇸.<br><span>Co robię:</span><br>→ Programuję publicznie. Dokumentuję moją podróż full-stack (JS, PHP, React) na Twitterze.<br>→ Buduję i zarządzam serwerem Minecraft oraz społecznością (moje pierwsze przedsięwzięcie biznesowe).<br>→ Codziennie uczę się angielskiego, aby wejść do globalnej sceny technologicznej.<br><span>Moje przekonanie:</span> Konsekwencja stwarza okazje. Skupiam się na dostarczaniu projektów, rozwijaniu umiejętności i nawiązywaniu kontaktów z globalną społecznością programistów.<br><span>Połączmy się na <a href="https://x.com/keeyplay">Twitterze</a> lub sprawdź kod na <a href="https://github.com/keeyplay/WordForge">GitHubie</a>.</span></h3>
                                     <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                    <img src="assets/pic/FontLogo.png" alt="" style="width: 35px;" id="font" onclick="FontsChange()">
                                 </div>
                             </div>
                         </div>
@@ -182,6 +186,7 @@ document.getElementById('btn_start').addEventListener('click', function() {
                                     <h2>O meni</h2>
                                     <h3 id="textabtme">Zdravo, ja sam <span>keeyplay</span>, 15-godišnji samouki programer iz Rusije 🇷🇺.<br><span>Moja misija:</span> Da pravim uticajne digitalne proizvode i krčim put ka budućoj tehničkoj karijeri u EU 🇪🇺 ili SAD 🇺🇸.<br><span>Šta radim:</span><br>→ Javno programiram. Dokumentujem svoje full-stack putovanje (JS, PHP, React) na Twitter-u.<br>→ Gradim i upravljam Minecraft serverom i zajednicom (moj prvi poslovni poduhvat).<br>→ Učim engleski svakodnevno da bih ušao u globalnu tech scenu.<br><span>Moje verovanje:</span> Doslednost stvara prilike. Fokusiram se na izbacivanje projekata, razvijanje veština i povezivanje sa globalnom programerskom zajednicom.<br><span>Povežimo se na <a href="https://x.com/keeyplay">Twitter-u</a> ili pogledajte kod na <a href="https://github.com/keeyplay/WordForge">GitHub-u</a>.</span></h3>
                                     <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                    <img src="assets/pic/FontLogo.png" alt="" style="width: 35px;" id="font" onclick="FontsChange()">
                                 </div>
                             </div>
                         </div>
