@@ -722,7 +722,7 @@ body {
 }
 
 #font {
-    max-width: 35px;
+    max-width: 120px;
     transition: transform 0.5s ease;
 }
 
