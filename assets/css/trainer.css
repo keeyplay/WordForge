@@ -746,6 +746,24 @@ body {
     pointer-events: none;
 }
 
+#div-15-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    transform: scale(1.5);
+}
+
+#start-timer {
+    padding: 0px 65px;
+
+    transition: ease 0.2s;
+}
+
+#start-timer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 video {
     border: 5px solid red !important;
     min-width: 200px;

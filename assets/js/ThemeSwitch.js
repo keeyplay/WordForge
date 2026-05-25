@@ -17,8 +17,8 @@ function ThemeSwitchFunc() {
     }
     
     // Soc links
-    document.querySelectorAll('.link').forEach(el => {
-        el.style.filter = isDark ? "drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5))" : "none";
+    document.querySelectorAll('.link, #SwitchSector').forEach(el => {
+        el.style.filter = isDark ? "drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5))" : "none";
     });
     
     // change CSS variables
