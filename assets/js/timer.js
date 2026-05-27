@@ -1,6 +1,7 @@
 const timer = document.getElementById('time');
 const start = document.getElementById('start-timer');
 const startTxt = document.getElementById('starttxt');
+const timerAtMainPage = document.getElementById('timerAtMainPage');
 
 let timerIn = null; 
 let mins = 15;
@@ -32,6 +33,7 @@ function toggleTimer() {
         }
 
         timer.innerText = `${mins}:${secs.toString().padStart(2, '0')}`;
+        timerAtMainPage.innerText = `${mins}:${secs.toString().padStart(2, '0')}`;
     }, 1000);
 }
 
@@ -42,4 +44,5 @@ function stopTimer() {
     secs = 0;
     timer.innerText = `15:00`;
     startTxt.innerText = 'Start';
+    timerAtMainPage.innerText = '';
 }
