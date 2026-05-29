@@ -98,6 +98,8 @@ function UpdateStats() {
     progressTxT.innerText = "(" + UpdateLearnCards() + "/10000)"
 
     updatePieChart();
+
+    document.getElementById('stats-coins-amount').innerText = localStorage.getItem('coins');
 };
 
 function UpdateLearnCards() {

@@ -1272,6 +1272,42 @@ video {
     transform: scale(1.1);
 }
 
+#coin {
+    position: fixed;
+    bottom: 70%;
+    right: 50%;
+    z-index: 999999;
+    opacity: 0;
+    display: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes coinShow {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+        padding: 0px;
+    }
+    100% {
+        opacity: 0;
+        padding: 100px;
+    }
+}
+
+#trainer-page {
+    position: relative;
+    z-index: 1;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     .trainer-main { padding: 1rem 0.75rem 2rem; }

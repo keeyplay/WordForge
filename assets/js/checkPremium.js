@@ -7,6 +7,7 @@ async function checkPremium() {
   if (result.valid) {
     alert("Your premium activated! Thank you so much");
     localStorage.setItem("premium", userCode);
+    addCoins(100);
   } else {
     alert("Error");
     document.getElementById("activateButton").replaceWith("Try later");

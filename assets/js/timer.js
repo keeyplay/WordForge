@@ -26,6 +26,7 @@ function toggleTimer() {
             } else {
                 alert("15 minutes have passed");
                 stopTimer();
+                addCoins(10);
                 return;
             }
         } else {
