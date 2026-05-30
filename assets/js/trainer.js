@@ -233,6 +233,9 @@ function ClickKnown() {
 
             //Cards know count 
             cards[randomCount].knowCount++;
+            if(cards[randomCount].knowCount === 5) {
+                addCoins(5);
+            }
             profileData.languageCards = cards;
             localStorage.setItem(profile, JSON.stringify(profileData));
 
