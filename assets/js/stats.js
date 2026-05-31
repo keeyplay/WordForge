@@ -100,6 +100,8 @@ function UpdateStats() {
     updatePieChart();
 
     document.getElementById('stats-coins-amount').innerText = localStorage.getItem('coins');
+
+    document.getElementById('stats-learned-rate').innerText = ((CounterLernedCards() / cards.length) * 100).toFixed(0) + "%";
 };
 
 function UpdateLearnCards() {
