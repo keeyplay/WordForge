@@ -83,9 +83,6 @@ function UpdateStats() {
     const learnCardsDiv = document.getElementById('stats-learned-cards');
     const streak = document.getElementById('stats-streak');
     const todayStat = document.getElementById('stats-today');
-    const progressValue = document.getElementById('stats-progress-value');
-    const progressFill = document.querySelector('.progress-fill');
-    const progressTxT = document.getElementById('progressTxT');
 
     allCards.innerText = cardsSt.length;
     learnCardsDiv.innerText = UpdateLearnCards();
@@ -93,9 +90,7 @@ function UpdateStats() {
     todayStat.innerText = UpdateTodayCards();
 
     //progress
-    progressValue.innerText = (( UpdateLearnCards() / 10000) * 100).toFixed(2) + "%";
-    progressFill.style.width = (( UpdateLearnCards() / 10000) * 100).toFixed(2) + '%';
-    progressTxT.innerText = "(" + UpdateLearnCards() + "/10000)"
+    updateScrolbar();
 
     updatePieChart();
 
@@ -295,4 +290,44 @@ function updateGraph() {
         count = 0;
     }
   });
+}
+
+function updateScrolbar() {
+    const progressValue = document.getElementById('stats-progress-value');
+    const progressFill = document.querySelector('.progress-fill');
+    const progressTxT = document.getElementById('progressTxT');
+    const firstInput = document.getElementById('a1');
+    const secondInput = document.getElementById('c1');
+    
+    if(UpdateLearnCards() < 600) {
+        firstInput.innerText = '0';
+        secondInput.innerText = 'A1';
+        progressValue.innerText = (( UpdateLearnCards() / 600) * 100).toFixed(2) + "%";
+        progressFill.style.width = (( UpdateLearnCards() / 600) * 100).toFixed(2) + '%';
+        progressTxT.innerText = "(" + UpdateLearnCards() + "/600)";
+    } else if(UpdateLearnCards() < 1500) {
+        firstInput.innerText = 'A1';
+        secondInput.innerText = 'A2';
+        progressValue.innerText = (( UpdateLearnCards() / 1500) * 100).toFixed(2) + "%";
+        progressFill.style.width = (( UpdateLearnCards() / 1500) * 100).toFixed(2) + '%';
+        progressTxT.innerText = "(" + UpdateLearnCards() + "/1500)";
+    } else if(UpdateLearnCards() < 3000) {
+        firstInput.innerText = 'A2';
+        secondInput.innerText = 'B1';
+        progressValue.innerText = (( UpdateLearnCards() / 3000) * 100).toFixed(2) + "%";
+        progressFill.style.width = (( UpdateLearnCards() / 3000) * 100).toFixed(2) + '%';
+        progressTxT.innerText = "(" + UpdateLearnCards() + "/3000)";
+    } else if(UpdateLearnCards() < 5500) {
+        firstInput.innerText = 'B1';
+        secondInput.innerText = 'B2';
+        progressValue.innerText = (( UpdateLearnCards() / 5500) * 100).toFixed(2) + "%";
+        progressFill.style.width = (( UpdateLearnCards() / 5500) * 100).toFixed(2) + '%';
+        progressTxT.innerText = "(" + UpdateLearnCards() + "/5500)";
+    } else if(UpdateLearnCards() < 10000) {
+        firstInput.innerText = 'B2';
+        secondInput.innerText = 'C1';
+        progressValue.innerText = (( UpdateLearnCards() / 10000) * 100).toFixed(2) + "%";
+        progressFill.style.width = (( UpdateLearnCards() / 10000) * 100).toFixed(2) + '%';
+        progressTxT.innerText = "(" + UpdateLearnCards() + "/10000)";
+    }
 }
