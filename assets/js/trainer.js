@@ -165,6 +165,7 @@ updateStreak()
 //render cards ---------------------------------------------------------------------
 
 function renderCards() {
+    updateCoinsFooter();
     UpdateWithoutLearnedCards();
     if(cards.length === 0 && cardsAdd.length === 0) {
         document.getElementById("cards-stack").style.display = "none";
@@ -562,6 +563,20 @@ function UpdateWithoutLearnedCards() {
     }
 }
 
-document.getElementById('TranslateAI').addEventListener('click', function() {
-    checkTranslate();
-});
+// document.getElementById('TranslateAI').addEventListener('click', function() {
+//     checkTranslate();
+// });
+
+//change logo on mobile
+function checkWidth() {
+    const el = document.getElementById('trainer-logo');
+    el.innerText = window.innerWidth <= 480 ? 'WF' : 'WordForge';
+}
+
+window.addEventListener('resize', checkWidth);
+window.addEventListener('DOMContentLoaded', checkWidth);
+
+function updateCoinsFooter() {
+    const coins = localStorage.getItem('coins');
+    document.getElementById('coins-footer').innerText = "🪙 " + coins;
+}

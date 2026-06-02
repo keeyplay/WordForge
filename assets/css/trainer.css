@@ -1328,9 +1328,9 @@ video {
     #buttonLocalAccounts {
         transform: scale(0.8);
     }
-    #trainer-logo {
+    /* #trainer-logo {
         font-size: 10px;
-    }
+    } */
     #modalAccountsContainer {
         flex-direction: column !important;
     }
