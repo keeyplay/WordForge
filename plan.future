@@ -70,13 +70,15 @@ i need add/fix:
 - cloudflare connect to protect premium mode
 - esc - like close modal
 - make sign-ups (Golang) for buy premium and all in data base
-- create graphics
+- create graphics +
 - Make translate AI
 - fix border style in dark theme brah
 - for premium users customize fonts
 - translate to all languages new graphic
 - statistic of time (timer)
 - online chat with ai for train vocabulary
-- add coins and rewards for completed sessions
-- make coins for rewards anything (streaks(5), timer(10), learned cards(5), add cards(1), etc.)
-- make in stats page proccent of learned cards
+- add coins and rewards for completed sessions +
+- make coins for rewards anything (streaks(5), timer(10), learned cards(5), add cards(1), etc.) +
+- make in stats page proccent of learned cards +
+- discrabe whats progress bar
+- smooth animations EVERYWHERE

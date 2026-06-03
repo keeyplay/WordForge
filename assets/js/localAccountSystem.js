@@ -79,6 +79,16 @@ function openModalLocalAccounts() {
             });
         });
     document.body.style.overflow = 'hidden';
+
+    //close if pressed esc
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            document.getElementById("accounts").innerHTML = "";
+            modalAccounts.style.display = "none";
+            document.getElementById("buttonLocalAccounts").classList.remove("clicked");
+            document.body.style.overflow = '';
+        }
+    });
 }
 document.getElementById("accounts-panel-close").addEventListener("click", function() { //close modal
     document.getElementById("accounts").innerHTML = "";
@@ -134,6 +144,14 @@ ProfileEmpty(true);
 document.getElementById("addAccount").addEventListener("click", function() {
     modalAccounts.style.display = "none";
     document.getElementById("modalAddAccounts").style.display = "flex";
+
+    //close if pressed esc
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            openModalLocalAccounts();
+            document.getElementById("modalAddAccounts").style.display = "none";
+        }
+    });
 }); 
 
 

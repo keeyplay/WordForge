@@ -397,6 +397,14 @@ document.addEventListener('keydown', (event) => {
 document.getElementById("btn-create-card").addEventListener('click', function() {
     document.getElementById("modal-overlay").style.display = "flex";
     document.body.style.overflow = 'hidden';
+
+    //close if pressed esc
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            document.getElementById("modal-overlay").style.display = "none"; 
+            document.body.style.overflow = '';
+        }
+    });
 });
 //close modal add
 document.getElementById("btn-modal-cancel").addEventListener('click', function() {
@@ -463,6 +471,15 @@ function openModalEdit() {
             document.getElementById("cards-edit").innerHTML = "";
             openModalEdit();
         });
+    });
+
+    //close if pressed esc
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            document.getElementById("modal-overlay-edit").style.display = "none"; 
+            document.getElementById("cards-edit").innerHTML = "";
+            document.body.style.overflow = '';
+        }
     });
 };
 

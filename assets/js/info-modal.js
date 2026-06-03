@@ -5,6 +5,13 @@ function openInfoModal() {
     setTimeout(() => {
         modal.classList.add('active');
     }, 10);
+
+    //close if pressed esc
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            closeInfoModal();
+        }
+    });
 }
 
 function closeInfoModal() {
