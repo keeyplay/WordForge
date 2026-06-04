@@ -71,8 +71,8 @@ i need add/fix:
 - esc - like close modal
 - make sign-ups (Golang) for buy premium and all in data base
 - create graphics +
-- Make translate AI
-- fix border style in dark theme brah
+- Make translate AI -
+- fix border style in dark theme brah +
 - for premium users customize fonts
 - translate to all languages new graphic
 - statistic of time (timer)
@@ -82,3 +82,5 @@ i need add/fix:
 - make in stats page proccent of learned cards +
 - discrabe whats progress bar
 - smooth animations EVERYWHERE
+- refactoring change language system
+- translate graphic
