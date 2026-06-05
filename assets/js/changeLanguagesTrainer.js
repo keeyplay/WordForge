@@ -22,44 +22,6 @@ async function loadLanguages() {
 }
 loadLanguages();
 
-function switchLanguage() {
-    if(switchLanCount === "en") {
-        document.getElementById("change_language").innerText = "🇷🇺";
-        switchLanCount = "ru";
-        localStorage.setItem("language", switchLanCount);
-        const ruTranslations = Translate.ru;
-        for(let id in ruTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = ruTranslations[id];
-            }
-        }
-        // localStorage.setItem('language', "ru");
-    } else if(switchLanCount === "ru") {
-        document.getElementById("change_language").innerText = "🇩🇪";
-        switchLanCount = "de";
-        localStorage.setItem("language", switchLanCount);
-        const deTranslations = Translate.de;
-        for(let id in deTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = deTranslations[id];
-            }
-        }
-    } else if(switchLanCount === "de") {
-        document.getElementById("change_language").innerText = "🇬🇧";
-        switchLanCount = "en";
-        localStorage.setItem("language", switchLanCount);
-        const enTranslations = Translate.en;
-        for(let id in enTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = enTranslations[id];
-            }
-        }
-    } 
-};
-
 function openModalChoose() {
     document.getElementById("modal-overlay-choose-language").style.display = "flex";
 
@@ -70,51 +32,11 @@ function openModalChoose() {
 
 function switchLanguageForModal(switchLanCountLS = "en") {
     if(!Translate) return;
-    if(switchLanCountLS === "en") {
-        localStorage.setItem("language", switchLanCountLS);
-        const enTranslations = Translate.en;
-        for(let id in enTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = enTranslations[id];
-            }
-        }
-    } else if(switchLanCountLS === "ru") {
-        localStorage.setItem("language", switchLanCountLS);
-        const ruTranslations = Translate.ru;
-        for(let id in ruTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = ruTranslations[id];
-            }
-        }
-    } else if(switchLanCountLS === "de") {
-        localStorage.setItem("language", switchLanCountLS);
-        const deTranslations = Translate.de;
-        for(let id in deTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = deTranslations[id];
-            }
-        }
-    } else if(switchLanCountLS === "pl") {
-        localStorage.setItem("language", switchLanCountLS);
-        const plTranslations = Translate.pl;
-        for(let id in plTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = plTranslations[id];
-            }
-        }
-    } else if(switchLanCountLS === "sr") {
-        localStorage.setItem("language", switchLanCountLS);
-        const srTranslations = Translate.sr;
-        for(let id in srTranslations) {
-            const element = document.getElementById(id);
-            if(element) {
-                element.innerText = srTranslations[id];
-            }
-        }
+    localStorage.setItem('language', switchLanCountLS);
+    for(let key in Translate) {
+        if (document.getElementById(key)) {
+            document.getElementById(key).innerText = Translate[key][switchLanCountLS];
+        }  
     }
     document.getElementById("modal-overlay-choose-language").style.display = "none";
 };
