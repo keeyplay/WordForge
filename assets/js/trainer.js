@@ -540,17 +540,6 @@ document.getElementById("btn-modal-streak-yay").addEventListener('click', functi
     document.getElementById("modal-overlay-streak").style.display = "none";
 });
 
-function ShowConfetti() {
-    document.body.innerHTML += `
-        <video autoplay muted playsinline id="fullscreen-bg">
-            <source src="assets/pic/confetti.mp4">
-        </video>
-    `;
-    setTimeout(function() {
-        document.getElementById("fullscreen-bg").innerHTML = "";
-    }, 12000)
-}
-
 function CounterLernedCards() {
     let count = 0;
     for(let el = 0; el < cards.length; el++) {
@@ -579,10 +568,6 @@ function UpdateWithoutLearnedCards() {
         cardsAdd = cardAddUpdate;
     }
 }
-
-// document.getElementById('TranslateAI').addEventListener('click', function() {
-//     checkTranslate();
-// });
 
 //change logo on mobile
 function checkWidth() {
