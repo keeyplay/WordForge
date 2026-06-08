@@ -9,6 +9,7 @@
     <link rel="icon" href="assets/pic/logo_png_cr.png">
     <link rel="stylesheet" href="assets/css/stats.css">
     <link rel="stylesheet" href="assets/css/info-modal.css">
+    <link rel="stylesheet" href="assets/css/tips.css">
 
     <!-- vercel analytics -->
     <script>
@@ -33,6 +34,22 @@
                 </span>
             </nav>
         </header>
+        <div class="notification" id="notification">
+        <div class="notification-container">
+            <div class="notification-box">
+                <div class="notification-content">
+                    <div class="notification-icon">ℹ️</div>
+                    <div class="notification-text">
+                        <strong>Tip:</strong> Welcome to WordForge 🃏 <br>
+                        Learn with flashcards. Flip, memorize, repeat. Stats, streaks, and coins inside. Add your first card to start.
+                    </div>
+                </div>
+                    <button class="notification-close" id="closeNotificationBtn" aria-label="Закрыть">
+                        ✕
+                    </button>
+                </div>
+            </div>
+        </div>
 
         <main class="trainer-main">
             <section class="cards-zone" id="cards-zone">
@@ -503,6 +520,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="assets/js/coins.js"></script>
+    <script src="assets/js/tips.js"></script>
     <script src="assets/js/timer.js"></script>
     <script src="assets/js/translations.js"></script>
     <script src="assets/js/fonts.js"></script>
