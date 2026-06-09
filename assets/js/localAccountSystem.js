@@ -196,4 +196,5 @@ document.getElementById("continue").addEventListener('click', function() {
     document.getElementById("modalAddAccounts").style.display = "none";
     window.location.reload();
     addCoins(10);
+    showNotification();
 });

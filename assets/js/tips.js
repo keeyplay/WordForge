@@ -2,10 +2,11 @@ const notification = document.getElementById('notification');
 const closeBtn = document.getElementById('closeNotificationBtn');
 
 function showNotification() {
-    // if(localStorage.getItem('Profile'))
-    notification.classList.add('show');
+    if(localStorage.getItem('Profile') && cards.length === 0) {
+        notification.classList.add('show');
+    }
 }
-// showNotification()
+showNotification();
 
 function hideNotification() {
     notification.classList.remove('show');
