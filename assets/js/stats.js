@@ -6,22 +6,34 @@ let streaksSt = JSON.parse(localStorage.getItem(profile)).streaks || {
 };
 
 // migrate old cards to new structure
-function migrateOldCards() {
-    let changed = false;
+// function migrateOldCards() {
+//     let changed = false;
     
-    for(let i = 0; i < cardsSt.length; i++) {
-        // if hasnt date or know Count
-        if (!cardsSt[i].date || !cardsSt[i].knowCount) {
-            cardsSt[i].date = getTodayDateString();
-            cardsSt[i].knowCount = 0;
-            changed = true;
-        }
-    }
+//     for(let i = 0; i < cardsSt.length; i++) {
+//         // if hasnt date or know Count
+//         if (!cardsSt[i].date || !cardsSt[i].knowCount) {
+//             cardsSt[i].date = getTodayDateString();
+//             cardsSt[i].knowCount = 0;
+//             changed = true;
+//         }
+//     }
     
-    // Если были изменения - сохраняем
-    if (changed) localStorage.setItem('languageCards', JSON.stringify(cardsSt));
-}
-migrateOldCards();
+//     // Если были изменения - сохраняем
+//     if (changed) localStorage.setItem('languageCards', JSON.stringify(cardsSt));
+// }
+// migrateOldCards();
+
+//variables
+const statsButton = document.getElementById('but_stats');
+const statsPanel = document.getElementById('stats-panel');
+const statsOverlay = document.getElementById('stats-overlay');
+const closeButton = document.getElementById('stats-panel-close');
+const allCards = document.getElementById("stats-total-cards");
+const learnCardsDiv = document.getElementById('stats-learned-cards');
+const streak = document.getElementById('stats-streak');
+const todayStat = document.getElementById('stats-today');
+const CoinsAmountUI = document.getElementById('stats-coins-amount');
+const LearnedRateUI = document.getElementById('stats-learned-rate');
 
 // Follow every click in pages
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,11 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function StatsPanel(Open) {
-            const statsButton = document.getElementById('but_stats');
-            const statsPanel = document.getElementById('stats-panel');
-            const statsOverlay = document.getElementById('stats-overlay');
-            const closeButton = document.getElementById('stats-panel-close');
-            
             // Function to open panel
             function openStatsPanel() {
                 statsPanel.classList.add('active');
@@ -79,11 +86,6 @@ function UpdateStats() {
         streakClaimedToday: false
     };
 
-    const allCards = document.getElementById("stats-total-cards");
-    const learnCardsDiv = document.getElementById('stats-learned-cards');
-    const streak = document.getElementById('stats-streak');
-    const todayStat = document.getElementById('stats-today');
-
     allCards.innerText = cardsSt.length;
     learnCardsDiv.innerText = UpdateLearnCards();
     streak.innerText = streaksSt.streakCount;
@@ -94,9 +96,13 @@ function UpdateStats() {
 
     updatePieChart();
 
-    document.getElementById('stats-coins-amount').innerText = localStorage.getItem('coins');
+    CoinsAmountUI.innerText = localStorage.getItem('coins');
 
-    document.getElementById('stats-learned-rate').innerText = ((CounterLernedCards() / cards.length) * 100).toFixed(0) + "%";
+    if(cards.length === 0) {
+        LearnedRateUI.innerText = "0%";
+    } else {
+        LearnedRateUI.innerText = ((CounterLernedCards() / cards.length) * 100).toFixed(0) + "%";
+    }    
 };
 
 function UpdateLearnCards() {
