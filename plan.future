@@ -80,9 +80,10 @@ i need add/fix:
 - add coins and rewards for completed sessions +
 - make coins for rewards anything (streaks(5), timer(10), learned cards(5), add cards(1), etc.) +
 - make in stats page proccent of learned cards +
-- discrabe whats progress bar
+- discrabe whats progress bar +
 - smooth animations EVERYWHERE
 - refactoring change language system +
-- translate graphic
+- translate graphic -
 - create tips for new users +
 - create addwall
+- create achievements
