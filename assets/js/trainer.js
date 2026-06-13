@@ -15,6 +15,22 @@ let PremiumActivated = reloadPremium().then(result => {
     PremiumActivated = result;
 });
 
+// achivments sector
+const milestones = {
+    1: "First card added! 🎉",
+    5: "5 cards — great start!",
+    10: "10 cards — you're learning!",
+    25: "25 cards — keep going!",
+    50: "50 cards — wow!",
+    100: "100 cards — A1 Beginner! You know the essential core of language. 🎯",
+    500: "500 cards — still A1, but getting stronger! 💪",
+    1000: "1000 cards — A2 Elementary! You can handle everyday situations now. 🗣️",
+    2000: "2000 cards — B1 Intermediate! You're an independent user. HUGE milestone! 🚀",
+    4000: "4000 cards — B2 Upper Intermediate! Fluent conversations unlocked. 🔥",
+    8000: "8000 cards — C1 Advanced! Native-like command. Massive respect! 🏆",
+    16000: "16000 cards — C2 Proficiency! You're a master of English. 👑",
+    20000: "20000 cards — WordForge Legend! 🌟"
+};
 let streakMessages = [];
 
 if(profileData.streaks) {
@@ -300,6 +316,11 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
             document.getElementById("input-word").value = '';
             document.getElementById("input-translation").value = '';
             addCoins(1);
+
+            //achivments
+            if(milestones[cards.length]) {
+                showNotification("Cards milestone", milestones[cards.length], "ach");
+            }
         } else {
             alert("Upradge to premium mode for new cards");
         }
@@ -347,6 +368,11 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
         document.getElementById("input-word").value = '';
         document.getElementById("input-translation").value = '';
         addCoins(1);
+
+        //achivments
+        if(milestones[cards.length]) {
+            showNotification("Cards milestone", milestones[cards.length], "ach");
+        }
     }
 });
 
