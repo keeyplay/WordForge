@@ -10,6 +10,7 @@ const notificationBox = document.getElementById('notification-box');
 function showNotification(tiptitle, tiptext, type = "not") {
     if(type === "not") { //not = notification
         notificationIcon.innerText = "ℹ️"
+        notificationBox.style.border = "1px solid rgba(255, 255, 255, 0.2)";
     } else if(type = "ach") { //ach = achivment
         notificationIcon.innerText = "🏆";
         notificationBox.style.border = "5px solid yellow";

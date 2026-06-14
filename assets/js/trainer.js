@@ -31,6 +31,7 @@ const milestones = {
     16000: "16000 cards — C2 Proficiency! You're a master of English. 👑",
     20000: "20000 cards — WordForge Legend! 🌟"
 };
+
 let streakMessages = [];
 
 if(profileData.streaks) {

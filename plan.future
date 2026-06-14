@@ -85,5 +85,6 @@ i need add/fix:
 - refactoring change language system +
 - translate graphic -
 - create tips for new users +
-- create addwall
-- create achievements
+- create addwall -
+- create achievements +
+- refactoring translation system in info page
