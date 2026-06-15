@@ -20,7 +20,15 @@ function showNotification(tiptitle, tiptext, type = "not") {
     TipTextUI.innerText = tiptext;
 }
 if(localStorage.getItem('Profile') && JSON.parse(localStorage.getItem(localStorage.getItem('Profile'))).languageCards.length === 0) {
-    showNotification("Welcome to WordForge 🃏", "Learn with flashcards. Flip, memorize, repeat. Stats, streaks, and coins inside. Add your first card to start.");    
+    if(localStorage.getItem("language") === "en") showNotification("Welcome to WordForge 🃏", "Learn with flashcards. Flip, memorize, repeat. Stats, streaks, and coins inside. Add your first card to start.");
+
+    if(localStorage.getItem("language") === "ru") showNotification("Добро пожаловать в WordForge 🃏", "Учите слова с карточками. Переворачивайте, запоминайте, повторяйте. Статистика, серии и монетки внутри. Добавьте первую карточку, чтобы начать.");
+
+    if(localStorage.getItem("language") === "de") showNotification("Willkommen bei WordForge 🃏", "Lerne mit Karteikarten. Drehe um, merke dir, wiederhole. Statistiken, Serien und Münzen inklusive. Füge deine erste Karte hinzu, um zu starten.");
+
+    if(localStorage.getItem("language") === "pl") showNotification("Witaj w WordForge 🃏", "Ucz się z fiszkami. Odwracaj, zapamiętuj, powtarzaj. Statystyki, serie i monety w środku. Dodaj swoją pierwszą kartę, aby rozpocząć.");
+
+    if(localStorage.getItem("language") === "sr") showNotification("Dobrodošli u WordForge 🃏", "Učite sa flashcards. Okrećite, zapamtite, ponavljajte. Statistika, nizovi i novčići unutra. Dodajte svoju prvu karticu da počnete.");
 }
 
 function hideNotification() {
