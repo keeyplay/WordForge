@@ -19,7 +19,7 @@ function showNotification(tiptitle, tiptext, type = "not") {
     TipTitleUI.innerText = tiptitle;
     TipTextUI.innerText = tiptext;
 }
-if(localStorage.getItem('Profile') && JSON.parse(localStorage.getItem(localStorage.getItem('Profile'))).languageCards.length === 0) {
+if(localStorage.getItem('Profile') && !JSON.parse(localStorage.getItem(localStorage.getItem('Profile'))).languageCards) {
     if(localStorage.getItem("language") === "en") showNotification("Welcome to WordForge 🃏", "Learn with flashcards. Flip, memorize, repeat. Stats, streaks, and coins inside. Add your first card to start.");
 
     if(localStorage.getItem("language") === "ru") showNotification("Добро пожаловать в WordForge 🃏", "Учите слова с карточками. Переворачивайте, запоминайте, повторяйте. Статистика, серии и монетки внутри. Добавьте первую карточку, чтобы начать.");

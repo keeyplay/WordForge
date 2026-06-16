@@ -88,5 +88,5 @@ i need add/fix:
 - create addwall -
 - create achievements +
 - refactoring translation system in info page
-- translate all notifications
-- translate first notification
+- translate all notifications +
+- translate first notification +
