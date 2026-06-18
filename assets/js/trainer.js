@@ -22,91 +22,104 @@ const milestones = {
         ru: "Первая карточка добавлена! 🎉",
         de: "Erste Karte hinzugefügt! 🎉",
         pl: "Pierwsza karta dodana! 🎉",
-        sr: "Prva kartica dodana! 🎉"
+        sr: "Prva kartica dodana! 🎉",
+        ja: "最初のカードが追加されました！🎉"
     },
     5: {
         en: "5 cards — great start!",
         ru: "5 карточек — отличный старт!",
         de: "5 Karten — großartiger Start!",
         pl: "5 kart — świetny start!",
-        sr: "5 kartica — odličan početak!"
+        sr: "5 kartica — odličan početak!",
+        ja: "5枚のカード — 素晴らしいスタート！"
     },
     10: {
         en: "10 cards — you're learning!",
         ru: "10 карточек — ты уже учишься!",
         de: "10 Karten — du lernst!",
         pl: "10 kart — już się uczysz!",
-        sr: "10 kartica — već učiš!"
+        sr: "10 kartica — već učiš!",
+        ja: "10枚のカード — もう学んでいる！"
     },
     25: {
         en: "25 cards — keep going!",
         ru: "25 карточек — продолжай в том же духе!",
         de: "25 Karten — mach weiter so!",
         pl: "25 kart — tak trzymaj!",
-        sr: "25 kartica — nastavi tako!"
+        sr: "25 kartica — nastavi tako!",
+        ja: "25枚のカード — その調子！"
     },
     50: {
         en: "50 cards — wow!",
         ru: "50 карточек — вау!",
         de: "50 Karten — wow!",
         pl: "50 kart — wow!",
-        sr: "50 kartica — vau!"
+        sr: "50 kartica — vau!",
+        ja: "50枚のカード — わあ！"
     },
     100: {
         en: "100 cards — A1 Beginner! You know the essential core of language. 🎯",
         ru: "100 карточек — A1 Начальный! Ты знаешь основу языка. 🎯",
         de: "100 Karten — A1 Anfänger! Du kennst den wesentlichen Kern der Sprache. 🎯",
         pl: "100 kart — A1 Początkujący! Znasz podstawę języka. 🎯",
-        sr: "100 kartica — A1 Početnik! Znaš osnovu jezika. 🎯"
+        sr: "100 kartica — A1 Početnik! Znaš osnovu jezika. 🎯",
+        ja: "100枚のカード — A1 初心者！言語の基本を理解しています。🎯"
     },
     500: {
         en: "500 cards — still A1, but getting stronger! 💪",
         ru: "500 карточек — всё ещё A1, но становишься сильнее! 💪",
         de: "500 Karten — immer noch A1, aber stärker werdend! 💪",
         pl: "500 kart — wciąż A1, ale stajesz się silniejszy! 💪",
-        sr: "500 kartica — još uvek A1, ali postaješ jači! 💪"
+        sr: "500 kartica — još uvek A1, ali postaješ jači! 💪",
+        ja: "500枚のカード — まだA1だけど、強くなっている！💪"
     },
     1000: {
         en: "1000 cards — A2 Elementary! You can handle everyday situations now. 🗣️",
         ru: "1000 карточек — A2 Элементарный! Теперь ты справляешься с повседневными ситуациями. 🗣️",
         de: "1000 Karten — A2 Grundstufe! Du kannst jetzt alltägliche Situationen bewältigen. 🗣️",
         pl: "1000 kart — A2 Podstawowy! Teraz radzisz sobie w codziennych sytuacjach. 🗣️",
-        sr: "1000 kartica — A2 Osnovni! Sada se snalaziš u svakodnevnim situacijama. 🗣️"
+        sr: "1000 kartica — A2 Osnovni! Sada se snalaziš u svakodnevnim situacijama. 🗣️",
+        ja: "1000枚のカード — A2 初級！日常的な状況に対応できます。🗣️"
     },
     2000: {
         en: "2000 cards — B1 Intermediate! You're an independent user. HUGE milestone! 🚀",
         ru: "2000 карточек — B1 Средний! Ты самостоятельный пользователь. ОГРОМНЫЙ успех! 🚀",
         de: "2000 Karten — B1 Mittelstufe! Du bist ein unabhängiger Nutzer. RIESIGER Meilenstein! 🚀",
         pl: "2000 kart — B1 Średniozaawansowany! Jesteś samodzielnym użytkownikiem. OGROMNY sukces! 🚀",
-        sr: "2000 kartica — B1 Srednji! Samostalan si korisnik. VELIKI uspeh! 🚀"
+        sr: "2000 kartica — B1 Srednji! Samostalan si korisnik. VELIKI uspeh! 🚀",
+        ja: "2000枚のカード — B1 中級！独立したユーザーです。大きな節目！🚀"
     },
     4000: {
         en: "4000 cards — B2 Upper Intermediate! Fluent conversations unlocked. 🔥",
         ru: "4000 карточек — B2 Выше среднего! Беглые разговоры разблокированы. 🔥",
         de: "4000 Karten — B2 Oberstufe! Fließende Gespräche freigeschaltet. 🔥",
         pl: "4000 kart — B2 Wyższy średniozaawansowany! Płynne rozmowy odblokowane. 🔥",
-        sr: "4000 kartica — B2 Viši srednji! Tečni razgovori otključani. 🔥"
+        sr: "4000 kartica — B2 Viši srednji! Tečni razgovori otključani. 🔥",
+        ja: "4000枚のカード — B2 中上級！流暢な会話が可能になりました。🔥"
     },
     8000: {
         en: "8000 cards — C1 Advanced! Native-like command. Massive respect! 🏆",
         ru: "8000 карточек — C1 Продвинутый! Владение на уровне носителя. Огромное уважение! 🏆",
         de: "8000 Karten — C1 Fortgeschritten! Muttersprachliches Niveau. Großer Respekt! 🏆",
         pl: "8000 kart — C1 Zaawansowany! Poziom native speakera. Ogromny szacunek! 🏆",
-        sr: "8000 kartica — C1 Napredni! Nivo izvornog govornika. Ogromno poštovanje! 🏆"
+        sr: "8000 kartica — C1 Napredni! Nivo izvornog govornika. Ogromno poštovanje! 🏆",
+        ja: "8000枚のカード — C1 上級！ネイティブレベル。大きな敬意！🏆"
     },
     16000: {
         en: "16000 cards — C2 Proficiency! You're a master of language. 👑",
         ru: "16000 карточек — C2 Владение в совершенстве! Ты мастер языка. 👑",
         de: "16000 Karten — C2 Perfektion! Du bist ein Meister der Sprache. 👑",
         pl: "16000 kart — C2 Biegłość! Jesteś mistrzem język. 👑",
-        sr: "16000 kartica — C2 Profesionalno! Ti si majstor jezika. 👑"
+        sr: "16000 kartica — C2 Profesionalno! Ti si majstor jezika. 👑",
+        ja: "16000枚のカード — C2 熟練！言語の達人です。👑"
     },
     20000: {
         en: "20000 cards — WordForge Legend! 🌟",
         ru: "20000 карточек — Легенда WordForge! 🌟",
         de: "20000 Karten — WordForge Legende! 🌟",
         pl: "20000 kart — Legenda WordForge! 🌟",
-        sr: "20000 kartica — WordForge Legenda! 🌟"
+        sr: "20000 kartica — WordForge Legenda! 🌟",
+        ja: "20000枚のカード — WordForge レジェンド！🌟"
     }
 };
 

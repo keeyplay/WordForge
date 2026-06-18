@@ -199,6 +199,43 @@ document.getElementById('btn_start').addEventListener('click', function() {
                     </div>
                 `;
                 switchLanguageForModal(localStorage.getItem("language"));
+        } else if(localStorage.getItem("language") === "ja") {
+            newContent = `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
+                                    <h2>WordForge について</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> は、純粋なJavaScriptで構築された軽量でインタラクティブな語彙トレーナーです。言語学習を報酬のあるゲームに変えます。<br><span>コアアイデア:</span> デジタルフラッシュカードを作成し、フリップアニメーションで自分自身をテストし、正解するとコインを獲得します。進捗はすべてブラウザに保存されます。<br><span>技術スタック:</span> Vanilla JS、HTML5、CSS3、LocalStorage API。フレームワークなし、バックエンドなし、アカウントなし — 高速でプライベートな学習を実現します。<br><span>開発理由:</span> 自分の英語学習のためにシンプルでゲーム化されたツールが必要でした。このプロジェクトは、最初のコード行から動作するプロダクトまでの公開学習 (#buildinpublic) の旅です。</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>私について</h2>
+                                    <h3 id="textabtme">こんにちは、<span>keeyplay</span> です。ロシア出身の15歳の独学開発者です 🇷🇺。<br><span>ミッション:</span> 影響力のあるデジタルプロダクトを構築し、EU 🇪🇺 または US 🇺🇸 での将来のテクノロジーキャリアへの道を切り開くこと。<br><span>活動内容:</span><br>→ 公開コーディング。Twitterでフルスタックの旅 (JS, PHP, React) を記録しています。<br>→ ライブMinecraftサーバーとコミュニティの構築と管理 (初めてのビジネスベンチャー)。<br>→ グローバルなテクノロジーシーンに飛び込むために毎日英語を学習。<br><span>信念:</span> 一貫性が機会を生み出す。プロジェクトのリリース、スキルの向上、世界中の開発者コミュニティとのつながりに注力しています。<br><span><a href="https://x.com/keeyplay">Twitter</a> でつながるか、<a href="https://github.com/keeyplay/WordForge">GitHub</a> でコードをチェックしてください。</span></h3>
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                switchLanguageForModal(localStorage.getItem("language"));
         }
         
         document.body.style.height = "100vh";

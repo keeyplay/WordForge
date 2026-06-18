@@ -4,587 +4,671 @@
     "ru": "Свайп влево — не знаю · вправо — знаю",
     "de": "Nach links wischen — nicht gewusst · nach rechts — gewusst",
     "pl": "Przesuń w lewo — nie wiem · w prawo — wiem",
-    "sr": "Prevucite levo — ne znam · desno — znam"
+    "sr": "Prevucite levo — ne znam · desno — znam",
+    "ja": "左にスワイプ — 知らない · 右にスワイプ — 知っている"
   },
   "btn-dont-know": {
     "en": "Don't know",
     "ru": "Не знаю",
     "de": "Nicht gewusst",
     "pl": "Nie wiem",
-    "sr": "Ne znam"
+    "sr": "Ne znam",
+    "ja": "知らない"
   },
   "btn-know": {
     "en": "Know",
     "ru": "Знаю",
     "de": "Gewusst",
     "pl": "Wiem",
-    "sr": "Znam"
+    "sr": "Znam",
+    "ja": "知っている"
   },
   "empty-title": {
     "en": "No cards yet",
     "ru": "Карточек пока нет",
     "de": "Noch keine Karten",
     "pl": "Brak kart",
-    "sr": "Još nema kartica"
+    "sr": "Još nema kartica",
+    "ja": "まだカードがありません"
   },
   "empty-desc": {
     "en": "Add your first card below to start learning.",
     "ru": "Добавьте первую карточку ниже, чтобы начать обучение.",
     "de": "Füge unten deine erste Karte hinzu, um zu beginnen.",
     "pl": "Dodaj pierwszą kartę poniżej, aby rozpocząć naukę.",
-    "sr": "Dodajte prvu karticu ispod da biste počeli sa učenjem."
+    "sr": "Dodajte prvu karticu ispod da biste počeli sa učenjem.",
+    "ja": "下のボタンから最初のカードを追加して学習を始めましょう"
   },
   "done-title": {
     "en": "All done",
     "ru": "Всё готово",
     "de": "Fertig",
     "pl": "Gotowe",
-    "sr": "Sve gotovo"
+    "sr": "Sve gotovo",
+    "ja": "完了しました"
   },
   "done-desc": {
     "en": "You've gone through the deck. Add more cards or start again.",
     "ru": "Вы прошли всю колоду. Добавьте ещё карточек или начните заново.",
     "de": "Du hast das Deck durchgespielt. Füge weitere Karten hinzu oder beginne von vorn.",
     "pl": "Przerobiłeś całą talię. Dodaj więcej kart lub zacznij od nowa.",
-    "sr": "Prošli ste ceo špil. Dodajte još kartica ili počnite ponovo."
+    "sr": "Prošli ste ceo špil. Dodajte još kartica ili počnite ponovo.",
+    "ja": "すべてのカードを学習しました。さらにカードを追加するか、最初からやり直してください"
   },
   "btn-start-again": {
     "en": "Start again",
     "ru": "Начать заново",
     "de": "Von vorn beginnen",
     "pl": "Zacznij od nowa",
-    "sr": "Počni ponovo"
+    "sr": "Počni ponovo",
+    "ja": "最初からやり直す"
   },
   "btn-create-text": {
     "en": "Add card",
     "ru": "Добавить карточку",
     "de": "Karte hinzufügen",
     "pl": "Dodaj kartę",
-    "sr": "Dodaj karticu"
+    "sr": "Dodaj karticu",
+    "ja": "カードを追加"
   },
   "create-hint": {
     "en": "New words appear in the deck",
     "ru": "Новые слова появляются в колоде",
     "de": "Neue Wörter erscheinen im Deck",
     "pl": "Nowe słowa pojawiają się w talii",
-    "sr": "Nove reči se pojavljuju u špilu"
+    "sr": "Nove reči se pojavljuju u špilu",
+    "ja": "新しい単語がデッキに表示されます"
   },
   "btn-edit-text": {
     "en": "Edit Cards",
     "ru": "Редактировать карточки",
     "de": "Karten bearbeiten",
     "pl": "Edytuj karty",
-    "sr": "Uredi kartice"
+    "sr": "Uredi kartice",
+    "ja": "カードを編集"
   },
   "create-hint-edit": {
     "en": "Edit Cards",
     "ru": "Редактировать карточки",
     "de": "Karten bearbeiten",
     "pl": "Edytuj karty",
-    "sr": "Uredi kartice"
+    "sr": "Uredi kartice",
+    "ja": "カードを編集"
   },
   "footer-link": {
     "en": "Home",
     "ru": "Главная",
     "de": "Startseite",
     "pl": "Strona główna",
-    "sr": "Početna"
+    "sr": "Početna",
+    "ja": "ホーム"
   },
   "modal-title-add": {
     "en": "Add card",
     "ru": "Добавить карточку",
     "de": "Karte hinzufügen",
     "pl": "Dodaj kartę",
-    "sr": "Dodaj karticu"
+    "sr": "Dodaj karticu",
+    "ja": "カードを追加"
   },
   "modal-label-word": {
     "en": "Word",
     "ru": "Слово",
     "de": "Wort",
     "pl": "Słowo",
-    "sr": "Reč"
+    "sr": "Reč",
+    "ja": "単語"
   },
   "input-word-placeholder": {
     "en": "e.g. apple",
     "ru": "например: яблоко",
     "de": "z.B. Apfel",
     "pl": "np. jabłko",
-    "sr": "npr. jabuka"
+    "sr": "npr. jabuka",
+    "ja": "例: apple"
   },
   "modal-label-translation": {
     "en": "Translation",
     "ru": "Перевод",
     "de": "Übersetzung",
     "pl": "Tłumaczenie",
-    "sr": "Prevod"
+    "sr": "Prevod",
+    "ja": "翻訳"
   },
   "input-translation-placeholder": {
     "en": "e.g. яблоко",
     "ru": "например: apple",
     "de": "z.B. яблоко",
     "pl": "np. apple",
-    "sr": "npr. apple"
+    "sr": "npr. apple",
+    "ja": "例: りんご"
   },
   "btn-modal-cancel": {
     "en": "Cancel",
     "ru": "Отмена",
     "de": "Abbrechen",
     "pl": "Anuluj",
-    "sr": "Otkaži"
+    "sr": "Otkaži",
+    "ja": "キャンセル"
   },
   "btn-modal-save": {
     "en": "Save",
     "ru": "Сохранить",
     "de": "Speichern",
     "pl": "Zapisz",
-    "sr": "Sačuvaj"
+    "sr": "Sačuvaj",
+    "ja": "保存"
   },
   "btn-modal-delete-all-edit": {
     "en": "Delete all",
     "ru": "Удалить всё",
     "de": "Alle löschen",
     "pl": "Usuń wszystko",
-    "sr": "Obriši sve"
+    "sr": "Obriši sve",
+    "ja": "すべて削除"
   },
   "btn-modal-cancel-edit": {
     "en": "Cancel",
     "ru": "Отмена",
     "de": "Abbrechen",
     "pl": "Anuluj",
-    "sr": "Otkaži"
+    "sr": "Otkaži",
+    "ja": "キャンセル"
   },
   "card-label-front": {
     "en": "Word",
     "ru": "Слово",
     "de": "Wort",
     "pl": "Słowo",
-    "sr": "Reč"
+    "sr": "Reč",
+    "ja": "単語"
   },
   "card-label-back": {
     "en": "Translation",
     "ru": "Перевод",
     "de": "Übersetzung",
     "pl": "Tłumaczenie",
-    "sr": "Prevod"
+    "sr": "Prevod",
+    "ja": "翻訳"
   },
   "change_language": {
     "en": "🇬🇧",
     "ru": "🇷🇺",
     "de": "🇩🇪",
     "pl": "🇵🇱",
-    "sr": "🇷🇸"
+    "sr": "🇷🇸",
+    "ja": "🇯🇵"
   },
   "alert-fill-fields": {
     "en": "Please fill out all fields",
     "ru": "Заполните все поля",
     "de": "Bitte fülle alle Felder aus",
     "pl": "Wypełnij wszystkie pola",
-    "sr": "Molimo popunite sva polja"
+    "sr": "Molimo popunite sva polja",
+    "ja": "すべての項目を入力してください"
   },
   "alert-max-chars": {
     "en": "Maximum 15 characters",
     "ru": "Максимум 15 символов",
     "de": "Maximal 15 Zeichen",
     "pl": "Maksymalnie 15 znaków",
-    "sr": "Maksimalno 15 karaktera"
+    "sr": "Maksimalno 15 karaktera",
+    "ja": "最大15文字です"
   },
   "confirm-delete": {
     "en": "Are you sure you want to delete your progress?",
     "ru": "Вы уверены, что хотите удалить весь прогресс?",
     "de": "Bist du sicher, dass du deinen Fortschritt löschen möchtest?",
     "pl": "Czy na pewno chcesz usunąć cały postęp?",
-    "sr": "Da li ste sigurni da želite da obrišete sav napredak?"
+    "sr": "Da li ste sigurni da želite da obrišete sav napredak?",
+    "ja": "本当にすべての進捗を削除しますか？"
   },
   "addcard": {
     "en": "Add card",
     "ru": "Добавить карточку",
     "de": "Karte hinzufügen",
     "pl": "Dodaj kartę",
-    "sr": "Dodaj karticu"
+    "sr": "Dodaj karticu",
+    "ja": "カードを追加"
   },
   "addcardD": {
     "en": "New words appear in the deck",
     "ru": "Новые слова появляются в колоде",
     "de": "Neue Wörter erscheinen im Deck",
     "pl": "Nowe słowa pojawiają się w talii",
-    "sr": "Nove reči se pojavljuju u špilu"
+    "sr": "Nove reči se pojavljuju u špilu",
+    "ja": "新しい単語がデッキに表示されます"
   },
   "editcard": {
     "en": "Edit Cards",
     "ru": "Редактировать карточки",
     "de": "Karten bearbeiten",
     "pl": "Edytuj karty",
-    "sr": "Uredi kartice"
+    "sr": "Uredi kartice",
+    "ja": "カードを編集"
   },
   "editcardD": {
     "en": "Edit Cards",
     "ru": "Редактировать карточки",
     "de": "Karten bearbeiten",
     "pl": "Edytuj karty",
-    "sr": "Uredi kartice"
+    "sr": "Uredi kartice",
+    "ja": "カードを編集"
   },
   "btn-delete-card": {
     "en": "Delete",
     "ru": "Удалить",
     "de": "Löschen",
     "pl": "Usuń",
-    "sr": "Obriši"
+    "sr": "Obriši",
+    "ja": "削除"
   },
   "statistic": {
     "en": "📈 Statistics",
     "ru": "📈 Статистика",
     "de": "📈 Statistik",
     "pl": "📈 Statystyki",
-    "sr": "📈 Statistika"
+    "sr": "📈 Statistika",
+    "ja": "📈 統計"
   },
   "progress": {
     "en": "Progress",
     "ru": "Прогресс",
     "de": "Fortschritt",
     "pl": "Postęp",
-    "sr": "Napredak"
+    "sr": "Napredak",
+    "ja": "進捗"
   },
   "distrib": {
     "en": "Distribution",
     "ru": "Распределение",
     "de": "Verteilung",
     "pl": "Rozkład",
-    "sr": "Raspodela"
+    "sr": "Raspodela",
+    "ja": "分布"
   },
   "total_card": {
     "en": "Total cards",
     "ru": "Всего карточек",
     "de": "Karten insgesamt",
     "pl": "Wszystkich kart",
-    "sr": "Ukupno kartica"
+    "sr": "Ukupno kartica",
+    "ja": "カード合計"
   },
   "learned": {
     "en": "Learned",
     "ru": "Выученные",
     "de": "Gelernt",
     "pl": "Nauczone",
-    "sr": "Naučeno"
+    "sr": "Naučeno",
+    "ja": "学習済み"
   },
   "streksStat": {
     "en": "Streak",
     "ru": "Стрик",
     "de": "Serie",
     "pl": "Seria",
-    "sr": "Niz"
+    "sr": "Niz",
+    "ja": "連続記録"
   },
   "today": {
     "en": "Today",
     "ru": "Сегодня",
     "de": "Heute",
     "pl": "Dzisiaj",
-    "sr": "Danas"
+    "sr": "Danas",
+    "ja": "今日"
   },
   "import": {
     "en": "Import",
     "ru": "Импорт",
     "de": "Importieren",
     "pl": "Importuj",
-    "sr": "Uvezi"
+    "sr": "Uvezi",
+    "ja": "インポート"
   },
   "export": {
     "en": "Export",
     "ru": "Экспорт",
     "de": "Exportieren",
     "pl": "Eksportuj",
-    "sr": "Izvezi"
+    "sr": "Izvezi",
+    "ja": "エクスポート"
   },
   "importexportcardD": {
     "en": "Import / export Cards",
     "ru": "Импорт / экспорт карточек",
     "de": "Karten importieren / exportieren",
     "pl": "Importuj / Eksportuj karty",
-    "sr": "Uvezi / Izvezi kartice"
+    "sr": "Uvezi / Izvezi kartice",
+    "ja": "カードをインポート / エクスポート"
   },
   "txt-word": {
     "en": "word",
     "ru": "слово",
     "de": "Wort",
     "pl": "słowo",
-    "sr": "reč"
+    "sr": "reč",
+    "ja": "単語"
   },
   "txt-translation": {
     "en": "translation",
     "ru": "перевод",
     "de": "Übersetzung",
     "pl": "tłumaczenie",
-    "sr": "prevod"
+    "sr": "prevod",
+    "ja": "翻訳"
   },
   "multi_verse_accounts": {
     "en": "Multi-Verse Accounts",
     "ru": "Мультивселенная аккаунтов",
     "de": "Multi-Verse Konten",
     "pl": "Konta Multi-Wszechświat",
-    "sr": "Multi-Verse Nalozi"
+    "sr": "Multi-Verse Nalozi",
+    "ja": "マルチバースアカウント"
   },
   "whatsit": {
     "en": "What's it?",
     "ru": "Что это?",
     "de": "Was ist das?",
     "pl": "Co to jest?",
-    "sr": "Šta je ovo?"
+    "sr": "Šta je ovo?",
+    "ja": "これは何？"
   },
   "modalAccountsContainerText": {
     "en": "Multi-Verse Profiles - separate accounts for each language. Learn English? German? Russian? Switch anytime, cards never mix",
     "ru": "Мультивселенная профилей - отдельные аккаунты для каждого языка. Учите английский? Немецкий? Русский? Переключайтесь в любое время, карточки никогда не смешиваются",
     "de": "Multi-Verse Profile - separate Konten für jede Sprache. Englisch lernen? Deutsch? Russisch? Jederzeit wechseln, Karten vermischen sich nie",
     "pl": "Profile Multi-Wszechświat — osobne konta dla każdego języka. Uczysz się angielskiego? Niemieckiego? Rosyjskiego? Przełączaj się w dowolnym momencie, karty nigdy się nie mieszają",
-    "sr": "Multi-Verse Profili - odvojeni nalozi za svaki jezik. Učite engleski? Nemački? Ruski? Prebacujte se u bilo kom trenutku, kartice se nikada ne mešaju"
+    "sr": "Multi-Verse Profili - odvojeni nalozi za svaki jezik. Učite engleski? Nemački? Ruski? Prebacujte se u bilo kom trenutku, kartice se nikada ne mešaju",
+    "ja": "マルチバースプロフィール - 言語ごとに別々のアカウントを作成できます。英語？ドイツ語？ロシア語？いつでも切り替え可能で、カードが混ざることはありません"
   },
   "deletealldata": {
     "en": "Delete all data",
     "ru": "Удалить все данные",
     "de": "Alle Daten löschen",
     "pl": "Usuń wszystkie dane",
-    "sr": "Obriši sve podatke"
+    "sr": "Obriši sve podatke",
+    "ja": "すべてのデータを削除"
   },
   "all-cards-county": {
     "en": "Create new account",
     "ru": "Создать новый аккаунт",
     "de": "Neues Konto erstellen",
     "pl": "Utwórz nowe konto",
-    "sr": "Kreiraj novi nalog"
+    "sr": "Kreiraj novi nalog",
+    "ja": "新しいアカウントを作成"
   },
   "whatslang": {
     "en": "What language do you want to learn?",
     "ru": "Какой язык вы хотите учить?",
     "de": "Welche Sprache möchtest du lernen?",
     "pl": "Jakiego języka chcesz się uczyć?",
-    "sr": "Koji jezik želite da učite?"
+    "sr": "Koji jezik želite da učite?",
+    "ja": "どの言語を学びたいですか？"
   },
   "dropdownBtn": {
     "en": "Choose language",
     "ru": "Выберите язык",
     "de": "Sprache wählen",
     "pl": "Wybierz język",
-    "sr": "Izaberite jezik"
+    "sr": "Izaberite jezik",
+    "ja": "言語を選択"
   },
   "continue": {
     "en": "Continue",
     "ru": "Продолжить",
     "de": "Weiter",
     "pl": "Kontynuuj",
-    "sr": "Nastavi"
+    "sr": "Nastavi",
+    "ja": "続ける"
   },
   "all_cards": {
     "en": "All Cards",
     "ru": "Все карточки",
     "de": "Alle Karten",
     "pl": "Wszystkie karty",
-    "sr": "Sve kartice"
+    "sr": "Sve kartice",
+    "ja": "すべてのカード"
   },
   "word_label": {
     "en": "Word",
     "ru": "Слово",
     "de": "Wort",
     "pl": "Słowo",
-    "sr": "Reč"
+    "sr": "Reč",
+    "ja": "単語"
   },
   "translation_label": {
     "en": "Translation",
     "ru": "Перевод",
     "de": "Übersetzung",
     "pl": "Tłumaczenie",
-    "sr": "Prevod"
+    "sr": "Prevod",
+    "ja": "翻訳"
   },
   "other": {
     "en": "Other",
     "ru": "Другой",
     "de": "Andere",
     "pl": "Inne",
-    "sr": "Drugo"
+    "sr": "Drugo",
+    "ja": "その他"
   },
   "abt": {
     "en": "ABOUT",
     "ru": "О ПРОЕКТЕ",
     "de": "ÜBER",
     "pl": "O PROJEKCIE",
-    "sr": "O PROJEKTU"
+    "sr": "O PROJEKTU",
+    "ja": "プロジェクトについて"
   },
   "discribe-abt": {
     "en": "Simple vocabulary trainer. No sign-up, no payments. Just open and learn.",
     "ru": "Простой тренажёр словарного запаса. Без регистрации, без платежей. Просто открой и учи.",
     "de": "Einfacher Vokabeltrainer. Keine Anmeldung, keine Zahlungen. Einfach öffnen und lernen.",
     "pl": "Prosty trener słownictwa. Bez rejestracji, bez opłat. Po prostu otwórz i ucz się.",
-    "sr": "Jednostavan trener reči. Bez registracije, bez plaćanja. Samo otvorite i učite."
+    "sr": "Jednostavan trener reči. Bez registracije, bez plaćanja. Samo otvorite i učite.",
+    "ja": "シンプルな単語学習アプリ。登録不要、支払い不要。開いて学ぶだけ"
   },
   "localstorage-f": {
     "en": "🌗 LocalStorage",
     "ru": "🌗 Локальное хранилище",
     "de": "🌗 Lokaler Speicher",
     "pl": "🌗 Magazyn lokalny",
-    "sr": "🌗 Lokalno skladište"
+    "sr": "🌗 Lokalno skladište",
+    "ja": "🌗 ローカルストレージ"
   },
   "Online-f": {
     "en": "🌍 Online",
     "ru": "🌍 Онлайн",
     "de": "🌍 Online",
     "pl": "🌍 Online",
-    "sr": "🌍 Online"
+    "sr": "🌍 Online",
+    "ja": "🌍 オンライン"
   },
   "Stats-f": {
     "en": "📊 Stats",
     "ru": "📊 Статистика",
     "de": "📊 Statistiken",
     "pl": "📊 Statystyki",
-    "sr": "📊 Statistika"
+    "sr": "📊 Statistika",
+    "ja": "📊 統計"
   },
   "Streaks-f": {
     "en": "🎯 Streaks",
     "ru": "🎯 Серии",
     "de": "🎯 Serien",
     "pl": "🎯 Serie",
-    "sr": "🎯 Nizovi"
+    "sr": "🎯 Nizovi",
+    "ja": "🎯 連続記録"
   },
   "footer-info": {
     "en": "Built by 15-yo dev • 80+ days #buildinpublic",
     "ru": "Сделано 15-летним разработчиком • 80+ дней #buildinpublic",
     "de": "Entwickelt von 15-jährigem Dev • 80+ Tage #buildinpublic",
     "pl": "Stworzone przez 15-letniego dewelopera • 80+ dni #buildinpublic",
-    "sr": "Napravio 15-godišnji developer • 80+ dana #buildinpublic"
+    "sr": "Napravio 15-godišnji developer • 80+ dana #buildinpublic",
+    "ja": "15歳の開発者によって制作 • 80+日間 #buildinpublic"
   },
   "news-txt": {
     "en": "LATEST NEWS",
     "ru": "ПОСЛЕДНЯЯ НОВОСТЬ",
     "de": "AKTUELL NEU",
     "pl": "NOWOŚĆ",
-    "sr": "VESTI"
+    "sr": "VESTI",
+    "ja": "最新ニュース"
   },
   "premiumTitle": {
     "en": "WordForge Premium",
     "ru": "WordForge Premium",
     "de": "WordForge Premium",
     "pl": "WordForge Premium",
-    "sr": "WordForge Premium"
+    "sr": "WordForge Premium",
+    "ja": "WordForge Premium"
   },
   "premiumSubtitle": {
     "en": "Stop memorizing. Start owning.",
     "ru": "Перестань запоминать. Начни владеть.",
     "de": "Hör auf zu pauken. Fang an zu besitzen.",
     "pl": "Przestań zapamiętywać. Zacznij władać.",
-    "sr": "Prestanite da pamtite. Počnite da vladate."
+    "sr": "Prestanite da pamtite. Počnite da vladate.",
+    "ja": "丸暗記をやめて、自分のものにしよう"
   },
   "feat1": {
     "en": "🌗 Custom themes",
     "ru": "🌗 Кастомные темы",
     "de": "🌗 Benutzerdefinierte Themes",
     "pl": "🌗 Niestandardowe motywy",
-    "sr": "🌗 Prilagođene teme"
+    "sr": "🌗 Prilagođene teme",
+    "ja": "🌗 カスタムテーマ"
   },
   "feat2": {
     "en": "📊 Visual stats",
     "ru": "📊 Визуальная статистика",
     "de": "📊 Visuelle Statistiken",
     "pl": "📊 Wizualne statystyki",
-    "sr": "📊 Vizuelna statistika"
+    "sr": "📊 Vizuelna statistika",
+    "ja": "📊 ビジュアル統計"
   },
   "feat3": {
     "en": "☁️ Cloud sync",
     "ru": "☁️ Облачная синхронизация",
     "de": "☁️ Cloud-Synchronisierung",
     "pl": "☁️ Synchronizacja w chmurze",
-    "sr": "☁️ Cloud sinhronizacija"
+    "sr": "☁️ Cloud sinhronizacija",
+    "ja": "☁️ クラウド同期"
   },
   "feat4": {
     "en": "📑 Anki/PDF",
     "ru": "📑 Anki/PDF",
     "de": "📑 Anki/PDF Export",
     "pl": "📑 Anki/PDF",
-    "sr": "📑 Anki/PDF"
+    "sr": "📑 Anki/PDF",
+    "ja": "📑 Anki/PDF"
   },
   "feat5": {
     "en": "🔓 Unlimited cards",
     "ru": "🔓 Безлимит карточек",
     "de": "🔓 Unbegrenzte Karten",
     "pl": "🔓 Nieograniczone karty",
-    "sr": "🔓 Neograničene kartice"
+    "sr": "🔓 Neograničene kartice",
+    "ja": "🔓 無制限カード"
   },
   "feat6": {
     "en": "⚡ Priority support",
     "ru": "⚡ Приоритетная поддержка",
     "de": "⚡ Prioritäts-Support",
     "pl": "⚡ Priorytetowe wsparcie",
-    "sr": "⚡ Prioritetna podrška"
+    "sr": "⚡ Prioritetna podrška",
+    "ja": "⚡ 優先サポート"
   },
   "premiumPrice": {
     "en": "$4 /month",
     "ru": "$4 /месяц",
     "de": "$4 /Monat",
     "pl": "$4 /miesiąc",
-    "sr": "$4 /mesec"
+    "sr": "$4 /mesec",
+    "ja": "$4 /月"
   },
   "premiumSave": {
     "en": "or $45/year",
     "ru": "или $45/год",
     "de": "oder $45/Jahr",
     "pl": "lub $45/rok",
-    "sr": "ili $45/godišnje"
+    "sr": "ili $45/godišnje",
+    "ja": "または $45/年"
   },
   "premiumButton": {
     "en": "Get Premium →",
     "ru": "Получить Premium →",
     "de": "Premium holen →",
     "pl": "Zdobądź Premium →",
-    "sr": "Uzmi Premium →"
+    "sr": "Uzmi Premium →",
+    "ja": "プレミアムを取得 →"
   },
   "premiumFooterFree": {
     "en": "Free version works forever.",
     "ru": "Бесплатная версия работает вечно.",
     "de": "Die kostenlose Version funktioniert für immer.",
     "pl": "Darmowa wersja działa zawsze.",
-    "sr": "Besplatna verzija radi zauvek."
+    "sr": "Besplatna verzija radi zauvek.",
+    "ja": "無料版は永久に使えます"
   },
   "codeLabel": {
     "en": "code:",
     "ru": "код:",
     "de": "Code:",
     "pl": "kod:",
-    "sr": "kod:"
+    "sr": "kod:",
+    "ja": "コード:"
   },
   "activateButton": {
     "en": "Active",
     "ru": "Активировать",
     "de": "Aktivieren",
     "pl": "Aktywuj",
-    "sr": "Aktiviraj"
+    "sr": "Aktiviraj",
+    "ja": "アクティブにする"
   },
   "premiumFooterSecure": {
     "en": "Special secure code for active Premium mode without sign-up.",
     "ru": "Специальный код для активации Premium без регистрации.",
     "de": "Spezieller Sicherheitscode zur Aktivierung von Premium ohne Registrierung.",
     "pl": "Specjalny kod bezpieczeństwa do aktywacji Premium bez rejestracji.",
-    "sr": "Poseban sigurnosni kod za aktivaciju Premiuma bez registracije."
+    "sr": "Poseban sigurnosni kod za aktivaciju Premiuma bez registracije.",
+    "ja": "登録不要のプレミアムモードを有効にする特別な安全コード"
   },
   "translate-learned-count": {
     "en": "Learned cards",
     "ru": "Выученные карточки",
     "de": "Gelernte Karten",
     "pl": "Nauczone karty",
-    "sr": "Naučene kartice"
+    "sr": "Naučene kartice",
+    "ja": "学習済みカード"
   },
   "translate-hide-learned-cards": {
     "en": "Hide learned cards",
     "ru": "Скрыть выученные",
     "de": "Gelernte ausblenden",
     "pl": "Ukryj nauczone",
-    "sr": "Sakrij naučene"
+    "sr": "Sakrij naučene",
+    "ja": "学習済みを非表示"
   },
   "coinsStat": {
     "en": "Coins",
     "ru": "Монеты",
     "de": "Münzen",
     "pl": "Monety",
-    "sr": "Novčići"
+    "sr": "Novčići",
+    "ja": "コイン"
   },
   "LearnedRateStat": {
     "en": "Learned rate",
     "ru": "Процент выученных",
     "de": "Gelernt",
     "pl": "Współczynnik nauczonych",
-    "sr": "Stopa naučenih"
+    "sr": "Stopa naučenih",
+    "ja": "学習率"
   }
 }

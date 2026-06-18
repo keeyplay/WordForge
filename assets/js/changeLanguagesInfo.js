@@ -2,7 +2,7 @@
 let UserLang = navigator.language.split('-')[0];
 let switchLanCount = localStorage.getItem("language");
 if(!switchLanCount) {
-    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr") {
+    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr" && UserLang !== "ja") {
         switchLanCount = "en";
     } else {
         switchLanCount = UserLang;
@@ -303,6 +303,70 @@ function switchLanguage() {
                             
                             <div id="about-section">
                                 <div class="about-left">
+                                    <h2>WordForge について</h2>
+                                    <h3 id="textabtword"><span>WordForge</span> は、純粋なJavaScriptで構築された軽量でインタラクティブな語彙トレーナーです。言語学習を報酬のあるゲームに変えます。<br><span>コアアイデア:</span> デジタルフラッシュカードを作成し、フリップアニメーションで自分自身をテストし、正解するとコインを獲得します。進捗はすべてブラウザに保存されます。<br><span>技術スタック:</span> Vanilla JS、HTML5、CSS3、LocalStorage API。フレームワークなし、バックエンドなし、アカウントなし — 高速でプライベートな学習を実現します。<br><span>開発理由:</span> 自分の英語学習のためにシンプルでゲーム化されたツールが必要でした。このプロジェクトは、最初のコード行から動作するプロダクトまでの公開学習 (#buildinpublic) の旅です。</h3>
+                                    <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
+                                </div>
+                                <div class="about-right">
+                                    <h2>私について</h2>
+                                    <h3 id="textabtme">こんにちは、<span>keeyplay</span> です。ロシア出身の15歳の独学開発者です 🇷🇺。<br><span>ミッション:</span> 影響力のあるデジタルプロダクトを構築し、EU 🇪🇺 または US 🇺🇸 での将来のテクノロジーキャリアへの道を切り開くこと。<br><span>活動内容:</span><br>→ 公開コーディング。Twitterでフルスタックの旅 (JS, PHP, React) を記録しています。<br>→ ライブMinecraftサーバーとコミュニティの構築と管理 (初めてのビジネスベンチャー)。<br>→ グローバルなテクノロジーシーンに飛び込むために毎日英語を学習。<br><span>信念:</span> 一貫性が機会を生み出す。プロジェクトのリリース、スキルの向上、世界中の開発者コミュニティとのつながりに注力しています。<br><span><a href="https://x.com/keeyplay">Twitter</a> でつながるか、<a href="https://github.com/keeyplay/WordForge">GitHub</a> でコードをチェックしてください。</span></h3>
+                                    <img src="assets/pic/sun.png" alt="" style="width: 100px;" id="switchTheme" onclick="clickThemeSwitchBut()">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="links">
+                            <div id="github">
+                                <a href="https://github.com/keeyplay/WordForge" target="_blank"><img src="assets/pic/github.png" style="max-width: 50px"></a>
+                            </div>
+                            <div id="twitter">
+                                <a href="https://x.com/keeyplay" target="_blank"><img src="assets/pic/x.jpg" style="max-width: 50px"></a>
+                            </div>
+                            <div id="mysite">
+                                <a href="https://www.donationalerts.com/r/keeyplay" target="_blank"><img src="assets/pic/website.png" style="max-width: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                document.getElementById("change_language").innerText = "🇯🇵";
+                switchLanCount = "ja";
+                localStorage.setItem("language", switchLanCount);
+
+                //click to new button
+                document.getElementById("logo-name").addEventListener('click', function() {
+                    this.classList.add('clicked');
+                    document.getElementById("links").style.display = "none";
+                    document.getElementById("info").style.display = "none";
+                    setTimeout(() => {         
+                        window.location.href = 'trainer.html';
+                    }, 2000); 
+                });
+        } else {
+            document.getElementById("change_language").innerText = "🇯🇵";
+            switchLanCount = "ja";
+            localStorage.setItem("language", switchLanCount);
+            const jaTranslations = Translate.ja;
+            for(let id in enTranslations) {
+                const element = document.getElementById(id);
+                if(element) {
+                    element.innerText = enTranslations[id];
+                }
+            }
+        }
+        switchLanguageForModal("ja");
+    } else if(switchLanCount === "ja") {
+        if(isStartButtonClicked) {
+                document.body.innerHTML = infoHTML;
+                document.body.innerHTML += `
+                    <div id="all-content">
+                        <div id="new-content">
+                            <div id="logo-container">
+                                <div id="logo-name">
+                                    <h1>WordForge</h1>
+                                </div>
+                            </div>
+                            
+                            <div id="about-section">
+                                <div class="about-left">
                                     <h2>About WordForge</h2>
                                     <h3 id="textabtword"><span>WordForge</span> is a lightweight, interactive vocabulary trainer built with pure JavaScript. It turns language learning into a rewarding game.<br><span>Core Idea:</span> Create digital flashcards, test yourself with a flip animation, and earn coins for correct answers. Your entire progress is saved right in your browser.<br><span>Tech Stack:</span> Vanilla JS, HTML5, CSS3, LocalStorage API. No frameworks, no backend, no accounts — just fast, private learning.<br><span>Why I Built It:</span> I needed a simple, gamified tool for my own English practice. This project is my journey of learning in public (#buildinpublic), from the first line of code to a working product.</h3>
                                     <img src="assets/pic/logo_png_cr.png" style="max-width: 400px;" id="logoabt">
@@ -353,7 +417,7 @@ function switchLanguage() {
             }
         }
         switchLanguageForModal("en");
-    }
+    };
 };
 
 function switchLanguageForModal(switchLanCountLS = "en") {
@@ -398,8 +462,13 @@ function switchLanguageForModal(switchLanCountLS = "en") {
                 element.innerText = srTranslations[id];
             }
         }
+    } else if(switchLanCountLS === "ja") {
+        const jaTranslations = Translate.ja;
+        for(let id in jaTranslations) {
+            const element = document.getElementById(id);
+            if(element) {
+                element.innerText = jaTranslations[id];
+            }
+        }
     }
 };
-
-
-

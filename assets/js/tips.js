@@ -29,6 +29,8 @@ if(localStorage.getItem('Profile') && !JSON.parse(localStorage.getItem(localStor
     if(localStorage.getItem("language") === "pl") showNotification("Witaj w WordForge 🃏", "Ucz się z fiszkami. Odwracaj, zapamiętuj, powtarzaj. Statystyki, serie i monety w środku. Dodaj swoją pierwszą kartę, aby rozpocząć.");
 
     if(localStorage.getItem("language") === "sr") showNotification("Dobrodošli u WordForge 🃏", "Učite sa flashcards. Okrećite, zapamtite, ponavljajte. Statistika, nizovi i novčići unutra. Dodajte svoju prvu karticu da počnete.");
+
+    if(localStorage.getItem("language") === "ja") showNotification("WordForge 🃏へようこそ", "フラッシュカードで学びましょう。めくって、覚えて、繰り返す。統計、シーケンス、コインも搭載。最初のカードを追加して始めてください。");
 }
 
 function hideNotification() {

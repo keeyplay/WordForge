@@ -90,5 +90,6 @@ i need add/fix:
 - refactoring translation system in info page
 - translate all notifications +
 - translate first notification +
-- add japanese language
+- add japanese language +
 - redisaign info page
+- refactoring changeLanguagesInfo.js

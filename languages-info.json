@@ -23,5 +23,10 @@
     "infoup": "WordForge — interaktivni trener reči sa flashcards. Učite reči, zarađujte novčiće, pratite napredak — sve u vašem pretraživaču sa automatskim čuvanjem.",
     "btn_start": "start",
     "change_language": "🇷🇸"
+  },
+  "ja": {
+    "infoup": "WordForge — フラッシュカードを使ったインタラクティブな語彙トレーナー。単語を学び、コインを獲得し、進捗を追跡 — すべてブラウザで自動保存付き。",
+    "btn_start": "スタート",
+    "change_language": "🇯🇵"
   }
 }
