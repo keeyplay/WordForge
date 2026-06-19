@@ -362,7 +362,9 @@ function ClickKnown() {
 }
 
 //pressed button of save
-document.getElementById("btn-modal-save").addEventListener('click', function() {
+document.getElementById("btn-modal-save").addEventListener('click', CreateNewCard);
+
+function CreateNewCard() {
     if(cards.length >= 299) {
         if(PremiumActivated) {
             document.body.style.overflow = '';
@@ -371,7 +373,7 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
             let letAdd = true;
 
             if(word.trim().length === 0 || trans.trim().length === 0) { alert("Please fill out all fields"); letAdd = false; }
-            if(word.length >= 15 || trans.length >= 15) { alert("Maximum 15 characters"); letAdd = false; }
+            if(word.length >= 20 || trans.length >= 20) { alert("Maximum 20 characters"); letAdd = false; }
 
             if(letAdd === true) {
                 let newWord = document.getElementById("input-word").value; 
@@ -423,7 +425,7 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
         let letAdd = true;
 
         if(word.trim().length === 0 || trans.trim().length === 0) { alert("Please fill out all fields"); letAdd = false; }
-        if(word.length >= 15 || trans.length >= 15) { alert("Maximum 15 characters"); letAdd = false; }
+        if(word.length >= 20 || trans.length >= 20) { alert("Maximum 20 characters"); letAdd = false; }
 
         if(letAdd === true) {
             let newWord = document.getElementById("input-word").value; 
@@ -466,7 +468,7 @@ document.getElementById("btn-modal-save").addEventListener('click', function() {
             showNotification("Cards milestone", milestones[cards.length][localStorage.getItem("language")], "ach");
         }
     }
-});
+};
 
 //arrows navigarions
 document.addEventListener('keydown', (event) => {
@@ -521,6 +523,8 @@ document.getElementById("btn-create-card").addEventListener('click', function() 
         if (event.key === 'Escape') {
             document.getElementById("modal-overlay").style.display = "none"; 
             document.body.style.overflow = '';
+        } else if(event.key === "Enter") {
+            if(document.getElementById("modal-overlay").style.display === "flex") CreateNewCard();
         }
     });
 });
