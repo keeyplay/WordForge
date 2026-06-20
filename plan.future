@@ -96,5 +96,5 @@ i need add/fix:
 - make enter for save new card +
 - make 20 max letter +
 - fix bug with streak message
-- make title for coins to explain whats it
+- make title for coins to explain whats it +
 - refactoring rest of trainer.js
