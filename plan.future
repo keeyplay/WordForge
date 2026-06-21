@@ -97,4 +97,5 @@ i need add/fix:
 - make 20 max letter +
 - fix bug with streak message
 - make title for coins to explain whats it +
-- refactoring rest of trainer.js
+- refactoring rest of trainer.js +-
+- make new structure of project (folders, files)

@@ -365,7 +365,7 @@ function ClickKnown() {
 document.getElementById("btn-modal-save").addEventListener('click', CreateNewCard);
 
 function CreateNewCard() {
-    if(cards.length >= 299) {
+    if(cards.length >= 99999) { //299
         if(PremiumActivated) {
             document.body.style.overflow = '';
             let word = document.getElementById("input-word").value
@@ -529,10 +529,11 @@ document.getElementById("btn-create-card").addEventListener('click', function() 
     });
 });
 //close modal add
-document.getElementById("btn-modal-cancel").addEventListener('click', function() {
+document.getElementById("btn-modal-cancel").addEventListener('click', CloseModalAdd);
+function CloseModalAdd() {
     document.getElementById("modal-overlay").style.display = "none"; 
     document.body.style.overflow = '';
-});
+}
 //`start` again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
     if(CounterLernedCards() !== cards.length) {
