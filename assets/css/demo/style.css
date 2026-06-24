@@ -76,7 +76,7 @@ body {
     position: absolute;
     width: 4px;
     height: 4px;
-    background: white;
+    background: black;
     opacity: .3;
     border-radius: 50%;
     animation: float 10s linear infinite;
@@ -278,8 +278,11 @@ select,
 .phone-div {
     display: flex;
     flex-direction: column;
-    transform: scale(1.5);
+    transform: scale(1.2);
     margin-left: 40%;
+    transform-style: preserve-3d;
+    transition: transform 0.1s;
+    perspective: 1000000px;
 }
 
 .phone-div h2 {
@@ -297,12 +300,12 @@ select,
     padding: 12px;
 
     border-radius: 40px;
-    border: var(--text) 10px solid;
+    border: black 10px solid;
     overflow:hidden;
 
     transform:scale(0.8);
 
-    box-shadow:0 30px 60px rgba(0,0,0,.3);
+    box-shadow:0 10px 30px orange;
 }
 
 .phone img{
@@ -350,8 +353,33 @@ section {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
     gap: 25px;
+}
+
+.grid-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.grid-steps .step {
+    border: #0d1117 1px solid;
+}
+
+.grid-steps.show {
+    gap: 15px;
+}
+
+.step .title-step {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .feature {
@@ -361,6 +389,9 @@ section {
     backdrop-filter: blur(20px);
     border: 1px solid var(--border);
     transition: .3s;
+
+    display: flex;
+    gap: 20px;
 }
 
 .feature:hover {
@@ -477,5 +508,9 @@ footer {
 
     .hero-buttons {
         justify-content: center;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     }
 }

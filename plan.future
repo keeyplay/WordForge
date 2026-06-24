@@ -99,3 +99,5 @@ i need add/fix:
 - make title for coins to explain whats it +
 - refactoring rest of trainer.js +-
 - make new structure of project (folders, files)
+- translate prices to national cash
+- start theme - dark
