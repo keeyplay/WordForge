@@ -536,7 +536,20 @@ function CloseModalAdd() {
 }
 //`start` again 
 document.getElementById("btn-start-again").addEventListener('click', function() {
-    if(CounterLernedCards() !== cards.length) {
+    if(isChecked) {
+        if(CounterLernedCards() !== cards.length) {
+            cardWord = document.getElementById("card-word");
+            cardsAdd = [...cards];
+            localStorage.setItem(profile, JSON.stringify(profileData));
+            updateRandomCount();
+            renderCards();
+            document.getElementById("cards-stack").style.display = "flex";
+            document.getElementById("swipe-actions").style.display = "flex";
+            document.getElementById("done-state").style.display = "none";
+        } else {
+            alert("all cards are learned");
+        }
+    } else {
         cardWord = document.getElementById("card-word");
         cardsAdd = [...cards];
         localStorage.setItem(profile, JSON.stringify(profileData));
@@ -545,9 +558,8 @@ document.getElementById("btn-start-again").addEventListener('click', function() 
         document.getElementById("cards-stack").style.display = "flex";
         document.getElementById("swipe-actions").style.display = "flex";
         document.getElementById("done-state").style.display = "none";
-    } else {
-        alert("all cards are learned");
     }
+    
 });
 
 //------------------------modal edit---------------------------------
@@ -671,8 +683,9 @@ function CounterLernedCards() {
     return count;
 }
 
+let isChecked;
 document.getElementById('hidelearnedCards').addEventListener('change', function() {
-    let isChecked = this.checked; 
+    isChecked = this.checked; 
     
     profileData.hide = isChecked;
     localStorage.setItem(profile, JSON.stringify(profileData));

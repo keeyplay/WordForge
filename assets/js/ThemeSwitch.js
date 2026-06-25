@@ -15,6 +15,14 @@ function ThemeSwitchFunc() {
             el.style.border = '1px solid gray';
         });
     }
+
+    // Particles
+    const particles = particlesDIV.querySelectorAll("div");
+
+    particles.forEach((div) => {
+        if(isDark) div.style.background = "white";
+        else div.style.background = "black";
+    });
     
     // Soc links
     document.querySelectorAll('.link, #SwitchSector').forEach(el => {

@@ -1308,6 +1308,34 @@ video {
     z-index: 1;
 }
 
+.particles {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: black;
+    opacity: .3;
+    border-radius: 50%;
+    animation: float 10s linear infinite;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(100vh);
+    }
+
+    to {
+        transform: translateY(-100px);
+    }
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     .trainer-main { padding: 1rem 0.75rem 2rem; }

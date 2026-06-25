@@ -101,3 +101,6 @@ i need add/fix:
 - make new structure of project (folders, files)
 - translate prices to national cash
 - start theme - dark
+- refactoring theme switch
+- fix bug with hide learned cards +
+- make switch off particles
