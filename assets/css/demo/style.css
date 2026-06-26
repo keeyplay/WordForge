@@ -351,6 +351,16 @@ section {
     font-size: 2.8rem;
 }
 
+#vocabEl {
+    font-size: 10.8rem;
+}
+
+#arrow {
+    display: flex;
+    justify-content: center;
+    font-size: 5.8rem;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(260px, 1fr));
@@ -512,5 +522,23 @@ footer {
 
     .grid {
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .grid-steps {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #vocabEl {
+        font-size: 3.8rem;
+    }
+
+    #arrow {
+        font-size: 2.9rem;
+    }
+
+    .phone-div {
+        transform: scale(1);
+        margin-left: 35px;
     }
 }
