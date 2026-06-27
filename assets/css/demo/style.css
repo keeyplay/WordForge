@@ -401,7 +401,37 @@ section {
     transition: .3s;
 
     display: flex;
+    flex-direction: column;
     gap: 20px;
+}
+
+.imageF {
+    transform: scaleY(0);
+    transform-origin: top;
+    height: 0px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.featureDiscrabe {
+    display: flex;
+    gap: 20px;
+}
+
+@keyframes showImF {
+    0% {
+        transform: scaleY(0);
+        max-height: 0px;
+    }
+    100% {
+        transform: scaleY(1);
+        max-height: 3000px;
+    }
+}
+
+.featureDiscrabe:hover ~ .imageF,
+.featureDiscrabe:hover + .imageF {
+  animation: showImF 0.5s ease-in-out 0.3s;
+  cursor: pointer;
 }
 
 .feature:hover {
