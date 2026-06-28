@@ -1326,6 +1326,15 @@ video {
     animation: float 10s linear infinite;
 }
 
+#settings {
+    transition-duration: 0.5s;
+}
+
+#settings:hover {
+    cursor: pointer;
+    transform: rotate(30deg);
+}
+
 @keyframes float {
     from {
         transform: translateY(100vh);
