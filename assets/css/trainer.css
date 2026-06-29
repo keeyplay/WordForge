@@ -1327,10 +1327,28 @@ video {
 }
 
 #settings {
-    transition-duration: 0.5s;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    background: var(--wf-black);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    opacity: 0.7;
+    border-radius: 10px;
 }
 
-#settings:hover {
+#settings-img {
+    width: 50px; 
+    display: flex; 
+    justify-content: end; 
+    align-items: end;
+
+    transition: 0.5s ease-in-out;
+}
+
+#settings-img:hover {
     cursor: pointer;
     transform: rotate(30deg);
 }

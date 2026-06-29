@@ -89,7 +89,19 @@ function openModalLocalAccounts() {
             document.body.style.overflow = '';
         }
     });
+    let settingsDiv = document.getElementById('settings');
+
+    settingsDiv.addEventListener('click', function() {
+        openSettingsModal();
+    });
 }
+
+function openSettingsModal() {
+    modalAccounts.style.display = "none";
+    document.getElementById('block-settings').style.display = "flex";
+}
+
+
 document.getElementById("accounts-panel-close").addEventListener("click", function() { //close modal
     document.getElementById("accounts").innerHTML = "";
     modalAccounts.style.display = "none";
