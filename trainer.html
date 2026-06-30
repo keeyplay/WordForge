@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/stats.css">
     <link rel="stylesheet" href="assets/css/info-modal.css">
     <link rel="stylesheet" href="assets/css/tips.css">
+    <link rel="stylesheet" href="assets/css/settings.css">
 
     <!-- vercel analytics -->
     <script>
@@ -351,9 +352,25 @@
         </div>
         </div>
     </div>
-    <div id="block-settings" class="modal-overlay" style="display: none;">
-            <div class="modal">
-                <h1>Settings</h1>
+    <div id="block-settings" class="modal-overlay">
+            <div class="modal" id="all-settings">
+                <div id="footer-settings">
+                    <h1 id="title-settings">Settings</h1>
+                    <button class="stats-panel-close" id="settings-close">×</button>
+                </div>
+                <hr>
+                <div id="font-change-settings" class="setting">
+                    <div style="display: flex; flex-direction: row;">
+                        <p>Font change</p>
+                    </div>
+                    <div class="off-on" id="off-on-font-change-settings"></div>
+                </div>
+                <div id="particles-change-settings" class="setting">
+                    <div style="display: flex; flex-direction: row;">
+                        <p>On particles</p>
+                    </div>
+                    <div class="off-on" id="off-on-particles-change-settings"></div>
+                </div>
             </div>
     </div>
     <div class="modal-overlay" id="modalAddAccounts" style="display: none;">

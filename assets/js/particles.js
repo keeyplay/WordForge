@@ -18,5 +18,4 @@ function startParticles() {
     }
 }
 
-startParticles()
-console.log(isMobile);
+if(localStorage.getItem("particles")) startParticles();

@@ -1,0 +1,81 @@
+#settings {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    background: var(--wf-black);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+#block-settings {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: var(--wf-overlay-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    transition-duration: 0.5s; 
+}
+
+#settings-img {
+    width: 50px; 
+    display: flex; 
+    justify-content: end; 
+    align-items: end;
+
+    transition: 0.5s ease-in-out;
+}
+
+#settings-img:hover {
+    cursor: pointer;
+    transform: rotate(30deg);
+}
+
+.off-on {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+
+.setting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    gap: 10px;
+    background: var(--wf-black);
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.title-settings {
+    align-items: center;
+}
+
+.setting p {
+    color: var(--wf-card-bg);
+}
+
+#all-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#block-settings {
+    display: none;
+}
+
+#footer-settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
