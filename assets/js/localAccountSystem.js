@@ -83,22 +83,33 @@ function openModalLocalAccounts() {
     //close if pressed esc
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
-            document.getElementById("accounts").innerHTML = "";
-            modalAccounts.style.display = "none";
-            document.getElementById("buttonLocalAccounts").classList.remove("clicked");
-            document.body.style.overflow = '';
+            //settings esc
+            if(modalAccounts.style.display === "none") closeSettingsModal()
+            else {
+                document.getElementById("accounts").innerHTML = "";
+                modalAccounts.style.display = "none";
+                document.getElementById("buttonLocalAccounts").classList.remove("clicked");
+                document.body.style.overflow = '';
+            }
         }
     });
-    let settingsDiv = document.getElementById('settings');
 
-    settingsDiv.addEventListener('click', function() {
-        openSettingsModal();
-    });
+    //settings
+    const settingsDiv = document.getElementById('settings');
+    const settingsClose = document.getElementById('settings-close');
+
+    settingsDiv.addEventListener('click', openSettingsModal);
+    settingsClose.addEventListener('click', closeSettingsModal)
 }
 
 function openSettingsModal() {
     modalAccounts.style.display = "none";
     document.getElementById('block-settings').style.display = "flex";
+}
+
+function closeSettingsModal() {
+    modalAccounts.style.display = "flex"
+    document.getElementById('block-settings').style.display = "none";
 }
 
 
