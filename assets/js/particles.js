@@ -18,4 +18,8 @@ function startParticles() {
     }
 }
 
-if(localStorage.getItem("particles")) startParticles();
+function stopParticles() {
+    particlesDIV.innerHTML = "";
+}
+
+if(localStorage.getItem("particles") === "true") startParticles();

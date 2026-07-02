@@ -718,3 +718,34 @@ function updateCoinsFooter() {
     const coins = localStorage.getItem('coins');
     document.getElementById('coins-footer').innerText = "🪙 " + coins;
 }
+
+//settings
+const fontChangeSettings = document.getElementById('font-change-settings');
+const particlesChangeSettings = document.getElementById('particles-change-settings');
+
+const offOnFontChangeSettings = document.getElementById('off-on-font-change-settings');
+const offOnParticlesChangeSettings = document.getElementById('off-on-particles-change-settings');
+
+fontChangeSettings.addEventListener('click', function() {
+    FontsChange();
+    let backgroundDiv;
+    if(offOnFontChangeSettings.style.background == "green") backgroundDiv = "red" 
+    else backgroundDiv = "green"
+    offOnFontChangeSettings.style.background = backgroundDiv;
+});
+
+particlesChangeSettings.addEventListener('click', function() {
+    if(localStorage.getItem("particles") === "false" || !localStorage.getItem("particles")) { 
+        localStorage.setItem("particles", "true"); 
+        startParticles(); 
+        window.location.reload();
+    }else { 
+        localStorage.setItem("particles", "false"); 
+        stopParticles(); 
+    }
+
+    let backgroundDiv;
+    if(offOnParticlesChangeSettings.style.background == "green") backgroundDiv = "red" 
+    else backgroundDiv = "green"
+    offOnParticlesChangeSettings.style.background = backgroundDiv;
+});

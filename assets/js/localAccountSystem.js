@@ -105,6 +105,12 @@ function openModalLocalAccounts() {
 function openSettingsModal() {
     modalAccounts.style.display = "none";
     document.getElementById('block-settings').style.display = "flex";
+
+    if(localStorage.getItem('font') === 'ArchivoBlack') document.getElementById('off-on-font-change-settings').style.background = 'green';
+    else document.getElementById('off-on-font-change-settings').style.background = 'red';
+
+    if(localStorage.getItem('particles') === "true") document.getElementById('off-on-particles-change-settings').style.background = 'green';
+    else document.getElementById('off-on-particles-change-settings').style.background = 'red';
 }
 
 function closeSettingsModal() {
