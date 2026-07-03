@@ -2,9 +2,14 @@
 const particles = document.getElementById("particles");
 // THEME
 const toggle = document.getElementById("themeToggle");
-document.body.classList.toggle("dark");
+if(!localStorage.getItem("ThemeMode")) { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
+else if(localStorage.getItem("ThemeMode") === "dark") { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
+else toggle.src = "../../assets/pic/sun.png"
 toggle.onclick = () => {
     document.body.classList.toggle("dark");
+    if(!localStorage.getItem("ThemeMode")) { localStorage.setItem("ThemeMode", "light"); toggle.src = "../../assets/pic/sun.png" } 
+    else if(localStorage.getItem("ThemeMode") === "light") { localStorage.setItem("ThemeMode", "dark"); toggle.src = "../../assets/pic/dark.png"; }
+    else if(localStorage.getItem("ThemeMode") === "dark") { localStorage.setItem("ThemeMode", "light"); toggle.src = "../../assets/pic/sun.png"; }
 
     const childDivs = particles.querySelectorAll('div');
     childDivs.forEach((div)=> {

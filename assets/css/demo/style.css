@@ -147,6 +147,16 @@ select,
     backdrop-filter: blur(20px);
 }
 
+#themeToggle {
+    background-color: none;
+    transition: all 0.1 ease;
+}
+
+#themeToggle:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .btn {
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: white;
@@ -401,7 +411,7 @@ section {
     transition: .3s;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
