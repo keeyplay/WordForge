@@ -157,6 +157,16 @@ select,
     cursor: pointer;
 }
 
+#butt-lang {
+    transform: scale(1.3);
+    transition: all 0.1 ease;
+}
+
+#butt-lang:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
 .btn {
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: white;
