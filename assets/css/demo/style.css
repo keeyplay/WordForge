@@ -555,8 +555,15 @@ footer {
     transform: none;
 }
 
-@media(max-width:900px) {
+#logo-txt {
+    font-family: 'Archivo Black', sans-serif; 
+    color: var(--text);
+}
 
+@media(max-width:900px) {
+    #logo-txt {
+        display: none;
+    }
     .hero {
         grid-template-columns: 1fr;
         text-align: center;

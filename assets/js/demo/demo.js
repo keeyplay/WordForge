@@ -1,7 +1,7 @@
-// PARTICLES
 const particles = document.getElementById("particles");
-// THEME
 const toggle = document.getElementById("themeToggle");
+
+// THEME
 if(!localStorage.getItem("ThemeMode")) { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
 else if(localStorage.getItem("ThemeMode") === "dark") { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
 else toggle.src = "../../assets/pic/sun.png"
@@ -18,21 +18,25 @@ toggle.onclick = () => {
     });
 };
 
-for (let i = 0; i < 500; i++) {
-    const p = document.createElement("div");
-    p.classList.add("particle");
+// PARTICLES
+function startParticles() {
+    for (let i = 0; i < 500; i++) {
+        const p = document.createElement("div");
+        p.classList.add("particle");
 
-    p.style.left = Math.random() * 100 + "%";
-    p.style.animationDuration = 3 + Math.random() * 8 + "s";
-    p.style.animationDelay = Math.random() * 5 + "s";
-    if(document.body.classList.contains('dark')) {
-        p.style.background = "white";
-    } else {
-        p.style.background = "black";
+        p.style.left = Math.random() * 100 + "%";
+        p.style.animationDuration = 3 + Math.random() * 8 + "s";
+        p.style.animationDelay = Math.random() * 5 + "s";
+        if(document.body.classList.contains('dark')) {
+            p.style.background = "white";
+        } else {
+            p.style.background = "black";
+        }
+        particles.appendChild(p);
     }
-    particles.appendChild(p);
 }
 
+startParticles()
 
 
 // FADE IN
