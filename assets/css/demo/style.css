@@ -16,7 +16,7 @@
 }
 
 body.dark {
-    --bg: #0d1117;
+    --bg: #000000;
     --card: rgba(20, 25, 35, .65);
     --text: #f8fafc;
     --muted: #9ca3af;
@@ -150,6 +150,8 @@ select,
 #themeToggle {
     background-color: none;
     transition: all 0.1 ease;
+    position: absolute;
+    margin-left: -80px;
 }
 
 #themeToggle:hover {
@@ -558,6 +560,117 @@ footer {
 #logo-txt {
     font-family: 'Archivo Black', sans-serif; 
     color: var(--text);
+}
+
+/* build in public section — unique classes */
+
+#bip-section {
+  padding: 80px 20px;
+}
+
+.bip-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.bip-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.bip-title h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.bip-title p {
+  font-size: 18px;
+  color: var(--text);
+}
+
+.bip-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.bip-step {
+  background: var(--text);
+  padding: 30px 24px 40px;
+  border-radius: 24px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+}
+
+.bip-step:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.bip-step-number {
+  display: inline-block;
+  background: var(--bg);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 14px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.bip-step-img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+  background: #f1f5f9;
+}
+
+.bip-step h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--bg);
+  margin-bottom: 10px;
+}
+
+.bip-step p {
+  font-size: 16px;
+  color: var(--bg);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.bip-tag {
+  display: inline-block;
+  color: var(--bg);;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 16px;
+  border-radius: 30px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .bip-title h2 {
+    font-size: 30px;
+  }
+
+  .bip-steps {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .bip-step {
+    padding: 24px 18px 32px;
+  }
 }
 
 @media(max-width:900px) {
