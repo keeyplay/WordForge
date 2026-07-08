@@ -2,15 +2,15 @@ const buttLang = document.getElementById('butt-lang');
 const dropdown = document.getElementById('dropdown-lang');
 
 function openDropdown() {
-    dropdown.style.display = "block";
+    dropdown.classList.add('visible');
 }
 
 function closeDropdown() {
-    dropdown.style.display = "none";
+    dropdown.classList.remove('visible');
 }
 
 function Dropdown() {
-    if(dropdown.style.display === "none") openDropdown();
+    if(!dropdown.classList.contains('visible')) openDropdown();
     else closeDropdown();
 }
 

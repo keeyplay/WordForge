@@ -657,6 +657,47 @@ footer {
   border-radius: 30px;
 }
 
+#dropdown-lang {
+    position: absolute;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    padding: 10px 20px;
+    background: white;
+    border: 1px black solid;
+    border-radius: 10px;
+
+
+    transform: scale(0.8);
+    opacity: 0;
+    visibility: hidden; 
+    
+    transition: opacity 0.3s ease, visibility 0.5s ease, transform 0.5s ease;
+}
+
+#dropdown-lang.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(0.8);
+}
+
+#dropdown-lang div {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+
+    transition: 0.1s ease;
+}
+
+#dropdown-lang div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
 /* responsive */
 @media (max-width: 768px) {
   .bip-title h2 {
