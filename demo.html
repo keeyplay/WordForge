@@ -34,12 +34,12 @@
                 <div>
                     <div id="butt-lang">🇬🇧</div>
                     <div id="dropdown-lang">
-                        <div>English 🇬🇧</div>
-                        <div>German 🇩🇪</div>
-                        <div>Russian 🇷🇺</div>
-                        <div>Polish 🇵🇱</div>
-                        <div>Serbian 🇷🇸</div>
-                        <div>Japanese 🇯🇵</div>
+                        <div onclick="switchLanguageForModal('en')">English 🇬🇧</div>
+                        <div onclick="switchLanguageForModal('de')">German 🇩🇪</div>
+                        <div onclick="switchLanguageForModal('ru')">Russian 🇷🇺</div>
+                        <div onclick="switchLanguageForModal('pl')">Polish 🇵🇱</div>
+                        <div onclick="switchLanguageForModal('sr')">Serbian 🇷🇸</div>
+                        <div onclick="switchLanguageForModal('ja')">Japanese 🇯🇵</div>
                     </div>
                 </div>
 
@@ -51,19 +51,19 @@
 
         <div class="fade">
             <h1>
-                Learn words.
-                <span class="gradient">Earn coins.</span>
-                Build your vocabulary.
+                <span id="lewo">Learn words.</span>
+                <span class="gradient" id="eaco">Earn coins.</span>
+                <span id="buyovo">Build your vocabulary.</span>
             </h1>
-            <p>
+            <p id="nosiup">
                 No sign-up. No payments. Just open and learn.
                 Designed for students, travelers and developers.
             </p>
             <div class="hero-buttons">
-                <a href="#" class="btn">Try it now</a>
-                <a href="#how" class="secondary-btn">How it works</a>
+                <a href="#" class="btn" id="TryItNow">Try it now</a>
+                <a href="#how" class="secondary-btn" id="HowItWorks">How it works</a>
             </div>
-            <h1 style="font-family: 'Ms Madi', cursive;font-weight: 400;font-style: normal; margin-top: 50px;">By keeyplay</h1>
+            <h1 style="font-family: 'Ms Madi', cursive;font-weight: 400;font-style: normal; margin-top: 50px;" id="bykeeyplay">By keeyplay</h1>
         </div>
         <div class="fade">
             <div class="phone-div">
@@ -91,23 +91,23 @@
     <section>
         <div class="container">
             <div class="title fade">
-                <h2>Steps to learn languages</h2>
+                <h2 id="stepstolearn">Steps to learn languages</h2>
             </div>
 
             <div class="grid-steps fade">
                 <div class="step">
-                    <div class="title-step">1. Vocabualary</div>
-                    <div>Build your vocabulary first — the foundation of everything. Without words, there's nothing to connect with grammar or use in practice. Focus on the most frequent words, repeat them daily, and train your brain to recognize them instantly. This is the base that makes every other step easier.</div>
+                    <div class="title-step" id="vocabulary">1. Vocabualary</div>
+                    <div id="buyovo1">Build your vocabulary first — the foundation of everything. Without words, there's nothing to connect with grammar or use in practice. Focus on the most frequent words, repeat them daily, and train your brain to recognize them instantly. This is the base that makes every other step easier.</div>
                 </div>
 
                 <div class="step">
-                    <div class="title-step">2. Grammer</div>
-                    <div>Learn how the language fits together — not rules, but patterns. Grammar gives your words a framework to live in, turning random vocabulary into clear, meaningful messages. Without it, you have bricks but no blueprint.</div>
+                    <div class="title-step" id="grammar">2. Grammer</div>
+                    <div id="lehothla">Learn how the language fits together — not rules, but patterns. Grammar gives your words a framework to live in, turning random vocabulary into clear, meaningful messages. Without it, you have bricks but no blueprint.</div>
                 </div>
 
                 <div class="step">
-                    <div class="title-step">3. Practice</div>
-                    <div>Use the language every day — listen, speak, read, write, make mistakes, and try again. Every real conversation rewires your brain to think faster and react naturally. You stop studying the language and start living it.</div>
+                    <div class="title-step" id="practice">3. Practice</div>
+                    <div id="usthla">Use the language every day — listen, speak, read, write, make mistakes, and try again. Every real conversation rewires your brain to think faster and react naturally. You stop studying the language and start living it.</div>
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@
     <section>
         <div class="container">
             <div class="title fade">
-                <h2>Features</h2>
+                <h2 id="fea">Features</h2>
             </div>
 
             <div class="grid">
@@ -131,8 +131,8 @@
                     <div class="featureDiscrabe">
                         <p class="icon">🃏</p>
                         <div>
-                            <h3>Interactive Flashcards</h3>
-                            <p>Learn faster with visual card repetition.</p>
+                            <h3 id="int">Interactive Flashcards</h3>
+                            <p id="int-le">Learn faster with visual card repetition.</p>
                         </div>
                     </div>
                 </div>
@@ -140,40 +140,40 @@
                 <div class="feature fade">
                     <div class="icon">🪙</div>
                     <div>
-                        <h3>Coin Rewards</h3>
-                        <p>Earn coins while building your vocabulary.</p>
+                        <h3 id="coin">Coin Rewards</h3>
+                        <p id="coin-eaco">Earn coins while building your vocabulary.</p>
                     </div>
                 </div>
 
                 <div class="feature fade">
                     <div class="icon">🔥</div>
                     <div>
-                        <h3>Streak Tracking</h3>
-                        <p>Stay consistent and keep your streak alive.</p>
+                        <h3 id="streak">Streak Tracking</h3>
+                        <p id="streak-st">Stay consistent and keep your streak alive.</p>
                     </div>
                 </div>
 
                 <div class="feature fade">
                     <div class="icon">🌍</div>
                     <div>
-                        <h3>Multi-language</h3>
-                        <p>Supports EN, RU, DE, PL, SR and JA.</p>
+                        <h3 id="multi">Multi-language</h3>
+                        <p id="multi-su">Supports EN, RU, DE, PL, SR and JA.</p>
                     </div>
                 </div>
 
                 <div class="feature fade">
                     <div class="icon">📊</div>
                     <div>
-                        <h3>Stats Dashboard</h3>
-                        <p>Track words learned and progress over time.</p>
+                        <h3 id="stats">Stats Dashboard</h3>
+                        <p id="stats-tr">Track words learned and progress over time.</p>
                     </div>
                 </div>
 
                 <div class="feature fade">
                     <div class="icon">⭐</div>
                     <div>
-                        <h3>Export Tools</h3>
-                        <p>Export vocabulary to Anki or PDF.</p>
+                        <h3 id="export">Export Tools</h3>
+                        <p id="export-vo">Export vocabulary to Anki or PDF.</p>
                     </div>
                 </div>
             </div>
@@ -183,26 +183,26 @@
     <section id="how">
         <div class="container">
             <div class="title fade">
-                <h2>How it works</h2>
+                <h2 id="howitorkd1">How it works</h2>
             </div>
 
             <div class="steps">
                 <div class="step fade">
                     <div class="step-number">1</div>
-                    <h3>Add a word</h3>
-                    <p>Create your own personal vocabulary list.</p>
+                    <h3 id="addaword">Add a word</h3>
+                    <p id="createyoow">Create your own personal vocabulary list.</p>
                 </div>
 
                 <div class="step fade">
                     <div class="step-number">2</div>
-                    <h3>Learn with cards</h3>
-                    <p>Practice using interactive flashcards.</p>
+                    <h3 id="learnwithcards">Learn with cards</h3>
+                    <p id="practiceus">Practice using interactive flashcards.</p>
                 </div>
 
                 <div class="step fade">
                     <div class="step-number">3</div>
-                    <h3>Track progress</h3>
-                    <p>See streaks, coins and learning statistics.</p>
+                    <h3 id="trackprogress">Track progress</h3>
+                    <p id="seest">See streaks, coins and learning statistics.</p>
                 </div>
             </div>
         </div>
@@ -210,8 +210,8 @@
     <section id="bip-section">
         <div class="bip-container">
             <div class="bip-title">
-            <h2>Built in public</h2>
-            <p>One commit. One tweet. Every single day.</p>
+            <h2 id="builtinpublic">Built in public</h2>
+            <p id="onecommit">One commit. One tweet. Every single day.</p>
             <br>
             <hr>
             </div>
@@ -220,35 +220,35 @@
             <div class="bip-step">
                 <div class="bip-step-number">1</div>
                 <img src="assets/pic/demo/Github-bip.png" alt="commit screenshot" class="bip-step-img" />
-                <h3>Write code</h3>
-                <p>Every day I open the editor and ship something. Even if it's small. Even if it's just a fix. Consistency over perfection.</p>
+                <h3 id="writecode">Write code</h3>
+                <p id="everyday">Every day I open the editor and ship something. Even if it's small. Even if it's just a fix. Consistency over perfection.</p>
                 <hr><br>
-                <span class="bip-tag">150+ days and counting <a href="https://github.com/keeyplay" target="_blank">GitHub</a></span>
+                <span class="bip-tag" id="days150">150+ days and counting</span><a href="https://github.com/keeyplay" target="_blank">GitHub</a>
             </div>
 
             <div class="bip-step">
                 <div class="bip-step-number">2</div>
                 <img src="assets/pic/demo/twitter-bip.png" alt="tweet screenshot" class="bip-step-img" />
-                <h3>Share it</h3>
-                <p>Every commit turns into a tweet. I share what I built, what broke, what I learned. No filters, just real progress.</p>
+                <h3 id="shareit">Share it</h3>
+                <p id="everycommits1">Every commit turns into a tweet. I share what I built, what broke, what I learned. No filters, just real progress.</p>
                 <hr><br>
-                <span class="bip-tag">5K avg views per week <a href="https://x.com/keeyplay" target="_blank">Twitter</a></span>
+                <span class="bip-tag" id="k5avg">5K avg views per week</span><a href="https://x.com/keeyplay" target="_blank">Twitter</a>
             </div>
 
             <div class="bip-step">
                 <div class="bip-step-number">3</div>
                 <img src="assets/pic/demo/donationalerts-bip.png" alt="audience growth" class="bip-step-img" />
-                <h3>Grow audience</h3>
-                <p>People started watching. They reply, they share, they follow.</p>
+                <h3 id="growaudience">Grow audience</h3>
+                <p id="peoplest">People started watching. They reply, they share, they follow.</p>
                 <hr><br>
-                <span class="bip-tag">10$ per month <a href="https://www.donationalerts.com/r/keeyplay" target="_blank">Support</a></span>
+                <span class="bip-tag" id="dollars10">10$ per month</span> <a href="https://www.donationalerts.com/r/keeyplay" target="_blank">Support</a>
             </div>
             </div>
         </div>
     </section>
     <section class="cta">
         <div class="cta-box fade">
-            <h2>Start learning in 10 seconds</h2>
+            <h2 id="startlearn10">Start learning in 10 seconds</h2>
             <a href="trainer.html" class="btn" style="margin-top: 500px;">Open WordForge</a>
         </div>
     </section>
@@ -256,7 +256,7 @@
         <div class="footer">
             <div>
                 <div style="display: flex; gap: 10px;"><img src="assets/pic/logo_png_cr.png" alt="" style="width: 30px;"><h3>WordForge</h3></div>
-                <p>Built by a 15-year-old developer</p>
+                <p id="buildby">Built by a 15-year-old developer</p>
             </div>
 
             <div class="links">

@@ -1,0 +1,402 @@
+{
+  "logo-txt": {
+    "en": "WordForge",
+    "ru": "WordForge",
+    "de": "WordForge",
+    "pl": "WordForge",
+    "sr": "WordForge",
+    "ja": "WordForge"
+  },
+  "lewo": {
+    "en": "Learn words.",
+    "ru": "Учи слова.",
+    "de": "Lerne Wörter.",
+    "pl": "Ucz się słów.",
+    "sr": "Učite reči.",
+    "ja": "単語を学ぼう。"
+  },
+  "eaco": {
+    "en": "Earn coins.",
+    "ru": "Зарабатывай монеты.",
+    "de": "Verdiene Münzen.",
+    "pl": "Zarabiaj monety.",
+    "sr": "Zarađujte novčiće.",
+    "ja": "コインを稼ごう。"
+  },
+  "buyovo": {
+    "en": "Build your vocabulary.",
+    "ru": "Развивай словарный запас.",
+    "de": "Erweitere deinen Wortschatz.",
+    "pl": "Buduj swoje słownictwo.",
+    "sr": "Izgradite svoj vokabular.",
+    "ja": "語彙を身につけよう。"
+  },
+  "butt-lang": {
+    "en": "🇬🇧",
+    "ru": "🇷🇺",
+    "de": "🇩🇪",
+    "pl": "🇵🇱",
+    "sr": "🇷🇸",
+    "ja": "🇯🇵"
+  },
+  "nosiup": {
+    "en": "No sign-up. No payments. Just open and learn. Designed for students, travelers and developers.",
+    "ru": "Без регистрации. Без платежей. Просто открой и учи. Создано для студентов, путешественников и разработчиков.",
+    "de": "Keine Anmeldung. Keine Zahlungen. Einfach öffnen und lernen. Entwickelt für Studenten, Reisende und Entwickler.",
+    "pl": "Bez rejestracji. Bez płatności. Po prostu otwórz i ucz się. Stworzone dla studentów, podróżników i programistów.",
+    "sr": "Bez registracije. Bez plaćanja. Samo otvorite i učite. Napravljeno za studente, putnike i programere.",
+    "ja": "登録不要。支払い不要。開いて学ぶだけ。学生、旅行者、開発者のためにデザインされました。"
+  },
+  "TryItNow": {
+    "en": "Try it now",
+    "ru": "Попробовать",
+    "de": "Jetzt testen",
+    "pl": "Wypróbuj",
+    "sr": "Probajte",
+    "ja": "今すぐ試す"
+  },
+  "HowItWorks": {
+    "en": "How it works",
+    "ru": "Как это работает",
+    "de": "Wie es funktioniert",
+    "pl": "Jak to działa",
+    "sr": "Kako radi",
+    "ja": "仕組み"
+  },
+  "bykeeyplay": {
+    "en": "By keeyplay",
+    "ru": "От keeyplay",
+    "de": "Von keeyplay",
+    "pl": "Od keeyplay",
+    "sr": "Od keeyplay",
+    "ja": "keeyplay より"
+  },
+  "stepstolearn": {
+    "en": "Steps to learn languages",
+    "ru": "Шаги для изучения языков",
+    "de": "Schritte zum Sprachenlernen",
+    "pl": "Kroki do nauki języków",
+    "sr": "Koraci za učenje jezika",
+    "ja": "言語学習のステップ"
+  },
+  "vocabulary": {
+    "en": "1. Vocabulary",
+    "ru": "1. Словарный запас",
+    "de": "1. Wortschatz",
+    "pl": "1. Słownictwo",
+    "sr": "1. Vokabular",
+    "ja": "1. 語彙"
+  },
+  "buyovo1": {
+    "en": "Build your vocabulary first — the foundation of everything. Without words, there's nothing to connect with grammar or use in practice. Focus on the most frequent words, repeat them daily, and train your brain to recognize them instantly. This is the base that makes every other step easier.",
+    "ru": "Сначала развивай словарный запас — основу всего. Без слов не с чем соединять грамматику и нечего использовать на практике. Сосредоточься на самых частотных словах, повторяй их ежедневно и тренируй мозг узнавать их мгновенно. Это база, которая делает все остальные шаги легче.",
+    "de": "Baue zuerst deinen Wortschatz auf — die Grundlage von allem. Ohne Wörter gibt es nichts, um Grammatik zu verbinden oder in der Praxis zu verwenden. Konzentriere dich auf die häufigsten Wörter, wiederhole sie täglich und trainiere dein Gehirn, sie sofort zu erkennen. Das ist die Basis, die jeden weiteren Schritt erleichtert.",
+    "pl": "Najpierw zbuduj swoje słownictwo — fundament wszystkiego. Bez słów nie ma czego łączyć z gramatyką ani używać w praktyce. Skup się na najczęstszych słowach, powtarzaj je codziennie i trenuj swój mózg, aby rozpoznawał je natychmiast. To podstawa, która ułatwia każdy kolejny krok.",
+    "sr": "Prvo izgradite svoj vokabular — temelj svega. Bez reči nema šta da se poveže sa gramatikom ili koristi u praksi. Fokusirajte se na najčešće reči, ponavljajte ih svakodnevno i trenirajte mozak da ih prepozna trenutno. Ovo je baza koja čini svaki sledeći korak lakšim.",
+    "ja": "まず語彙を身につけましょう — すべての基礎です。単語がなければ、文法と結びつけるものも、実践で使うものもありません。最も頻出する単語に焦点を当て、毎日繰り返し、脳が瞬時に認識できるように訓練してください。これが他のすべてのステップを容易にする基盤です。"
+  },
+  "grammar": {
+    "en": "2. Grammar",
+    "ru": "2. Грамматика",
+    "de": "2. Grammatik",
+    "pl": "2. Gramatyka",
+    "sr": "2. Gramatika",
+    "ja": "2. 文法"
+  },
+  "lehothla": {
+    "en": "Learn how the language fits together — not rules, but patterns. Grammar gives your words a framework to live in, turning random vocabulary into clear, meaningful messages. Without it, you have bricks but no blueprint.",
+    "ru": "Узнай, как язык складывается воедино — не правила, а паттерны. Грамматика даёт твоим словам каркас, превращая случайный набор слов в ясные и осмысленные сообщения. Без неё у тебя есть кирпичи, но нет плана.",
+    "de": "Lerne, wie die Sprache zusammenhängt — nicht Regeln, sondern Muster. Grammatik gibt deinen Wörtern einen Rahmen, um zufälligen Wortschatz in klare, bedeutungsvolle Botschaften zu verwandeln. Ohne sie hast du Steine, aber keinen Bauplan.",
+    "pl": "Naucz się, jak język do siebie pasuje — nie reguły, ale wzorce. Gramatyka daje twoim słowom ramy, przekształcając przypadkowe słownictwo w jasne i znaczące komunikaty. Bez niej masz cegły, ale nie masz planu.",
+    "sr": "Naučite kako se jezik uklapa — ne pravila, već obrasci. Gramatika daje vašim rečima okvir, pretvarajući nasumični vokabular u jasne i smislene poruke. Bez nje imate cigle, ali nemate plan.",
+    "ja": "言語がどのように組み合わさるかを学びましょう — ルールではなくパターンです。文法は単語に枠組みを与え、ランダムな語彙を明確で意味のあるメッセージに変えます。それなしでは、レンガはあっても設計図がありません。"
+  },
+  "practice": {
+    "en": "3. Practice",
+    "ru": "3. Практика",
+    "de": "3. Übung",
+    "pl": "3. Praktyka",
+    "sr": "3. Praksa",
+    "ja": "3. 実践"
+  },
+  "usthla": {
+    "en": "Use the language every day — listen, speak, read, write, make mistakes, and try again. Every real conversation rewires your brain to think faster and react naturally. You stop studying the language and start living it.",
+    "ru": "Используй язык каждый день — слушай, говори, читай, пиши, ошибайся и пробуй снова. Каждый настоящий разговор перестраивает твой мозг, чтобы думать быстрее и реагировать естественно. Ты перестаёшь учить язык и начинаешь на нём жить.",
+    "de": "Benutze die Sprache jeden Tag — höre zu, sprich, lies, schreibe, mache Fehler und versuche es erneut. Jedes echte Gespräch verdrahtet dein Gehirn neu, um schneller zu denken und natürlicher zu reagieren. Du hörst auf, die Sprache zu lernen, und beginnst, sie zu leben.",
+    "pl": "Używaj języka każdego dnia — słuchaj, mów, czytaj, pisz, popełniaj błędy i próbuj ponownie. Każda prawdziwa rozmowa przeprogramowuje twój mózg, aby myśleć szybciej i reagować naturalnie. Przestajesz uczyć się języka i zaczynasz nim żyć.",
+    "sr": "Koristite jezik svaki dan — slušajte, govorite, čitajte, pišite, grešite i pokušavajte ponovo. Svaki pravi razgovor prepravlja vaš mozak da misli brže i reaguje prirodnije. Prestajete da učite jezik i počinjete da živite u njemu.",
+    "ja": "毎日言語を使いましょう — 聞き、話し、読み、書き、間違いを犯し、再挑戦してください。あらゆる実際の会話が、より速く考え、自然に反応するように脳を再配線します。言語を勉強するのをやめて、言語を生き始めるのです。"
+  },
+  "vocabEl": {
+    "en": "Vocabulary is our element",
+    "ru": "Словарный запас — наша стихия",
+    "de": "Wortschatz ist unser Element",
+    "pl": "Słownictwo to nasz żywioł",
+    "sr": "Vokabular je naš element",
+    "ja": "語彙は私たちの要素です"
+  },
+  "fea": {
+    "en": "Features",
+    "ru": "Возможности",
+    "de": "Funktionen",
+    "pl": "Funkcje",
+    "sr": "Karakteristike",
+    "ja": "機能"
+  },
+  "int": {
+    "en": "Interactive Flashcards",
+    "ru": "Интерактивные карточки",
+    "de": "Interaktive Karteikarten",
+    "pl": "Interaktywne fiszki",
+    "sr": "Interaktivne kartice",
+    "ja": "インタラクティブなフラッシュカード"
+  },
+  "int-le": {
+    "en": "Learn faster with visual card repetition.",
+    "ru": "Учитесь быстрее с визуальным повторением карточек.",
+    "de": "Lerne schneller mit visueller Wiederholung.",
+    "pl": "Ucz się szybciej dzięki wizualnemu powtarzaniu kart.",
+    "sr": "Učite brže uz vizuelno ponavljanje kartica.",
+    "ja": "ビジュアルカードの繰り返しでより速く学習できます。"
+  },
+  "coin": {
+    "en": "Coin Rewards",
+    "ru": "Награды монетами",
+    "de": "Münzen-Belohnungen",
+    "pl": "Nagrody w monetach",
+    "sr": "Nagrade u novčićima",
+    "ja": "コイン報酬"
+  },
+  "coin-eaco": {
+    "en": "Earn coins while building your vocabulary.",
+    "ru": "Зарабатывайте монеты, пополняя словарный запас.",
+    "de": "Verdiene Münzen beim Aufbau deines Wortschatzes.",
+    "pl": "Zarabiaj monety, budując swoje słownictwo.",
+    "sr": "Zarađujte novčiće dok gradite svoj vokabular.",
+    "ja": "語彙を身につけながらコインを獲得しましょう。"
+  },
+  "streak": {
+    "en": "Streak Tracking",
+    "ru": "Отслеживание серий",
+    "de": "Serienverfolgung",
+    "pl": "Śledzenie serii",
+    "sr": "Praćenje nizova",
+    "ja": "連続記録の追跡"
+  },
+  "streak-st": {
+    "en": "Stay consistent and keep your streak alive.",
+    "ru": "Будьте последовательны и держите свою серию в живых.",
+    "de": "Bleib konsequent und halte deine Serie am Leben.",
+    "pl": "Bądź konsekwentny i utrzymuj swoją serię.",
+    "sr": "Budite dosledni i održavajte svoj niz.",
+    "ja": "一貫性を保ち、連続記録を守りましょう。"
+  },
+  "multi": {
+    "en": "Multi-language",
+    "ru": "Мультиязычность",
+    "de": "Mehrsprachigkeit",
+    "pl": "Wielojęzyczność",
+    "sr": "Višejezičnost",
+    "ja": "多言語対応"
+  },
+  "multi-su": {
+    "en": "Supports EN, RU, DE, PL, SR and JA.",
+    "ru": "Поддерживает EN, RU, DE, PL, SR и JA.",
+    "de": "Unterstützt EN, RU, DE, PL, SR und JA.",
+    "pl": "Obsługuje EN, RU, DE, PL, SR i JA.",
+    "sr": "Podržava EN, RU, DE, PL, SR i JA.",
+    "ja": "EN、RU、DE、PL、SR、JAに対応しています。"
+  },
+  "stats": {
+    "en": "Stats Dashboard",
+    "ru": "Панель статистики",
+    "de": "Statistik-Dashboard",
+    "pl": "Panel statystyk",
+    "sr": "Kontrolna tabla statistike",
+    "ja": "統計ダッシュボード"
+  },
+  "stats-tr": {
+    "en": "Track words learned and progress over time.",
+    "ru": "Отслеживайте выученные слова и прогресс во времени.",
+    "de": "Verfolge gelernte Wörter und den Fortschritt über die Zeit.",
+    "pl": "Śledź nauczone słowa i postęp w czasie.",
+    "sr": "Pratite naučene reči i napredak tokom vremena.",
+    "ja": "学習した単語と時間の経過に伴う進捗を追跡します。"
+  },
+  "export": {
+    "en": "Export Tools",
+    "ru": "Инструменты экспорта",
+    "de": "Export-Tools",
+    "pl": "Narzędzia eksportu",
+    "sr": "Alati za izvoz",
+    "ja": "エクスポートツール"
+  },
+  "export-vo": {
+    "en": "Export vocabulary to Anki or PDF.",
+    "ru": "Экспортируйте словарный запас в Anki или PDF.",
+    "de": "Exportiere Vokabeln nach Anki oder PDF.",
+    "pl": "Eksportuj słownictwo do Anki lub PDF.",
+    "sr": "Izvezite vokabular u Anki ili PDF.",
+    "ja": "語彙をAnkiまたはPDFにエクスポートします。"
+  },
+  "howitorkd1": {
+    "en": "How it works",
+    "ru": "Как это работает",
+    "de": "Wie es funktioniert",
+    "pl": "Jak to działa",
+    "sr": "Kako radi",
+    "ja": "仕組み"
+  },
+  "addaword": {
+    "en": "Add a word",
+    "ru": "Добавьте слово",
+    "de": "Füge ein Wort hinzu",
+    "pl": "Dodaj słowo",
+    "sr": "Dodajte reč",
+    "ja": "単語を追加"
+  },
+  "createyoow": {
+    "en": "Create your own personal vocabulary list.",
+    "ru": "Создайте свой личный словарный список.",
+    "de": "Erstelle deine eigene persönliche Vokabelliste.",
+    "pl": "Stwórz własną osobistą listę słownictwa.",
+    "sr": "Napravite svoju ličnu listu vokabulara.",
+    "ja": "自分だけの個人語彙リストを作成しましょう。"
+  },
+  "learnwithcards": {
+    "en": "Learn with cards",
+    "ru": "Учитесь с карточками",
+    "de": "Lerne mit Karten",
+    "pl": "Ucz się z kartami",
+    "sr": "Učite sa karticama",
+    "ja": "カードで学ぶ"
+  },
+  "practiceus": {
+    "en": "Practice using interactive flashcards.",
+    "ru": "Тренируйтесь с интерактивными карточками.",
+    "de": "Übe mit interaktiven Karteikarten.",
+    "pl": "Ćwicz z interaktywnymi fiszkami.",
+    "sr": "Vežbajte koristeći interaktivne kartice.",
+    "ja": "インタラクティブなフラッシュカードで練習しましょう。"
+  },
+  "trackprogress": {
+    "en": "Track progress",
+    "ru": "Отслеживайте прогресс",
+    "de": "Verfolge den Fortschritt",
+    "pl": "Śledź postęp",
+    "sr": "Pratite napredak",
+    "ja": "進捗を追跡"
+  },
+  "seest": {
+    "en": "See streaks, coins and learning statistics.",
+    "ru": "Смотрите серии, монеты и статистику обучения.",
+    "de": "Sieh Serien, Münzen und Lernstatistiken.",
+    "pl": "Zobacz serie, monety i statystyki nauki.",
+    "sr": "Pogledajte nizove, novčiće i statistiku učenja.",
+    "ja": "連続記録、コイン、学習統計を確認しましょう。"
+  },
+  "builtinpublic": {
+    "en": "Built in public",
+    "ru": "Строим на публике",
+    "de": "Öffentlich aufgebaut",
+    "pl": "Budowane publicznie",
+    "sr": "Izgrađeno u javnosti",
+    "ja": "公開で構築"
+  },
+  "onecommit": {
+    "en": "One commit. One tweet. Every single day.",
+    "ru": "Один коммит. Один твит. Каждый день.",
+    "de": "Ein Commit. Ein Tweet. Jeden Tag.",
+    "pl": "Jeden commit. Jeden tweet. Każdego dnia.",
+    "sr": "Jedan commit. Jedan tweet. Svakog dana.",
+    "ja": "1コミット。1ツイート。毎日。"
+  },
+  "writecode": {
+    "en": "Write code",
+    "ru": "Пиши код",
+    "de": "Code schreiben",
+    "pl": "Pisz kod",
+    "sr": "Pišite kod",
+    "ja": "コードを書く"
+  },
+  "everyday": {
+    "en": "Every day I open the editor and ship something. Even if it's small. Even if it's just a fix. Consistency over perfection.",
+    "ru": "Каждый день я открываю редактор и что-то делаю. Даже если это мелочь. Даже если просто исправление. Последовательность важнее совершенства.",
+    "de": "Jeden Tag öffne ich den Editor und lade etwas hoch. Auch wenn es klein ist. Auch wenn es nur ein Fix ist. Konsistenz vor Perfektion.",
+    "pl": "Każdego dnia otwieram edytor i wrzucam coś nowego. Nawet jeśli to mała rzecz. Nawet jeśli to tylko poprawka. Konsekwencja ponad perfekcją.",
+    "sr": "Svakog dana otvorim editor i objavim nešto. Čak i ako je malo. Čak i ako je samo popravka. Doslednost pre savršenstva.",
+    "ja": "毎日エディタを開いて何かを公開します。たとえ小さなものでも。たとえ修正だけでも。完璧よりも継続を大切にしています。"
+  },
+  "days150": {
+    "en": "150+ days and counting",
+    "ru": "150+ дней и продолжается",
+    "de": "150+ Tage und es geht weiter",
+    "pl": "150+ dni i licznik rośnie",
+    "sr": "150+ dana i broji se",
+    "ja": "150日以上、そして続いています"
+  },
+  "shareit": {
+    "en": "Share it",
+    "ru": "Делись этим",
+    "de": "Teile es",
+    "pl": "Udostępnij to",
+    "sr": "Podelite to",
+    "ja": "シェアする"
+  },
+  "everycommits1": {
+    "en": "Every commit turns into a tweet. I share what I built, what broke, what I learned. No filters, just real progress.",
+    "ru": "Каждый коммит превращается в твит. Я делюсь тем, что сделал, что сломалось и что узнал. Без фильтров, просто реальный прогресс.",
+    "de": "Jeder Commit wird zu einem Tweet. Ich teile, was ich gebaut habe, was kaputt ging und was ich gelernt habe. Keine Filter, nur echter Fortschritt.",
+    "pl": "Każdy commit zamienia się w tweeta. Dzielę się tym, co zbudowałem, co się zepsuło i czego się nauczyłem. Bez filtrów, tylko prawdziwy postęp.",
+    "sr": "Svaki commit postaje tweet. Delim šta sam napravio, šta se pokvarilo i šta sam naučio. Bez filtera, samo pravi napredak.",
+    "ja": "すべてのコミットがツイートになります。構築したもの、壊れたもの、学んだことを共有しています。フィルターなし、ただの本当の進捗です。"
+  },
+  "k5avg": {
+    "en": "5K avg views per week",
+    "ru": "5K просмотров в среднем за неделю",
+    "de": "5K Aufrufe pro Woche im Durchschnitt",
+    "pl": "Średnio 5K wyświetleń tygodniowo",
+    "sr": "Prosečno 5K pregleda nedeljno",
+    "ja": "週間平均5Kインプレッション"
+  },
+  "growaudience": {
+    "en": "Grow audience",
+    "ru": "Расти аудиторию",
+    "de": "Publikum aufbauen",
+    "pl": "Rozwijaj publiczność",
+    "sr": "Rastite publiku",
+    "ja": "オーディエンスを増やす"
+  },
+  "peoplest": {
+    "en": "People started watching. They reply, they share, they follow.",
+    "ru": "Люди начали смотреть. Они отвечают, делятся и подписываются.",
+    "de": "Die Leute haben angefangen zuzuschauen. Sie antworten, teilen und folgen.",
+    "pl": "Ludzie zaczęli oglądać. Odpowiadają, udostępniają i obserwują.",
+    "sr": "Ljudi su počeli da gledaju. Odgovaraju, dele i prate.",
+    "ja": "人々が見始めました。返信し、シェアし、フォローしてくれています。"
+  },
+  "dollars10": {
+    "en": "$10 per month",
+    "ru": "$10 в месяц",
+    "de": "$10 pro Monat",
+    "pl": "$10 miesięcznie",
+    "sr": "$10 mesečno",
+    "ja": "月額$10"
+  },
+  "startlearn10": {
+    "en": "Start learning in 10 seconds",
+    "ru": "Начни учиться за 10 секунд",
+    "de": "Lerne in 10 Sekunden los",
+    "pl": "Zacznij się uczyć w 10 sekund",
+    "sr": "Počnite da učite za 10 sekundi",
+    "ja": "10秒で学習を始めよう"
+  },
+  "buildby": {
+    "en": "Built by a 15-year-old developer from Russia 🇷🇺",
+    "ru": "Сделано 15-летним разработчиком из России 🇷🇺",
+    "de": "Entwickelt von einem 15-jährigen Entwickler aus Russland 🇷🇺",
+    "pl": "Stworzone przez 15-letniego programistę z Rosji 🇷🇺",
+    "sr": "Napravio 15-godišnji developer iz Rusije 🇷🇺",
+    "ja": "ロシア出身の15歳の開発者によって作られました 🇷🇺"
+  }
+}
