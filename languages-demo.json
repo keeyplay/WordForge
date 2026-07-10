@@ -398,5 +398,53 @@
     "pl": "Stworzone przez 15-letniego programistę z Rosji 🇷🇺",
     "sr": "Napravio 15-godišnji developer iz Rusije 🇷🇺",
     "ja": "ロシア出身の15歳の開発者によって作られました 🇷🇺"
+  },
+  "beaf": {
+    "en": "BEFORE & AFTER",
+    "ru": "ДО И ПОСЛЕ",
+    "de": "VORHER & NACHHER",
+    "pl": "PRZED & PO",
+    "sr": "PRE & POSLE",
+    "ja": "ビフォー＆アフター"
+  },
+  "redesign-title": {
+      "en": "See how far it's come",
+      "ru": "Посмотри, как далеко всё зашло",
+      "de": "Sieh, wie weit es gekommen ist",
+      "pl": "Zobacz, jak daleko zaszliśmy",
+      "sr": "Pogledajte koliko je daleko stiglo",
+      "ja": "どこまで来たか見てみよう"
+  },
+  "redesign-desc": {
+      "en": "The old landing looked different. Way different. Click below to see the before version — the one that started it all.",
+      "ru": "Старый лендинг выглядел иначе. Совсем иначе. Нажми ниже, чтобы увидеть версию «до» — ту, с которой всё начиналось.",
+      "de": "Die alte Landing sah anders aus. Ganz anders. Klicke unten, um die Vorher-Version zu sehen — die, mit der alles begann.",
+      "pl": "Stary landing wyglądał inaczej. Zupełnie inaczej. Kliknij poniżej, aby zobaczyć wersję „przed” — tę, od której wszystko się zaczęło.",
+      "sr": "Stari landing je izgledao drugačije. Potpuno drugačije. Kliknite ispod da vidite verziju pre — onu od koje je sve počelo.",
+      "ja": "以前のランディングは違っていました。まったく違いました。下をクリックして、すべてが始まった「以前」のバージョンを見てみましょう。"
+  },
+  "redesign-label-old": {
+      "en": "Old design",
+      "ru": "Старый дизайн",
+      "de": "Altes Design",
+      "pl": "Stary design",
+      "sr": "Stari dizajn",
+      "ja": "以前のデザイン"
+  },
+  "redesign-btn-text": {
+      "en": "View old landing →",
+      "ru": "Посмотреть старый лендинг →",
+      "de": "Alte Landing ansehen →",
+      "pl": "Zobacz stary landing →",
+      "sr": "Pogledajte stari landing →",
+      "ja": "以前のランディングを見る →"
+  },
+  "redesign-hint-text": {
+      "en": "(opens the second version of WordForge)",
+      "ru": "(открывается вторая версия WordForge)",
+      "de": "(öffnet die zweite Version von WordForge)",
+      "pl": "(otwiera drugą wersję WordForge)",
+      "sr": "(otvara drugu verziju WordForge)",
+      "ja": "(WordForgeの第2バージョンが開きます)"
   }
 }

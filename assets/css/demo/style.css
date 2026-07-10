@@ -16,7 +16,7 @@
 }
 
 body.dark {
-    --bg: #000000;
+    --bg: #121212;
     --card: rgba(20, 25, 35, .65);
     --text: #f8fafc;
     --muted: #9ca3af;
@@ -597,7 +597,7 @@ footer {
 }
 
 .bip-step {
-  background: var(--text);
+  background: var(--card);
   padding: 30px 24px 40px;
   border-radius: 24px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.05);
@@ -637,20 +637,20 @@ footer {
 .bip-step h3 {
   font-size: 22px;
   font-weight: 600;
-  color: var(--bg);
+  color: var(--text);
   margin-bottom: 10px;
 }
 
 .bip-step p {
   font-size: 16px;
-  color: var(--bg);
+  color: var(--text);
   line-height: 1.6;
   margin-bottom: 16px;
 }
 
 .bip-tag {
   display: inline-block;
-  color: var(--bg);;
+  color: var(--text);
   font-size: 13px;
   font-weight: 500;
   padding: 4px 16px;
@@ -697,8 +697,143 @@ footer {
     cursor: pointer;
 }
 
+/* redesign showcase — unique section */
+
+#redesign-showcase {
+  padding: 80px 20px;
+}
+
+.redesign-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.redesign-box {
+  background: var(--card);
+  padding: 50px 40px 55px;
+  border-radius: 40px;
+  box-shadow: 0 20px 60px var(--bg);
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--bg);
+  backdrop-filter: blur(2px);
+}
+
+.redesign-badge {
+  display: inline-block;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
+.redesign-box h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.redesign-box p {
+  font-size: 18px;
+  color: var(--text);
+  max-width: 540px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+
+.redesign-image-wrapper {
+  position: relative;
+  margin: 10px 0 30px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.07);
+  border: 1px solid #e9edf2;
+  background: #f8fafc;
+}
+
+#redesign-preview-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #eef2f6;
+}
+
+.redesign-image-label {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(4px);
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 18px;
+  border-radius: 40px;
+  letter-spacing: 0.3px;
+}
+
+.redesign-btn {
+  display: inline-block;
+  background: #0f172a;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 44px;
+  border-radius: 60px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.15s ease;
+  margin-top: 8px;
+}
+
+.redesign-btn:hover {
+  background: #1e293b;
+  transform: scale(1.02);
+}
+
+.redesign-hint {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
 
 /* responsive */
+@media (max-width: 640px) {
+  .redesign-box {
+    padding: 32px 20px 38px;
+  }
+
+  .redesign-box h2 {
+    font-size: 26px;
+  }
+
+  .redesign-box p {
+    font-size: 16px;
+  }
+
+  .redesign-btn {
+    font-size: 16px;
+    padding: 14px 32px;
+    width: 100%;
+  }
+
+  .redesign-image-label {
+    font-size: 11px;
+    padding: 4px 14px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   .bip-title h2 {
     font-size: 30px;

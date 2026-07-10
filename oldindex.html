@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordForge</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="icon" href="assets/pic/logo_png_cr.png">
+    <script src="assets/js/stars.js"></script>
+
+    <!-- vercel analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script src="assets/js/changeLanguagesInfo.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="info">
+            <img src="assets/pic/logo_png_cr.png" style="width: 50px;" alt=""> 
+            <p id="infoup">WordForge — an interactive vocabulary trainer with flashcards. Learn words, earn coins, track progress — all in your browser with auto-save.</p>
+            <div id="change_language" style="color: white; align-items: center;" onclick="switchLanguage()">🇬🇧</div>
+        </div>
+        <h1 id="btn_start">start</h1>   
+    </div>
+    <div class="modal-overlay" id="modal-overlay-choose-language" style="display: none;">
+        <div id="modal-choose-language">
+            <div class="dropdown-content1" id="dropdownContent-choose-lang">
+                <a href="#" data-lang="en" onclick="switchLanguage('en')">English 🇬🇧</a>
+                <a href="#" data-lang="de" onclick="switchLanguage('de')">German 🇩🇪</a>
+                <a href="#" data-lang="ru" onclick="switchLanguage('ru')">Russian 🇷🇺</a>
+            </div>
+        </div>
+    </div>
+    </a>
+    <script src="assets/js/fonts.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/ThemeSwitchInfo.js"></script>
+</body>
+</html>
