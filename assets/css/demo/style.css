@@ -16,8 +16,8 @@
 }
 
 body.dark {
-    --bg: #121212;
-    --card: rgba(20, 25, 35, .65);
+    --bg: #000000;
+    --card: rgba(0, 0, 0, 0.65);
     --text: #f8fafc;
     --muted: #9ca3af;
     --border: rgba(255, 255, 255, .08);
@@ -664,8 +664,8 @@ footer {
     flex-direction: column;
     margin-top: -10px;
     padding: 10px 20px;
-    background: white;
-    border: 1px black solid;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 30px white;
     border-radius: 10px;
 
 
@@ -704,7 +704,7 @@ footer {
 }
 
 .redesign-container {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
