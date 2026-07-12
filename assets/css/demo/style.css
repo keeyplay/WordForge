@@ -688,6 +688,7 @@ footer {
     border-radius: 5px;
     margin-top: 10px;
     padding: 5px 10px;
+    font-weight: 700;
 
     transition: 0.1s ease;
 }

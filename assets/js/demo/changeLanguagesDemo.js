@@ -1,5 +1,6 @@
 const buttLang = document.getElementById('butt-lang');
 const dropdown = document.getElementById('dropdown-lang');
+const nav = document.getElementById('nav');
 
 function openDropdown() {
     dropdown.classList.add('visible');

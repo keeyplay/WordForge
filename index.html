@@ -20,7 +20,7 @@
     <div class="particles" id="particles"></div>
 
     <header>
-        <div class="nav">
+        <div class="nav" id="nav">
             <div class="logo">
                 <a href="#" class="logo" style="text-decoration: none;">
                     <img src="assets/pic/logo_png_cr.png" alt="" style="width: 50px;">
@@ -34,12 +34,12 @@
                 <div>
                     <div id="butt-lang">🇬🇧</div>
                     <div id="dropdown-lang">
-                        <div onclick="switchLanguageForModal('en')">English 🇬🇧</div>
-                        <div onclick="switchLanguageForModal('de')">German 🇩🇪</div>
-                        <div onclick="switchLanguageForModal('ru')">Russian 🇷🇺</div>
-                        <div onclick="switchLanguageForModal('pl')">Polish 🇵🇱</div>
-                        <div onclick="switchLanguageForModal('sr')">Serbian 🇷🇸</div>
-                        <div onclick="switchLanguageForModal('ja')">Japanese 🇯🇵</div>
+                        <div onclick="switchLanguageForModal('en')" title="English">English 🇬🇧</div>
+                        <div onclick="switchLanguageForModal('de')" title="German">Deutsch 🇩🇪</div>
+                        <div onclick="switchLanguageForModal('ru')" title="Russian">Русский 🇷🇺</div>
+                        <div onclick="switchLanguageForModal('pl')" title="Polish">Polski 🇵🇱</div>
+                        <div onclick="switchLanguageForModal('sr')" title="Serbian">Српски 🇷🇸</div>
+                        <div onclick="switchLanguageForModal('ja')" title="Japanese">日本語 🇯🇵</div>
                     </div>
                 </div>
 
@@ -207,7 +207,7 @@
             </div>
         </div>
     </section>
-    <section id="bip-section">
+    <section id="bip-section" class="fade">
         <div class="bip-container">
             <div class="bip-title">
             <h2 id="builtinpublic">Built in public</h2>
@@ -246,7 +246,7 @@
             </div>
         </div>
     </section>
-    <section id="redesign-showcase">
+    <section id="redesign-showcase" class="fade">
         <div class="redesign-container">
             <div class="redesign-box fade">
             <div class="redesign-badge" id="beaf">BEFORE & AFTER</div>
