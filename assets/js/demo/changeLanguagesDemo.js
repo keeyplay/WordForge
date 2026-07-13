@@ -6,6 +6,17 @@ function openDropdown() {
     dropdown.classList.add('visible');
 }
 
+document.addEventListener('click', function(event) {
+    const isOpen = dropdown.classList.contains('visible');
+    const isClickInside = dropdown.contains(event.target);
+    const isClickOnButton = buttLang.contains(event.target); 
+    
+    if (isOpen && !isClickInside && !isClickOnButton) {
+        closeDropdown();
+    }
+});
+
+
 function closeDropdown() {
     dropdown.classList.remove('visible');
 }

@@ -1,6 +1,8 @@
 const particles = document.getElementById("particles");
 const toggle = document.getElementById("themeToggle");
 
+const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
 // THEME
 if(!localStorage.getItem("ThemeMode")) { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
 else if(localStorage.getItem("ThemeMode") === "dark") { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
@@ -20,6 +22,8 @@ toggle.onclick = () => {
 
 // PARTICLES
 function startParticles() {
+    let countParticles = 500 ;
+    if(isMobile) countParticles = 300;
     for (let i = 0; i < 500; i++) {
         const p = document.createElement("div");
         p.classList.add("particle");
