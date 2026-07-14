@@ -38,7 +38,7 @@ body {
 /* BACKGROUND */
 
 .bg-shape {
-    position: fixed;
+    position: absolute;
     border-radius: 50%;
     filter: blur(120px);
     z-index: -2;
@@ -58,6 +58,78 @@ body {
     height: 450px;
     background: orange;
     bottom: -150px;
+    right: -150px;
+    opacity: .25;
+}
+
+.shape3 {
+    width: 500px;
+    height: 500px;
+    background: orange;
+    top: 1500px;
+    left: -150px;
+    opacity: .25;
+}
+
+.shape4 {
+    width: 450px;
+    height: 450px;
+    background: orange;
+    top: 2250px;
+    right: -150px;
+    opacity: .25;
+}
+
+.shape5 {
+    width: 500px;
+    height: 500px;
+    background: orange;
+    top: 3000px;
+    left: -150px;
+    opacity: .25;
+}
+
+.shape6 {
+    width: 450px;
+    height: 450px;
+    background: orange;
+    top: 2250px;
+    right: -150px;
+    opacity: .25;
+}
+
+.shape7 {
+    width: 500px;
+    height: 500px;
+    background: orange;
+    top: 4500px;
+    left: -150px;
+    opacity: .25;
+}
+
+.shape8 {
+    width: 450px;
+    height: 450px;
+    background: orange;
+    top:3650px;
+    right: -150px;
+    opacity: .25;
+}
+
+.shape9 {
+    width: 500px;
+    height: 500px;
+    background: orange;
+    top: 6000px;
+    left: -150px;
+    opacity: .25;
+}
+
+.shape10 {
+    width: 450px;
+    height: 450px;
+    background: orange;
+    top:6000px;
     right: -150px;
     opacity: .25;
 }
@@ -556,6 +628,18 @@ footer {
     opacity: 1;
     transform: none;
 }
+
+.fadeS {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 1s;
+}
+
+.fadeS.showS {
+    opacity: 0.25;
+    transform: none;
+}
+
 
 #logo-txt {
     font-family: 'Archivo Black', sans-serif; 
