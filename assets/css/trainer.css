@@ -1384,6 +1384,12 @@ video {
         max-width: 100%;
         box-sizing: border-box;
     }
+    .scroll-div {
+        width: 300px; 
+        height: 700px; 
+        overflow-y: auto; 
+        border: 1px solid #ccc;
+    }
 }
 
 #themeMenu {
@@ -1391,11 +1397,11 @@ video {
     inset: 0;
     z-index: 100;
     background: var(--wf-overlay-dark);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    display: none;
+    display: flex;
     transition-duration: 0.5s;
 }
 
@@ -1405,7 +1411,7 @@ video {
     justify-content: center;
     gap: 50px;
     max-width: 750px;
-    max-height: 900px;
+    max-height: 700px;
     flex-wrap: wrap
 }
 
@@ -1417,6 +1423,15 @@ video {
     padding: 10px 20px;
     border-radius: 10px;
     border: 1px var(--wf-black) solid;
+    box-shadow: 5px 5px 5px black;
+
+    transition: 0.1s ease;
+}
+
+.theme:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
 }
 
 .theme h3 {
@@ -1447,4 +1462,17 @@ video {
 
 #Redtheme {
     background-color: red;
+}
+
+.Wf-premium {
+    display: flex;
+    height: 150px;
+    align-items: end;
+    justify-content: end; 
+}
+
+.Wf-premium p {
+    background: linear-gradient(135deg, #c084fc, #db2777, #f59e0b, #ec4899);
+    padding: 5px 5px;
+    border-radius: 10px;
 }
