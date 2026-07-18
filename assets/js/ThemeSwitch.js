@@ -99,3 +99,9 @@ document.getElementById("ThemeSwitcher").addEventListener('click', function() {
         ThemeSwitchFunc()
     }
 });
+
+const closeThemeMenu = document.getElementById('closethemes');
+
+closeThemeMenu.addEventListener('click', function() {
+    document.getElementById('themeMenu').style.display = "none";
+});

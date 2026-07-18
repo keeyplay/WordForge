@@ -1390,6 +1390,12 @@ video {
         overflow-y: auto; 
         border: 1px solid #ccc;
     }
+    #closethemes {
+        margin: 0px;
+        position: fixed;
+        top: 96px;
+        right: 20px;
+    }
 }
 
 #themeMenu {
@@ -1426,6 +1432,13 @@ video {
     box-shadow: 5px 5px 5px black;
 
     transition: 0.1s ease;
+}
+
+#closethemes {
+    position: fixed;
+    z-index: 200;
+    margin-left: 700px;
+    margin-top: -75px;
 }
 
 .theme:hover {
