@@ -1,6 +1,7 @@
 let ThemeMode = localStorage.getItem("ThemeMode") || "light";
 
-function ThemeSwitchFunc() {
+function ThemeSwitchFunc(theme) {
+    localStorage.setItem("ThemeMode", theme);
     const isDark = localStorage.getItem("ThemeMode") == "dark";
     
     // Update theme toggle icon
@@ -100,8 +101,16 @@ document.getElementById("ThemeSwitcher").addEventListener('click', function() {
     }
 });
 
-const closeThemeMenu = document.getElementById('closethemes');
+const closeThemeMenuDiv = document.getElementById('closethemes');
 
-closeThemeMenu.addEventListener('click', function() {
-    document.getElementById('themeMenu').style.display = "none";
+closeThemeMenuDiv.addEventListener('click', function() {
+    closeThemeMenu();
 });
+
+function openThemeMenu() {
+    document.getElementById('themeMenu').style.display = "flex";
+}
+
+function closeThemeMenu() {
+    document.getElementById('themeMenu').style.display = "none";
+}
