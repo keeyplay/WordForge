@@ -541,7 +541,7 @@
         <img src="assets/pic/coin.png" style="max-width: 50px;">
         <p id="amountCoins">+10</p>
     </div>
-    <div id="themeMenu" class="modal-overlay">
+    <div id="themeMenu" class="modal-overlay" style="display: none;">
         <div class="modal scroll-div" id="modalFlex">
             <button class="stats-panel-close" id="closethemes">×</button>
             <div id="Lighttheme" class="theme" onclick="ThemeSwitchFunc('light'); closeThemeMenu()">
@@ -554,21 +554,21 @@
                 <h3>Orange</h3>
                 <p>WF premium</p>
             </div> -->
-            <div id="Greentheme" class="theme">
+            <div id="Greentheme" class="theme" onclick="alert('Error. You dont have WordForge Premium')">
                 <h3>Acidic</h3>
-                <div class="Wf-premium"><p>WF premium</p></div>
+                <div class="Wf-premium" onclick="alert('Error. You dont have WordForge Premium')"><p>WF premium</p></div>
             </div>
             <div id="Bluetheme" class="theme">
                 <h3>Neon</h3>
-                <div class="Wf-premium"><p>WF premium</p></div>
+                <div class="Wf-premium" onclick="alert('Error. You dont have WordForge Premium')"><p>WF premium</p></div>
             </div>
             <div id="Purpletheme" class="theme">
                 <h3>Premium</h3>
-                <div class="Wf-premium"><p>WF premium</p></div>
+                <div class="Wf-premium" onclick="alert('Error. You dont have WordForge Premium')"><p>WF premium</p></div>
             </div>
             <div id="Redtheme" class="theme">
                 <h3>intensive</h3>
-                <div class="Wf-premium"><p>WF premium</p></div>
+                <div class="Wf-premium" onclick="alert('Error. You dont have WordForge Premium')"><p>WF premium</p></div>
             </div>
         </div>
     </div>
