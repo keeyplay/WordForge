@@ -115,3 +115,13 @@ function openThemeMenu() {
 function closeThemeMenu() {
     document.getElementById('themeMenu').style.display = "none";
 }
+
+function AllowThemes() {
+    reloadPremium().then((isPremium) => {
+        if (isPremium) {
+            alert("Theme is not available yet");
+        } else {
+            alert("Error. You dont have WordForge Premium");
+        }
+    });
+}
