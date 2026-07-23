@@ -86,7 +86,7 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-shadow-sm', '0 2px 12px rgba(0, 0, 0, 0.12)');
         }
     } else {
-        if(theme == "green") {
+        if(theme == "green" && reloadPremium() === true) {
             document.getElementById("switchTheme").src = "assets/pic/dark.png";
         document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
         document.getElementById("card-front").style.border = "1px solid #00ff41";
@@ -157,10 +157,11 @@ function closeThemeMenu() {
     document.getElementById('themeMenu').style.display = "none";
 }
 
-function AllowThemes() {
+function AllowThemes(theme) {
     reloadPremium().then((isPremium) => {
         if (isPremium) {
-            alert("Theme is not available yet");
+            localStorage.setItem("ThemeMode", theme);
+            ThemeSwitchFunc(theme);
         } else {
             alert("Error. You dont have WordForge Premium");
         }
