@@ -123,7 +123,7 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn-hover', 'rgba(0, 255, 65, 0.55)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(0, 255, 65, 0.15)');
             root.style.setProperty('--wf-shadow-sm', '0 4px 12px rgba(0, 255, 65, 0.1)');
-        } else if("blue" && reloadPremium() === true) {
+        } else if(theme == "blue" && reloadPremium() === true) {
             document.getElementById("switchTheme").src = "assets/pic/dark.png";
             document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
             document.getElementById("card-front").style.border = "1px solid #00b4d8";
@@ -159,6 +159,48 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(0, 180, 216, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(0, 180, 216, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(0, 180, 216, 0.1)');
+        } else if(theme == "purple" && reloadPremium() === true) {
+            document.getElementById("switchTheme").src = "assets/pic/dark.png";
+            document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
+            document.getElementById("card-front").style.border = "1px solid transparent";
+            document.getElementById("card-front").style.background = "linear-gradient(145deg, rgba(120, 50, 200, 0.15), rgba(255, 120, 50, 0.1))";
+            document.getElementById("card-front").style.borderImage = "linear-gradient(135deg, #7b2ffc, #ff6a00) 1";
+            document.getElementById("input-code-premium").style.border = "1px solid transparent";
+            document.getElementById("input-code-premium").style.background = "linear-gradient(145deg, rgba(120, 50, 200, 0.1), rgba(255, 120, 50, 0.05))";
+            document.getElementById("input-code-premium").style.borderImage = "linear-gradient(135deg, #7b2ffc, #ff6a00) 1";
+            document.querySelectorAll('.stats-section, .stat-card, .card-edit, .modal, .btn-modal-cancel, .btn-modal-save, .premium-modal-light').forEach(el => {
+                el.style.border = '1px solid transparent';
+                el.style.background = 'linear-gradient(145deg, rgba(120, 50, 200, 0.08), rgba(255, 120, 50, 0.04))';
+                el.style.borderImage = 'linear-gradient(135deg, #7b2ffc, #ff6a00) 1';
+            });
+            document.querySelectorAll('.link, #SwitchSector').forEach(el => {
+                el.style.filter = "drop-shadow(0px 0px 12px rgba(123, 47, 252, 0.3)) drop-shadow(0px 0px 12px rgba(255, 106, 0, 0.2))";
+            });
+            const particles = particlesDIV.querySelectorAll("div");
+            particles.forEach((div) => {
+                div.style.background = "linear-gradient(135deg, #7b2ffc, #ff6a00)";
+            });
+
+            root.style.setProperty('--wf-orange', 'linear-gradient(135deg, #7b2ffc, #ff6a00)');
+            root.style.setProperty('--wf-orange-col', '#7b2ffc');
+            root.style.setProperty('--wf-white', '#f0eaff');
+            root.style.setProperty('--wf-black', '#7b2ffc');
+            root.style.setProperty('--wf-dark-text', '#d4c0f0');
+            root.style.setProperty('--wf-muted', '#a080c0');
+            root.style.setProperty('--wf-light-gray', '#b89fd0');
+            root.style.setProperty('--wf-card-bg', '#0e0a14');
+            root.style.setProperty('--wf-orange-pale', 'rgba(123, 47, 252, 0.06)');
+            root.style.setProperty('--wf-orange-pale-2', 'rgba(123, 47, 252, 0.03)');
+            root.style.setProperty('--wf-orange-soft', 'rgba(123, 47, 252, 0.1)');
+            root.style.setProperty('--wf-header-bg', 'rgba(10, 6, 18, 0.9)');
+            root.style.setProperty('--wf-overlay-dark', 'rgba(6, 4, 12, 0.95)');
+            root.style.setProperty('--wf-border-black', 'rgba(123, 47, 252, 0.12)');
+            root.style.setProperty('--wf-danger', '#ff4477');
+            root.style.setProperty('--wf-red-btn', 'rgba(255, 68, 119, 0.2)');
+            root.style.setProperty('--wf-red-btn-hover', 'rgba(255, 68, 119, 0.5)');
+            root.style.setProperty('--wf-green-btn', 'rgba(123, 47, 252, 0.2)');
+            root.style.setProperty('--wf-green-btn-hover', 'rgba(123, 47, 252, 0.45)');
+            root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(123, 47, 252, 0.12)');
         }
     }
 }
