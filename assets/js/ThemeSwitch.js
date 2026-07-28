@@ -208,11 +208,53 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(123, 47, 252, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(123, 47, 252, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(123, 47, 252, 0.12)');
+        } else if(theme == "red") {
+            document.getElementById("switchTheme").src = "assets/pic/dark.png";
+            document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
+            document.getElementById("card-front").style.border = "1px solid transparent";
+            document.getElementById("card-front").style.background = "linear-gradient(145deg, rgba(180, 0, 0, 0.12), rgba(255, 50, 50, 0.08))";
+            document.getElementById("card-front").style.borderImage = "linear-gradient(135deg, #5c0000, #8b0000, #cc0000, #ff2222, #ff6666) 1";
+            document.getElementById("input-code-premium").style.border = "1px solid transparent";
+            document.getElementById("input-code-premium").style.background = "linear-gradient(145deg, rgba(180, 0, 0, 0.08), rgba(255, 50, 50, 0.05))";
+            document.getElementById("input-code-premium").style.borderImage = "linear-gradient(135deg, #5c0000, #8b0000, #cc0000, #ff2222, #ff6666) 1";
+            document.querySelectorAll('.stats-section, .stat-card, .card-edit, .modal, .btn-modal-cancel, .btn-modal-save, .premium-modal-light').forEach(el => {
+                el.style.border = '1px solid transparent';
+                el.style.background = 'linear-gradient(145deg, rgba(180, 0, 0, 0.06), rgba(255, 50, 50, 0.04))';
+                el.style.borderImage = 'linear-gradient(135deg, #5c0000, #8b0000, #cc0000, #ff2222, #ff6666) 1';
+            });
+            document.querySelectorAll('.link, #SwitchSector').forEach(el => {
+                el.style.filter = "drop-shadow(0px 0px 10px rgba(200, 0, 0, 0.3)) drop-shadow(0px 0px 15px rgba(255, 50, 50, 0.15))";
+            });
+            const particles = particlesDIV.querySelectorAll("div");
+            particles.forEach((div) => {
+                div.style.background = "linear-gradient(135deg, #5c0000, #8b0000, #cc0000, #ff2222, #ff6666)";
+            });
+
+            root.style.setProperty('--wf-orange', 'linear-gradient(135deg, #5c0000, #8b0000, #cc0000, #ff2222, #ff6666)');
+            root.style.setProperty('--wf-orange-col', '#cc0000');
+            root.style.setProperty('--wf-white', '#ffe8e8');
+            root.style.setProperty('--wf-black', '#8b0000');
+            root.style.setProperty('--wf-dark-text', '#e8b0b0');
+            root.style.setProperty('--wf-muted', '#9e4a4a');
+            root.style.setProperty('--wf-light-gray', '#be6a6a');
+            root.style.setProperty('--wf-card-bg', '#160808');
+            root.style.setProperty('--wf-orange-pale', 'rgba(200, 0, 0, 0.06)');
+            root.style.setProperty('--wf-orange-pale-2', 'rgba(200, 0, 0, 0.03)');
+            root.style.setProperty('--wf-orange-soft', 'rgba(200, 0, 0, 0.1)');
+            root.style.setProperty('--wf-header-bg', 'rgba(20, 4, 4, 0.9)');
+            root.style.setProperty('--wf-overlay-dark', 'rgba(14, 2, 2, 0.95)');
+            root.style.setProperty('--wf-border-black', 'rgba(200, 0, 0, 0.12)');
+            root.style.setProperty('--wf-danger', '#ff4477');
+            root.style.setProperty('--wf-red-btn', 'rgba(255, 68, 119, 0.2)');
+            root.style.setProperty('--wf-red-btn-hover', 'rgba(255, 68, 119, 0.5)');
+            root.style.setProperty('--wf-green-btn', 'rgba(200, 0, 0, 0.2)');
+            root.style.setProperty('--wf-green-btn-hover', 'rgba(200, 0, 0, 0.45)');
+            root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(200, 0, 0, 0.1)');
         }
     }
 }
-ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
-// ThemeSwitchFunc("blue");
+// ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
+ThemeSwitchFunc("red");
 
 document.getElementById("ThemeSwitcher").addEventListener('click', function() {
     // if(ThemeMode == "light") {
