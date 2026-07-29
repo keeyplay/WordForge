@@ -208,7 +208,7 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(123, 47, 252, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(123, 47, 252, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(123, 47, 252, 0.12)');
-        } else if(theme == "red") {
+        } else if(theme == "red" && reloadPremium() === true) {
             document.getElementById("switchTheme").src = "assets/pic/dark.png";
             document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
             document.getElementById("card-front").style.border = "1px solid transparent";
@@ -253,8 +253,8 @@ function ThemeSwitchFunc(theme) {
         }
     }
 }
-// ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
-ThemeSwitchFunc("red");
+ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
+// ThemeSwitchFunc("red");
 
 document.getElementById("ThemeSwitcher").addEventListener('click', function() {
     // if(ThemeMode == "light") {
