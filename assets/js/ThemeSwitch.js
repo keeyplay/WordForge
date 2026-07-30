@@ -89,40 +89,46 @@ function ThemeSwitchFunc(theme) {
         if(theme == "green" && reloadPremium() === true) {
             document.getElementById("switchTheme").src = "assets/pic/dark.png";
             document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
-            document.getElementById("card-front").style.border = "1px solid #00ff41";
-            document.getElementById("input-code-premium").style.border = "1px solid #00ff41";
+            document.getElementById("card-front").style.border = "1px solid transparent";
+            document.getElementById("card-front").style.background = "linear-gradient(145deg, rgba(0, 255, 65, 0.1), rgba(50, 255, 150, 0.06))";
+            document.getElementById("card-front").style.borderImage = "linear-gradient(135deg, #00ff41, #39ff78, #b7ff7a) 1";
+            document.getElementById("input-code-premium").style.border = "1px solid transparent";
+            document.getElementById("input-code-premium").style.background = "linear-gradient(145deg, rgba(0, 255, 65, 0.08), rgba(50, 255, 150, 0.04))";
+            document.getElementById("input-code-premium").style.borderImage = "linear-gradient(135deg, #00ff41, #39ff78, #b7ff7a) 1";
             document.querySelectorAll('.stats-section, .stat-card, .card-edit, .modal, .btn-modal-cancel, .btn-modal-save, .premium-modal-light').forEach(el => {
-                el.style.border = '1px solid #00ff41';
+                el.style.border = '1px solid transparent';
+                el.style.background = 'linear-gradient(145deg, rgba(0, 255, 65, 0.05), rgba(50, 255, 150, 0.03))';
+                el.style.borderImage = 'linear-gradient(135deg, #00ff41, #39ff78, #b7ff7a) 1';
             });
             document.querySelectorAll('.link, #SwitchSector').forEach(el => {
-                el.style.filter = "drop-shadow(0px 0px 10px rgba(0, 255, 65, 0.5))";
+                el.style.filter = "drop-shadow(0px 0px 10px rgba(0, 255, 65, 0.25)) drop-shadow(0px 0px 20px rgba(57, 255, 120, 0.1))";
             });
             const particles = particlesDIV.querySelectorAll("div");
             particles.forEach((div) => {
-                div.style.background = "#00ff41";
+                div.style.background = "linear-gradient(135deg, #00ff41, #39ff78, #b7ff7a)";
             });
-            
-            root.style.setProperty('--wf-orange', '#00ff41');
+
+            root.style.setProperty('--wf-orange', 'linear-gradient(135deg, #00ff41, #39ff78, #b7ff7a)');
             root.style.setProperty('--wf-orange-col', '#00ff41');
-            root.style.setProperty('--wf-white', '#fefefe');
-            root.style.setProperty('--wf-black', '#00ff41');
-            root.style.setProperty('--wf-dark-text', '#b0ffb0');
-            root.style.setProperty('--wf-muted', '#66cc88');
-            root.style.setProperty('--wf-light-gray', '#88dd99');
-            root.style.setProperty('--wf-card-bg', '#0f1a0f');
-            root.style.setProperty('--wf-orange-pale', 'rgba(0, 255, 65, 0.08)');
-            root.style.setProperty('--wf-orange-pale-2', 'rgba(0, 255, 65, 0.04)');
-            root.style.setProperty('--wf-orange-soft', 'rgba(0, 255, 65, 0.15)');
-            root.style.setProperty('--wf-header-bg', 'rgba(0, 20, 0, 0.85)');
-            root.style.setProperty('--wf-overlay-dark', 'rgba(0, 10, 0, 0.9)');
-            root.style.setProperty('--wf-border-black', 'rgba(0, 255, 65, 0.15)');
+            root.style.setProperty('--wf-white', '#f0fff0');
+            root.style.setProperty('--wf-black', '#00cc33');
+            root.style.setProperty('--wf-dark-text', '#b0e8c0');
+            root.style.setProperty('--wf-muted', '#4a9e6a');
+            root.style.setProperty('--wf-light-gray', '#6abe8a');
+            root.style.setProperty('--wf-card-bg', '#0a140e');
+            root.style.setProperty('--wf-orange-pale', 'rgba(0, 255, 65, 0.05)');
+            root.style.setProperty('--wf-orange-pale-2', 'rgba(0, 255, 65, 0.03)');
+            root.style.setProperty('--wf-orange-soft', 'rgba(0, 255, 65, 0.1)');
+            root.style.setProperty('--wf-header-bg', 'rgba(6, 18, 10, 0.9)');
+            root.style.setProperty('--wf-overlay-dark', 'rgba(4, 12, 8, 0.95)');
+            root.style.setProperty('--wf-border-black', 'rgba(0, 255, 65, 0.1)');
             root.style.setProperty('--wf-danger', '#ff4477');
             root.style.setProperty('--wf-red-btn', 'rgba(255, 68, 119, 0.2)');
             root.style.setProperty('--wf-red-btn-hover', 'rgba(255, 68, 119, 0.5)');
-            root.style.setProperty('--wf-green-btn', 'rgba(0, 255, 65, 0.25)');
-            root.style.setProperty('--wf-green-btn-hover', 'rgba(0, 255, 65, 0.55)');
-            root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(0, 255, 65, 0.15)');
-            root.style.setProperty('--wf-shadow-sm', '0 4px 12px rgba(0, 255, 65, 0.1)');
+            root.style.setProperty('--wf-green-btn', 'rgba(0, 255, 65, 0.2)');
+            root.style.setProperty('--wf-green-btn-hover', 'rgba(0, 255, 65, 0.45)');
+            root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(0, 255, 65, 0.08)');
+            root.style.setProperty('--wf-shadow-sm', '0 4px 12px rgba(0, 255, 65, 0.05)');
         } else if(theme == "blue" && reloadPremium() === true) {
             document.getElementById("switchTheme").src = "assets/pic/dark.png";
             document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
@@ -254,7 +260,7 @@ function ThemeSwitchFunc(theme) {
     }
 }
 ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
-// ThemeSwitchFunc("red");
+// ThemeSwitchFunc("green");
 
 document.getElementById("ThemeSwitcher").addEventListener('click', function() {
     // if(ThemeMode == "light") {
