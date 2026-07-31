@@ -1457,29 +1457,38 @@ video {
 }
 
 #Lighttheme {
-    background-color: white;
-    color: black;
+    background: linear-gradient(145deg, #fffbf7, #ff9100);
+    color: #000000;
 }
 
 #Darktheme {
-    color: white;
-    background: black;
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+    color: #e8e8e8;
 }
 
 #Greentheme {
-    background-color: green;
+    background: linear-gradient(145deg, #00ff00, #307c30, #7fff7f);
+    color: #b0ffb0;
 }
 
 #Bluetheme {
-    background-color: blue;
+    background: linear-gradient(145deg, #1f3a5c, #143a60, #0088ff, #080e16);
+    color: #b0ccee;
 }
 
 #Purpletheme {
-    background-color: purple;
+    background: linear-gradient(145deg, #6600ff, #c85aff, orange);
+    color: #d4c0f0;
 }
 
 #Redtheme {
-    background-color: red;
+    background: linear-gradient(145deg, #ff0000, #c00000, #8c0000, #7f0000);
+    color: #e8b0b0;
+}
+
+#BlackWhite {
+    background: linear-gradient(145deg, #000000, #111111);
+    color: #ffffff;
 }
 
 .Wf-premium {

@@ -87,7 +87,7 @@ function ThemeSwitchFunc(theme) {
         }
     } else {
         if(theme == "green" && reloadPremium() === true) {
-            document.getElementById("switchTheme").src = "assets/pic/dark.png";
+            document.getElementById("switchTheme").src = "assets/pic/light.png";
             document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
             document.getElementById("card-front").style.border = "1px solid transparent";
             document.getElementById("card-front").style.background = "linear-gradient(145deg, rgba(0, 255, 65, 0.1), rgba(50, 255, 150, 0.06))";
