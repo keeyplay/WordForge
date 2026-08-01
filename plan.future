@@ -108,8 +108,8 @@ i need add/fix:
 - make setings at main page +
 - refactoring demo.html
 - make close dropdown of chose language while cursor aint into dropdown -+
-- make public analytics
-- make custom themes
-- make addwall
+- make public analytics +-
+- make custom themes +
+- make addwall +-
 - make checker of premium for themes +
-- make security of themes system (add toward parametr special code)
+- make security of themes system (add toward parametr special code) +
