@@ -1417,7 +1417,7 @@ video {
     justify-content: center;
     gap: 50px;
     max-width: 750px;
-    max-height: 700px;
+    max-height: 800px;
     flex-wrap: wrap
 }
 
@@ -1472,7 +1472,7 @@ video {
 }
 
 #Bluetheme {
-    background: linear-gradient(145deg, #1f3a5c, #143a60, #0088ff, #080e16);
+    background: linear-gradient(145deg, #0073ff, #77bbff, #0088ff, #080e16);
     color: #b0ccee;
 }
 
@@ -1484,6 +1484,21 @@ video {
 #Redtheme {
     background: linear-gradient(145deg, #ff0000, #c00000, #8c0000, #7f0000);
     color: #e8b0b0;
+}
+
+#Sunsettheme {
+    background: linear-gradient(145deg, #ff6b8a, #ff9a56, #a855f7);
+    color: #fff5f0;
+}
+
+#Oceantheme {
+    background: linear-gradient(145deg, #0a1628, #0d4a6b, #38bdf8);
+    color: #e0f2fe;
+}
+
+#Midnighttheme {
+    background: linear-gradient(145deg,  #57432d, #0a0a0a, #3a3a4a);
+    color: #e8e0f0;
 }
 
 #BlackWhite {
