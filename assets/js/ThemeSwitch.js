@@ -256,6 +256,48 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(200, 0, 0, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(200, 0, 0, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(200, 0, 0, 0.1)');
+        } else if(theme == "sunset" && reloadPremium() === true) {
+            document.getElementById("switchTheme").src = "assets/pic/dark.png";
+            document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
+            document.getElementById("card-front").style.border = "1px solid transparent";
+            document.getElementById("card-front").style.background = "linear-gradient(145deg, rgba(255, 107, 138, 0.12), rgba(255, 154, 86, 0.08))";
+            document.getElementById("card-front").style.borderImage = "linear-gradient(135deg, #ff6b8a, #ff9a56, #a855f7) 1";
+            document.getElementById("input-code-premium").style.border = "1px solid transparent";
+            document.getElementById("input-code-premium").style.background = "linear-gradient(145deg, rgba(255, 107, 138, 0.08), rgba(255, 154, 86, 0.05))";
+            document.getElementById("input-code-premium").style.borderImage = "linear-gradient(135deg, #ff6b8a, #ff9a56, #a855f7) 1";
+            document.querySelectorAll('.stats-section, .stat-card, .card-edit, .modal, .btn-modal-cancel, .btn-modal-save, .premium-modal-light').forEach(el => {
+                el.style.border = '1px solid transparent';
+                el.style.background = 'linear-gradient(145deg, rgba(255, 107, 138, 0.06), rgba(255, 154, 86, 0.04))';
+                el.style.borderImage = 'linear-gradient(135deg, #ff6b8a, #ff9a56, #a855f7) 1';
+            });
+            document.querySelectorAll('.link, #SwitchSector').forEach(el => {
+                el.style.filter = "drop-shadow(0px 0px 10px rgba(255, 107, 138, 0.25)) drop-shadow(0px 0px 15px rgba(168, 85, 247, 0.15))";
+            });
+            const particles = particlesDIV.querySelectorAll("div");
+            particles.forEach((div) => {
+                div.style.background = "linear-gradient(135deg, #ff6b8a, #ff9a56, #a855f7)";
+            });
+
+            root.style.setProperty('--wf-orange', 'linear-gradient(135deg, #ff6b8a, #ff9a56, #a855f7)');
+            root.style.setProperty('--wf-orange-col', '#ff6b8a');
+            root.style.setProperty('--wf-white', '#fff5f0');
+            root.style.setProperty('--wf-black', '#8a4a6a');
+            root.style.setProperty('--wf-dark-text', '#f0d0c8');
+            root.style.setProperty('--wf-muted', '#b0808a');
+            root.style.setProperty('--wf-light-gray', '#d0a0a8');
+            root.style.setProperty('--wf-card-bg', '#1a0e14');
+            root.style.setProperty('--wf-orange-pale', 'rgba(255, 107, 138, 0.06)');
+            root.style.setProperty('--wf-orange-pale-2', 'rgba(255, 107, 138, 0.03)');
+            root.style.setProperty('--wf-orange-soft', 'rgba(255, 107, 138, 0.1)');
+            root.style.setProperty('--wf-header-bg', 'rgba(20, 10, 14, 0.9)');
+            root.style.setProperty('--wf-overlay-dark', 'rgba(14, 6, 10, 0.95)');
+            root.style.setProperty('--wf-border-black', 'rgba(255, 107, 138, 0.12)');
+            root.style.setProperty('--wf-danger', '#ff4477');
+            root.style.setProperty('--wf-red-btn', 'rgba(255, 68, 119, 0.2)');
+            root.style.setProperty('--wf-red-btn-hover', 'rgba(255, 68, 119, 0.5)');
+            root.style.setProperty('--wf-green-btn', 'rgba(255, 107, 138, 0.2)');
+            root.style.setProperty('--wf-green-btn-hover', 'rgba(255, 107, 138, 0.45)');
+            root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(255, 107, 138, 0.1)');
         }
     }
 }
