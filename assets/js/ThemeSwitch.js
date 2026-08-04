@@ -298,11 +298,53 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(255, 107, 138, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(255, 107, 138, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(255, 107, 138, 0.1)');
+        } else if(theme == "ocean") {
+            document.getElementById("switchTheme").src = "assets/pic/dark.png";
+            document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
+            document.getElementById("card-front").style.border = "1px solid transparent";
+            document.getElementById("card-front").style.background = "linear-gradient(145deg, rgba(10, 22, 40, 0.12), rgba(13, 74, 107, 0.08))";
+            document.getElementById("card-front").style.borderImage = "linear-gradient(135deg, #0a1628, #0d4a6b, #38bdf8) 1";
+            document.getElementById("input-code-premium").style.border = "1px solid transparent";
+            document.getElementById("input-code-premium").style.background = "linear-gradient(145deg, rgba(10, 22, 40, 0.08), rgba(13, 74, 107, 0.05))";
+            document.getElementById("input-code-premium").style.borderImage = "linear-gradient(135deg, #0a1628, #0d4a6b, #38bdf8) 1";
+            document.querySelectorAll('.stats-section, .stat-card, .card-edit, .modal, .btn-modal-cancel, .btn-modal-save, .premium-modal-light').forEach(el => {
+                el.style.border = '1px solid transparent';
+                el.style.background = 'linear-gradient(145deg, rgba(10, 22, 40, 0.06), rgba(13, 74, 107, 0.04))';
+                el.style.borderImage = 'linear-gradient(135deg, #0a1628, #0d4a6b, #38bdf8) 1';
+            });
+            document.querySelectorAll('.link, #SwitchSector').forEach(el => {
+                el.style.filter = "drop-shadow(0px 0px 10px rgba(13, 74, 107, 0.3)) drop-shadow(0px 0px 15px rgba(56, 189, 248, 0.15))";
+            });
+            const particles = particlesDIV.querySelectorAll("div");
+            particles.forEach((div) => {
+                div.style.background = "linear-gradient(135deg, #0a1628, #0d4a6b, #38bdf8)";
+            });
+
+            root.style.setProperty('--wf-orange', 'linear-gradient(135deg, #0a1628, #0d4a6b, #38bdf8)');
+            root.style.setProperty('--wf-orange-col', '#0d4a6b');
+            root.style.setProperty('--wf-white', '#e0f2fe');
+            root.style.setProperty('--wf-black', '#676768');
+            root.style.setProperty('--wf-dark-text', '#b0d4e8');
+            root.style.setProperty('--wf-muted', '#4a7a9e');
+            root.style.setProperty('--wf-light-gray', '#6a9abe');
+            root.style.setProperty('--wf-card-bg', '#080e16');
+            root.style.setProperty('--wf-orange-pale', 'rgba(13, 74, 107, 0.06)');
+            root.style.setProperty('--wf-orange-pale-2', 'rgba(13, 74, 107, 0.03)');
+            root.style.setProperty('--wf-orange-soft', 'rgba(13, 74, 107, 0.1)');
+            root.style.setProperty('--wf-header-bg', 'rgba(4, 12, 20, 0.9)');
+            root.style.setProperty('--wf-overlay-dark', 'rgba(2, 8, 14, 0.95)');
+            root.style.setProperty('--wf-border-black', 'rgba(13, 74, 107, 0.12)');
+            root.style.setProperty('--wf-danger', '#ff4477');
+            root.style.setProperty('--wf-red-btn', 'rgba(255, 68, 119, 0.2)');
+            root.style.setProperty('--wf-red-btn-hover', 'rgba(255, 68, 119, 0.5)');
+            root.style.setProperty('--wf-green-btn', 'rgba(13, 74, 107, 0.2)');
+            root.style.setProperty('--wf-green-btn-hover', 'rgba(13, 74, 107, 0.45)');
+            root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(13, 74, 107, 0.1)');
         }
     }
 }
 ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
-// ThemeSwitchFunc("green");
+ThemeSwitchFunc("ocean");
 
 document.getElementById("ThemeSwitcher").addEventListener('click', function() {
     // if(ThemeMode == "light") {
