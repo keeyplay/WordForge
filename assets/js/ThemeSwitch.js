@@ -340,11 +340,53 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(13, 74, 107, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(13, 74, 107, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(13, 74, 107, 0.1)');
+        } else if(theme == "midnight") {
+            document.getElementById("switchTheme").src = "assets/pic/dark.png";
+            document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
+            document.getElementById("card-front").style.border = "1px solid transparent";
+            document.getElementById("card-front").style.background = "linear-gradient(145deg, rgba(26, 10, 46, 0.12), rgba(10, 10, 10, 0.08))";
+            document.getElementById("card-front").style.borderImage = "linear-gradient(135deg, #1a0a2e, #0a0a0a, #3a3a4a) 1";
+            document.getElementById("input-code-premium").style.border = "1px solid transparent";
+            document.getElementById("input-code-premium").style.background = "linear-gradient(145deg, rgba(26, 10, 46, 0.08), rgba(10, 10, 10, 0.05))";
+            document.getElementById("input-code-premium").style.borderImage = "linear-gradient(135deg, #1a0a2e, #0a0a0a, #3a3a4a) 1";
+            document.querySelectorAll('.stats-section, .stat-card, .card-edit, .modal, .btn-modal-cancel, .btn-modal-save, .premium-modal-light').forEach(el => {
+                el.style.border = '1px solid transparent';
+                el.style.background = 'linear-gradient(145deg, rgba(26, 10, 46, 0.06), rgba(10, 10, 10, 0.04))';
+                el.style.borderImage = 'linear-gradient(135deg, #1a0a2e, #0a0a0a, #3a3a4a) 1';
+            });
+            document.querySelectorAll('.link, #SwitchSector').forEach(el => {
+                el.style.filter = "drop-shadow(0px 0px 10px rgba(26, 10, 46, 0.3)) drop-shadow(0px 0px 15px rgba(58, 58, 74, 0.2))";
+            });
+            const particles = particlesDIV.querySelectorAll("div");
+            particles.forEach((div) => {
+                div.style.background = "linear-gradient(135deg, #1a0a2e, #0a0a0a, #3a3a4a)";
+            });
+
+            root.style.setProperty('--wf-orange', 'linear-gradient(135deg, #1a0a2e, #0a0a0a, #3a3a4a)');
+            root.style.setProperty('--wf-orange-col', '#cdc4d7');
+            root.style.setProperty('--wf-white', '#e8e0f0');
+            root.style.setProperty('--wf-black', '#8c8a8e');
+            root.style.setProperty('--wf-dark-text', '#c8b8d8');
+            root.style.setProperty('--wf-muted', '#7a6a8a');
+            root.style.setProperty('--wf-light-gray', '#9a8aaa');
+            root.style.setProperty('--wf-card-bg', '#0a0610');
+            root.style.setProperty('--wf-orange-pale', 'rgba(26, 10, 46, 0.06)');
+            root.style.setProperty('--wf-orange-pale-2', 'rgba(26, 10, 46, 0.03)');
+            root.style.setProperty('--wf-orange-soft', 'rgba(26, 10, 46, 0.1)');
+            root.style.setProperty('--wf-header-bg', 'rgba(10, 6, 18, 0.9)');
+            root.style.setProperty('--wf-overlay-dark', 'rgba(6, 4, 12, 0.95)');
+            root.style.setProperty('--wf-border-black', 'rgba(26, 10, 46, 0.12)');
+            root.style.setProperty('--wf-danger', '#ff4477');
+            root.style.setProperty('--wf-red-btn', 'rgba(255, 68, 119, 0.2)');
+            root.style.setProperty('--wf-red-btn-hover', 'rgba(255, 68, 119, 0.5)');
+            root.style.setProperty('--wf-green-btn', 'rgba(26, 10, 46, 0.2)');
+            root.style.setProperty('--wf-green-btn-hover', 'rgba(26, 10, 46, 0.45)');
+            root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(26, 10, 46, 0.1)');
         }
     }
 }
 ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
-ThemeSwitchFunc("ocean");
+ThemeSwitchFunc("midnight");
 
 document.getElementById("ThemeSwitcher").addEventListener('click', function() {
     // if(ThemeMode == "light") {
