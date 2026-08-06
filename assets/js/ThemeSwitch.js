@@ -298,7 +298,7 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(255, 107, 138, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(255, 107, 138, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(255, 107, 138, 0.1)');
-        } else if(theme == "ocean") {
+        } else if(theme == "ocean" && reloadPremium() === true) {
             document.getElementById("switchTheme").src = "assets/pic/dark.png";
             document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
             document.getElementById("card-front").style.border = "1px solid transparent";
@@ -340,7 +340,7 @@ function ThemeSwitchFunc(theme) {
             root.style.setProperty('--wf-green-btn', 'rgba(13, 74, 107, 0.2)');
             root.style.setProperty('--wf-green-btn-hover', 'rgba(13, 74, 107, 0.45)');
             root.style.setProperty('--wf-shadow-main', '0 8px 32px rgba(13, 74, 107, 0.1)');
-        } else if(theme == "midnight") {
+        } else if(theme == "midnight" && reloadPremium() === true) {
             document.getElementById("switchTheme").src = "assets/pic/dark.png";
             document.getElementById("buttonLocalAccounts").src = "assets/pic/3lines_dark.png";
             document.getElementById("card-front").style.border = "1px solid transparent";
@@ -386,7 +386,7 @@ function ThemeSwitchFunc(theme) {
     }
 }
 ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
-ThemeSwitchFunc("midnight");
+// ThemeSwitchFunc("midnight");
 
 document.getElementById("ThemeSwitcher").addEventListener('click', function() {
     // if(ThemeMode == "light") {
