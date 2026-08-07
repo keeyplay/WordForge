@@ -44,6 +44,20 @@ body {
     z-index: -2;
 }
 
+#usersever {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 10px;
+    margin-top: -35px;
+    color:#94a3b8;
+}
+
+#usersever h2 {
+    color: green;
+    text-shadow: 0px 2px 15px green;
+}
+
 .shape1 {
     width: 500px;
     height: 500px;
