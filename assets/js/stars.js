@@ -13,7 +13,7 @@ class MovingStar {
     this.x = random(0, window.innerWidth);
     this.y = random(0, window.innerHeight);
     this.size = random(1, 4);
-    this.speed = random(0.1, 0.5); // пикселей за кадр
+    this.speed = random(0.1, 0.5);
     this.direction = random(0, Math.PI * 2);
     this.alpha = random(0.3, 0.8);
     

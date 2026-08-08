@@ -1,14 +1,11 @@
 const UIcoin = document.getElementById('coin');
 const UIcoinAmount = document.getElementById('amountCoins');
 
+//set variable in localstorage if coins didnt exist
 function setCoins() {
     if(!localStorage.getItem('coins')) {
         localStorage.setItem('coins', 0);
     }
-
-    // if(typeof(localStorage.getItem('coins')) != "number") {
-    //     localStorage.setItem('coins', 0);
-    // }
 }
 
 setCoins()

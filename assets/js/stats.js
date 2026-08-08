@@ -141,7 +141,6 @@ function updatePieChart() {
     // Get stats for cards
     const totalCards = cardsSt.length;
     if (totalCards === 0) {
-        // Если карточек нет, показываем серую диаграмму
         pieChart.style.background = 'conic-gradient(#ccc 0deg 360deg)';
         legendContainer.innerHTML = '<div class="legend-item"><span class="legend-color" style="background: #ccc"></span><span>No cards (0%)</span></div>';
         return;
