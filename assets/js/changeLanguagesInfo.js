@@ -17,10 +17,8 @@ async function loadLanguages() {
     const response = await fetch('../../languages-info.json');
     Translate = await response.json();
 
-    // document.getElementById("change_language").innerText = switchLanCount === "en" ? "🇬🇧" : "🇷🇺";
     switchLanguageForModal(switchLanCount);
 
-    //if(localStorage.getItem("language") === "['ru']")
 }
 loadLanguages();
 

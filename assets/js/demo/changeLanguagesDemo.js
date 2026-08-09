@@ -32,7 +32,7 @@ buttLang.addEventListener('click', Dropdown);
 let UserLang = navigator.language.split('-')[0];
 let switchLanCount = localStorage.getItem("language");
 if(!switchLanCount) {
-    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr" && UserLang !== "ja") {
+    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr" && UserLang !== "ja" && UserLang !== "ka") {
         switchLanCount = "en";
     } else {
         switchLanCount = UserLang;
@@ -45,10 +45,8 @@ async function loadLanguages() {
     const response = await fetch('../../languages-demo.json');
     Translate = await response.json();
 
-    // document.getElementById("change_language").innerText = switchLanCount === "en" ? "🇬🇧" : "🇷🇺";
     switchLanguageForModal(switchLanCount);
 
-    //if(localStorage.getItem("language") === "['ru']")
 }
 loadLanguages();
 

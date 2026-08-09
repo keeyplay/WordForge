@@ -239,14 +239,8 @@ document.getElementById('btn_start').addEventListener('click', function() {
         }
         
         document.body.style.height = "100vh";
-        // getElementById("logo-name").classList.add('ani');
         document.body.innerHTML += newContent; 
         ThemeSwitchFunc();
-
-        //info up
-        // document.getElementById("info").style.animationDuration = "0.5s";
-        // document.getElementById("info").style.justifyContent = "space-between";
-        // document.getElementById("infoup").innerText = "WordForge";
 
         //button to main page 
         document.getElementById("logo-name").addEventListener('click', function() {

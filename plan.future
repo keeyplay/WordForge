@@ -113,3 +113,7 @@ i need add/fix:
 - make addwall +-
 - make checker of premium for themes +
 - make security of themes system (add toward parametr special code) +
+- translate to georgian language
+- translate oldindex.html to georgian language
+- make standart language for countries wheres offical language is (for example Kazahstan - Russian, Belarus - Russian, US - english, North Makedonia - Serbian, etc.)
+- make function of random count
