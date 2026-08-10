@@ -3,7 +3,7 @@ let profileData = profile ? (() => { try { return JSON.parse(localStorage.getIte
 let cards = profileData.languageCards || [];
 let cardsAdd = [...cards];
 let swipping = false;
-let randomCount = Math.floor(Math.random() * cardsAdd.length);
+let randomCount = getRandomCount(0, cardsAdd.length);
 let streaks = profileData.streaks || {
     streakCount: 0,
     lastVisitDate: null,
@@ -147,7 +147,7 @@ if(HowManyProfiles() === 0) {
 //update random count func
 function updateRandomCount() {
     if (cardsAdd.length > 0) {
-        randomCount = Math.floor(Math.random() * cardsAdd.length);
+        randomCount = getRandomCount(0, cardsAdd.length);
     }
 }
 
@@ -248,7 +248,7 @@ function renderStreak() {
     if(streaks.streakCount % 5 === 0 && streaks.streakCount != 0) {
         if(!streaks.CongToday) {
             document.getElementById("modal-overlay-streak").style.display = "flex";
-            document.getElementById("message-streak").innerText = streakMessages[Math.floor(Math.random() * 15)];
+            document.getElementById("message-streak").innerText = streakMessages[getRandomCount(0, 15)];
             document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
@@ -257,7 +257,7 @@ function renderStreak() {
     } else if(streaks.streakCount === 1 && streaks.streakCount != 0) {
         if(!streaks.CongToday && localStorage.length >= 3) {
             document.getElementById("modal-overlay-streak").style.display = "flex";
-            document.getElementById("message-streak").innerText = streakMessages[Math.floor(Math.random() * 15)];
+            document.getElementById("message-streak").innerText = streakMessages[getRandomCount(0, 15)];
             document.getElementById("all-streaks-county").innerText = "Your new streak - " + profileData.streaks.streakCount;
             streaks.CongToday = true;
             localStorage.setItem(profile, JSON.stringify(profileData));
@@ -749,3 +749,7 @@ particlesChangeSettings.addEventListener('click', function() {
     else backgroundDiv = "green"
     offOnParticlesChangeSettings.style.background = backgroundDiv;
 });
+
+function getRandomCount(from, to) {
+    return Math.floor(Math.random() * (to - from + 1)) + from;
+}

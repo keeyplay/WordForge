@@ -386,20 +386,8 @@ function ThemeSwitchFunc(theme) {
     }
 }
 ThemeSwitchFunc(localStorage.getItem("ThemeMode"));
-// ThemeSwitchFunc("midnight");
 
 document.getElementById("ThemeSwitcher").addEventListener('click', function() {
-    // if(ThemeMode == "light") {
-    //     ThemeMode = "dark";
-    //     localStorage.setItem("ThemeMode", "dark");
-
-    //     ThemeSwitchFunc()
-    // } else if(ThemeMode == "dark") {
-    //     ThemeMode = "light";
-    //     localStorage.setItem("ThemeMode", "light");
-
-    //     ThemeSwitchFunc()
-    // }
     openThemeMenu();
 });
 
