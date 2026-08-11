@@ -1,9 +1,7 @@
 // THEME
 const toggle = document.getElementById("themeToggle");
 
-if(!localStorage.getItem("ThemeMode")) { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
-else if(localStorage.getItem("ThemeMode") === "dark") { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
-else toggle.src = "../../assets/pic/sun.png"
+swithToCurrentTheme()
 toggle.onclick = () => {
     document.body.classList.toggle("dark");
     if(!localStorage.getItem("ThemeMode")) { localStorage.setItem("ThemeMode", "light"); toggle.src = "../../assets/pic/sun.png" } 
@@ -16,6 +14,12 @@ toggle.onclick = () => {
         else div.style.background = "black";
     });
 };
+
+function swithToCurrentTheme() {
+    if(!localStorage.getItem("ThemeMode")) { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
+    else if(localStorage.getItem("ThemeMode") === "dark") { document.body.classList.toggle("dark"); toggle.src = "../../assets/pic/dark.png"; }
+    else toggle.src = "../../assets/pic/sun.png"
+}
 
 
 // FADE IN
