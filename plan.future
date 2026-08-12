@@ -118,4 +118,4 @@ i need add/fix:
 - make standart language for countries wheres offical language is (for example Kazahstan - Russian, Belarus - Russian, US - english, North Makedonia - Serbian, etc.)
 - make function of random count +
 - make all themes at demo.html?
-- move milestones from trainer.js to new file
+- move milestones from trainer.js to new file +
