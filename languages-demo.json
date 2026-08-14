@@ -6,7 +6,8 @@
     "pl": "WordForge",
     "sr": "WordForge",
     "ja": "WordForge",
-    "ka": "WordForge"
+    "ka": "WordForge",
+    "el": "WordForge"
   },
   "lewo": {
     "en": "Learn words.",
@@ -15,7 +16,8 @@
     "pl": "Ucz się słów.",
     "sr": "Učite reči.",
     "ja": "単語を学ぼう。",
-    "ka": "ისწავლე სიტყვები."
+    "ka": "ისწავლე სიტყვები.",
+    "el": "Μάθε λέξεις."
   },
   "eaco": {
     "en": "Earn coins.",
@@ -24,7 +26,8 @@
     "pl": "Zarabiaj monety.",
     "sr": "Zarađujte novčiće.",
     "ja": "コインを稼ごう。",
-    "ka": "გამოიმუშავე მონეტები."
+    "ka": "გამოიმუშავე მონეტები.",
+    "el": "Κέρδισε νομίσματα."
   },
   "buyovo": {
     "en": "Build your vocabulary.",
@@ -33,7 +36,8 @@
     "pl": "Buduj swoje słownictwo.",
     "sr": "Izgradite svoj vokabular.",
     "ja": "語彙を身につけよう。",
-    "ka": "გააფართოვე ლექსიკა."
+    "ka": "გააფართოვე ლექსიკა.",
+    "el": "Χτίσε το λεξιλόγιό σου."
   },
   "butt-lang": {
     "en": "🇬🇧",
@@ -42,7 +46,8 @@
     "pl": "🇵🇱",
     "sr": "🇷🇸",
     "ja": "🇯🇵",
-    "ka": "🇬🇪"
+    "ka": "🇬🇪",
+    "el": "🇬🇷"
   },
   "nosiup": {
     "en": "No sign-up. No payments. Just open and learn. Designed for students, travelers and developers.",
@@ -51,7 +56,8 @@
     "pl": "Bez rejestracji. Bez płatności. Po prostu otwórz i ucz się. Stworzone dla studentów, podróżników i programistów.",
     "sr": "Bez registracije. Bez plaćanja. Samo otvorite i učite. Napravljeno za studente, putnike i programere.",
     "ja": "登録不要。支払い不要。開いて学ぶだけ。学生、旅行者、開発者のためにデザインされました。",
-    "ka": "რეგისტრაციის გარეშე. გადახდის გარეშე. უბრალოდ გახსენი და ისწავლე. შექმნილია სტუდენტების, მოგზაურების და დეველოპერებისთვის."
+    "ka": "რეგისტრაციის გარეშე. გადახდის გარეშე. უბრალოდ გახსენი და ისწავლე. შექმნილია სტუდენტების, მოგზაურების და დეველოპერებისთვის.",
+    "el": "Χωρίς εγγραφή. Χωρίς πληρωμές. Απλά άνοιξε και μάθε. Σχεδιασμένο για φοιτητές, ταξιδιώτες και προγραμματιστές."
   },
   "TryItNow": {
     "en": "Try it now",
@@ -60,7 +66,8 @@
     "pl": "Wypróbuj",
     "sr": "Probajte",
     "ja": "今すぐ試す",
-    "ka": "სცადე ახლავე"
+    "ka": "სცადე ახლავე",
+    "el": "Δοκίμασέ το τώρα"
   },
   "HowItWorks": {
     "en": "How it works",
@@ -69,7 +76,8 @@
     "pl": "Jak to działa",
     "sr": "Kako radi",
     "ja": "仕組み",
-    "ka": "როგორ მუშაობს"
+    "ka": "როგორ მუშაობს",
+    "el": "Πώς λειτουργεί"
   },
   "bykeeyplay": {
     "en": "By keeyplay",
@@ -78,7 +86,8 @@
     "pl": "Od keeyplay",
     "sr": "Od keeyplay",
     "ja": "keeyplay より",
-    "ka": "keeyplay-ს მიერ"
+    "ka": "keeyplay-ს მიერ",
+    "el": "Από τον keeyplay"
   },
   "stepstolearn": {
     "en": "Steps to learn languages",
@@ -87,7 +96,8 @@
     "pl": "Kroki do nauki języków",
     "sr": "Koraci za učenje jezika",
     "ja": "言語学習のステップ",
-    "ka": "ნაბიჯები ენების შესასწავლად"
+    "ka": "ნაბიჯები ენების შესასწავლად",
+    "el": "Βήματα για να μάθεις γλώσσες"
   },
   "vocabulary": {
     "en": "1. Vocabulary",
@@ -96,7 +106,8 @@
     "pl": "1. Słownictwo",
     "sr": "1. Vokabular",
     "ja": "1. 語彙",
-    "ka": "1. ლექსიკა"
+    "ka": "1. ლექსიკა",
+    "el": "1. Λεξιλόγιο"
   },
   "buyovo1": {
     "en": "Build your vocabulary first — the foundation of everything. Without words, there's nothing to connect with grammar or use in practice. Focus on the most frequent words, repeat them daily, and train your brain to recognize them instantly. This is the base that makes every other step easier.",
@@ -105,7 +116,8 @@
     "pl": "Najpierw zbuduj swoje słownictwo — fundament wszystkiego. Bez słów nie ma czego łączyć z gramatyką ani używać w praktyce. Skup się na najczęstszych słowach, powtarzaj je codziennie i trenuj swój mózg, aby rozpoznawał je natychmiast. To podstawa, która ułatwia każdy kolejny krok.",
     "sr": "Prvo izgradite svoj vokabular — temelj svega. Bez reči nema šta da se poveže sa gramatikom ili koristi u praksi. Fokusirajte se na najčešće reči, ponavljajte ih svakodnevno i trenirajte mozak da ih prepozna trenutno. Ovo je baza koja čini svaki sledeći korak lakšim.",
     "ja": "まず語彙を身につけましょう — すべての基礎です。単語がなければ、文法と結びつけるものも、実践で使うものもありません。最も頻出する単語に焦点を当て、毎日繰り返し、脳が瞬時に認識できるように訓練してください。これが他のすべてのステップを容易にする基盤です。",
-    "ka": "პირველ რიგში გააფართოვე ლექსიკა — ყველაფრის საფუძველი. სიტყვების გარეშე, არაფერია გრამატიკასთან დასაკავშირებელი ან პრაქტიკაში გამოსაყენებელი. ფოკუსირდი ყველაზე ხშირ სიტყვებზე, გაიმეორე ისინი ყოველდღიურად და ავარჯიშე შენი ტვინი, რომ მყისიერად ამოიცნოს ისინი. ეს არის საფუძველი, რომელიც ყველა სხვა ნაბიჯს ამარტივებს."
+    "ka": "პირველ რიგში გააფართოვე ლექსიკა — ყველაფრის საფუძველი. სიტყვების გარეშე, არაფერია გრამატიკასთან დასაკავშირებელი ან პრაქტიკაში გამოსაყენებელი. ფოკუსირდი ყველაზე ხშირ სიტყვებზე, გაიმეორე ისინი ყოველდღიურად და ავარჯიშე შენი ტვინი, რომ მყისიერად ამოიცნოს ისინი. ეს არის საფუძველი, რომელიც ყველა სხვა ნაბიჯს ამარტივებს.",
+    "el": "Πρώτα χτίσε το λεξιλόγιό σου — το θεμέλιο των πάντων. Χωρίς λέξεις, δεν υπάρχει τίποτα να συνδέσεις με τη γραμματική ή να χρησιμοποιήσεις στην πράξη. Επικεντρώσου στις πιο συχνές λέξεις, επανέλαβέ τις καθημερινά και εκπαίδευσε τον εγκέφαλό σου να τις αναγνωρίζει άμεσα. Αυτή είναι η βάση που κάνει κάθε άλλο βήμα ευκολότερο."
   },
   "grammar": {
     "en": "2. Grammar",
@@ -114,7 +126,8 @@
     "pl": "2. Gramatyka",
     "sr": "2. Gramatika",
     "ja": "2. 文法",
-    "ka": "2. გრამატიკა"
+    "ka": "2. გრამატიკა",
+    "el": "2. Γραμματική"
   },
   "lehothla": {
     "en": "Learn how the language fits together — not rules, but patterns. Grammar gives your words a framework to live in, turning random vocabulary into clear, meaningful messages. Without it, you have bricks but no blueprint.",
@@ -123,7 +136,8 @@
     "pl": "Naucz się, jak język do siebie pasuje — nie reguły, ale wzorce. Gramatyka daje twoim słowom ramy, przekształcając przypadkowe słownictwo w jasne i znaczące komunikaty. Bez niej masz cegły, ale nie masz planu.",
     "sr": "Naučite kako se jezik uklapa — ne pravila, već obrasci. Gramatika daje vašim rečima okvir, pretvarajući nasumični vokabular u jasne i smislene poruke. Bez nje imate cigle, ali nemate plan.",
     "ja": "言語がどのように組み合わさるかを学びましょう — ルールではなくパターンです。文法は単語に枠組みを与え、ランダムな語彙を明確で意味のあるメッセージに変えます。それなしでは、レンガはあっても設計図がありません。",
-    "ka": "ისწავლე როგორ ერწყმის ენა ერთმანეთს — არა წესები, არამედ ნიმუშები. გრამატიკა აძლევს შენს სიტყვებს ჩარჩოს, რაც შემთხვევით ლექსიკას აქცევს ნათელ და აზრიან შეტყობინებებად. მის გარეშე, შენ გაქვს აგური, მაგრამ არა გეგმა."
+    "ka": "ისწავლე როგორ ერწყმის ენა ერთმანეთს — არა წესები, არამედ ნიმუშები. გრამატიკა აძლევს შენს სიტყვებს ჩარჩოს, რაც შემთხვევით ლექსიკას აქცევს ნათელ და აზრიან შეტყობინებებად. მის გარეშე, შენ გაქვს აგური, მაგრამ არა გეგმა.",
+    "el": "Μάθε πώς ταιριάζει η γλώσσα μεταξύ της — όχι κανόνες, αλλά μοτίβα. Η γραμματική δίνει στις λέξεις σου ένα πλαίσιο να ζήσουν, μετατρέποντας το τυχαίο λεξιλόγιο σε σαφή και ουσιαστικά μηνύματα. Χωρίς αυτήν, έχεις τούβλα αλλά όχι σχέδιο."
   },
   "practice": {
     "en": "3. Practice",
@@ -132,7 +146,8 @@
     "pl": "3. Praktyka",
     "sr": "3. Praksa",
     "ja": "3. 実践",
-    "ka": "3. პრაქტიკა"
+    "ka": "3. პრაქტიკა",
+    "el": "3. Εξάσκηση"
   },
   "usthla": {
     "en": "Use the language every day — listen, speak, read, write, make mistakes, and try again. Every real conversation rewires your brain to think faster and react naturally. You stop studying the language and start living it.",
@@ -141,7 +156,8 @@
     "pl": "Używaj języka każdego dnia — słuchaj, mów, czytaj, pisz, popełniaj błędy i próbuj ponownie. Każda prawdziwa rozmowa przeprogramowuje twój mózg, aby myśleć szybciej i reagować naturalnie. Przestajesz uczyć się języka i zaczynasz nim żyć.",
     "sr": "Koristite jezik svaki dan — slušajte, govorite, čitajte, pišite, grešite i pokušavajte ponovo. Svaki pravi razgovor prepravlja vaš mozak da misli brže i reaguje prirodnije. Prestajete da učite jezik i počinjete da živite u njemu.",
     "ja": "毎日言語を使いましょう — 聞き、話し、読み、書き、間違いを犯し、再挑戦してください。あらゆる実際の会話が、より速く考え、自然に反応するように脳を再配線します。言語を勉強するのをやめて、言語を生き始めるのです。",
-    "ka": "გამოიყენე ენა ყოველდღე — უსმინე, ილაპარაკე, წაიკითხე, დაწერე, დაუშვი შეცდომები და კვლავ სცადე. ყველა რეალური საუბარი ახდენს შენი ტვინის გადაკეთებას, რომ უფრო სწრაფად იფიქრო და ბუნებრივად რეაგირება მოახდინო. შენ წყვეტ ენის სწავლას და იწყებ მასში ცხოვრებას."
+    "ka": "გამოიყენე ენა ყოველდღე — უსმინე, ილაპარაკე, წაიკითხე, დაწერე, დაუშვი შეცდომები და კვლავ სცადე. ყველა რეალური საუბარი ახდენს შენი ტვინის გადაკეთებას, რომ უფრო სწრაფად იფიქრო და ბუნებრივად რეაგირება მოახდინო. შენ წყვეტ ენის სწავლას და იწყებ მასში ცხოვრებას.",
+    "el": "Χρησιμοποίησε τη γλώσσα κάθε μέρα — άκου, μίλα, διάβασε, γράψε, κάνε λάθη και δοκίμασε ξανά. Κάθε πραγματική συνομιλία αναδιαμορφώνει τον εγκέφαλό σου για να σκέφτεται πιο γρήγορα και να αντιδρά φυσικά. Σταματάς να μελετάς τη γλώσσα και αρχίζεις να τη ζεις."
   },
   "vocabEl": {
     "en": "Vocabulary is our element",
@@ -150,7 +166,8 @@
     "pl": "Słownictwo to nasz żywioł",
     "sr": "Vokabular je naš element",
     "ja": "語彙は私たちの要素です",
-    "ka": "ლექსიკა ჩვენი სტიქიაა"
+    "ka": "ლექსიკა ჩვენი სტიქიაა",
+    "el": "Το λεξιλόγιο είναι το στοιχείο μας"
   },
   "fea": {
     "en": "Features",
@@ -159,7 +176,8 @@
     "pl": "Funkcje",
     "sr": "Karakteristike",
     "ja": "機能",
-    "ka": "მახასიათებლები"
+    "ka": "მახასიათებლები",
+    "el": "Δυνατότητες"
   },
   "int": {
     "en": "Interactive Flashcards",
@@ -168,7 +186,8 @@
     "pl": "Interaktywne fiszki",
     "sr": "Interaktivne kartice",
     "ja": "インタラクティブなフラッシュカード",
-    "ka": "ინტერაქტიული ბარათები"
+    "ka": "ინტერაქტიული ბარათები",
+    "el": "Διαδραστικές κάρτες μνήμης"
   },
   "int-le": {
     "en": "Learn faster with visual card repetition.",
@@ -177,7 +196,8 @@
     "pl": "Ucz się szybciej dzięki wizualnemu powtarzaniu kart.",
     "sr": "Učite brže uz vizuelno ponavljanje kartica.",
     "ja": "ビジュアルカードの繰り返しでより速く学習できます。",
-    "ka": "ისწავლე უფრო სწრაფად ვიზუალური ბარათების გამეორებით."
+    "ka": "ისწავლე უფრო სწრაფად ვიზუალური ბარათების გამეორებით.",
+    "el": "Μάθε πιο γρήγορα με οπτική επανάληψη καρτών."
   },
   "coin": {
     "en": "Coin Rewards",
@@ -186,7 +206,8 @@
     "pl": "Nagrody w monetach",
     "sr": "Nagrade u novčićima",
     "ja": "コイン報酬",
-    "ka": "მონეტების ჯილდოები"
+    "ka": "მონეტების ჯილდოები",
+    "el": "Ανταμοιβές με νομίσματα"
   },
   "coin-eaco": {
     "en": "Earn coins while building your vocabulary.",
@@ -195,7 +216,8 @@
     "pl": "Zarabiaj monety, budując swoje słownictwo.",
     "sr": "Zarađujte novčiće dok gradite svoj vokabular.",
     "ja": "語彙を身につけながらコインを獲得しましょう。",
-    "ka": "გამოიმუშავე მონეტები ლექსიკის გაფართოებისას."
+    "ka": "გამოიმუშავე მონეტები ლექსიკის გაფართოებისას.",
+    "el": "Κέρδισε νομίσματα χτίζοντας το λεξιλόγιό σου."
   },
   "streak": {
     "en": "Streak Tracking",
@@ -204,7 +226,8 @@
     "pl": "Śledzenie serii",
     "sr": "Praćenje nizova",
     "ja": "連続記録の追跡",
-    "ka": "სერიების თვალთვალი"
+    "ka": "სერიების თვალთვალი",
+    "el": "Παρακολούθηση σερί"
   },
   "streak-st": {
     "en": "Stay consistent and keep your streak alive.",
@@ -213,7 +236,8 @@
     "pl": "Bądź konsekwentny i utrzymuj swoją serię.",
     "sr": "Budite dosledni i održavajte svoj niz.",
     "ja": "一貫性を保ち、連続記録を守りましょう。",
-    "ka": "იყავი თანმიმდევრული და შეინარჩუნე შენი სერია."
+    "ka": "იყავი თანმიმდევრული და შეინარჩუნე შენი სერია.",
+    "el": "Μείνε συνεπής και κράτα ζωντανό το σερί σου."
   },
   "multi": {
     "en": "Multi-language",
@@ -222,7 +246,8 @@
     "pl": "Wielojęzyczność",
     "sr": "Višejezičnost",
     "ja": "多言語対応",
-    "ka": "მრავალენოვანი"
+    "ka": "მრავალენოვანი",
+    "el": "Πολύγλωσσο"
   },
   "multi-su": {
     "en": "Supports EN, RU, DE, PL, SR and JA.",
@@ -231,7 +256,8 @@
     "pl": "Obsługuje EN, RU, DE, PL, SR i JA.",
     "sr": "Podržava EN, RU, DE, PL, SR i JA.",
     "ja": "EN、RU、DE、PL、SR、JAに対応しています。",
-    "ka": "მხარს უჭერს EN, RU, DE, PL, SR, JA და KA-ს."
+    "ka": "მხარს უჭერს EN, RU, DE, PL, SR, JA და KA-ს.",
+    "el": "Υποστηρίζει EN, RU, DE, PL, SR, JA και EL."
   },
   "stats": {
     "en": "Stats Dashboard",
@@ -240,7 +266,8 @@
     "pl": "Panel statystyk",
     "sr": "Kontrolna tabla statistike",
     "ja": "統計ダッシュボード",
-    "ka": "სტატისტიკის დაფა"
+    "ka": "სტატისტიკის დაფა",
+    "el": "Πίνακας στατιστικών"
   },
   "stats-tr": {
     "en": "Track words learned and progress over time.",
@@ -249,7 +276,8 @@
     "pl": "Śledź nauczone słowa i postęp w czasie.",
     "sr": "Pratite naučene reči i napredak tokom vremena.",
     "ja": "学習した単語と時間の経過に伴う進捗を追跡します。",
-    "ka": "თვალი ადევნე ნასწავლ სიტყვებს და პროგრესს დროთა განმავლობაში."
+    "ka": "თვალი ადევნე ნასწავლ სიტყვებს და პროგრესს დროთა განმავლობაში.",
+    "el": "Παρακολούθησε τις λέξεις που έμαθες και την πρόοδό σου με την πάροδο του χρόνου."
   },
   "export": {
     "en": "Export Tools",
@@ -258,7 +286,8 @@
     "pl": "Narzędzia eksportu",
     "sr": "Alati za izvoz",
     "ja": "エクスポートツール",
-    "ka": "ექსპორტის ინსტრუმენტები"
+    "ka": "ექსპორტის ინსტრუმენტები",
+    "el": "Εργαλεία εξαγωγής"
   },
   "export-vo": {
     "en": "Export vocabulary to Anki or PDF.",
@@ -267,7 +296,8 @@
     "pl": "Eksportuj słownictwo do Anki lub PDF.",
     "sr": "Izvezite vokabular u Anki ili PDF.",
     "ja": "語彙をAnkiまたはPDFにエクスポートします。",
-    "ka": "ექსპორტი ლექსიკის Anki-ში ან PDF-ში."
+    "ka": "ექსპორტი ლექსიკის Anki-ში ან PDF-ში.",
+    "el": "Εξαγωγή λεξιλογίου σε Anki ή PDF."
   },
   "howitorkd1": {
     "en": "How it works",
@@ -276,7 +306,8 @@
     "pl": "Jak to działa",
     "sr": "Kako radi",
     "ja": "仕組み",
-    "ka": "როგორ მუშაობს"
+    "ka": "როგორ მუშაობს",
+    "el": "Πώς λειτουργεί"
   },
   "addaword": {
     "en": "Add a word",
@@ -285,7 +316,8 @@
     "pl": "Dodaj słowo",
     "sr": "Dodajte reč",
     "ja": "単語を追加",
-    "ka": "დაამატე სიტყვა"
+    "ka": "დაამატე სიტყვა",
+    "el": "Πρόσθεσε μια λέξη"
   },
   "createyoow": {
     "en": "Create your own personal vocabulary list.",
@@ -294,7 +326,8 @@
     "pl": "Stwórz własną osobistą listę słownictwa.",
     "sr": "Napravite svoju ličnu listu vokabulara.",
     "ja": "自分だけの個人語彙リストを作成しましょう。",
-    "ka": "შექმენი შენი პირადი ლექსიკის სია."
+    "ka": "შექმენი შენი პირადი ლექსიკის სია.",
+    "el": "Δημιούργησε τη δική σου προσωπική λίστα λεξιλογίου."
   },
   "learnwithcards": {
     "en": "Learn with cards",
@@ -303,7 +336,8 @@
     "pl": "Ucz się z kartami",
     "sr": "Učite sa karticama",
     "ja": "カードで学ぶ",
-    "ka": "ისწავლე ბარათებით"
+    "ka": "ისწავლე ბარათებით",
+    "el": "Μάθε με κάρτες"
   },
   "practiceus": {
     "en": "Practice using interactive flashcards.",
@@ -312,7 +346,8 @@
     "pl": "Ćwicz z interaktywnymi fiszkami.",
     "sr": "Vežbajte koristeći interaktivne kartice.",
     "ja": "インタラクティブなフラッシュカードで練習しましょう。",
-    "ka": "ივარჯიშე ინტერაქტიული ბარათების გამოყენებით."
+    "ka": "ივარჯიშე ინტერაქტიული ბარათების გამოყენებით.",
+    "el": "Εξασκήσου χρησιμοποιώντας διαδραστικές κάρτες μνήμης."
   },
   "trackprogress": {
     "en": "Track progress",
@@ -321,7 +356,8 @@
     "pl": "Śledź postęp",
     "sr": "Pratite napredak",
     "ja": "進捗を追跡",
-    "ka": "თვალი ადევნე პროგრესს"
+    "ka": "თვალი ადევნე პროგრესს",
+    "el": "Παρακολούθησε την πρόοδο"
   },
   "seest": {
     "en": "See streaks, coins and learning statistics.",
@@ -330,7 +366,8 @@
     "pl": "Zobacz serie, monety i statystyki nauki.",
     "sr": "Pogledajte nizove, novčiće i statistiku učenja.",
     "ja": "連続記録、コイン、学習統計を確認しましょう。",
-    "ka": "ნახე სერიები, მონეტები და სწავლის სტატისტიკა."
+    "ka": "ნახე სერიები, მონეტები და სწავლის სტატისტიკა.",
+    "el": "Δες σερί, νομίσματα και στατιστικά μάθησης."
   },
   "builtinpublic": {
     "en": "Built in public",
@@ -339,7 +376,8 @@
     "pl": "Budowane publicznie",
     "sr": "Izgrađeno u javnosti",
     "ja": "公開で構築",
-    "ka": "საჯაროდ აშენებული"
+    "ka": "საჯაროდ აშენებული",
+    "el": "Χτισμένο δημόσια"
   },
   "onecommit": {
     "en": "One commit. One tweet. Every single day.",
@@ -348,7 +386,8 @@
     "pl": "Jeden commit. Jeden tweet. Każdego dnia.",
     "sr": "Jedan commit. Jedan tweet. Svakog dana.",
     "ja": "1コミット。1ツイート。毎日。",
-    "ka": "ერთი კომიტი. ერთი ტვიტი. ყოველ დღე."
+    "ka": "ერთი კომიტი. ერთი ტვიტი. ყოველ დღე.",
+    "el": "Ένα commit. Ένα tweet. Κάθε μέρα."
   },
   "writecode": {
     "en": "Write code",
@@ -357,7 +396,8 @@
     "pl": "Pisz kod",
     "sr": "Pišite kod",
     "ja": "コードを書く",
-    "ka": "დაწერე კოდი"
+    "ka": "დაწერე კოდი",
+    "el": "Γράψε κώδικα"
   },
   "everyday": {
     "en": "Every day I open the editor and ship something. Even if it's small. Even if it's just a fix. Consistency over perfection.",
@@ -366,7 +406,8 @@
     "pl": "Każdego dnia otwieram edytor i wrzucam coś nowego. Nawet jeśli to mała rzecz. Nawet jeśli to tylko poprawka. Konsekwencja ponad perfekcją.",
     "sr": "Svakog dana otvorim editor i objavim nešto. Čak i ako je malo. Čak i ako je samo popravka. Doslednost pre savršenstva.",
     "ja": "毎日エディタを開いて何かを公開します。たとえ小さなものでも。たとえ修正だけでも。完璧よりも継続を大切にしています。",
-    "ka": "ყოველ დღე ვხსნი რედაქტორს და ვაქვეყნებ რაღაცას. მაშინაც კი, თუ პატარაა. მაშინაც კი, თუ მხოლოდ გამოსწორებაა. თანმიმდევრულობა უფრო მნიშვნელოვანია, ვიდრე სრულყოფილება."
+    "ka": "ყოველ დღე ვხსნი რედაქტორს და ვაქვეყნებ რაღაცას. მაშინაც კი, თუ პატარაა. მაშინაც კი, თუ მხოლოდ გამოსწორებაა. თანმიმდევრულობა უფრო მნიშვნელოვანია, ვიდრე სრულყოფილება.",
+    "el": "Κάθε μέρα ανοίγω τον επεξεργαστή και δημοσιεύω κάτι. Ακόμα κι αν είναι μικρό. Ακόμα κι αν είναι μόνο μια διόρθωση. Συνέπεια πάνω από την τελειότητα."
   },
   "days150": {
     "en": "150+ days and counting",
@@ -375,7 +416,8 @@
     "pl": "150+ dni i licznik rośnie",
     "sr": "150+ dana i broji se",
     "ja": "150日以上、そして続いています",
-    "ka": "150+ დღე და იზრდება"
+    "ka": "150+ დღე და იზრდება",
+    "el": "150+ ημέρες και συνεχίζει"
   },
   "shareit": {
     "en": "Share it",
@@ -384,7 +426,8 @@
     "pl": "Udostępnij to",
     "sr": "Podelite to",
     "ja": "シェアする",
-    "ka": "გააზიარე"
+    "ka": "გააზიარე",
+    "el": "Μοιράσου το"
   },
   "everycommits1": {
     "en": "Every commit turns into a tweet. I share what I built, what broke, what I learned. No filters, just real progress.",
@@ -393,7 +436,8 @@
     "pl": "Każdy commit zamienia się w tweeta. Dzielę się tym, co zbudowałem, co się zepsuło i czego się nauczyłem. Bez filtrów, tylko prawdziwy postęp.",
     "sr": "Svaki commit postaje tweet. Delim šta sam napravio, šta se pokvarilo i šta sam naučio. Bez filtera, samo pravi napredak.",
     "ja": "すべてのコミットがツイートになります。構築したもの、壊れたもの、学んだことを共有しています。フィルターなし、ただの本当の進捗です。",
-    "ka": "ყოველი კომიტი ხდება ტვიტი. მე ვზიარებ იმას, რაც ავაშენე, რაც გაფუჭდა და რაც ვისწავლე. ფილტრების გარეშე, მხოლოდ რეალური პროგრესი."
+    "ka": "ყოველი კომიტი ხდება ტვიტი. მე ვზიარებ იმას, რაც ავაშენე, რაც გაფუჭდა და რაც ვისწავლე. ფილტრების გარეშე, მხოლოდ რეალური პროგრესი.",
+    "el": "Κάθε commit γίνεται tweet. Μοιράζομαι αυτό που έφτιαξα, αυτό που χάλασε και αυτό που έμαθα. Χωρίς φίλτρα, μόνο πραγματική πρόοδος."
   },
   "k5avg": {
     "en": "5K avg views per week",
@@ -402,7 +446,8 @@
     "pl": "Średnio 5K wyświetleń tygodniowo",
     "sr": "Prosečno 5K pregleda nedeljno",
     "ja": "週間平均5Kインプレッション",
-    "ka": "კვირაში საშუალოდ 5K ნახვა"
+    "ka": "კვირაში საშუალოდ 5K ნახვა",
+    "el": "Μέσος όρος 5K προβολών την εβδομάδα"
   },
   "growaudience": {
     "en": "Grow audience",
@@ -411,7 +456,8 @@
     "pl": "Rozwijaj publiczność",
     "sr": "Rastite publiku",
     "ja": "オーディエンスを増やす",
-    "ka": "გაზარდე აუდიტორია"
+    "ka": "გაზარდე აუდიტორია",
+    "el": "Μεγάλωσε το κοινό σου"
   },
   "peoplest": {
     "en": "People started watching. They reply, they share, they follow.",
@@ -420,7 +466,8 @@
     "pl": "Ludzie zaczęli oglądać. Odpowiadają, udostępniają i obserwują.",
     "sr": "Ljudi su počeli da gledaju. Odgovaraju, dele i prate.",
     "ja": "人々が見始めました。返信し、シェアし、フォローしてくれています。",
-    "ka": "ხალხმა დაიწყო ყურება. ისინი პასუხობენ, აზიარებენ და მიყვებიან."
+    "ka": "ხალხმა დაიწყო ყურება. ისინი პასუხობენ, აზიარებენ და მიყვებიან.",
+    "el": "Οι άνθρωποι άρχισαν να βλέπουν. Απαντούν, μοιράζονται και ακολουθούν."
   },
   "dollars10": {
     "en": "$10 per month",
@@ -429,7 +476,8 @@
     "pl": "$10 miesięcznie",
     "sr": "$10 mesečno",
     "ja": "月額$10",
-    "ka": "$10 თვეში"
+    "ka": "$10 თვეში",
+    "el": "$10 το μήνα"
   },
   "startlearn10": {
     "en": "Start learning in 10 seconds",
@@ -438,7 +486,8 @@
     "pl": "Zacznij się uczyć w 10 sekund",
     "sr": "Počnite da učite za 10 sekundi",
     "ja": "10秒で学習を始めよう",
-    "ka": "დაიწყე სწავლა 10 წამში"
+    "ka": "დაიწყე სწავლა 10 წამში",
+    "el": "Ξεκίνα τη μάθηση σε 10 δευτερόλεπτα"
   },
   "buildby": {
     "en": "Built by a 15-year-old developer from Russia 🇷🇺",
@@ -447,7 +496,8 @@
     "pl": "Stworzone przez 15-letniego programistę z Rosji 🇷🇺",
     "sr": "Napravio 15-godišnji developer iz Rusije 🇷🇺",
     "ja": "ロシア出身の15歳の開発者によって作られました 🇷🇺",
-    "ka": "შექმნილია 15 წლის დეველოპერის მიერ რუსეთიდან 🇷🇺"
+    "ka": "შექმნილია 15 წლის დეველოპერის მიერ რუსეთიდან 🇷🇺",
+    "el": "Δημιουργήθηκε από 15χρονο προγραμματιστή από τη Ρωσία 🇷🇺"
   },
   "beaf": {
     "en": "BEFORE & AFTER",
@@ -456,7 +506,8 @@
     "pl": "PRZED & PO",
     "sr": "PRE & POSLE",
     "ja": "ビフォー＆アフター",
-    "ka": "ადრე & ახლა"
+    "ka": "ადრე & ახლა",
+    "el": "ΠΡΙΝ & ΜΕΤΑ"
   },
   "redesign-title": {
     "en": "See how far it's come",
@@ -465,7 +516,8 @@
     "pl": "Zobacz, jak daleko zaszliśmy",
     "sr": "Pogledajte koliko je daleko stiglo",
     "ja": "どこまで来たか見てみよう",
-    "ka": "ნახე, რამდენად შორს მივედით"
+    "ka": "ნახე, რამდენად შორს მივედით",
+    "el": "Δες πόσο μακριά έχει φτάσει"
   },
   "redesign-desc": {
     "en": "The old landing looked different. Way different. Click below to see the before version — the one that started it all.",
@@ -474,7 +526,8 @@
     "pl": "Stary landing wyglądał inaczej. Zupełnie inaczej. Kliknij poniżej, aby zobaczyć wersję „przed” — tę, od której wszystko się zaczęło.",
     "sr": "Stari landing je izgledao drugačije. Potpuno drugačije. Kliknite ispod da vidite verziju pre — onu od koje je sve počelo.",
     "ja": "以前のランディングは違っていました。まったく違いました。下をクリックして、すべてが始まった「以前」のバージョンを見てみましょう。",
-    "ka": "ძველი ლენდინგი სხვანაირად გამოიყურებოდა. სრულიად სხვანაირად. დააჭირე ქვემოთ, რომ ნახო ვერსია „ადრე“ — ის, საიდანაც ყველაფერი დაიწყო."
+    "ka": "ძველი ლენდინგი სხვანაირად გამოიყურებოდა. სრულიად სხვანაირად. დააჭირე ქვემოთ, რომ ნახო ვერსია „ადრე“ — ის, საიდანაც ყველაფერი დაიწყო.",
+    "el": "Η παλιά landing έδειχνε διαφορετική. Εντελώς διαφορετική. Κάνε κλικ παρακάτω για να δεις την έκδοση πριν — αυτή που ξεκίνησε τα πάντα."
   },
   "redesign-label-old": {
     "en": "Old design",
@@ -483,7 +536,8 @@
     "pl": "Stary design",
     "sr": "Stari dizajn",
     "ja": "以前のデザイン",
-    "ka": "ძველი დიზაინი"
+    "ka": "ძველი დიზაინი",
+    "el": "Παλιό σχέδιο"
   },
   "redesign-btn-text": {
     "en": "View old landing →",
@@ -492,7 +546,8 @@
     "pl": "Zobacz stary landing →",
     "sr": "Pogledajte stari landing →",
     "ja": "以前のランディングを見る →",
-    "ka": "ნახე ძველი ლენდინგი →"
+    "ka": "ნახე ძველი ლენდინგი →",
+    "el": "Δες την παλιά landing →"
   },
   "redesign-hint-text": {
     "en": "(opens the second version of WordForge)",
@@ -501,6 +556,7 @@
     "pl": "(otwiera drugą wersję WordForge)",
     "sr": "(otvara drugu verziju WordForge)",
     "ja": "(WordForgeの第2バージョンが開きます)",
-    "ka": "(იხსნება WordForge-ის მეორე ვერსია)"
+    "ka": "(იხსნება WordForge-ის მეორე ვერსია)",
+    "el": "(ανοίγει τη δεύτερη έκδοση του WordForge)"
   }
 }
