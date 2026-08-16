@@ -558,5 +558,15 @@
     "ja": "(WordForgeの第2バージョンが開きます)",
     "ka": "(იხსნება WordForge-ის მეორე ვერსია)",
     "el": "(ανοίγει τη δεύτερη έκδοση του WordForge)"
+  },
+  "usalti": {
+    "en": "users all time",
+    "ru": "пользователей за всё время",
+    "de": "Benutzer aller Zeiten",
+    "pl": "użytkowników wszech czasów",
+    "sr": "korisnika svih vremena",
+    "ja": "全期間のユーザー",
+    "ka": "მომხმარებლები ყველა დროის",
+    "el": "χρήστες όλων των εποχών"
   }
 }
