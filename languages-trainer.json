@@ -838,5 +838,35 @@
     "ja": "学習率",
     "ka": "სწავლის მაჩვენებელი",
     "el": "Ποσοστό μάθησης"
+  },
+  "title-settings": {
+    "en": "Settings",
+    "ru": "Настройки",
+    "de": "Einstellungen",
+    "pl": "Ustawienia",
+    "sr": "Podešavanja",
+    "ja": "設定",
+    "ka": "პარამეტრები",
+    "el": "Ρυθμίσεις"
+  },
+  "foch": {
+    "en": "Font change",
+    "ru": "Смена шрифта",
+    "de": "Schriftart ändern",
+    "pl": "Zmiana czcionki",
+    "sr": "Promena fonta",
+    "ja": "フォント変更",
+    "ka": "შრიფტის შეცვლა",
+    "el": "Αλλαγή γραμματοσειράς"
+  },
+  "onpa": {
+    "en": "On particles",
+    "ru": "Включить частицы",
+    "de": "Partikel an",
+    "pl": "Włącz cząsteczki",
+    "sr": "Uključi čestice",
+    "ja": "パーティクルをオン",
+    "ka": "ნაწილაკები ჩართვა",
+    "el": "Ενεργοποίηση σωματιδίων"
   }
 }
