@@ -868,5 +868,35 @@
     "ja": "パーティクルをオン",
     "ka": "ნაწილაკები ჩართვა",
     "el": "Ενεργοποίηση σωματιδίων"
+  },
+  "timerTitle": {
+    "en": "Timer",
+    "ru": "Таймер",
+    "de": "Timer",
+    "pl": "Timer",
+    "sr": "Тајмер",
+    "ja": "タイマー",
+    "ka": "ტაიმერი",
+    "el": "Χρονοόμετρο"
+  },
+  "starttxt": {
+    "en": "Start",
+    "ru": "Начать",
+    "de": "Starten",
+    "pl": "Rozpocznij",
+    "sr": "Počni",
+    "ja": "開始",
+    "ka": "დაწყება",
+    "el": "Έναρξη"
+  },
+  "timer-footer": {
+    "en": "Timer on 15 minutes to practice your cards",
+    "ru": "Таймер на 15 минут для тренировки карточек",
+    "de": "Timer auf 15 Minuten zum Üben Ihrer Karten",
+    "pl": "Timer na 15 minut na ćwiczenie kart",
+    "sr": "Tajmer na 15 minuta za vežbanje kartica",
+    "ja": "カードを練習するための15分タイマー",
+    "ka": "ტაიმერი 15 წუთი ბარათების ვარჯიშისთვის",
+    "el": "Χρονοόμετρο 15 λεπτών για εξάσκηση των καρτών"
   }
 }
