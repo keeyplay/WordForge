@@ -8,7 +8,8 @@ const milestones = {
         sr: "Prva kartica dodana! 🎉",
         ja: "最初のカードが追加されました！🎉",
         ka: "პირველი ბარათი დაემატა! 🎉",
-        el: "Προστέθηκε η πρώτη κάρτα! 🎉"
+        el: "Προστέθηκε η πρώτη κάρτα! 🎉",
+        es: "¡Primera tarjeta añadida! 🎉"
     },
     5: {
         en: "5 cards — great start!",
@@ -18,7 +19,8 @@ const milestones = {
         sr: "5 kartica — odličan početak!",
         ja: "5枚のカード — 素晴らしいスタート！",
         ka: "5 ბარათი — შესანიშნავი დასაწყისი!",
-        el: "5 κάρτες — εξαιρετική αρχή!"
+        el: "5 κάρτες — εξαιρετική αρχή!",
+        es: "5 tarjetas — ¡gran comienzo!"
     },
     10: {
         en: "10 cards — you're learning!",
@@ -28,7 +30,8 @@ const milestones = {
         sr: "10 kartica — već učiš!",
         ja: "10枚のカード — もう学んでいる！",
         ka: "10 ბარათი — უკვე სწავლობ!",
-        el: "10 κάρτες — ήδη μαθαίνεις!"
+        el: "10 κάρτες — ήδη μαθαίνεις!",
+        es: "10 tarjetas — ¡ya estás aprendiendo!"
     },
     25: {
         en: "25 cards — keep going!",
@@ -38,7 +41,8 @@ const milestones = {
         sr: "25 kartica — nastavi tako!",
         ja: "25枚のカード — その調子！",
         ka: "25 ბარათი — განაგრძე!",
-        el: "25 κάρτες — συνέχισε έτσι!"
+        el: "25 κάρτες — συνέχισε έτσι!",
+        es: "25 tarjetas — ¡sigue así!"
     },
     50: {
         en: "50 cards — wow!",
@@ -48,7 +52,8 @@ const milestones = {
         sr: "50 kartica — vau!",
         ja: "50枚のカード — わあ！",
         ka: "50 ბარათი — ვაუ!",
-        el: "50 κάρτες — ουάου!"
+        el: "50 κάρτες — ουάου!",
+        es: "50 tarjetas — ¡guau!"
     },
     100: {
         en: "100 cards — A1 Beginner! You know the essential core of language. 🎯",
@@ -58,7 +63,8 @@ const milestones = {
         sr: "100 kartica — A1 Početnik! Znaš osnovu jezika. 🎯",
         ja: "100枚のカード — A1 初心者！言語の基本を理解しています。🎯",
         ka: "100 ბარათი — A1 დამწყები! იცი ენის საფუძველი. 🎯",
-        el: "100 κάρτες — A1 Αρχάριος! Γνωρίζεις τη βασική ουσία της γλώσσας. 🎯"
+        el: "100 κάρτες — A1 Αρχάριος! Γνωρίζεις τη βασική ουσία της γλώσσας. 🎯",
+        es: "100 tarjetas — ¡A1 Principiante! Conoces el núcleo esencial del idioma. 🎯"
     },
     500: {
         en: "500 cards — still A1, but getting stronger! 💪",
@@ -68,7 +74,8 @@ const milestones = {
         sr: "500 kartica — još uvek A1, ali postaješ jači! 💪",
         ja: "500枚のカード — まだA1だけど、強くなっている！💪",
         ka: "500 ბარათი — ჯერ კიდევ A1, მაგრამ ძლიერდები! 💪",
-        el: "500 κάρτες — ακόμα A1, αλλά γίνεσαι πιο δυνατός! 💪"
+        el: "500 κάρτες — ακόμα A1, αλλά γίνεσαι πιο δυνατός! 💪",
+        es: "500 tarjetas — sigues en A1, pero cada vez más fuerte! 💪"
     },
     1000: {
         en: "1000 cards — A2 Elementary! You can handle everyday situations now. 🗣️",
@@ -78,7 +85,8 @@ const milestones = {
         sr: "1000 kartica — A2 Osnovni! Sada se snalaziš u svakodnevnim situacijama. 🗣️",
         ja: "1000枚のカード — A2 初級！日常的な状況に対応できます。🗣️",
         ka: "1000 ბარათი — A2 დაწყებითი! ახლა ყოველდღიურ სიტუაციებს უმკლავდები. 🗣️",
-        el: "1000 κάρτες — A2 Στοιχειώδες! Μπορείς να χειριστείς καθημερινές καταστάσεις τώρα. 🗣️"
+        el: "1000 κάρτες — A2 Στοιχειώδες! Μπορείς να χειριστείς καθημερινές καταστάσεις τώρα. 🗣️",
+        es: "1000 tarjetas — ¡A2 Elemental! Puedes manejar situaciones cotidianas ahora. 🗣️"
     },
     2000: {
         en: "2000 cards — B1 Intermediate! You're an independent user. HUGE milestone! 🚀",
@@ -88,7 +96,8 @@ const milestones = {
         sr: "2000 kartica — B1 Srednji! Samostalan si korisnik. VELIKI uspeh! 🚀",
         ja: "2000枚のカード — B1 中級！独立したユーザーです。大きな節目！🚀",
         ka: "2000 ბარათი — B1 საშუალო! დამოუკიდებელი მომხმარებელი ხარ. უდიდესი წარმატება! 🚀",
-        el: "2000 κάρτες — B1 Ενδιάμεσο! Είσαι ανεξάρτητος χρήστης. ΤΕΡΑΣΤΙΟ ορόσημο! 🚀"
+        el: "2000 κάρτες — B1 Ενδιάμεσο! Είσαι ανεξάρτητος χρήστης. ΤΕΡΑΣΤΙΟ ορόσημο! 🚀",
+        es: "2000 tarjetas — ¡B1 Intermedio! Eres un usuario independiente. ¡GRAN hito! 🚀"
     },
     4000: {
         en: "4000 cards — B2 Upper Intermediate! Fluent conversations unlocked. 🔥",
@@ -98,7 +107,8 @@ const milestones = {
         sr: "4000 kartica — B2 Viši srednji! Tečni razgovori otključani. 🔥",
         ja: "4000枚のカード — B2 中上級！流暢な会話が可能になりました。🔥",
         ka: "4000 ბარათი — B2 საშუალოზე მაღალი! თავისუფალი საუბრები განბლოკილია. 🔥",
-        el: "4000 κάρτες — B2 Ανώτερο Ενδιάμεσο! Ξεκλείδωσαν οι άπταιστες συνομιλίες. 🔥"
+        el: "4000 κάρτες — B2 Ανώτερο Ενδιάμεσο! Ξεκλείδωσαν οι άπταιστες συνομιλίες. 🔥",
+        es: "4000 tarjetas — ¡B2 Intermedio Alto! Conversaciones fluidas desbloqueadas. 🔥"
     },
     8000: {
         en: "8000 cards — C1 Advanced! Native-like command. Massive respect! 🏆",
@@ -108,7 +118,8 @@ const milestones = {
         sr: "8000 kartica — C1 Napredni! Nivo izvornog govornika. Ogromno poštovanje! 🏆",
         ja: "8000枚のカード — C1 上級！ネイティブレベル。大きな敬意！🏆",
         ka: "8000 ბარათი — C1 მოწინავე! მშობლიურ ენაზე მოლაპარაკის დონე. დიდი პატივისცემა! 🏆",
-        el: "8000 κάρτες — C1 Προχωρημένο! Επίπεδο φυσικού ομιλητή. Τεράστιος σεβασμός! 🏆"
+        el: "8000 κάρτες — C1 Προχωρημένο! Επίπεδο φυσικού ομιλητή. Τεράστιος σεβασμός! 🏆",
+        es: "8000 tarjetas — ¡C1 Avanzado! Dominio casi nativo. ¡Enorme respeto! 🏆"
     },
     16000: {
         en: "16000 cards — C2 Proficiency! You're a master of language. 👑",
@@ -118,7 +129,8 @@ const milestones = {
         sr: "16000 kartica — C2 Profesionalno! Ti si majstor jezika. 👑",
         ja: "16000枚のカード — C2 熟練！言語の達人です。👑",
         ka: "16000 ბარათი — C2 პროფიციენტი! ენის ოსტატი ხარ. 👑",
-        el: "16000 κάρτες — C2 Επάρκεια! Είσαι κύριος της γλώσσας. 👑"
+        el: "16000 κάρτες — C2 Επάρκεια! Είσαι κύριος της γλώσσας. 👑",
+        es: "16000 tarjetas — ¡C2 Dominio! Eres un maestro del idioma. 👑"
     },
     20000: {
         en: "20000 cards — WordForge Legend! 🌟",
@@ -128,6 +140,7 @@ const milestones = {
         sr: "20000 kartica — WordForge Legenda! 🌟",
         ja: "20000枚のカード — WordForge レジェンド！🌟",
         ka: "20000 ბარათი — WordForge ლეგენდა! 🌟",
-        el: "20000 κάρτες — Θρύλος του WordForge! 🌟"
+        el: "20000 κάρτες — Θρύλος του WordForge! 🌟",
+        es: "20000 tarjetas — ¡Leyenda de WordForge! 🌟"
     }
 };

@@ -303,5 +303,43 @@ function UpdateStreakMessageTranslate() {
                 "Μια ακόμη μέρα. Μια ακόμη δέσμευση. Ένα ακόμη βήμα προς τη ζωή που θέλεις. 🚀 Το σερί εξασφαλίστηκε."
             ];
         }
+    } else if(localStorage.getItem("language") === "es") {
+        if(streakMessages) {
+            streakMessages = [
+                "¡Nueva racha desbloqueada! 🚀 Consistencia sobre intensidad. Cada día cuenta.",
+                "¡La racha continúa! 🔥 No rápido, pero constante. Así es como se gana.",
+                "Otro día, otro paso. 🐢 Tu racha está creciendo. Sigue así.",
+                "Apareciste de nuevo. 💪 Ese es todo el secreto. La racha vive.",
+                "Sin días cero. ✅ Racha preservada. Mañana es la siguiente batalla.",
+                "Ladrillo a ladrillo. 🧱 Tu racha se está convirtiendo en un muro. No pares.",
+                "Un día más cerca del objetivo. 🎯 Racha intacta. Respeto.",
+                "No todos los días son un salto. Pero todos los días cuentan. 🦾 Racha actualizada.",
+                "No te rendiste hoy. 🔥 Eso es la victoria. La racha vive.",
+                "Pequeño paso, gran racha. 🐢 Consistencia > talento. Siempre.",
+                "Racha extendida. 📈 No perfecto, pero presente. Eso es suficiente.",
+                "Otro día en los libros. 📚 Racha = prueba de que puedes confiar en ti mismo.",
+                "La racha es un espejo. 🪞 Muestra quién eres realmente. Hoy: fuerte.",
+                "Podrías haber saltado. No lo hiciste. 👊 Racha honrada.",
+                "Un día más. Un commit más. Un paso más hacia la vida que quieres. 🚀 Racha asegurada."
+            ];
+        } else {
+            let streakMessages = [
+                "¡Nueva racha desbloqueada! 🚀 Consistencia sobre intensidad. Cada día cuenta.",
+                "¡La racha continúa! 🔥 No rápido, pero constante. Así es como se gana.",
+                "Otro día, otro paso. 🐢 Tu racha está creciendo. Sigue así.",
+                "Apareciste de nuevo. 💪 Ese es todo el secreto. La racha vive.",
+                "Sin días cero. ✅ Racha preservada. Mañana es la siguiente batalla.",
+                "Ladrillo a ladrillo. 🧱 Tu racha se está convirtiendo en un muro. No pares.",
+                "Un día más cerca del objetivo. 🎯 Racha intacta. Respeto.",
+                "No todos los días son un salto. Pero todos los días cuentan. 🦾 Racha actualizada.",
+                "No te rendiste hoy. 🔥 Eso es la victoria. La racha vive.",
+                "Pequeño paso, gran racha. 🐢 Consistencia > talento. Siempre.",
+                "Racha extendida. 📈 No perfecto, pero presente. Eso es suficiente.",
+                "Otro día en los libros. 📚 Racha = prueba de que puedes confiar en ti mismo.",
+                "La racha es un espejo. 🪞 Muestra quién eres realmente. Hoy: fuerte.",
+                "Podrías haber saltado. No lo hiciste. 👊 Racha honrada.",
+                "Un día más. Un commit más. Un paso más hacia la vida que quieres. 🚀 Racha asegurada."
+            ];
+        }
     }
 }

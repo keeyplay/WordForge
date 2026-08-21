@@ -7,7 +7,8 @@
     "sr": "Prevucite levo — ne znam · desno — znam",
     "ja": "左にスワイプ — 知らない · 右にスワイプ — 知っている",
     "ka": "გადაიტანე მარცხნივ — არ ვიცი · მარჯვნივ — ვიცი",
-    "el": "Σύρετε αριστερά — δεν ξέρω · δεξιά — ξέρω"
+    "el": "Σύρετε αριστερά — δεν ξέρω · δεξιά — ξέρω",
+    "es": "Desliza a la izquierda — no sé · derecha — sé"
   },
   "btn-dont-know": {
     "en": "Don't know",
@@ -17,7 +18,8 @@
     "sr": "Ne znam",
     "ja": "知らない",
     "ka": "არ ვიცი",
-    "el": "Δεν ξέρω"
+    "el": "Δεν ξέρω",
+    "es": "No sé"
   },
   "btn-know": {
     "en": "Know",
@@ -27,7 +29,8 @@
     "sr": "Znam",
     "ja": "知っている",
     "ka": "ვიცი",
-    "el": "Ξέρω"
+    "el": "Ξέρω",
+    "es": "Sé"
   },
   "empty-title": {
     "en": "No cards yet",
@@ -37,7 +40,8 @@
     "sr": "Još nema kartica",
     "ja": "まだカードがありません",
     "ka": "ჯერ ბარათები არ არის",
-    "el": "Δεν υπάρχουν ακόμα κάρτες"
+    "el": "Δεν υπάρχουν ακόμα κάρτες",
+    "es": "Aún no hay tarjetas"
   },
   "empty-desc": {
     "en": "Add your first card below to start learning.",
@@ -47,7 +51,8 @@
     "sr": "Dodajte prvu karticu ispod da biste počeli sa učenjem.",
     "ja": "下のボタンから最初のカードを追加して学習を始めましょう",
     "ka": "დაამატე პირველი ბარათი ქვემოთ, რომ დაიწყო სწავლა.",
-    "el": "Προσθέστε την πρώτη σας κάρτα παρακάτω για να ξεκινήσετε τη μάθηση."
+    "el": "Προσθέστε την πρώτη σας κάρτα παρακάτω για να ξεκινήσετε τη μάθηση.",
+    "es": "Añade tu primera tarjeta abajo para empezar a aprender."
   },
   "done-title": {
     "en": "All done",
@@ -57,7 +62,8 @@
     "sr": "Sve gotovo",
     "ja": "完了しました",
     "ka": "ყველაფერი მზადაა",
-    "el": "Όλα έτοιμα"
+    "el": "Όλα έτοιμα",
+    "es": "Todo listo"
   },
   "done-desc": {
     "en": "You've gone through the deck. Add more cards or start again.",
@@ -67,7 +73,8 @@
     "sr": "Prošli ste ceo špil. Dodajte još kartica ili počnite ponovo.",
     "ja": "すべてのカードを学習しました。さらにカードを追加するか、最初からやり直してください",
     "ka": "შენ გაიარე მთელი კოლოდა. დაამატე მეტი ბარათი ან დაიწყე თავიდან.",
-    "el": "Έχετε ολοκληρώσει την τράπουλα. Προσθέστε περισσότερες κάρτες ή ξεκινήστε ξανά."
+    "el": "Έχετε ολοκληρώσει την τράπουλα. Προσθέστε περισσότερες κάρτες ή ξεκινήστε ξανά.",
+    "es": "Has completado el mazo. Añade más tarjetas o empieza de nuevo."
   },
   "btn-start-again": {
     "en": "Start again",
@@ -77,7 +84,8 @@
     "sr": "Počni ponovo",
     "ja": "最初からやり直す",
     "ka": "თავიდან დაწყება",
-    "el": "Ξεκινήστε ξανά"
+    "el": "Ξεκινήστε ξανά",
+    "es": "Empezar de nuevo"
   },
   "btn-create-text": {
     "en": "Add card",
@@ -87,7 +95,8 @@
     "sr": "Dodaj karticu",
     "ja": "カードを追加",
     "ka": "ბარათის დამატება",
-    "el": "Προσθήκη κάρτας"
+    "el": "Προσθήκη κάρτας",
+    "es": "Añadir tarjeta"
   },
   "create-hint": {
     "en": "New words appear in the deck",
@@ -97,7 +106,8 @@
     "sr": "Nove reči se pojavljuju u špilu",
     "ja": "新しい単語がデッキに表示されます",
     "ka": "ახალი სიტყვები ჩნდება კოლოდაში",
-    "el": "Νέες λέξεις εμφανίζονται στην τράπουλα"
+    "el": "Νέες λέξεις εμφανίζονται στην τράπουλα",
+    "es": "Las nuevas palabras aparecen en el mazo"
   },
   "btn-edit-text": {
     "en": "Edit Cards",
@@ -107,7 +117,8 @@
     "sr": "Uredi kartice",
     "ja": "カードを編集",
     "ka": "ბარათების რედაქტირება",
-    "el": "Επεξεργασία καρτών"
+    "el": "Επεξεργασία καρτών",
+    "es": "Editar tarjetas"
   },
   "create-hint-edit": {
     "en": "Edit Cards",
@@ -117,7 +128,8 @@
     "sr": "Uredi kartice",
     "ja": "カードを編集",
     "ka": "ბარათების რედაქტირება",
-    "el": "Επεξεργασία καρτών"
+    "el": "Επεξεργασία καρτών",
+    "es": "Editar tarjetas"
   },
   "footer-link": {
     "en": "Home",
@@ -127,7 +139,8 @@
     "sr": "Početna",
     "ja": "ホーム",
     "ka": "მთავარი",
-    "el": "Αρχική"
+    "el": "Αρχική",
+    "es": "Inicio"
   },
   "modal-title-add": {
     "en": "Add card",
@@ -137,7 +150,8 @@
     "sr": "Dodaj karticu",
     "ja": "カードを追加",
     "ka": "ბარათის დამატება",
-    "el": "Προσθήκη κάρτας"
+    "el": "Προσθήκη κάρτας",
+    "es": "Añadir tarjeta"
   },
   "modal-label-word": {
     "en": "Word",
@@ -147,7 +161,8 @@
     "sr": "Reč",
     "ja": "単語",
     "ka": "სიტყვა",
-    "el": "Λέξη"
+    "el": "Λέξη",
+    "es": "Palabra"
   },
   "input-word-placeholder": {
     "en": "e.g. apple",
@@ -157,7 +172,8 @@
     "sr": "npr. jabuka",
     "ja": "例: apple",
     "ka": "მაგ: ვაშლი",
-    "el": "π.χ. μήλο"
+    "el": "π.χ. μήλο",
+    "es": "p.ej. manzana"
   },
   "modal-label-translation": {
     "en": "Translation",
@@ -167,7 +183,8 @@
     "sr": "Prevod",
     "ja": "翻訳",
     "ka": "თარგმანი",
-    "el": "Μετάφραση"
+    "el": "Μετάφραση",
+    "es": "Traducción"
   },
   "input-translation-placeholder": {
     "en": "e.g. яблоко",
@@ -177,7 +194,8 @@
     "sr": "npr. apple",
     "ja": "例: りんご",
     "ka": "მაგ: apple",
-    "el": "π.χ. μήλο"
+    "el": "π.χ. μήλο",
+    "es": "p.ej. manzana"
   },
   "btn-modal-cancel": {
     "en": "Cancel",
@@ -187,7 +205,8 @@
     "sr": "Otkaži",
     "ja": "キャンセル",
     "ka": "გაუქმება",
-    "el": "Ακύρωση"
+    "el": "Ακύρωση",
+    "es": "Cancelar"
   },
   "btn-modal-save": {
     "en": "Save",
@@ -197,7 +216,8 @@
     "sr": "Sačuvaj",
     "ja": "保存",
     "ka": "შენახვა",
-    "el": "Αποθήκευση"
+    "el": "Αποθήκευση",
+    "es": "Guardar"
   },
   "btn-modal-delete-all-edit": {
     "en": "Delete all",
@@ -207,7 +227,8 @@
     "sr": "Obriši sve",
     "ja": "すべて削除",
     "ka": "ყველაფრის წაშლა",
-    "el": "Διαγραφή όλων"
+    "el": "Διαγραφή όλων",
+    "es": "Eliminar todo"
   },
   "btn-modal-cancel-edit": {
     "en": "Cancel",
@@ -217,7 +238,8 @@
     "sr": "Otkaži",
     "ja": "キャンセル",
     "ka": "გაუქმება",
-    "el": "Ακύρωση"
+    "el": "Ακύρωση",
+    "es": "Cancelar"
   },
   "card-label-front": {
     "en": "Word",
@@ -227,7 +249,8 @@
     "sr": "Reč",
     "ja": "単語",
     "ka": "სიტყვა",
-    "el": "Λέξη"
+    "el": "Λέξη",
+    "es": "Palabra"
   },
   "card-label-back": {
     "en": "Translation",
@@ -237,7 +260,8 @@
     "sr": "Prevod",
     "ja": "翻訳",
     "ka": "თარგმანი",
-    "el": "Μετάφραση"
+    "el": "Μετάφραση",
+    "es": "Traducción"
   },
   "change_language": {
     "en": "🇬🇧",
@@ -247,7 +271,8 @@
     "sr": "🇷🇸",
     "ja": "🇯🇵",
     "ka": "🇬🇪",
-    "el": "🇬🇷"
+    "el": "🇬🇷",
+    "es": "🇪🇸"
   },
   "alert-fill-fields": {
     "en": "Please fill out all fields",
@@ -257,7 +282,8 @@
     "sr": "Molimo popunite sva polja",
     "ja": "すべての項目を入力してください",
     "ka": "გთხოვთ, შეავსოთ ყველა ველი",
-    "el": "Παρακαλώ συμπληρώστε όλα τα πεδία"
+    "el": "Παρακαλώ συμπληρώστε όλα τα πεδία",
+    "es": "Por favor, rellena todos los campos"
   },
   "alert-max-chars": {
     "en": "Maximum 15 characters",
@@ -267,7 +293,8 @@
     "sr": "Maksimalno 15 karaktera",
     "ja": "最大15文字です",
     "ka": "მაქსიმუმ 15 სიმბოლო",
-    "el": "Μέγιστο 15 χαρακτήρες"
+    "el": "Μέγιστο 15 χαρακτήρες",
+    "es": "Máximo 15 caracteres"
   },
   "confirm-delete": {
     "en": "Are you sure you want to delete your progress?",
@@ -277,7 +304,8 @@
     "sr": "Da li ste sigurni da želite da obrišete sav napredak?",
     "ja": "本当にすべての進捗を削除しますか？",
     "ka": "დარწმუნებული ხარ, რომ გსურს მთელი პროგრესის წაშლა?",
-    "el": "Είστε σίγουροι ότι θέλετε να διαγράψετε την πρόοδό σας;"
+    "el": "Είστε σίγουροι ότι θέλετε να διαγράψετε την πρόοδό σας;",
+    "es": "¿Estás seguro de que quieres eliminar todo tu progreso?"
   },
   "addcard": {
     "en": "Add card",
@@ -287,7 +315,8 @@
     "sr": "Dodaj karticu",
     "ja": "カードを追加",
     "ka": "ბარათის დამატება",
-    "el": "Προσθήκη κάρτας"
+    "el": "Προσθήκη κάρτας",
+    "es": "Añadir tarjeta"
   },
   "addcardD": {
     "en": "New words appear in the deck",
@@ -297,7 +326,8 @@
     "sr": "Nove reči se pojavljuju u špilu",
     "ja": "新しい単語がデッキに表示されます",
     "ka": "ახალი სიტყვები ჩნდება კოლოდაში",
-    "el": "Νέες λέξεις εμφανίζονται στην τράπουλα"
+    "el": "Νέες λέξεις εμφανίζονται στην τράπουλα",
+    "es": "Las nuevas palabras aparecen en el mazo"
   },
   "editcard": {
     "en": "Edit Cards",
@@ -307,7 +337,8 @@
     "sr": "Uredi kartice",
     "ja": "カードを編集",
     "ka": "ბარათების რედაქტირება",
-    "el": "Επεξεργασία καρτών"
+    "el": "Επεξεργασία καρτών",
+    "es": "Editar tarjetas"
   },
   "editcardD": {
     "en": "Edit Cards",
@@ -317,7 +348,8 @@
     "sr": "Uredi kartice",
     "ja": "カードを編集",
     "ka": "ბარათების რედაქტირება",
-    "el": "Επεξεργασία καρτών"
+    "el": "Επεξεργασία καρτών",
+    "es": "Editar tarjetas"
   },
   "btn-delete-card": {
     "en": "Delete",
@@ -327,7 +359,8 @@
     "sr": "Obriši",
     "ja": "削除",
     "ka": "წაშლა",
-    "el": "Διαγραφή"
+    "el": "Διαγραφή",
+    "es": "Eliminar"
   },
   "statistic": {
     "en": "📈 Statistics",
@@ -337,7 +370,8 @@
     "sr": "📈 Statistika",
     "ja": "📈 統計",
     "ka": "📈 სტატისტიკა",
-    "el": "📈 Στατιστικά"
+    "el": "📈 Στατιστικά",
+    "es": "📈 Estadísticas"
   },
   "progress": {
     "en": "Progress",
@@ -347,7 +381,8 @@
     "sr": "Napredak",
     "ja": "進捗",
     "ka": "პროგრესი",
-    "el": "Πρόοδος"
+    "el": "Πρόοδος",
+    "es": "Progreso"
   },
   "distrib": {
     "en": "Distribution",
@@ -357,7 +392,8 @@
     "sr": "Raspodela",
     "ja": "分布",
     "ka": "განაწილება",
-    "el": "Κατανομή"
+    "el": "Κατανομή",
+    "es": "Distribución"
   },
   "total_card": {
     "en": "Total cards",
@@ -367,7 +403,8 @@
     "sr": "Ukupno kartica",
     "ja": "カード合計",
     "ka": "ბარათების საერთო რაოდენობა",
-    "el": "Σύνολο καρτών"
+    "el": "Σύνολο καρτών",
+    "es": "Total de tarjetas"
   },
   "learned": {
     "en": "Learned",
@@ -377,7 +414,8 @@
     "sr": "Naučeno",
     "ja": "学習済み",
     "ka": "ნასწავლი",
-    "el": "Μαθημένες"
+    "el": "Μαθημένες",
+    "es": "Aprendidas"
   },
   "streksStat": {
     "en": "Streak",
@@ -387,7 +425,8 @@
     "sr": "Niz",
     "ja": "連続記録",
     "ka": "სერია",
-    "el": "Σερί"
+    "el": "Σερί",
+    "es": "Racha"
   },
   "today": {
     "en": "Today",
@@ -397,7 +436,8 @@
     "sr": "Danas",
     "ja": "今日",
     "ka": "დღეს",
-    "el": "Σήμερα"
+    "el": "Σήμερα",
+    "es": "Hoy"
   },
   "import": {
     "en": "Import",
@@ -407,7 +447,8 @@
     "sr": "Uvezi",
     "ja": "インポート",
     "ka": "იმპორტი",
-    "el": "Εισαγωγή"
+    "el": "Εισαγωγή",
+    "es": "Importar"
   },
   "export": {
     "en": "Export",
@@ -417,7 +458,8 @@
     "sr": "Izvezi",
     "ja": "エクスポート",
     "ka": "ექსპორტი",
-    "el": "Εξαγωγή"
+    "el": "Εξαγωγή",
+    "es": "Exportar"
   },
   "importexportcardD": {
     "en": "Import / export Cards",
@@ -427,7 +469,8 @@
     "sr": "Uvezi / Izvezi kartice",
     "ja": "カードをインポート / エクスポート",
     "ka": "ბარათების იმპორტი / ექსპორტი",
-    "el": "Εισαγωγή / Εξαγωγή καρτών"
+    "el": "Εισαγωγή / Εξαγωγή καρτών",
+    "es": "Importar / exportar tarjetas"
   },
   "txt-word": {
     "en": "word",
@@ -437,7 +480,8 @@
     "sr": "reč",
     "ja": "単語",
     "ka": "სიტყვა",
-    "el": "λέξη"
+    "el": "λέξη",
+    "es": "palabra"
   },
   "txt-translation": {
     "en": "translation",
@@ -447,7 +491,8 @@
     "sr": "prevod",
     "ja": "翻訳",
     "ka": "თარგმანი",
-    "el": "μετάφραση"
+    "el": "μετάφραση",
+    "es": "traducción"
   },
   "multi_verse_accounts": {
     "en": "Multi-Verse Accounts",
@@ -457,7 +502,8 @@
     "sr": "Multi-Verse Nalozi",
     "ja": "マルチバースアカウント",
     "ka": "მულტი-ვერსიის ანგარიშები",
-    "el": "Λογαριασμοί Multi-Verse"
+    "el": "Λογαριασμοί Multi-Verse",
+    "es": "Cuentas Multi-Verse"
   },
   "whatsit": {
     "en": "What's it?",
@@ -467,7 +513,8 @@
     "sr": "Šta je ovo?",
     "ja": "これは何？",
     "ka": "ეს რა არის?",
-    "el": "Τι είναι αυτό;"
+    "el": "Τι είναι αυτό;",
+    "es": "¿Qué es?"
   },
   "modalAccountsContainerText": {
     "en": "Multi-Verse Profiles - separate accounts for each language. Learn English? German? Russian? Switch anytime, cards never mix",
@@ -477,7 +524,8 @@
     "sr": "Multi-Verse Profili - odvojeni nalozi za svaki jezik. Učite engleski? Nemački? Ruski? Prebacujte se u bilo kom trenutku, kartice se nikada ne mešaju",
     "ja": "マルチバースプロフィール - 言語ごとに別々のアカウントを作成できます。英語？ドイツ語？ロシア語？いつでも切り替え可能で、カードが混ざることはありません",
     "ka": "მულტი-ვერსიის პროფილები - ცალკე ანგარიშები თითოეული ენისთვის. ისწავლე ინგლისური? გერმანული? რუსული? გადაერთე ნებისმიერ დროს, ბარათები არასდროს ერევა",
-    "el": "Προφίλ Multi-Verse - ξεχωριστοί λογαριασμοί για κάθε γλώσσα. Μαθαίνετε Αγγλικά; Γερμανικά; Ρωσικά; Αλλάξτε οποιαδήποτε στιγμή, οι κάρτες δεν αναμειγνύονται ποτέ"
+    "el": "Προφίλ Multi-Verse - ξεχωριστοί λογαριασμοί για κάθε γλώσσα. Μαθαίνετε Αγγλικά; Γερμανικά; Ρωσικά; Αλλάξτε οποιαδήποτε στιγμή, οι κάρτες δεν αναμειγνύονται ποτέ",
+    "es": "Perfiles Multi-Verse - cuentas separadas para cada idioma. ¿Aprendes inglés? ¿Alemán? ¿Ruso? Cambia cuando quieras, las tarjetas nunca se mezclan"
   },
   "deletealldata": {
     "en": "Delete all data",
@@ -487,7 +535,8 @@
     "sr": "Obriši sve podatke",
     "ja": "すべてのデータを削除",
     "ka": "ყველა მონაცემის წაშლა",
-    "el": "Διαγραφή όλων των δεδομένων"
+    "el": "Διαγραφή όλων των δεδομένων",
+    "es": "Eliminar todos los datos"
   },
   "all-cards-county": {
     "en": "Create new account",
@@ -497,7 +546,8 @@
     "sr": "Kreiraj novi nalog",
     "ja": "新しいアカウントを作成",
     "ka": "ახალი ანგარიშის შექმნა",
-    "el": "Δημιουργία νέου λογαριασμού"
+    "el": "Δημιουργία νέου λογαριασμού",
+    "es": "Crear nueva cuenta"
   },
   "whatslang": {
     "en": "What language do you want to learn?",
@@ -507,7 +557,8 @@
     "sr": "Koji jezik želite da učite?",
     "ja": "どの言語を学びたいですか？",
     "ka": "რომელი ენის სწავლა გსურს?",
-    "el": "Ποια γλώσσα θέλετε να μάθετε;"
+    "el": "Ποια γλώσσα θέλετε να μάθετε;",
+    "es": "¿Qué idioma quieres aprender?"
   },
   "dropdownBtn": {
     "en": "Choose language",
@@ -517,7 +568,8 @@
     "sr": "Izaberite jezik",
     "ja": "言語を選択",
     "ka": "აირჩიე ენა",
-    "el": "Επιλέξτε γλώσσα"
+    "el": "Επιλέξτε γλώσσα",
+    "es": "Elige idioma"
   },
   "continue": {
     "en": "Continue",
@@ -527,7 +579,8 @@
     "sr": "Nastavi",
     "ja": "続ける",
     "ka": "გაგრძელება",
-    "el": "Συνέχεια"
+    "el": "Συνέχεια",
+    "es": "Continuar"
   },
   "all_cards": {
     "en": "All Cards",
@@ -537,7 +590,8 @@
     "sr": "Sve kartice",
     "ja": "すべてのカード",
     "ka": "ყველა ბარათი",
-    "el": "Όλες οι κάρτες"
+    "el": "Όλες οι κάρτες",
+    "es": "Todas las tarjetas"
   },
   "word_label": {
     "en": "Word",
@@ -547,7 +601,8 @@
     "sr": "Reč",
     "ja": "単語",
     "ka": "სიტყვა",
-    "el": "Λέξη"
+    "el": "Λέξη",
+    "es": "Palabra"
   },
   "translation_label": {
     "en": "Translation",
@@ -557,7 +612,8 @@
     "sr": "Prevod",
     "ja": "翻訳",
     "ka": "თარგმანი",
-    "el": "Μετάφραση"
+    "el": "Μετάφραση",
+    "es": "Traducción"
   },
   "other": {
     "en": "Other",
@@ -567,7 +623,8 @@
     "sr": "Drugo",
     "ja": "その他",
     "ka": "სხვა",
-    "el": "Άλλο"
+    "el": "Άλλο",
+    "es": "Otro"
   },
   "abt": {
     "en": "ABOUT",
@@ -577,7 +634,8 @@
     "sr": "O PROJEKTU",
     "ja": "プロジェクトについて",
     "ka": "პროექტის შესახებ",
-    "el": "ΣΧΕΤΙΚΑ"
+    "el": "ΣΧΕΤΙΚΑ",
+    "es": "ACERCA DE"
   },
   "discribe-abt": {
     "en": "Simple vocabulary trainer. No sign-up, no payments. Just open and learn.",
@@ -587,7 +645,8 @@
     "sr": "Jednostavan trener reči. Bez registracije, bez plaćanja. Samo otvorite i učite.",
     "ja": "シンプルな単語学習アプリ。登録不要、支払い不要。開いて学ぶだけ",
     "ka": "მარტივი ლექსიკის ტრენერი. რეგისტრაციის გარეშე, გადახდის გარეშე. უბრალოდ გახსენი და ისწავლე.",
-    "el": "Απλός εκπαιδευτής λεξιλογίου. Χωρίς εγγραφή, χωρίς πληρωμές. Απλά ανοίξτε και μάθετε."
+    "el": "Απλός εκπαιδευτής λεξιλογίου. Χωρίς εγγραφή, χωρίς πληρωμές. Απλά ανοίξτε και μάθετε.",
+    "es": "Entrenador de vocabulario simple. Sin registro, sin pagos. Solo abre y aprende."
   },
   "localstorage-f": {
     "en": "🌗 LocalStorage",
@@ -597,7 +656,8 @@
     "sr": "🌗 Lokalno skladište",
     "ja": "🌗 ローカルストレージ",
     "ka": "🌗 ლოკალური საცავი",
-    "el": "🌗 Τοπική αποθήκευση"
+    "el": "🌗 Τοπική αποθήκευση",
+    "es": "🌗 Almacenamiento local"
   },
   "Online-f": {
     "en": "🌍 Online",
@@ -607,7 +667,8 @@
     "sr": "🌍 Online",
     "ja": "🌍 オンライン",
     "ka": "🌍 ონლაინ",
-    "el": "🌍 Συνδεδεμένος"
+    "el": "🌍 Συνδεδεμένος",
+    "es": "🌍 En línea"
   },
   "Stats-f": {
     "en": "📊 Stats",
@@ -617,7 +678,8 @@
     "sr": "📊 Statistika",
     "ja": "📊 統計",
     "ka": "📊 სტატისტიკა",
-    "el": "📊 Στατιστικά"
+    "el": "📊 Στατιστικά",
+    "es": "📊 Estadísticas"
   },
   "Streaks-f": {
     "en": "🎯 Streaks",
@@ -627,7 +689,8 @@
     "sr": "🎯 Nizovi",
     "ja": "🎯 連続記録",
     "ka": "🎯 სერიები",
-    "el": "🎯 Σερί"
+    "el": "🎯 Σερί",
+    "es": "🎯 Rachas"
   },
   "footer-info": {
     "en": "Built by 15-yo dev • 80+ days #buildinpublic",
@@ -637,7 +700,8 @@
     "sr": "Napravio 15-godišnji developer • 80+ dana #buildinpublic",
     "ja": "15歳の開発者によって制作 • 80+日間 #buildinpublic",
     "ka": "შექმნილია 15 წლის დეველოპერის მიერ • 80+ დღე #buildinpublic",
-    "el": "Δημιουργήθηκε από 15χρονο προγραμματιστή • 80+ ημέρες #buildinpublic"
+    "el": "Δημιουργήθηκε από 15χρονο προγραμματιστή • 80+ ημέρες #buildinpublic",
+    "es": "Creado por un dev de 15 años • 80+ días #buildinpublic"
   },
   "news-txt": {
     "en": "LATEST NEWS",
@@ -647,7 +711,8 @@
     "sr": "VESTI",
     "ja": "最新ニュース",
     "ka": "ახალი ამბები",
-    "el": "ΤΕΛΕΥΤΑΙΑ ΝΕΑ"
+    "el": "ΤΕΛΕΥΤΑΙΑ ΝΕΑ",
+    "es": "ÚLTIMAS NOTICIAS"
   },
   "premiumTitle": {
     "en": "WordForge Premium",
@@ -657,7 +722,8 @@
     "sr": "WordForge Premium",
     "ja": "WordForge Premium",
     "ka": "WordForge Premium",
-    "el": "WordForge Premium"
+    "el": "WordForge Premium",
+    "es": "WordForge Premium"
   },
   "premiumSubtitle": {
     "en": "Stop memorizing. Start owning.",
@@ -667,7 +733,8 @@
     "sr": "Prestanite da pamtite. Počnite da vladate.",
     "ja": "丸暗記をやめて、自分のものにしよう",
     "ka": "შეწყვიტე დამახსოვრება. დაიწყე ფლობა.",
-    "el": "Σταματήστε να απομνημονεύετε. Ξεκινήστε να κατέχετε."
+    "el": "Σταματήστε να απομνημονεύετε. Ξεκινήστε να κατέχετε.",
+    "es": "Deja de memorizar. Empieza a poseer."
   },
   "feat1": {
     "en": "🌗 Custom themes",
@@ -677,7 +744,8 @@
     "sr": "🌗 Prilagođene teme",
     "ja": "🌗 カスタムテーマ",
     "ka": "🌗 საკუთარი თემები",
-    "el": "🌗 Προσαρμοσμένα θέματα"
+    "el": "🌗 Προσαρμοσμένα θέματα",
+    "es": "🌗 Temas personalizados"
   },
   "feat2": {
     "en": "📊 Visual stats",
@@ -687,7 +755,8 @@
     "sr": "📊 Vizuelna statistika",
     "ja": "📊 ビジュアル統計",
     "ka": "📊 ვიზუალური სტატისტიკა",
-    "el": "📊 Οπτικά στατιστικά"
+    "el": "📊 Οπτικά στατιστικά",
+    "es": "📊 Estadísticas visuales"
   },
   "feat3": {
     "en": "☁️ Cloud sync",
@@ -697,7 +766,8 @@
     "sr": "☁️ Cloud sinhronizacija",
     "ja": "☁️ クラウド同期",
     "ka": "☁️ ღრუბლოვანი სინქრონიზაცია",
-    "el": "☁️ Συγχρονισμός cloud"
+    "el": "☁️ Συγχρονισμός cloud",
+    "es": "☁️ Sincronización en la nube"
   },
   "feat4": {
     "en": "📑 Anki/PDF",
@@ -707,7 +777,8 @@
     "sr": "📑 Anki/PDF",
     "ja": "📑 Anki/PDF",
     "ka": "📑 Anki/PDF",
-    "el": "📑 Anki/PDF"
+    "el": "📑 Anki/PDF",
+    "es": "📑 Anki/PDF"
   },
   "feat5": {
     "en": "🔓 Unlimited cards",
@@ -717,7 +788,8 @@
     "sr": "🔓 Neograničene kartice",
     "ja": "🔓 無制限カード",
     "ka": "🔓 შეუზღუდავი ბარათები",
-    "el": "🔓 Απεριόριστες κάρτες"
+    "el": "🔓 Απεριόριστες κάρτες",
+    "es": "🔓 Tarjetas ilimitadas"
   },
   "feat6": {
     "en": "⚡ Priority support",
@@ -727,7 +799,8 @@
     "sr": "⚡ Prioritetna podrška",
     "ja": "⚡ 優先サポート",
     "ka": "⚡ პრიორიტეტული მხარდაჭერა",
-    "el": "⚡ Υποστήριξη προτεραιότητας"
+    "el": "⚡ Υποστήριξη προτεραιότητας",
+    "es": "⚡ Soporte prioritario"
   },
   "premiumPrice": {
     "en": "$4 /month",
@@ -737,7 +810,8 @@
     "sr": "$4 /mesec",
     "ja": "$4 /月",
     "ka": "$4 /თვეში",
-    "el": "$4 /μήνα"
+    "el": "$4 /μήνα",
+    "es": "$4 /mes"
   },
   "premiumSave": {
     "en": "or $45/year",
@@ -747,7 +821,8 @@
     "sr": "ili $45/godišnje",
     "ja": "または $45/年",
     "ka": "ან $45/წელიწადში",
-    "el": "ή $45/έτος"
+    "el": "ή $45/έτος",
+    "es": "o $45/año"
   },
   "premiumButton": {
     "en": "Get Premium →",
@@ -757,7 +832,8 @@
     "sr": "Uzmi Premium →",
     "ja": "プレミアムを取得 →",
     "ka": "Premium-ის მიღება →",
-    "el": "Αποκτήστε Premium →"
+    "el": "Αποκτήστε Premium →",
+    "es": "Obtén Premium →"
   },
   "premiumFooterFree": {
     "en": "Free version works forever.",
@@ -767,7 +843,8 @@
     "sr": "Besplatna verzija radi zauvek.",
     "ja": "無料版は永久に使えます",
     "ka": "უფასო ვერსია სამუდამოდ მუშაობს.",
-    "el": "Η δωρεάν έκδοση λειτουργεί για πάντα."
+    "el": "Η δωρεάν έκδοση λειτουργεί για πάντα.",
+    "es": "La versión gratuita funciona para siempre."
   },
   "codeLabel": {
     "en": "code:",
@@ -777,7 +854,8 @@
     "sr": "kod:",
     "ja": "コード:",
     "ka": "კოდი:",
-    "el": "κωδικός:"
+    "el": "κωδικός:",
+    "es": "código:"
   },
   "activateButton": {
     "en": "Active",
@@ -787,7 +865,8 @@
     "sr": "Aktiviraj",
     "ja": "アクティブにする",
     "ka": "გააქტიურება",
-    "el": "Ενεργοποίηση"
+    "el": "Ενεργοποίηση",
+    "es": "Activar"
   },
   "premiumFooterSecure": {
     "en": "Special secure code for active Premium mode without sign-up.",
@@ -797,7 +876,8 @@
     "sr": "Poseban sigurnosni kod za aktivaciju Premiuma bez registracije.",
     "ja": "登録不要のプレミアムモードを有効にする特別な安全コード",
     "ka": "სპეციალური უსაფრთხოების კოდი Premium-ის გასააქტიურებლად რეგისტრაციის გარეშე.",
-    "el": "Ειδικός κωδικός ασφαλείας για ενεργή λειτουργία Premium χωρίς εγγραφή."
+    "el": "Ειδικός κωδικός ασφαλείας για ενεργή λειτουργία Premium χωρίς εγγραφή.",
+    "es": "Código seguro especial para activar el modo Premium sin registro."
   },
   "translate-learned-count": {
     "en": "Learned cards",
@@ -807,7 +887,8 @@
     "sr": "Naučene kartice",
     "ja": "学習済みカード",
     "ka": "ნასწავლი ბარათები",
-    "el": "Μαθημένες κάρτες"
+    "el": "Μαθημένες κάρτες",
+    "es": "Tarjetas aprendidas"
   },
   "translate-hide-learned-cards": {
     "en": "Hide learned cards",
@@ -817,7 +898,8 @@
     "sr": "Sakrij naučene",
     "ja": "学習済みを非表示",
     "ka": "ნასწავლი ბარათების დამალვა",
-    "el": "Απόκρυψη μαθημένων καρτών"
+    "el": "Απόκρυψη μαθημένων καρτών",
+    "es": "Ocultar tarjetas aprendidas"
   },
   "coinsStat": {
     "en": "Coins",
@@ -827,7 +909,8 @@
     "sr": "Novčići",
     "ja": "コイン",
     "ka": "მონეტები",
-    "el": "Νομίσματα"
+    "el": "Νομίσματα",
+    "es": "Monedas"
   },
   "LearnedRateStat": {
     "en": "Learned rate",
@@ -837,7 +920,8 @@
     "sr": "Stopa naučenih",
     "ja": "学習率",
     "ka": "სწავლის მაჩვენებელი",
-    "el": "Ποσοστό μάθησης"
+    "el": "Ποσοστό μάθησης",
+    "es": "Tasa de aprendizaje"
   },
   "title-settings": {
     "en": "Settings",
@@ -847,7 +931,8 @@
     "sr": "Podešavanja",
     "ja": "設定",
     "ka": "პარამეტრები",
-    "el": "Ρυθμίσεις"
+    "el": "Ρυθμίσεις",
+    "es": "Configuración"
   },
   "foch": {
     "en": "Font change",
@@ -857,7 +942,8 @@
     "sr": "Promena fonta",
     "ja": "フォント変更",
     "ka": "შრიფტის შეცვლა",
-    "el": "Αλλαγή γραμματοσειράς"
+    "el": "Αλλαγή γραμματοσειράς",
+    "es": "Cambio de fuente"
   },
   "onpa": {
     "en": "On particles",
@@ -867,7 +953,8 @@
     "sr": "Uključi čestice",
     "ja": "パーティクルをオン",
     "ka": "ნაწილაკები ჩართვა",
-    "el": "Ενεργοποίηση σωματιδίων"
+    "el": "Ενεργοποίηση σωματιδίων",
+    "es": "Activar partículas"
   },
   "timerTitle": {
     "en": "Timer",
@@ -877,7 +964,8 @@
     "sr": "Тајмер",
     "ja": "タイマー",
     "ka": "ტაიმერი",
-    "el": "Χρονοόμετρο"
+    "el": "Χρονοόμετρο",
+    "es": "Temporizador"
   },
   "starttxt": {
     "en": "Start",
@@ -887,7 +975,8 @@
     "sr": "Počni",
     "ja": "開始",
     "ka": "დაწყება",
-    "el": "Έναρξη"
+    "el": "Έναρξη",
+    "es": "Comenzar"
   },
   "timer-footer": {
     "en": "Timer on 15 minutes to practice your cards",
@@ -897,6 +986,7 @@
     "sr": "Tajmer na 15 minuta za vežbanje kartica",
     "ja": "カードを練習するための15分タイマー",
     "ka": "ტაიმერი 15 წუთი ბარათების ვარჯიშისთვის",
-    "el": "Χρονοόμετρο 15 λεπτών για εξάσκηση των καρτών"
+    "el": "Χρονοόμετρο 15 λεπτών για εξάσκηση των καρτών",
+    "es": "Temporizador de 15 minutos para practicar tus tarjetas"
   }
 }

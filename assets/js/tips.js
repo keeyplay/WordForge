@@ -35,6 +35,8 @@ if(localStorage.getItem('Profile') && !JSON.parse(localStorage.getItem(localStor
     if(localStorage.getItem("language") === "ka") showNotification("მოგესალმებით WordForge 🃏-ში", "ისწავლეთ ფლეშ-ბარათებით. გადაატრიალეთ, დაიმახსოვრეთ, გაიმეორეთ. სტატისტიკა, სერიები და მონეტები შიგნით. დაამატეთ პირველი ბარათი დასაწყებად.");
 
     if(localStorage.getItem("language") === "el") showNotification("Καλώς ήρθατε στο WordForge 🃏", "Μάθετε με κάρτες μνήμης. Γυρίστε, απομνημονεύστε, επαναλάβετε. Στατιστικά, σερί και νομίσματα μέσα. Προσθέστε την πρώτη σας κάρτα για να ξεκινήσετε.");
+
+    if(localStorage.getItem("language") === "es") showNotification("Bienvenido a WordForge 🃏", "Aprende con tarjetas interactivas. Voltea, memoriza, repite. Estadísticas, rachas y monedas dentro. Añade tu primera tarjeta para empezar.");
 }
 
 function hideNotification() {
