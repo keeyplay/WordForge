@@ -341,5 +341,43 @@ function UpdateStreakMessageTranslate() {
                 "Un día más. Un commit más. Un paso más hacia la vida que quieres. 🚀 Racha asegurada."
             ];
         }
+    } else if(localStorage.getItem("language") === "pt") {
+        if(streakMessages) {
+            streakMessages = [
+                "Nova sequência desbloqueada! 🚀 Consistência sobre intensidade. Cada dia conta.",
+                "A sequência continua! 🔥 Não rápido, mas constante. É assim que se ganha.",
+                "Outro dia, outro passo. 🐢 Sua sequência está crescendo. Continue assim.",
+                "Você apareceu de novo. 💪 Esse é todo o segredo. A sequência vive.",
+                "Sem dias zero. ✅ Sequência preservada. Amanhã é a próxima batalha.",
+                "Tijolo por tijolo. 🧱 Sua sequência está se tornando um muro. Não pare.",
+                "Um dia mais perto do objetivo. 🎯 Sequência intacta. Respeito.",
+                "Nem todo dia é um salto. Mas todo dia conta. 🦾 Sequência atualizada.",
+                "Você não desistiu hoje. 🔥 Essa é a vitória. A sequência vive.",
+                "Pequeno passo, grande sequência. 🐢 Consistência > talento. Sempre.",
+                "Sequência estendida. 📈 Não perfeito, mas presente. Isso é suficiente.",
+                "Mais um dia nos livros. 📚 Sequência = prova de que você pode confiar em si mesmo.",
+                "A sequência é um espelho. 🪞 Mostra quem você realmente é. Hoje: forte.",
+                "Você poderia ter pulado. Não pulou. 👊 Sequência honrada.",
+                "Mais um dia. Mais um commit. Mais um passo em direção à vida que você quer. 🚀 Sequência garantida."
+            ];
+        } else {
+            let streakMessages = [
+                "Nova sequência desbloqueada! 🚀 Consistência sobre intensidade. Cada dia conta.",
+                "A sequência continua! 🔥 Não rápido, mas constante. É assim que se ganha.",
+                "Outro dia, outro passo. 🐢 Sua sequência está crescendo. Continue assim.",
+                "Você apareceu de novo. 💪 Esse é todo o segredo. A sequência vive.",
+                "Sem dias zero. ✅ Sequência preservada. Amanhã é a próxima batalha.",
+                "Tijolo por tijolo. 🧱 Sua sequência está se tornando um muro. Não pare.",
+                "Um dia mais perto do objetivo. 🎯 Sequência intacta. Respeito.",
+                "Nem todo dia é um salto. Mas todo dia conta. 🦾 Sequência atualizada.",
+                "Você não desistiu hoje. 🔥 Essa é a vitória. A sequência vive.",
+                "Pequeno passo, grande sequência. 🐢 Consistência > talento. Sempre.",
+                "Sequência estendida. 📈 Não perfeito, mas presente. Isso é suficiente.",
+                "Mais um dia nos livros. 📚 Sequência = prova de que você pode confiar em si mesmo.",
+                "A sequência é um espelho. 🪞 Mostra quem você realmente é. Hoje: forte.",
+                "Você poderia ter pulado. Não pulou. 👊 Sequência honrada.",
+                "Mais um dia. Mais um commit. Mais um passo em direção à vida que você quer. 🚀 Sequência garantida."
+            ];
+        }
     }
 }
