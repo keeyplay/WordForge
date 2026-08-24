@@ -10,7 +10,8 @@ const milestones = {
         ka: "პირველი ბარათი დაემატა! 🎉",
         el: "Προστέθηκε η πρώτη κάρτα! 🎉",
         es: "¡Primera tarjeta añadida! 🎉",
-        pt: "Primeira carta adicionada! 🎉"
+        pt: "Primeira carta adicionada! 🎉",
+        fi: "Ensimmäinen kortti lisätty! 🎉"
     },
     5: {
         en: "5 cards — great start!",
@@ -22,7 +23,8 @@ const milestones = {
         ka: "5 ბარათი — შესანიშნავი დასაწყისი!",
         el: "5 κάρτες — εξαιρετική αρχή!",
         es: "5 tarjetas — ¡gran comienzo!",
-        pt: "5 cartas — ótimo começo!"
+        pt: "5 cartas — ótimo começo!",
+        fi: "5 korttia — loistava alku!"
     },
     10: {
         en: "10 cards — you're learning!",
@@ -34,7 +36,8 @@ const milestones = {
         ka: "10 ბარათი — უკვე სწავლობ!",
         el: "10 κάρτες — ήδη μαθαίνεις!",
         es: "10 tarjetas — ¡ya estás aprendiendo!",
-        pt: "10 cartas — você já está aprendendo!"
+        pt: "10 cartas — você já está aprendendo!",
+        fi: "10 korttia — olet jo oppimassa!"
     },
     25: {
         en: "25 cards — keep going!",
@@ -46,7 +49,8 @@ const milestones = {
         ka: "25 ბარათი — განაგრძე!",
         el: "25 κάρτες — συνέχισε έτσι!",
         es: "25 tarjetas — ¡sigue así!",
-        pt: "25 cartas — continue assim!"
+        pt: "25 cartas — continue assim!",
+        fi: "25 korttia — jatka samaan malliin!"
     },
     50: {
         en: "50 cards — wow!",
@@ -58,7 +62,8 @@ const milestones = {
         ka: "50 ბარათი — ვაუ!",
         el: "50 κάρτες — ουάου!",
         es: "50 tarjetas — ¡guau!",
-        pt: "50 cartas — uau!"
+        pt: "50 cartas — uau!",
+        fi: "50 korttia — vau!"
     },
     100: {
         en: "100 cards — A1 Beginner! You know the essential core of language. 🎯",
@@ -70,7 +75,8 @@ const milestones = {
         ka: "100 ბარათი — A1 დამწყები! იცი ენის საფუძველი. 🎯",
         el: "100 κάρτες — A1 Αρχάριος! Γνωρίζεις τη βασική ουσία της γλώσσας. 🎯",
         es: "100 tarjetas — ¡A1 Principiante! Conoces el núcleo esencial del idioma. 🎯",
-        pt: "100 cartas — A1 Iniciante! Você conhece o núcleo essencial do idioma. 🎯"
+        pt: "100 cartas — A1 Iniciante! Você conhece o núcleo essencial do idioma. 🎯",
+        fi: "100 korttia — A1 Aloittelija! Tunnet kielen perusytimen. 🎯"
     },
     500: {
         en: "500 cards — still A1, but getting stronger! 💪",
@@ -82,7 +88,8 @@ const milestones = {
         ka: "500 ბარათი — ჯერ კიდევ A1, მაგრამ ძლიერდები! 💪",
         el: "500 κάρτες — ακόμα A1, αλλά γίνεσαι πιο δυνατός! 💪",
         es: "500 tarjetas — sigues en A1, pero cada vez más fuerte! 💪",
-        pt: "500 cartas — ainda A1, mas ficando mais forte! 💪"
+        pt: "500 cartas — ainda A1, mas ficando mais forte! 💪",
+        fi: "500 korttia — vielä A1, mutta vahvistut! 💪"
     },
     1000: {
         en: "1000 cards — A2 Elementary! You can handle everyday situations now. 🗣️",
@@ -94,7 +101,8 @@ const milestones = {
         ka: "1000 ბარათი — A2 დაწყებითი! ახლა ყოველდღიურ სიტუაციებს უმკლავდები. 🗣️",
         el: "1000 κάρτες — A2 Στοιχειώδες! Μπορείς να χειριστείς καθημερινές καταστάσεις τώρα. 🗣️",
         es: "1000 tarjetas — ¡A2 Elemental! Puedes manejar situaciones cotidianas ahora. 🗣️",
-        pt: "1000 cartas — A2 Elementar! Você pode lidar com situações cotidianas agora. 🗣️"
+        pt: "1000 cartas — A2 Elementar! Você pode lidar com situações cotidianas agora. 🗣️",
+        fi: "1000 korttia — A2 Alkeistaso! Pystyt käsittelemään arkipäivän tilanteita nyt. 🗣️"
     },
     2000: {
         en: "2000 cards — B1 Intermediate! You're an independent user. HUGE milestone! 🚀",
@@ -106,7 +114,8 @@ const milestones = {
         ka: "2000 ბარათი — B1 საშუალო! დამოუკიდებელი მომხმარებელი ხარ. უდიდესი წარმატება! 🚀",
         el: "2000 κάρτες — B1 Ενδιάμεσο! Είσαι ανεξάρτητος χρήστης. ΤΕΡΑΣΤΙΟ ορόσημο! 🚀",
         es: "2000 tarjetas — ¡B1 Intermedio! Eres un usuario independiente. ¡GRAN hito! 🚀",
-        pt: "2000 cartas — B1 Intermediário! Você é um usuário independente. GRANDE marco! 🚀"
+        pt: "2000 cartas — B1 Intermediário! Você é um usuário independente. GRANDE marco! 🚀",
+        fi: "2000 korttia — B1 Keskitaso! Olet itsenäinen käyttäjä. VALTAVA virstanpylväs! 🚀"
     },
     4000: {
         en: "4000 cards — B2 Upper Intermediate! Fluent conversations unlocked. 🔥",
@@ -118,7 +127,8 @@ const milestones = {
         ka: "4000 ბარათი — B2 საშუალოზე მაღალი! თავისუფალი საუბრები განბლოკილია. 🔥",
         el: "4000 κάρτες — B2 Ανώτερο Ενδιάμεσο! Ξεκλείδωσαν οι άπταιστες συνομιλίες. 🔥",
         es: "4000 tarjetas — ¡B2 Intermedio Alto! Conversaciones fluidas desbloqueadas. 🔥",
-        pt: "4000 cartas — B2 Intermediário Avançado! Conversas fluidas desbloqueadas. 🔥"
+        pt: "4000 cartas — B2 Intermediário Avançado! Conversas fluidas desbloqueadas. 🔥",
+        fi: "4000 korttia — B2 Ylempi keskitaso! Sujuvat keskustelut avattu. 🔥"
     },
     8000: {
         en: "8000 cards — C1 Advanced! Native-like command. Massive respect! 🏆",
@@ -130,7 +140,8 @@ const milestones = {
         ka: "8000 ბარათი — C1 მოწინავე! მშობლიურ ენაზე მოლაპარაკის დონე. დიდი პატივისცემა! 🏆",
         el: "8000 κάρτες — C1 Προχωρημένο! Επίπεδο φυσικού ομιλητή. Τεράστιος σεβασμός! 🏆",
         es: "8000 tarjetas — ¡C1 Avanzado! Dominio casi nativo. ¡Enorme respeto! 🏆",
-        pt: "8000 cartas — C1 Avançado! Domínio quase nativo. Grande respeito! 🏆"
+        pt: "8000 cartas — C1 Avançado! Domínio quase nativo. Grande respeito! 🏆",
+        fi: "8000 korttia — C1 Edistynyt! Äidinkielen taso. Valtaisa kunnioitus! 🏆"
     },
     16000: {
         en: "16000 cards — C2 Proficiency! You're a master of language. 👑",
@@ -142,7 +153,8 @@ const milestones = {
         ka: "16000 ბარათი — C2 პროფიციენტი! ენის ოსტატი ხარ. 👑",
         el: "16000 κάρτες — C2 Επάρκεια! Είσαι κύριος της γλώσσας. 👑",
         es: "16000 tarjetas — ¡C2 Dominio! Eres un maestro del idioma. 👑",
-        pt: "16000 cartas — C2 Proficiência! Você é um mestre do idioma. 👑"
+        pt: "16000 cartas — C2 Proficiência! Você é um mestre do idioma. 👑",
+        fi: "16000 korttia — C2 Täydellinen hallinta! Olet kielen mestari. 👑"
     },
     20000: {
         en: "20000 cards — WordForge Legend! 🌟",
@@ -154,6 +166,7 @@ const milestones = {
         ka: "20000 ბარათი — WordForge ლეგენდა! 🌟",
         el: "20000 κάρτες — Θρύλος του WordForge! 🌟",
         es: "20000 tarjetas — ¡Leyenda de WordForge! 🌟",
-        pt: "20000 cartas — Lenda do WordForge! 🌟"
+        pt: "20000 cartas — Lenda do WordForge! 🌟",
+        fi: "20000 korttia — WordForge-legenda! 🌟"
     }
 };

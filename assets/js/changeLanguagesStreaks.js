@@ -379,5 +379,43 @@ function UpdateStreakMessageTranslate() {
                 "Mais um dia. Mais um commit. Mais um passo em direção à vida que você quer. 🚀 Sequência garantida."
             ];
         }
+    } else if(localStorage.getItem("language") === "fi") {
+        if(streakMessages) {
+            streakMessages = [
+                "Uusi putki avattu! 🚀 Johdonmukaisuus ennen intensiteettiä. Jokainen päivä lasketaan.",
+                "Putki jatkuu! 🔥 Ei nopeasti, mutta tasaisesti. Näin voitat.",
+                "Toinen päivä, toinen askel. 🐢 Putkesi kasvaa. Jatka samaan malliin.",
+                "Ilmaannuit jälleen. 💪 Se on koko salaisuus. Putki elää.",
+                "Ei nollapäiviä. ✅ Putki säilytetty. Huominen on seuraava taistelu.",
+                "Tiili tiileltä. 🧱 Putkestasi on tulossa muuri. Älä lopeta.",
+                "Yksi päivä lähempänä tavoitetta. 🎯 Putki ehjä. Kunnioitus.",
+                "Kaikki päivät eivät ole harppauksia. Mutta jokainen päivä lasketaan. 🦾 Putki päivitetty.",
+                "Et luovuttanut tänään. 🔥 Se on voitto. Putki elää.",
+                "Pieni askel, iso putki. 🐢 Johdonmukaisuus > lahjakkuus. Aina.",
+                "Putki pidennetty. 📈 Ei täydellinen, mutta läsnäolo riittää.",
+                "Toinen päivä kirjoissa. 📚 Putki = todiste siitä, että voit luottaa itseesi.",
+                "Putki on peili. 🪞 Se näyttää, kuka todella olet. Tänään: vahva.",
+                "Olisit voinut jättää väliin. Et jättänyt. 👊 Putki kunnialla.",
+                "Yksi päivä lisää. Yksi commit lisää. Yksi askel kohti elämää, jota haluat. 🚀 Putki turvattu."
+            ];
+        } else {
+            let streakMessages = [
+                "Uusi putki avattu! 🚀 Johdonmukaisuus ennen intensiteettiä. Jokainen päivä lasketaan.",
+                "Putki jatkuu! 🔥 Ei nopeasti, mutta tasaisesti. Näin voitat.",
+                "Toinen päivä, toinen askel. 🐢 Putkesi kasvaa. Jatka samaan malliin.",
+                "Ilmaannuit jälleen. 💪 Se on koko salaisuus. Putki elää.",
+                "Ei nollapäiviä. ✅ Putki säilytetty. Huominen on seuraava taistelu.",
+                "Tiili tiileltä. 🧱 Putkestasi on tulossa muuri. Älä lopeta.",
+                "Yksi päivä lähempänä tavoitetta. 🎯 Putki ehjä. Kunnioitus.",
+                "Kaikki päivät eivät ole harppauksia. Mutta jokainen päivä lasketaan. 🦾 Putki päivitetty.",
+                "Et luovuttanut tänään. 🔥 Se on voitto. Putki elää.",
+                "Pieni askel, iso putki. 🐢 Johdonmukaisuus > lahjakkuus. Aina.",
+                "Putki pidennetty. 📈 Ei täydellinen, mutta läsnäolo riittää.",
+                "Toinen päivä kirjoissa. 📚 Putki = todiste siitä, että voit luottaa itseesi.",
+                "Putki on peili. 🪞 Se näyttää, kuka todella olet. Tänään: vahva.",
+                "Olisit voinut jättää väliin. Et jättänyt. 👊 Putki kunnialla.",
+                "Yksi päivä lisää. Yksi commit lisää. Yksi askel kohti elämää, jota haluat. 🚀 Putki turvattu."
+            ];
+        }
     }
 }

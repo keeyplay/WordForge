@@ -39,6 +39,8 @@ if(localStorage.getItem('Profile') && !JSON.parse(localStorage.getItem(localStor
     if(localStorage.getItem("language") === "es") showNotification("Bienvenido a WordForge 🃏", "Aprende con tarjetas interactivas. Voltea, memoriza, repite. Estadísticas, rachas y monedas dentro. Añade tu primera tarjeta para empezar.");
 
     if(localStorage.getItem("language") === "pt") showNotification("Bem-vindo ao WordForge 🃏", "Aprenda com flashcards. Vire, memorize, repita. Estatísticas, sequências e moedas dentro. Adicione sua primeira carta para começar.");
+
+    if(localStorage.getItem("language") === "fi") showNotification("Tervetuloa WordForgeen 🃏", "Opi muistikorttien avulla. Käännä, muista, toista. Tilastot, putket ja kolikot sisällä. Lisää ensimmäinen korttisi aloittaaksesi.");
 }
 
 function hideNotification() {
