@@ -41,6 +41,8 @@ if(localStorage.getItem('Profile') && !JSON.parse(localStorage.getItem(localStor
     if(localStorage.getItem("language") === "pt") showNotification("Bem-vindo ao WordForge 🃏", "Aprenda com flashcards. Vire, memorize, repita. Estatísticas, sequências e moedas dentro. Adicione sua primeira carta para começar.");
 
     if(localStorage.getItem("language") === "fi") showNotification("Tervetuloa WordForgeen 🃏", "Opi muistikorttien avulla. Käännä, muista, toista. Tilastot, putket ja kolikot sisällä. Lisää ensimmäinen korttisi aloittaaksesi.");
+
+    if(localStorage.getItem("language") === "zh") showNotification("欢迎来到WordForge 🃏", "使用闪卡学习。翻转、记忆、重复。内置统计、连续天数和硬币。添加您的第一张卡片开始学习。");
 }
 
 function hideNotification() {

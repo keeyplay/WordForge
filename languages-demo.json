@@ -10,7 +10,8 @@
     "el": "WordForge",
     "es": "WordForge",
     "pt": "WordForge",
-    "fi": "WordForge"
+    "fi": "WordForge",
+    "zh": "WordForge"
   },
   "lewo": {
     "en": "Learn words.",
@@ -23,7 +24,8 @@
     "el": "Μάθε λέξεις.",
     "es": "Aprende palabras.",
     "pt": "Aprenda palavras.",
-    "fi": "Opi sanoja."
+    "fi": "Opi sanoja.",
+    "zh": "学习单词。"
   },
   "eaco": {
     "en": "Earn coins.",
@@ -36,7 +38,8 @@
     "el": "Κέρδισε νομίσματα.",
     "es": "Gana monedas.",
     "pt": "Ganhe moedas.",
-    "fi": "Ansaitse kolikoita."
+    "fi": "Ansaitse kolikoita.",
+    "zh": "赚取硬币。"
   },
   "buyovo": {
     "en": "Build your vocabulary.",
@@ -49,7 +52,8 @@
     "el": "Χτίσε το λεξιλόγιό σου.",
     "es": "Construye tu vocabulario.",
     "pt": "Construa seu vocabulário.",
-    "fi": "Rakenna sanavarastoasi."
+    "fi": "Rakenna sanavarastoasi.",
+    "zh": "建立你的词汇量。"
   },
   "butt-lang": {
     "en": "🇬🇧",
@@ -62,7 +66,8 @@
     "el": "🇬🇷",
     "es": "🇪🇸",
     "pt": "🇵🇹",
-    "fi": "🇫🇮"
+    "fi": "🇫🇮",
+    "zh": "🇨🇳"
   },
   "nosiup": {
     "en": "No sign-up. No payments. Just open and learn. Designed for students, travelers and developers.",
@@ -75,7 +80,8 @@
     "el": "Χωρίς εγγραφή. Χωρίς πληρωμές. Απλά άνοιξε και μάθε. Σχεδιασμένο για φοιτητές, ταξιδιώτες και προγραμματιστές.",
     "es": "Sin registro. Sin pagos. Solo abre y aprende. Diseñado para estudiantes, viajeros y desarrolladores.",
     "pt": "Sem cadastro. Sem pagamentos. Apenas abra e aprenda. Projetado para estudantes, viajantes e desenvolvedores.",
-    "fi": "Ei rekisteröitymistä. Ei maksuja. Avaa ja opi. Suunniteltu opiskelijoille, matkailijoille ja kehittäjille."
+    "fi": "Ei rekisteröitymistä. Ei maksuja. Avaa ja opi. Suunniteltu opiskelijoille, matkailijoille ja kehittäjille.",
+    "zh": "无需注册。无需付费。打开即学。专为学生、旅行者和开发者设计。"
   },
   "TryItNow": {
     "en": "Try it now",
@@ -88,7 +94,8 @@
     "el": "Δοκίμασέ το τώρα",
     "es": "Pruébalo ahora",
     "pt": "Experimente agora",
-    "fi": "Kokeile nyt"
+    "fi": "Kokeile nyt",
+    "zh": "立即试用"
   },
   "HowItWorks": {
     "en": "How it works",
@@ -101,7 +108,8 @@
     "el": "Πώς λειτουργεί",
     "es": "Cómo funciona",
     "pt": "Como funciona",
-    "fi": "Miten se toimii"
+    "fi": "Miten se toimii",
+    "zh": "工作原理"
   },
   "bykeeyplay": {
     "en": "By keeyplay",
@@ -114,7 +122,8 @@
     "el": "Από τον keeyplay",
     "es": "Por keeyplay",
     "pt": "Por keeyplay",
-    "fi": "Keeyplayn tekemä"
+    "fi": "Keeyplayn tekemä",
+    "zh": "由keeyplay制作"
   },
   "stepstolearn": {
     "en": "Steps to learn languages",
@@ -127,7 +136,8 @@
     "el": "Βήματα για να μάθεις γλώσσες",
     "es": "Pasos para aprender idiomas",
     "pt": "Passos para aprender idiomas",
-    "fi": "Vaiheet kielten oppimiseen"
+    "fi": "Vaiheet kielten oppimiseen",
+    "zh": "学习语言的步骤"
   },
   "vocabulary": {
     "en": "1. Vocabulary",
@@ -140,7 +150,8 @@
     "el": "1. Λεξιλόγιο",
     "es": "1. Vocabulario",
     "pt": "1. Vocabulário",
-    "fi": "1. Sanasto"
+    "fi": "1. Sanasto",
+    "zh": "1. 词汇"
   },
   "buyovo1": {
     "en": "Build your vocabulary first — the foundation of everything. Without words, there's nothing to connect with grammar or use in practice. Focus on the most frequent words, repeat them daily, and train your brain to recognize them instantly. This is the base that makes every other step easier.",
@@ -153,7 +164,8 @@
     "el": "Πρώτα χτίσε το λεξιλόγιό σου — το θεμέλιο των πάντων. Χωρίς λέξεις, δεν υπάρχει τίποτα να συνδέσεις με τη γραμματική ή να χρησιμοποιήσεις στην πράξη. Επικεντρώσου στις πιο συχνές λέξεις, επανέλαβέ τις καθημερινά και εκπαίδευσε τον εγκέφαλό σου να τις αναγνωρίζει άμεσα. Αυτή είναι η βάση που κάνει κάθε άλλο βήμα ευκολότερο.",
     "es": "Construye tu vocabulario primero — la base de todo. Sin palabras, no hay nada que conectar con la gramática ni usar en la práctica. Concéntrate en las palabras más frecuentes, repítelas diariamente y entrena a tu cerebro para reconocerlas al instante. Esta es la base que hace que todos los demás pasos sean más fáciles.",
     "pt": "Construa seu vocabulário primeiro — a base de tudo. Sem palavras, não há nada para conectar com a gramática ou usar na prática. Concentre-se nas palavras mais frequentes, repita-as diariamente e treine seu cérebro para reconhecê-las instantaneamente. Esta é a base que torna todos os outros passos mais fáceis.",
-    "fi": "Rakenna ensin sanastosi — kaiken perusta. Ilman sanoja ei ole mitään yhdistettävää kielioppiin tai käytettävää käytännössä. Keskity yleisimpiin sanoihin, toista niitä päivittäin ja harjoita aivosi tunnistamaan ne välittömästi. Tämä on perusta, joka tekee kaikista muista vaiheista helpompia."
+    "fi": "Rakenna ensin sanastosi — kaiken perusta. Ilman sanoja ei ole mitään yhdistettävää kielioppiin tai käytettävää käytännössä. Keskity yleisimpiin sanoihin, toista niitä päivittäin ja harjoita aivosi tunnistamaan ne välittömästi. Tämä on perusta, joka tekee kaikista muista vaiheista helpompia.",
+    "zh": "首先要建立你的词汇量——一切的基础。没有单词，就没有什么可以与语法连接或在实践中使用。专注于最常用的单词，每天重复它们，训练你的大脑立即识别它们。这是使其他所有步骤更容易的基础。"
   },
   "grammar": {
     "en": "2. Grammar",
@@ -166,7 +178,8 @@
     "el": "2. Γραμματική",
     "es": "2. Gramática",
     "pt": "2. Gramática",
-    "fi": "2. Kielioppi"
+    "fi": "2. Kielioppi",
+    "zh": "2. 语法"
   },
   "lehothla": {
     "en": "Learn how the language fits together — not rules, but patterns. Grammar gives your words a framework to live in, turning random vocabulary into clear, meaningful messages. Without it, you have bricks but no blueprint.",
@@ -179,7 +192,8 @@
     "el": "Μάθε πώς ταιριάζει η γλώσσα μεταξύ της — όχι κανόνες, αλλά μοτίβα. Η γραμματική δίνει στις λέξεις σου ένα πλαίσιο να ζήσουν, μετατρέποντας το τυχαίο λεξιλόγιο σε σαφή και ουσιαστικά μηνύματα. Χωρίς αυτήν, έχεις τούβλα αλλά όχι σχέδιο.",
     "es": "Aprende cómo encaja la lengua — no reglas, sino patrones. La gramática da a tus palabras un marco donde vivir, convirtiendo el vocabulario aleatorio en mensajes claros y significativos. Sin ella, tienes ladrillos pero no un plano.",
     "pt": "Aprenda como a língua se encaixa — não regras, mas padrões. A gramática dá às suas palavras uma estrutura para viver, transformando o vocabulário aleatório em mensagens claras e significativas. Sem ela, você tem tijolos, mas não tem um projeto.",
-    "fi": "Opi, miten kieli sopii yhteen — ei sääntöjä, vaan kaavoja. Kielioppi antaa sanoillesi kehyksen, muuttaen satunnaisen sanaston selkeiksi ja merkityksellisiksi viesteiksi. Ilman sitä sinulla on tiiliä, mutta ei suunnitelmaa."
+    "fi": "Opi, miten kieli sopii yhteen — ei sääntöjä, vaan kaavoja. Kielioppi antaa sanoillesi kehyksen, muuttaen satunnaisen sanaston selkeiksi ja merkityksellisiksi viesteiksi. Ilman sitä sinulla on tiiliä, mutta ei suunnitelmaa.",
+    "zh": "学习语言如何组合在一起——不是规则，而是模式。语法为你的单词提供了一个框架，将随机词汇转化为清晰、有意义的信息。没有语法，你有砖块但没有蓝图。"
   },
   "practice": {
     "en": "3. Practice",
@@ -192,7 +206,8 @@
     "el": "3. Εξάσκηση",
     "es": "3. Práctica",
     "pt": "3. Prática",
-    "fi": "3. Harjoittelu"
+    "fi": "3. Harjoittelu",
+    "zh": "3. 实践"
   },
   "usthla": {
     "en": "Use the language every day — listen, speak, read, write, make mistakes, and try again. Every real conversation rewires your brain to think faster and react naturally. You stop studying the language and start living it.",
@@ -205,7 +220,8 @@
     "el": "Χρησιμοποίησε τη γλώσσα κάθε μέρα — άκου, μίλα, διάβασε, γράψε, κάνε λάθη και δοκίμασε ξανά. Κάθε πραγματική συνομιλία αναδιαμορφώνει τον εγκέφαλό σου για να σκέφτεται πιο γρήγορα και να αντιδρά φυσικά. Σταματάς να μελετάς τη γλώσσα και αρχίζεις να τη ζεις.",
     "es": "Usa el idioma todos los días — escucha, habla, lee, escribe, comete errores y vuelve a intentarlo. Cada conversación real reconfigura tu cerebro para pensar más rápido y reaccionar de forma natural. Dejas de estudiar el idioma y empiezas a vivirlo.",
     "pt": "Use o idioma todos os dias — ouça, fale, leia, escreva, cometa erros e tente novamente. Cada conversa real reconfigura seu cérebro para pensar mais rápido e reagir naturalmente. Você para de estudar o idioma e começa a vivê-lo.",
-    "fi": "Käytä kieltä joka päivä — kuuntele, puhu, lue, kirjoita, tee virheitä ja yritä uudelleen. Jokainen todellinen keskustelu uudelleenohjaa aivosi ajattelemaan nopeammin ja reagoimaan luonnollisesti. Lopetat kielen opiskelun ja alat elää sitä."
+    "fi": "Käytä kieltä joka päivä — kuuntele, puhu, lue, kirjoita, tee virheitä ja yritä uudelleen. Jokainen todellinen keskustelu uudelleenohjaa aivosi ajattelemaan nopeammin ja reagoimaan luonnollisesti. Lopetat kielen opiskelun ja alat elää sitä.",
+    "zh": "每天使用这门语言——听、说、读、写、犯错、再试一次。每一次真实的对话都会重新连接你的大脑，让你思考更快、反应更自然。你不再学习这门语言，而是开始使用它生活。"
   },
   "vocabEl": {
     "en": "Vocabulary is our element",
@@ -218,7 +234,8 @@
     "el": "Το λεξιλόγιο είναι το στοιχείο μας",
     "es": "El vocabulario es nuestro elemento",
     "pt": "O vocabulário é o nosso elemento",
-    "fi": "Sanasto on elementtimme"
+    "fi": "Sanasto on elementtimme",
+    "zh": "词汇是我们的元素"
   },
   "fea": {
     "en": "Features",
@@ -231,7 +248,8 @@
     "el": "Δυνατότητες",
     "es": "Características",
     "pt": "Recursos",
-    "fi": "Ominaisuudet"
+    "fi": "Ominaisuudet",
+    "zh": "功能"
   },
   "int": {
     "en": "Interactive Flashcards",
@@ -244,7 +262,8 @@
     "el": "Διαδραστικές κάρτες μνήμης",
     "es": "Tarjetas interactivas",
     "pt": "Flashcards interativos",
-    "fi": "Interaktiiviset muistikortit"
+    "fi": "Interaktiiviset muistikortit",
+    "zh": "互动式闪卡"
   },
   "int-le": {
     "en": "Learn faster with visual card repetition.",
@@ -257,7 +276,8 @@
     "el": "Μάθε πιο γρήγορα με οπτική επανάληψη καρτών.",
     "es": "Aprende más rápido con la repetición visual de tarjetas.",
     "pt": "Aprenda mais rápido com a repetição visual de cartões.",
-    "fi": "Opi nopeammin visuaalisella korttien toistolla."
+    "fi": "Opi nopeammin visuaalisella korttien toistolla.",
+    "zh": "通过视觉卡片重复，学习更快。"
   },
   "coin": {
     "en": "Coin Rewards",
@@ -270,7 +290,8 @@
     "el": "Ανταμοιβές με νομίσματα",
     "es": "Recompensas en monedas",
     "pt": "Recompensas em moedas",
-    "fi": "Kolikkopalkinnot"
+    "fi": "Kolikkopalkinnot",
+    "zh": "硬币奖励"
   },
   "coin-eaco": {
     "en": "Earn coins while building your vocabulary.",
@@ -283,7 +304,8 @@
     "el": "Κέρδισε νομίσματα χτίζοντας το λεξιλόγιό σου.",
     "es": "Gana monedas mientras construyes tu vocabulario.",
     "pt": "Ganhe moedas enquanto constrói seu vocabulário.",
-    "fi": "Ansaitse kolikoita rakentaessasi sanavarastoasi."
+    "fi": "Ansaitse kolikoita rakentaessasi sanavarastoasi.",
+    "zh": "在建立词汇量的同时赚取硬币。"
   },
   "streak": {
     "en": "Streak Tracking",
@@ -296,7 +318,8 @@
     "el": "Παρακολούθηση σερί",
     "es": "Seguimiento de rachas",
     "pt": "Acompanhamento de sequências",
-    "fi": "Putken seuranta"
+    "fi": "Putken seuranta",
+    "zh": "连续天数追踪"
   },
   "streak-st": {
     "en": "Stay consistent and keep your streak alive.",
@@ -309,7 +332,8 @@
     "el": "Μείνε συνεπής και κράτα ζωντανό το σερί σου.",
     "es": "Mantén la constancia y mantén viva tu racha.",
     "pt": "Mantenha a consistência e mantenha sua sequência viva.",
-    "fi": "Pysy johdonmukaisena ja pidä putkesi elossa."
+    "fi": "Pysy johdonmukaisena ja pidä putkesi elossa.",
+    "zh": "保持坚持，保持你的连续天数。"
   },
   "multi": {
     "en": "Multi-language",
@@ -322,7 +346,8 @@
     "el": "Πολύγλωσσο",
     "es": "Multilingüe",
     "pt": "Multilíngue",
-    "fi": "Monikielinen"
+    "fi": "Monikielinen",
+    "zh": "多语言"
   },
   "multi-su": {
     "en": "Supports EN, RU, DE, PL, SR and JA.",
@@ -335,7 +360,8 @@
     "el": "Υποστηρίζει EN, RU, DE, PL, SR, JA και EL.",
     "es": "Admite EN, RU, DE, PL, SR, JA, KA, EL y ES.",
     "pt": "Suporta EN, RU, DE, PL, SR, JA, KA, EL, ES e PT.",
-    "fi": "Tukee EN, RU, DE, PL, SR, JA, KA, EL, ES, PT ja FI."
+    "fi": "Tukee EN, RU, DE, PL, SR, JA, KA, EL, ES, PT ja FI.",
+    "zh": "支持英语、俄语、德语、波兰语、塞尔维亚语、日语、格鲁吉亚语、希腊语、西班牙语、葡萄牙语、芬兰语和中文。"
   },
   "stats": {
     "en": "Stats Dashboard",
@@ -348,7 +374,8 @@
     "el": "Πίνακας στατιστικών",
     "es": "Panel de estadísticas",
     "pt": "Painel de estatísticas",
-    "fi": "Tilastopaneeli"
+    "fi": "Tilastopaneeli",
+    "zh": "统计面板"
   },
   "stats-tr": {
     "en": "Track words learned and progress over time.",
@@ -361,7 +388,8 @@
     "el": "Παρακολούθησε τις λέξεις που έμαθες και την πρόοδό σου με την πάροδο του χρόνου.",
     "es": "Sigue las palabras aprendidas y el progreso a lo largo del tiempo.",
     "pt": "Acompanhe as palavras aprendidas e o progresso ao longo do tempo.",
-    "fi": "Seuraa opittuja sanoja ja edistymistä ajan myötä."
+    "fi": "Seuraa opittuja sanoja ja edistymistä ajan myötä.",
+    "zh": "追踪已学单词和随时间推移的进度。"
   },
   "export": {
     "en": "Export Tools",
@@ -374,7 +402,8 @@
     "el": "Εργαλεία εξαγωγής",
     "es": "Herramientas de exportación",
     "pt": "Ferramentas de exportação",
-    "fi": "Vientityökalut"
+    "fi": "Vientityökalut",
+    "zh": "导出工具"
   },
   "export-vo": {
     "en": "Export vocabulary to Anki or PDF.",
@@ -387,7 +416,8 @@
     "el": "Εξαγωγή λεξιλογίου σε Anki ή PDF.",
     "es": "Exporta vocabulario a Anki o PDF.",
     "pt": "Exporte vocabulário para Anki ou PDF.",
-    "fi": "Vie sanasto Ankiin tai PDF-tiedostoksi."
+    "fi": "Vie sanasto Ankiin tai PDF-tiedostoksi.",
+    "zh": "将词汇导出到Anki或PDF。"
   },
   "howitorkd1": {
     "en": "How it works",
@@ -400,7 +430,8 @@
     "el": "Πώς λειτουργεί",
     "es": "Cómo funciona",
     "pt": "Como funciona",
-    "fi": "Miten se toimii"
+    "fi": "Miten se toimii",
+    "zh": "工作原理"
   },
   "addaword": {
     "en": "Add a word",
@@ -413,7 +444,8 @@
     "el": "Πρόσθεσε μια λέξη",
     "es": "Añade una palabra",
     "pt": "Adicione uma palavra",
-    "fi": "Lisää sana"
+    "fi": "Lisää sana",
+    "zh": "添加一个单词"
   },
   "createyoow": {
     "en": "Create your own personal vocabulary list.",
@@ -426,7 +458,8 @@
     "el": "Δημιούργησε τη δική σου προσωπική λίστα λεξιλογίου.",
     "es": "Crea tu propia lista de vocabulario personal.",
     "pt": "Crie sua própria lista de vocabulário pessoal.",
-    "fi": "Luo oma henkilökohtainen sanastolistasi."
+    "fi": "Luo oma henkilökohtainen sanastolistasi.",
+    "zh": "创建你自己的个人词汇列表。"
   },
   "learnwithcards": {
     "en": "Learn with cards",
@@ -439,7 +472,8 @@
     "el": "Μάθε με κάρτες",
     "es": "Aprende con tarjetas",
     "pt": "Aprenda com cartas",
-    "fi": "Opi korteilla"
+    "fi": "Opi korteilla",
+    "zh": "用卡片学习"
   },
   "practiceus": {
     "en": "Practice using interactive flashcards.",
@@ -452,7 +486,8 @@
     "el": "Εξασκήσου χρησιμοποιώντας διαδραστικές κάρτες μνήμης.",
     "es": "Practica con tarjetas interactivas.",
     "pt": "Pratique usando flashcards interativos.",
-    "fi": "Harjoittele interaktiivisilla muistikorteilla."
+    "fi": "Harjoittele interaktiivisilla muistikorteilla.",
+    "zh": "使用互动式闪卡进行练习。"
   },
   "trackprogress": {
     "en": "Track progress",
@@ -465,7 +500,8 @@
     "el": "Παρακολούθησε την πρόοδο",
     "es": "Sigue tu progreso",
     "pt": "Acompanhe o progresso",
-    "fi": "Seuraa edistymistä"
+    "fi": "Seuraa edistymistä",
+    "zh": "追踪进度"
   },
   "seest": {
     "en": "See streaks, coins and learning statistics.",
@@ -478,7 +514,8 @@
     "el": "Δες σερί, νομίσματα και στατιστικά μάθησης.",
     "es": "Ve rachas, monedas y estadísticas de aprendizaje.",
     "pt": "Veja sequências, moedas e estatísticas de aprendizado.",
-    "fi": "Näe putket, kolikot ja oppimistilastot."
+    "fi": "Näe putket, kolikot ja oppimistilastot.",
+    "zh": "查看连续天数、硬币和学习统计。"
   },
   "builtinpublic": {
     "en": "Built in public",
@@ -491,7 +528,8 @@
     "el": "Χτισμένο δημόσια",
     "es": "Construido en público",
     "pt": "Construído em público",
-    "fi": "Rakennettu julkisesti"
+    "fi": "Rakennettu julkisesti",
+    "zh": "公开构建"
   },
   "onecommit": {
     "en": "One commit. One tweet. Every single day.",
@@ -504,7 +542,8 @@
     "el": "Ένα commit. Ένα tweet. Κάθε μέρα.",
     "es": "Un commit. Un tweet. Todos los días.",
     "pt": "Um commit. Um tweet. Todos os dias.",
-    "fi": "Yksi commit. Yksi twiitti. Joka ikinen päivä."
+    "fi": "Yksi commit. Yksi twiitti. Joka ikinen päivä.",
+    "zh": "一个提交。一条推文。每一天。"
   },
   "writecode": {
     "en": "Write code",
@@ -517,7 +556,8 @@
     "el": "Γράψε κώδικα",
     "es": "Escribe código",
     "pt": "Escreva código",
-    "fi": "Kirjoita koodia"
+    "fi": "Kirjoita koodia",
+    "zh": "编写代码"
   },
   "everyday": {
     "en": "Every day I open the editor and ship something. Even if it's small. Even if it's just a fix. Consistency over perfection.",
@@ -530,7 +570,8 @@
     "el": "Κάθε μέρα ανοίγω τον επεξεργαστή και δημοσιεύω κάτι. Ακόμα κι αν είναι μικρό. Ακόμα κι αν είναι μόνο μια διόρθωση. Συνέπεια πάνω από την τελειότητα.",
     "es": "Cada día abro el editor y publico algo. Aunque sea pequeño. Aunque sea solo un arreglo. Consistencia sobre perfección.",
     "pt": "Todos os dias eu abro o editor e publico algo. Mesmo que seja pequeno. Mesmo que seja apenas um ajuste. Consistência sobre perfeição.",
-    "fi": "Joka päivä avaan editorin ja julkaisen jotain. Vaikka se olisi pieni. Vaikka se olisi vain korjaus. Johdonmukaisuus ennen täydellisyyttä."
+    "fi": "Joka päivä avaan editorin ja julkaisen jotain. Vaikka se olisi pieni. Vaikka se olisi vain korjaus. Johdonmukaisuus ennen täydellisyyttä.",
+    "zh": "每天我打开编辑器并发布一些东西。即使很小。即使只是一个修复。坚持胜过完美。"
   },
   "days150": {
     "en": "150+ days and counting",
@@ -543,7 +584,8 @@
     "el": "150+ ημέρες και συνεχίζει",
     "es": "150+ días y contando",
     "pt": "150+ dias e contando",
-    "fi": "150+ päivää ja lisää tulossa"
+    "fi": "150+ päivää ja lisää tulossa",
+    "zh": "150多天，还在继续"
   },
   "shareit": {
     "en": "Share it",
@@ -556,7 +598,8 @@
     "el": "Μοιράσου το",
     "es": "Compártelo",
     "pt": "Compartilhe",
-    "fi": "Jaa se"
+    "fi": "Jaa se",
+    "zh": "分享它"
   },
   "everycommits1": {
     "en": "Every commit turns into a tweet. I share what I built, what broke, what I learned. No filters, just real progress.",
@@ -569,7 +612,8 @@
     "el": "Κάθε commit γίνεται tweet. Μοιράζομαι αυτό που έφτιαξα, αυτό που χάλασε και αυτό που έμαθα. Χωρίς φίλτρα, μόνο πραγματική πρόοδος.",
     "es": "Cada commit se convierte en un tweet. Comparto lo que construí, lo que se rompió y lo que aprendí. Sin filtros, solo progreso real.",
     "pt": "Cada commit se torna um tweet. Compartilho o que construí, o que quebrou e o que aprendi. Sem filtros, apenas progresso real.",
-    "fi": "Jokainen commit muuttuu twiitiksi. Jaan mitä rakensin, mitä rikkoi ja mitä opin. Ei suodattimia, vain aitoa edistystä."
+    "fi": "Jokainen commit muuttuu twiitiksi. Jaan mitä rakensin, mitä rikkoi ja mitä opin. Ei suodattimia, vain aitoa edistystä.",
+    "zh": "每个提交都变成一条推文。我分享我构建了什么，什么坏了，我学到了什么。没有过滤，只有真实的进步。"
   },
   "k5avg": {
     "en": "5K avg views per week",
@@ -582,7 +626,8 @@
     "el": "Μέσος όρος 5K προβολών την εβδομάδα",
     "es": "5K visitas promedio por semana",
     "pt": "Média de 5K visualizações por semana",
-    "fi": "Keskimäärin 5K näyttökertaa viikossa"
+    "fi": "Keskimäärin 5K näyttökertaa viikossa",
+    "zh": "每周平均5000次浏览"
   },
   "growaudience": {
     "en": "Grow audience",
@@ -595,7 +640,8 @@
     "el": "Μεγάλωσε το κοινό σου",
     "es": "Haz crecer tu audiencia",
     "pt": "Cresça sua audiência",
-    "fi": "Kasvata yleisöä"
+    "fi": "Kasvata yleisöä",
+    "zh": "增加受众"
   },
   "peoplest": {
     "en": "People started watching. They reply, they share, they follow.",
@@ -608,7 +654,8 @@
     "el": "Οι άνθρωποι άρχισαν να βλέπουν. Απαντούν, μοιράζονται και ακολουθούν.",
     "es": "La gente empezó a mirar. Responden, comparten y siguen.",
     "pt": "As pessoas começaram a assistir. Elas respondem, compartilham e seguem.",
-    "fi": "Ihmiset alkoivat katsoa. He vastaavat, jakavat ja seuraavat."
+    "fi": "Ihmiset alkoivat katsoa. He vastaavat, jakavat ja seuraavat.",
+    "zh": "人们开始关注。他们回复、分享和关注。"
   },
   "dollars10": {
     "en": "$10 per month",
@@ -621,7 +668,8 @@
     "el": "$10 το μήνα",
     "es": "$10 al mes",
     "pt": "$10 por mês",
-    "fi": "$10 kuukaudessa"
+    "fi": "$10 kuukaudessa",
+    "zh": "每月$10"
   },
   "startlearn10": {
     "en": "Start learning in 10 seconds",
@@ -634,7 +682,8 @@
     "el": "Ξεκίνα τη μάθηση σε 10 δευτερόλεπτα",
     "es": "Empieza a aprender en 10 segundos",
     "pt": "Comece a aprender em 10 segundos",
-    "fi": "Aloita oppiminen 10 sekunnissa"
+    "fi": "Aloita oppiminen 10 sekunnissa",
+    "zh": "10秒内开始学习"
   },
   "buildby": {
     "en": "Built by a 15-year-old developer from Russia 🇷🇺",
@@ -647,7 +696,8 @@
     "el": "Δημιουργήθηκε από 15χρονο προγραμματιστή από τη Ρωσία 🇷🇺",
     "es": "Construido por un desarrollador de 15 años de Rusia 🇷🇺",
     "pt": "Construído por um desenvolvedor de 15 anos da Rússia 🇷🇺",
-    "fi": "15-vuotiaan kehittäjän rakentama Venäjältä 🇷🇺"
+    "fi": "15-vuotiaan kehittäjän rakentama Venäjältä 🇷🇺",
+    "zh": "由一位来自俄罗斯的15岁开发者构建 🇷🇺"
   },
   "beaf": {
     "en": "BEFORE & AFTER",
@@ -660,7 +710,8 @@
     "el": "ΠΡΙΝ & ΜΕΤΑ",
     "es": "ANTES & DESPUÉS",
     "pt": "ANTES & DEPOIS",
-    "fi": "ENNEN & JÄLKEEN"
+    "fi": "ENNEN & JÄLKEEN",
+    "zh": "之前与之后"
   },
   "redesign-title": {
     "en": "See how far it's come",
@@ -673,7 +724,8 @@
     "el": "Δες πόσο μακριά έχει φτάσει",
     "es": "Mira lo lejos que ha llegado",
     "pt": "Veja o quão longe chegou",
-    "fi": "Katso kuinka pitkälle se on tullut"
+    "fi": "Katso kuinka pitkälle se on tullut",
+    "zh": "看看它走了多远"
   },
   "redesign-desc": {
     "en": "The old landing looked different. Way different. Click below to see the before version — the one that started it all.",
@@ -686,7 +738,8 @@
     "el": "Η παλιά landing έδειχνε διαφορετική. Εντελώς διαφορετική. Κάνε κλικ παρακάτω για να δεις την έκδοση πριν — αυτή που ξεκίνησε τα πάντα.",
     "es": "El antiguo landing se veía diferente. Muy diferente. Haz clic abajo para ver la versión anterior — la que lo empezó todo.",
     "pt": "O antigo landing parecia diferente. Muito diferente. Clique abaixo para ver a versão anterior — aquela que começou tudo.",
-    "fi": "Vanha aloitussivu näytti erilaiselta. Täysin erilaiselta. Klikkaa alta nähdäksesi aikaisemman version — sen, joka aloitti kaiken."
+    "fi": "Vanha aloitussivu näytti erilaiselta. Täysin erilaiselta. Klikkaa alta nähdäksesi aikaisemman version — sen, joka aloitti kaiken.",
+    "zh": "旧的落地页看起来不同。非常不同。点击下方查看之前的版本——那个开启一切的版本。"
   },
   "redesign-label-old": {
     "en": "Old design",
@@ -699,7 +752,8 @@
     "el": "Παλιό σχέδιο",
     "es": "Diseño antiguo",
     "pt": "Design antigo",
-    "fi": "Vanha muotoilu"
+    "fi": "Vanha muotoilu",
+    "zh": "旧设计"
   },
   "redesign-btn-text": {
     "en": "View old landing →",
@@ -712,7 +766,8 @@
     "el": "Δες την παλιά landing →",
     "es": "Ver landing antiguo →",
     "pt": "Ver landing antigo →",
-    "fi": "Katso vanhaa aloitussivua →"
+    "fi": "Katso vanhaa aloitussivua →",
+    "zh": "查看旧版落地页 →"
   },
   "redesign-hint-text": {
     "en": "(opens the second version of WordForge)",
@@ -725,7 +780,8 @@
     "el": "(ανοίγει τη δεύτερη έκδοση του WordForge)",
     "es": "(abre la segunda versión de WordForge)",
     "pt": "(abre a segunda versão do WordForge)",
-    "fi": "(avaa WordForgen toisen version)"
+    "fi": "(avaa WordForgen toisen version)",
+    "zh": "（打开WordForge的第二版本）"
   },
   "usalti": {
     "en": "users all time",
@@ -738,6 +794,7 @@
     "el": "χρήστες όλων των εποχών",
     "es": "usuarios de todos los tiempos",
     "pt": "usuários de todos os tempos",
-    "fi": "käyttäjiä kaikkina aikoina"
+    "fi": "käyttäjiä kaikkina aikoina",
+    "zh": "历史总用户数"
   }
 }
