@@ -12,7 +12,8 @@ const milestones = {
         es: "¡Primera tarjeta añadida! 🎉",
         pt: "Primeira carta adicionada! 🎉",
         fi: "Ensimmäinen kortti lisätty! 🎉",
-        zh: "第一张卡片已添加！🎉"
+        zh: "第一张卡片已添加！🎉",
+        hi: "पहला कार्ड जोड़ा गया! 🎉"
     },
     5: {
         en: "5 cards — great start!",
@@ -26,7 +27,8 @@ const milestones = {
         es: "5 tarjetas — ¡gran comienzo!",
         pt: "5 cartas — ótimo começo!",
         fi: "5 korttia — loistava alku!",
-        zh: "5张卡片 — 很好的开始！"
+        zh: "5张卡片 — 很好的开始！",
+        hi: "5 कार्ड — बढ़िया शुरुआत!"
     },
     10: {
         en: "10 cards — you're learning!",
@@ -40,7 +42,8 @@ const milestones = {
         es: "10 tarjetas — ¡ya estás aprendiendo!",
         pt: "10 cartas — você já está aprendendo!",
         fi: "10 korttia — olet jo oppimassa!",
-        zh: "10张卡片 — 你正在学习！"
+        zh: "10张卡片 — 你正在学习！",
+        hi: "10 कार्ड — आप सीख रहे हैं!"
     },
     25: {
         en: "25 cards — keep going!",
@@ -54,7 +57,8 @@ const milestones = {
         es: "25 tarjetas — ¡sigue así!",
         pt: "25 cartas — continue assim!",
         fi: "25 korttia — jatka samaan malliin!",
-        zh: "25张卡片 — 继续加油！"
+        zh: "25张卡片 — 继续加油！",
+        hi: "25 कार्ड — चलते रहें!"
     },
     50: {
         en: "50 cards — wow!",
@@ -68,7 +72,8 @@ const milestones = {
         es: "50 tarjetas — ¡guau!",
         pt: "50 cartas — uau!",
         fi: "50 korttia — vau!",
-        zh: "50张卡片 — 哇！"
+        zh: "50张卡片 — 哇！",
+        hi: "50 कार्ड — वाह!"
     },
     100: {
         en: "100 cards — A1 Beginner! You know the essential core of language. 🎯",
@@ -82,7 +87,8 @@ const milestones = {
         es: "100 tarjetas — ¡A1 Principiante! Conoces el núcleo esencial del idioma. 🎯",
         pt: "100 cartas — A1 Iniciante! Você conhece o núcleo essencial do idioma. 🎯",
         fi: "100 korttia — A1 Aloittelija! Tunnet kielen perusytimen. 🎯",
-        zh: "100张卡片 — A1初学者！你掌握了语言的核心基础。🎯"
+        zh: "100张卡片 — A1初学者！你掌握了语言的核心基础。🎯",
+        hi: "100 कार्ड — A1 शुरुआती! आप भाषा के मूलभूत सिद्धांतों को जानते हैं। 🎯"
     },
     500: {
         en: "500 cards — still A1, but getting stronger! 💪",
@@ -96,7 +102,8 @@ const milestones = {
         es: "500 tarjetas — sigues en A1, pero cada vez más fuerte! 💪",
         pt: "500 cartas — ainda A1, mas ficando mais forte! 💪",
         fi: "500 korttia — vielä A1, mutta vahvistut! 💪",
-        zh: "500张卡片 — 仍在A1，但越来越强！💪"
+        zh: "500张卡片 — 仍在A1，但越来越强！💪",
+        hi: "500 कार्ड — अभी भी A1, लेकिन मजबूत हो रहे हैं! 💪"
     },
     1000: {
         en: "1000 cards — A2 Elementary! You can handle everyday situations now. 🗣️",
@@ -110,7 +117,8 @@ const milestones = {
         es: "1000 tarjetas — ¡A2 Elemental! Puedes manejar situaciones cotidianas ahora. 🗣️",
         pt: "1000 cartas — A2 Elementar! Você pode lidar com situações cotidianas agora. 🗣️",
         fi: "1000 korttia — A2 Alkeistaso! Pystyt käsittelemään arkipäivän tilanteita nyt. 🗣️",
-        zh: "1000张卡片 — A2初级！你现在可以应对日常情况了。🗣️"
+        zh: "1000张卡片 — A2初级！你现在可以应对日常情况了。🗣️",
+        hi: "1000 कार्ड — A2 प्राथमिक! आप अब रोज़मर्रा की स्थितियों को संभाल सकते हैं। 🗣️"
     },
     2000: {
         en: "2000 cards — B1 Intermediate! You're an independent user. HUGE milestone! 🚀",
@@ -124,7 +132,8 @@ const milestones = {
         es: "2000 tarjetas — ¡B1 Intermedio! Eres un usuario independiente. ¡GRAN hito! 🚀",
         pt: "2000 cartas — B1 Intermediário! Você é um usuário independente. GRANDE marco! 🚀",
         fi: "2000 korttia — B1 Keskitaso! Olet itsenäinen käyttäjä. VALTAVA virstanpylväs! 🚀",
-        zh: "2000张卡片 — B1中级！你是一个独立的使用者。巨大的里程碑！🚀"
+        zh: "2000张卡片 — B1中级！你是一个独立的使用者。巨大的里程碑！🚀",
+        hi: "2000 कार्ड — B1 मध्यवर्ती! आप एक स्वतंत्र उपयोगकर्ता हैं। बहुत बड़ा मील का पत्थर! 🚀"
     },
     4000: {
         en: "4000 cards — B2 Upper Intermediate! Fluent conversations unlocked. 🔥",
@@ -138,7 +147,8 @@ const milestones = {
         es: "4000 tarjetas — ¡B2 Intermedio Alto! Conversaciones fluidas desbloqueadas. 🔥",
         pt: "4000 cartas — B2 Intermediário Avançado! Conversas fluidas desbloqueadas. 🔥",
         fi: "4000 korttia — B2 Ylempi keskitaso! Sujuvat keskustelut avattu. 🔥",
-        zh: "4000张卡片 — B2中高级！流畅对话已解锁。🔥"
+        zh: "4000张卡片 — B2中高级！流畅对话已解锁。🔥",
+        hi: "4000 कार्ड — B2 ऊपरी मध्यवर्ती! धाराप्रवाह बातचीत अनलॉक। 🔥"
     },
     8000: {
         en: "8000 cards — C1 Advanced! Native-like command. Massive respect! 🏆",
@@ -152,7 +162,8 @@ const milestones = {
         es: "8000 tarjetas — ¡C1 Avanzado! Dominio casi nativo. ¡Enorme respeto! 🏆",
         pt: "8000 cartas — C1 Avançado! Domínio quase nativo. Grande respeito! 🏆",
         fi: "8000 korttia — C1 Edistynyt! Äidinkielen taso. Valtaisa kunnioitus! 🏆",
-        zh: "8000张卡片 — C1高级！接近母语水平。非常敬佩！🏆"
+        zh: "8000张卡片 — C1高级！接近母语水平。非常敬佩！🏆",
+        hi: "8000 कार्ड — C1 उन्नत! देशी-जैसी कमान। बहुत सम्मान! 🏆"
     },
     16000: {
         en: "16000 cards — C2 Proficiency! You're a master of language. 👑",
@@ -166,7 +177,8 @@ const milestones = {
         es: "16000 tarjetas — ¡C2 Dominio! Eres un maestro del idioma. 👑",
         pt: "16000 cartas — C2 Proficiência! Você é um mestre do idioma. 👑",
         fi: "16000 korttia — C2 Täydellinen hallinta! Olet kielen mestari. 👑",
-        zh: "16000张卡片 — C2精通！你是语言大师。👑"
+        zh: "16000张卡片 — C2精通！你是语言大师。👑",
+        hi: "16000 कार्ड — C2 प्रवीणता! आप भाषा के विशेषज्ञ हैं। 👑"
     },
     20000: {
         en: "20000 cards — WordForge Legend! 🌟",
@@ -180,6 +192,7 @@ const milestones = {
         es: "20000 tarjetas — ¡Leyenda de WordForge! 🌟",
         pt: "20000 cartas — Lenda do WordForge! 🌟",
         fi: "20000 korttia — WordForge-legenda! 🌟",
-        zh: "20000张卡片 — WordForge传奇！🌟"
+        zh: "20000张卡片 — WordForge传奇！🌟",
+        hi: "20000 कार्ड — WordForge लीजेंड! 🌟"
     }
 };

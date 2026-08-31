@@ -2,7 +2,7 @@
 let UserLang = navigator.language.split('-')[0];
 let switchLanCount = localStorage.getItem("language");
 if(!switchLanCount) {
-    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr" && UserLang !== "ja" && UserLang !== "ka" && UserLang !== "el" && UserLang !== "es" && UserLang !== "pt" && UserLang !== "fi" && UserLang !== "zh") {
+    if(UserLang !== "en" && UserLang !== "de" && UserLang !== "ru" && UserLang !== "pl" && UserLang !== "sr" && UserLang !== "ja" && UserLang !== "ka" && UserLang !== "el" && UserLang !== "es" && UserLang !== "pt" && UserLang !== "fi" && UserLang !== "zh" && UserLang !== "hi") {
         switchLanCount = "en";
     } else {
         switchLanCount = UserLang;

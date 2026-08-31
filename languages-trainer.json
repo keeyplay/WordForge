@@ -11,7 +11,8 @@
     "es": "Desliza a la izquierda — no sé · derecha — sé",
     "pt": "Deslize para a esquerda — não sei · direita — sei",
     "fi": "Pyyhkäise vasemmalle — en tiedä · oikealle — tiedän",
-    "zh": "左滑 — 不知道 · 右滑 — 知道"
+    "zh": "左滑 — 不知道 · 右滑 — 知道",
+    "hi": "बाएं स्वाइप करें — नहीं जानता · दाएं — जानता हूं"
   },
   "btn-dont-know": {
     "en": "Don't know",
@@ -25,7 +26,8 @@
     "es": "No sé",
     "pt": "Não sei",
     "fi": "En tiedä",
-    "zh": "不知道"
+    "zh": "不知道",
+    "hi": "नहीं जानता"
   },
   "btn-know": {
     "en": "Know",
@@ -39,7 +41,8 @@
     "es": "Sé",
     "pt": "Sei",
     "fi": "Tiedän",
-    "zh": "知道"
+    "zh": "知道",
+    "hi": "जानता हूं"
   },
   "empty-title": {
     "en": "No cards yet",
@@ -53,7 +56,8 @@
     "es": "Aún no hay tarjetas",
     "pt": "Ainda não há cartas",
     "fi": "Ei vielä kortteja",
-    "zh": "还没有卡片"
+    "zh": "还没有卡片",
+    "hi": "अभी कोई कार्ड नहीं"
   },
   "empty-desc": {
     "en": "Add your first card below to start learning.",
@@ -67,7 +71,8 @@
     "es": "Añade tu primera tarjeta abajo para empezar a aprender.",
     "pt": "Adicione sua primeira carta abaixo para começar a aprender.",
     "fi": "Lisää ensimmäinen korttisi alle aloittaaksesi oppimisen.",
-    "zh": "在下方添加您的第一张卡片开始学习。"
+    "zh": "在下方添加您的第一张卡片开始学习。",
+    "hi": "सीखना शुरू करने के लिए नीचे अपना पहला कार्ड जोड़ें।"
   },
   "done-title": {
     "en": "All done",
@@ -81,7 +86,8 @@
     "es": "Todo listo",
     "pt": "Tudo pronto",
     "fi": "Kaikki valmista",
-    "zh": "全部完成"
+    "zh": "全部完成",
+    "hi": "सब हो गया"
   },
   "done-desc": {
     "en": "You've gone through the deck. Add more cards or start again.",
@@ -95,7 +101,8 @@
     "es": "Has completado el mazo. Añade más tarjetas o empieza de nuevo.",
     "pt": "Você completou o baralho. Adicione mais cartas ou comece novamente.",
     "fi": "Olet käynyt läpi korttipakan. Lisää kortteja tai aloita alusta.",
-    "zh": "您已经学完了所有卡片。添加更多卡片或重新开始。"
+    "zh": "您已经学完了所有卡片。添加更多卡片或重新开始。",
+    "hi": "आपने डेक पूरा कर लिया है। और कार्ड जोड़ें या फिर से शुरू करें।"
   },
   "btn-start-again": {
     "en": "Start again",
@@ -109,7 +116,8 @@
     "es": "Empezar de nuevo",
     "pt": "Começar de novo",
     "fi": "Aloita alusta",
-    "zh": "重新开始"
+    "zh": "重新开始",
+    "hi": "फिर से शुरू करें"
   },
   "btn-create-text": {
     "en": "Add card",
@@ -123,7 +131,8 @@
     "es": "Añadir tarjeta",
     "pt": "Adicionar carta",
     "fi": "Lisää kortti",
-    "zh": "添加卡片"
+    "zh": "添加卡片",
+    "hi": "कार्ड जोड़ें"
   },
   "create-hint": {
     "en": "New words appear in the deck",
@@ -137,7 +146,8 @@
     "es": "Las nuevas palabras aparecen en el mazo",
     "pt": "Novas palavras aparecem no baralho",
     "fi": "Uudet sanat ilmestyvät pakkaan",
-    "zh": "新单词会出现在牌组中"
+    "zh": "新单词会出现在牌组中",
+    "hi": "नए शब्द डेक में दिखाई देते हैं"
   },
   "btn-edit-text": {
     "en": "Edit Cards",
@@ -151,7 +161,8 @@
     "es": "Editar tarjetas",
     "pt": "Editar cartas",
     "fi": "Muokkaa kortteja",
-    "zh": "编辑卡片"
+    "zh": "编辑卡片",
+    "hi": "कार्ड संपादित करें"
   },
   "create-hint-edit": {
     "en": "Edit Cards",
@@ -165,7 +176,8 @@
     "es": "Editar tarjetas",
     "pt": "Editar cartas",
     "fi": "Muokkaa kortteja",
-    "zh": "编辑卡片"
+    "zh": "编辑卡片",
+    "hi": "कार्ड संपादित करें"
   },
   "footer-link": {
     "en": "Home",
@@ -179,7 +191,8 @@
     "es": "Inicio",
     "pt": "Início",
     "fi": "Koti",
-    "zh": "首页"
+    "zh": "首页",
+    "hi": "होम"
   },
   "modal-title-add": {
     "en": "Add card",
@@ -193,7 +206,8 @@
     "es": "Añadir tarjeta",
     "pt": "Adicionar carta",
     "fi": "Lisää kortti",
-    "zh": "添加卡片"
+    "zh": "添加卡片",
+    "hi": "कार्ड जोड़ें"
   },
   "modal-label-word": {
     "en": "Word",
@@ -207,7 +221,8 @@
     "es": "Palabra",
     "pt": "Palavra",
     "fi": "Sana",
-    "zh": "单词"
+    "zh": "单词",
+    "hi": "शब्द"
   },
   "input-word-placeholder": {
     "en": "e.g. apple",
@@ -221,7 +236,8 @@
     "es": "p.ej. manzana",
     "pt": "ex: maçã",
     "fi": "esim. omena",
-    "zh": "例如：苹果"
+    "zh": "例如：苹果",
+    "hi": "जैसे: सेब"
   },
   "modal-label-translation": {
     "en": "Translation",
@@ -235,7 +251,8 @@
     "es": "Traducción",
     "pt": "Tradução",
     "fi": "Käännös",
-    "zh": "翻译"
+    "zh": "翻译",
+    "hi": "अनुवाद"
   },
   "input-translation-placeholder": {
     "en": "e.g. яблоко",
@@ -249,7 +266,8 @@
     "es": "p.ej. manzana",
     "pt": "ex: maçã",
     "fi": "esim. omena",
-    "zh": "例如：苹果"
+    "zh": "例如：苹果",
+    "hi": "जैसे: सेब"
   },
   "btn-modal-cancel": {
     "en": "Cancel",
@@ -263,7 +281,8 @@
     "es": "Cancelar",
     "pt": "Cancelar",
     "fi": "Peruuta",
-    "zh": "取消"
+    "zh": "取消",
+    "hi": "रद्द करें"
   },
   "btn-modal-save": {
     "en": "Save",
@@ -277,7 +296,8 @@
     "es": "Guardar",
     "pt": "Salvar",
     "fi": "Tallenna",
-    "zh": "保存"
+    "zh": "保存",
+    "hi": "सहेजें"
   },
   "btn-modal-delete-all-edit": {
     "en": "Delete all",
@@ -291,7 +311,8 @@
     "es": "Eliminar todo",
     "pt": "Excluir tudo",
     "fi": "Poista kaikki",
-    "zh": "全部删除"
+    "zh": "全部删除",
+    "hi": "सभी हटाएं"
   },
   "btn-modal-cancel-edit": {
     "en": "Cancel",
@@ -305,7 +326,8 @@
     "es": "Cancelar",
     "pt": "Cancelar",
     "fi": "Peruuta",
-    "zh": "取消"
+    "zh": "取消",
+    "hi": "रद्द करें"
   },
   "card-label-front": {
     "en": "Word",
@@ -319,7 +341,8 @@
     "es": "Palabra",
     "pt": "Palavra",
     "fi": "Sana",
-    "zh": "单词"
+    "zh": "单词",
+    "hi": "शब्द"
   },
   "card-label-back": {
     "en": "Translation",
@@ -333,7 +356,8 @@
     "es": "Traducción",
     "pt": "Tradução",
     "fi": "Käännös",
-    "zh": "翻译"
+    "zh": "翻译",
+    "hi": "अनुवाद"
   },
   "change_language": {
     "en": "🇬🇧",
@@ -347,7 +371,8 @@
     "es": "🇪🇸",
     "pt": "🇵🇹",
     "fi": "🇫🇮",
-    "zh": "🇨🇳"
+    "zh": "🇨🇳",
+    "hi": "🇮🇳"
   },
   "alert-fill-fields": {
     "en": "Please fill out all fields",
@@ -361,7 +386,8 @@
     "es": "Por favor, rellena todos los campos",
     "pt": "Por favor, preencha todos os campos",
     "fi": "Täytä kaikki kentät",
-    "zh": "请填写所有字段"
+    "zh": "请填写所有字段",
+    "hi": "कृपया सभी फ़ील्ड भरें"
   },
   "alert-max-chars": {
     "en": "Maximum 15 characters",
@@ -375,7 +401,8 @@
     "es": "Máximo 15 caracteres",
     "pt": "Máximo 15 caracteres",
     "fi": "Enintään 15 merkkiä",
-    "zh": "最多15个字符"
+    "zh": "最多15个字符",
+    "hi": "अधिकतम 15 अक्षर"
   },
   "confirm-delete": {
     "en": "Are you sure you want to delete your progress?",
@@ -389,7 +416,8 @@
     "es": "¿Estás seguro de que quieres eliminar todo tu progreso?",
     "pt": "Tem certeza de que deseja excluir todo o seu progresso?",
     "fi": "Haluatko varmasti poistaa edistymisesi?",
-    "zh": "您确定要删除所有进度吗？"
+    "zh": "您确定要删除所有进度吗？",
+    "hi": "क्या आप वाकई अपनी प्रगति हटाना चाहते हैं?"
   },
   "addcard": {
     "en": "Add card",
@@ -403,7 +431,8 @@
     "es": "Añadir tarjeta",
     "pt": "Adicionar carta",
     "fi": "Lisää kortti",
-    "zh": "添加卡片"
+    "zh": "添加卡片",
+    "hi": "कार्ड जोड़ें"
   },
   "addcardD": {
     "en": "New words appear in the deck",
@@ -417,7 +446,8 @@
     "es": "Las nuevas palabras aparecen en el mazo",
     "pt": "Novas palavras aparecem no baralho",
     "fi": "Uudet sanat ilmestyvät pakkaan",
-    "zh": "新单词会出现在牌组中"
+    "zh": "新单词会出现在牌组中",
+    "hi": "नए शब्द डेक में दिखाई देते हैं"
   },
   "editcard": {
     "en": "Edit Cards",
@@ -431,7 +461,8 @@
     "es": "Editar tarjetas",
     "pt": "Editar cartas",
     "fi": "Muokkaa kortteja",
-    "zh": "编辑卡片"
+    "zh": "编辑卡片",
+    "hi": "कार्ड संपादित करें"
   },
   "editcardD": {
     "en": "Edit Cards",
@@ -445,7 +476,8 @@
     "es": "Editar tarjetas",
     "pt": "Editar cartas",
     "fi": "Muokkaa kortteja",
-    "zh": "编辑卡片"
+    "zh": "编辑卡片",
+    "hi": "कार्ड संपादित करें"
   },
   "btn-delete-card": {
     "en": "Delete",
@@ -459,7 +491,8 @@
     "es": "Eliminar",
     "pt": "Excluir",
     "fi": "Poista",
-    "zh": "删除"
+    "zh": "删除",
+    "hi": "हटाएं"
   },
   "statistic": {
     "en": "📈 Statistics",
@@ -473,7 +506,8 @@
     "es": "📈 Estadísticas",
     "pt": "📈 Estatísticas",
     "fi": "📈 Tilastot",
-    "zh": "📈 统计"
+    "zh": "📈 统计",
+    "hi": "📈 सांख्यिकी"
   },
   "progress": {
     "en": "Progress",
@@ -487,7 +521,8 @@
     "es": "Progreso",
     "pt": "Progresso",
     "fi": "Edistyminen",
-    "zh": "进度"
+    "zh": "进度",
+    "hi": "प्रगति"
   },
   "distrib": {
     "en": "Distribution",
@@ -501,7 +536,8 @@
     "es": "Distribución",
     "pt": "Distribuição",
     "fi": "Jakautuma",
-    "zh": "分布"
+    "zh": "分布",
+    "hi": "वितरण"
   },
   "total_card": {
     "en": "Total cards",
@@ -515,7 +551,8 @@
     "es": "Total de tarjetas",
     "pt": "Total de cartas",
     "fi": "Kortteja yhteensä",
-    "zh": "卡片总数"
+    "zh": "卡片总数",
+    "hi": "कुल कार्ड"
   },
   "learned": {
     "en": "Learned",
@@ -529,7 +566,8 @@
     "es": "Aprendidas",
     "pt": "Aprendidas",
     "fi": "Opittu",
-    "zh": "已学会"
+    "zh": "已学会",
+    "hi": "सीखा हुआ"
   },
   "streksStat": {
     "en": "Streak",
@@ -543,7 +581,8 @@
     "es": "Racha",
     "pt": "Sequência",
     "fi": "Putki",
-    "zh": "连续天数"
+    "zh": "连续天数",
+    "hi": "लगातार"
   },
   "today": {
     "en": "Today",
@@ -557,7 +596,8 @@
     "es": "Hoy",
     "pt": "Hoje",
     "fi": "Tänään",
-    "zh": "今天"
+    "zh": "今天",
+    "hi": "आज"
   },
   "import": {
     "en": "Import",
@@ -571,7 +611,8 @@
     "es": "Importar",
     "pt": "Importar",
     "fi": "Tuo",
-    "zh": "导入"
+    "zh": "导入",
+    "hi": "आयात करें"
   },
   "export": {
     "en": "Export",
@@ -585,7 +626,8 @@
     "es": "Exportar",
     "pt": "Exportar",
     "fi": "Vie",
-    "zh": "导出"
+    "zh": "导出",
+    "hi": "निर्यात करें"
   },
   "importexportcardD": {
     "en": "Import / export Cards",
@@ -599,7 +641,8 @@
     "es": "Importar / exportar tarjetas",
     "pt": "Importar / exportar cartas",
     "fi": "Tuo / Vie kortit",
-    "zh": "导入 / 导出卡片"
+    "zh": "导入 / 导出卡片",
+    "hi": "कार्ड आयात / निर्यात करें"
   },
   "txt-word": {
     "en": "word",
@@ -613,7 +656,8 @@
     "es": "palabra",
     "pt": "palavra",
     "fi": "sana",
-    "zh": "单词"
+    "zh": "单词",
+    "hi": "शब्द"
   },
   "txt-translation": {
     "en": "translation",
@@ -627,7 +671,8 @@
     "es": "traducción",
     "pt": "tradução",
     "fi": "käännös",
-    "zh": "翻译"
+    "zh": "翻译",
+    "hi": "अनुवाद"
   },
   "multi_verse_accounts": {
     "en": "Multi-Verse Accounts",
@@ -641,7 +686,8 @@
     "es": "Cuentas Multi-Verse",
     "pt": "Contas Multi-Verse",
     "fi": "Multi-Verse -tilit",
-    "zh": "多重宇宙账户"
+    "zh": "多重宇宙账户",
+    "hi": "मल्टी-वर्स खाते"
   },
   "whatsit": {
     "en": "What's it?",
@@ -655,7 +701,8 @@
     "es": "¿Qué es?",
     "pt": "O que é isso?",
     "fi": "Mikä se on?",
-    "zh": "这是什么？"
+    "zh": "这是什么？",
+    "hi": "यह क्या है?"
   },
   "modalAccountsContainerText": {
     "en": "Multi-Verse Profiles - separate accounts for each language. Learn English? German? Russian? Switch anytime, cards never mix",
@@ -669,7 +716,8 @@
     "es": "Perfiles Multi-Verse - cuentas separadas para cada idioma. ¿Aprendes inglés? ¿Alemán? ¿Ruso? Cambia cuando quieras, las tarjetas nunca se mezclan",
     "pt": "Perfis Multi-Verse - contas separadas para cada idioma. Aprende inglês? Alemão? Russo? Mude quando quiser, as cartas nunca se misturam",
     "fi": "Multi-Verse-profiilit - erilliset tilit jokaiselle kielelle. Opitko englantia? Saksaa? Venäjää? Vaihda milloin tahansa, kortit eivät koskaan sekoitu",
-    "zh": "多重宇宙档案 - 每种语言都有独立的账户。学习英语？德语？俄语？随时切换，卡片永不混淆"
+    "zh": "多重宇宙档案 - 每种语言都有独立的账户。学习英语？德语？俄语？随时切换，卡片永不混淆",
+    "hi": "मल्टी-वर्स प्रोफाइल - प्रत्येक भाषा के लिए अलग खाते। अंग्रेज़ी सीखें? जर्मन? रूसी? कभी भी स्विच करें, कार्ड कभी मिक्स नहीं होते"
   },
   "deletealldata": {
     "en": "Delete all data",
@@ -683,7 +731,8 @@
     "es": "Eliminar todos los datos",
     "pt": "Excluir todos os dados",
     "fi": "Poista kaikki tiedot",
-    "zh": "删除所有数据"
+    "zh": "删除所有数据",
+    "hi": "सभी डेटा हटाएं"
   },
   "all-cards-county": {
     "en": "Create new account",
@@ -697,7 +746,8 @@
     "es": "Crear nueva cuenta",
     "pt": "Criar nova conta",
     "fi": "Luo uusi tili",
-    "zh": "创建新账户"
+    "zh": "创建新账户",
+    "hi": "नया खाता बनाएं"
   },
   "whatslang": {
     "en": "What language do you want to learn?",
@@ -711,7 +761,8 @@
     "es": "¿Qué idioma quieres aprender?",
     "pt": "Qual idioma você quer aprender?",
     "fi": "Mitä kieltä haluat oppia?",
-    "zh": "您想学习哪种语言？"
+    "zh": "您想学习哪种语言？",
+    "hi": "आप कौन सी भाषा सीखना चाहते हैं?"
   },
   "dropdownBtn": {
     "en": "Choose language",
@@ -725,7 +776,8 @@
     "es": "Elige idioma",
     "pt": "Escolha o idioma",
     "fi": "Valitse kieli",
-    "zh": "选择语言"
+    "zh": "选择语言",
+    "hi": "भाषा चुनें"
   },
   "continue": {
     "en": "Continue",
@@ -739,7 +791,8 @@
     "es": "Continuar",
     "pt": "Continuar",
     "fi": "Jatka",
-    "zh": "继续"
+    "zh": "继续",
+    "hi": "जारी रखें"
   },
   "all_cards": {
     "en": "All Cards",
@@ -753,7 +806,8 @@
     "es": "Todas las tarjetas",
     "pt": "Todas as cartas",
     "fi": "Kaikki kortit",
-    "zh": "所有卡片"
+    "zh": "所有卡片",
+    "hi": "सभी कार्ड"
   },
   "word_label": {
     "en": "Word",
@@ -767,7 +821,8 @@
     "es": "Palabra",
     "pt": "Palavra",
     "fi": "Sana",
-    "zh": "单词"
+    "zh": "单词",
+    "hi": "शब्द"
   },
   "translation_label": {
     "en": "Translation",
@@ -781,7 +836,8 @@
     "es": "Traducción",
     "pt": "Tradução",
     "fi": "Käännös",
-    "zh": "翻译"
+    "zh": "翻译",
+    "hi": "अनुवाद"
   },
   "other": {
     "en": "Other",
@@ -795,7 +851,8 @@
     "es": "Otro",
     "pt": "Outro",
     "fi": "Muu",
-    "zh": "其他"
+    "zh": "其他",
+    "hi": "अन्य"
   },
   "abt": {
     "en": "ABOUT",
@@ -809,7 +866,8 @@
     "es": "ACERCA DE",
     "pt": "SOBRE",
     "fi": "TIETOA",
-    "zh": "关于"
+    "zh": "关于",
+    "hi": "के बारे में"
   },
   "discribe-abt": {
     "en": "Simple vocabulary trainer. No sign-up, no payments. Just open and learn.",
@@ -823,7 +881,8 @@
     "es": "Entrenador de vocabulario simple. Sin registro, sin pagos. Solo abre y aprende.",
     "pt": "Treinador de vocabulário simples. Sem cadastro, sem pagamentos. Apenas abra e aprenda.",
     "fi": "Yksinkertainen sanastoharjoittelija. Ei rekisteröitymistä, ei maksuja. Avaa ja opi.",
-    "zh": "简单的词汇训练器。无需注册，无需付费。打开即学。"
+    "zh": "简单的词汇训练器。无需注册，无需付费。打开即学。",
+    "hi": "सरल शब्दावली ट्रेनर। कोई साइन-अप नहीं, कोई भुगतान नहीं। बस खोलें और सीखें।"
   },
   "localstorage-f": {
     "en": "🌗 LocalStorage",
@@ -837,7 +896,8 @@
     "es": "🌗 Almacenamiento local",
     "pt": "🌗 Armazenamento local",
     "fi": "🌗 Paikallinen tallennus",
-    "zh": "🌗 本地存储"
+    "zh": "🌗 本地存储",
+    "hi": "🌗 स्थानीय भंडारण"
   },
   "Online-f": {
     "en": "🌍 Online",
@@ -851,7 +911,8 @@
     "es": "🌍 En línea",
     "pt": "🌍 Online",
     "fi": "🌍 Verkossa",
-    "zh": "🌍 在线"
+    "zh": "🌍 在线",
+    "hi": "🌍 ऑनलाइन"
   },
   "Stats-f": {
     "en": "📊 Stats",
@@ -865,7 +926,8 @@
     "es": "📊 Estadísticas",
     "pt": "📊 Estatísticas",
     "fi": "📊 Tilastot",
-    "zh": "📊 统计"
+    "zh": "📊 统计",
+    "hi": "📊 आंकड़े"
   },
   "Streaks-f": {
     "en": "🎯 Streaks",
@@ -879,7 +941,8 @@
     "es": "🎯 Rachas",
     "pt": "🎯 Sequências",
     "fi": "🎯 Putket",
-    "zh": "🎯 连续天数"
+    "zh": "🎯 连续天数",
+    "hi": "🎯 लगातार"
   },
   "footer-info": {
     "en": "Built by 15-yo dev • 80+ days #buildinpublic",
@@ -893,7 +956,8 @@
     "es": "Creado por un dev de 15 años • 80+ días #buildinpublic",
     "pt": "Criado por um dev de 15 anos • 80+ dias #buildinpublic",
     "fi": "15-vuotiaan kehittäjän rakentama • 80+ päivää #buildinpublic",
-    "zh": "由15岁开发者构建 • 80+天 #buildinpublic"
+    "zh": "由15岁开发者构建 • 80+天 #buildinpublic",
+    "hi": "15 वर्षीय डेव द्वारा निर्मित • 80+ दिन #buildinpublic"
   },
   "news-txt": {
     "en": "LATEST NEWS",
@@ -907,7 +971,8 @@
     "es": "ÚLTIMAS NOTICIAS",
     "pt": "ÚLTIMAS NOTÍCIAS",
     "fi": "VIIMEISIMMÄT UUTISET",
-    "zh": "最新消息"
+    "zh": "最新消息",
+    "hi": "ताज़ा खबरें"
   },
   "premiumTitle": {
     "en": "WordForge Premium",
@@ -921,7 +986,8 @@
     "es": "WordForge Premium",
     "pt": "WordForge Premium",
     "fi": "WordForge Premium",
-    "zh": "WordForge 高级版"
+    "zh": "WordForge 高级版",
+    "hi": "WordForge प्रीमियम"
   },
   "premiumSubtitle": {
     "en": "Stop memorizing. Start owning.",
@@ -935,7 +1001,8 @@
     "es": "Deja de memorizar. Empieza a poseer.",
     "pt": "Pare de memorizar. Comece a possuir.",
     "fi": "Lopeta ulkoa opettelu. Aloita omistaminen.",
-    "zh": "停止死记硬背。开始掌握。"
+    "zh": "停止死记硬背。开始掌握。",
+    "hi": "रटना बंद करें। मालिक बनना शुरू करें।"
   },
   "feat1": {
     "en": "🌗 Custom themes",
@@ -949,7 +1016,8 @@
     "es": "🌗 Temas personalizados",
     "pt": "🌗 Temas personalizados",
     "fi": "🌗 Mukautetut teemat",
-    "zh": "🌗 自定义主题"
+    "zh": "🌗 自定义主题",
+    "hi": "🌗 कस्टम थीम"
   },
   "feat2": {
     "en": "📊 Visual stats",
@@ -963,7 +1031,8 @@
     "es": "📊 Estadísticas visuales",
     "pt": "📊 Estatísticas visuais",
     "fi": "📊 Visuaaliset tilastot",
-    "zh": "📊 可视化统计"
+    "zh": "📊 可视化统计",
+    "hi": "📊 विज़ुअल आंकड़े"
   },
   "feat3": {
     "en": "☁️ Cloud sync",
@@ -977,7 +1046,8 @@
     "es": "☁️ Sincronización en la nube",
     "pt": "☁️ Sincronização na nuvem",
     "fi": "☁️ Pilvisynkronointi",
-    "zh": "☁️ 云端同步"
+    "zh": "☁️ 云端同步",
+    "hi": "☁️ क्लाउड सिंक"
   },
   "feat4": {
     "en": "📑 Anki/PDF",
@@ -991,7 +1061,8 @@
     "es": "📑 Anki/PDF",
     "pt": "📑 Anki/PDF",
     "fi": "📑 Anki/PDF",
-    "zh": "📑 Anki/PDF"
+    "zh": "📑 Anki/PDF",
+    "hi": "📑 Anki/PDF"
   },
   "feat5": {
     "en": "🔓 Unlimited cards",
@@ -1005,7 +1076,8 @@
     "es": "🔓 Tarjetas ilimitadas",
     "pt": "🔓 Cartas ilimitadas",
     "fi": "🔓 Rajoittamattomat kortit",
-    "zh": "🔓 无限卡片"
+    "zh": "🔓 无限卡片",
+    "hi": "🔓 असीमित कार्ड"
   },
   "feat6": {
     "en": "⚡ Priority support",
@@ -1019,7 +1091,8 @@
     "es": "⚡ Soporte prioritario",
     "pt": "⚡ Suporte prioritário",
     "fi": "⚡ Prioriteettituki",
-    "zh": "⚡ 优先支持"
+    "zh": "⚡ 优先支持",
+    "hi": "⚡ प्राथमिकता समर्थन"
   },
   "premiumPrice": {
     "en": "$4 /month",
@@ -1033,7 +1106,8 @@
     "es": "$4 /mes",
     "pt": "$4 /mês",
     "fi": "$4 /kuukausi",
-    "zh": "$4 /月"
+    "zh": "$4 /月",
+    "hi": "$4 /महीना"
   },
   "premiumSave": {
     "en": "or $45/year",
@@ -1047,7 +1121,8 @@
     "es": "o $45/año",
     "pt": "ou $45/ano",
     "fi": "tai $45/vuosi",
-    "zh": "或 $45/年"
+    "zh": "或 $45/年",
+    "hi": "या $45/वर्ष"
   },
   "premiumButton": {
     "en": "Get Premium →",
@@ -1061,7 +1136,8 @@
     "es": "Obtén Premium →",
     "pt": "Obter Premium →",
     "fi": "Hanki Premium →",
-    "zh": "获取高级版 →"
+    "zh": "获取高级版 →",
+    "hi": "प्रीमियम प्राप्त करें →"
   },
   "premiumFooterFree": {
     "en": "Free version works forever.",
@@ -1075,7 +1151,8 @@
     "es": "La versión gratuita funciona para siempre.",
     "pt": "A versão gratuita funciona para sempre.",
     "fi": "Ilmainen versio toimii ikuisesti.",
-    "zh": "免费版永久可用。"
+    "zh": "免费版永久可用。",
+    "hi": "मुफ्त संस्करण हमेशा काम करता है।"
   },
   "codeLabel": {
     "en": "code:",
@@ -1089,7 +1166,8 @@
     "es": "código:",
     "pt": "código:",
     "fi": "koodi:",
-    "zh": "代码："
+    "zh": "代码：",
+    "hi": "कोड:"
   },
   "activateButton": {
     "en": "Active",
@@ -1103,7 +1181,8 @@
     "es": "Activar",
     "pt": "Ativar",
     "fi": "Aktivoi",
-    "zh": "激活"
+    "zh": "激活",
+    "hi": "सक्रिय करें"
   },
   "premiumFooterSecure": {
     "en": "Special secure code for active Premium mode without sign-up.",
@@ -1117,7 +1196,8 @@
     "es": "Código seguro especial para activar el modo Premium sin registro.",
     "pt": "Código seguro especial para ativar o modo Premium sem cadastro.",
     "fi": "Erityinen suojakoodi Premium-tilan aktivoimiseen ilman rekisteröitymistä.",
-    "zh": "无需注册激活高级版的特殊安全代码。"
+    "zh": "无需注册激活高级版的特殊安全代码。",
+    "hi": "बिना साइन-अप के प्रीमियम मोड सक्रिय करने के लिए विशेष सुरक्षित कोड।"
   },
   "translate-learned-count": {
     "en": "Learned cards",
@@ -1131,7 +1211,8 @@
     "es": "Tarjetas aprendidas",
     "pt": "Cartas aprendidas",
     "fi": "Opitut kortit",
-    "zh": "已学会卡片"
+    "zh": "已学会卡片",
+    "hi": "सीखे गए कार्ड"
   },
   "translate-hide-learned-cards": {
     "en": "Hide learned cards",
@@ -1145,7 +1226,8 @@
     "es": "Ocultar tarjetas aprendidas",
     "pt": "Ocultar cartas aprendidas",
     "fi": "Piilota opitut kortit",
-    "zh": "隐藏已学会卡片"
+    "zh": "隐藏已学会卡片",
+    "hi": "सीखे गए कार्ड छुपाएं"
   },
   "coinsStat": {
     "en": "Coins",
@@ -1159,7 +1241,8 @@
     "es": "Monedas",
     "pt": "Moedas",
     "fi": "Kolikot",
-    "zh": "硬币"
+    "zh": "硬币",
+    "hi": "सिक्के"
   },
   "LearnedRateStat": {
     "en": "Learned rate",
@@ -1173,7 +1256,8 @@
     "es": "Tasa de aprendizaje",
     "pt": "Taxa de aprendizado",
     "fi": "Oppimisprosentti",
-    "zh": "学习率"
+    "zh": "学习率",
+    "hi": "सीखने की दर"
   },
   "title-settings": {
     "en": "Settings",
@@ -1187,7 +1271,8 @@
     "es": "Configuración",
     "pt": "Configurações",
     "fi": "Asetukset",
-    "zh": "设置"
+    "zh": "设置",
+    "hi": "सेटिंग्स"
   },
   "foch": {
     "en": "Font change",
@@ -1201,7 +1286,8 @@
     "es": "Cambio de fuente",
     "pt": "Mudança de fonte",
     "fi": "Fontin vaihto",
-    "zh": "字体更换"
+    "zh": "字体更换",
+    "hi": "फ़ॉन्ट बदलें"
   },
   "onpa": {
     "en": "On particles",
@@ -1215,7 +1301,8 @@
     "es": "Activar partículas",
     "pt": "Ativar partículas",
     "fi": "Partikkelit päälle",
-    "zh": "开启粒子效果"
+    "zh": "开启粒子效果",
+    "hi": "कण चालू करें"
   },
   "timerTitle": {
     "en": "Timer",
@@ -1229,7 +1316,8 @@
     "es": "Temporizador",
     "pt": "Temporizador",
     "fi": "Ajastin",
-    "zh": "计时器"
+    "zh": "计时器",
+    "hi": "टाइमर"
   },
   "starttxt": {
     "en": "Start",
@@ -1243,7 +1331,8 @@
     "es": "Comenzar",
     "pt": "Começar",
     "fi": "Aloita",
-    "zh": "开始"
+    "zh": "开始",
+    "hi": "शुरू करें"
   },
   "timer-footer": {
     "en": "Timer on 15 minutes to practice your cards",
@@ -1257,6 +1346,7 @@
     "es": "Temporizador de 15 minutos para practicar tus tarjetas",
     "pt": "Temporizador de 15 minutos para praticar suas cartas",
     "fi": "15 minuutin ajastin korttien harjoitteluun",
-    "zh": "15分钟计时器，练习您的卡片"
+    "zh": "15分钟计时器，练习您的卡片",
+    "hi": "अपने कार्ड का अभ्यास करने के लिए 15 मिनट का टाइमर"
   }
 }

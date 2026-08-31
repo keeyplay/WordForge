@@ -43,6 +43,8 @@ if(localStorage.getItem('Profile') && !JSON.parse(localStorage.getItem(localStor
     if(localStorage.getItem("language") === "fi") showNotification("Tervetuloa WordForgeen 🃏", "Opi muistikorttien avulla. Käännä, muista, toista. Tilastot, putket ja kolikot sisällä. Lisää ensimmäinen korttisi aloittaaksesi.");
 
     if(localStorage.getItem("language") === "zh") showNotification("欢迎来到WordForge 🃏", "使用闪卡学习。翻转、记忆、重复。内置统计、连续天数和硬币。添加您的第一张卡片开始学习。");
+
+    if(localStorage.getItem("language") === "hi") showNotification("WordForge में आपका स्वागत है 🃏", "फ्लैशकार्ड के साथ सीखें। पलटें, याद करें, दोहराएं। आँकड़े, लगातार और सिक्के अंदर। शुरू करने के लिए अपना पहला कार्ड जोड़ें।");
 }
 
 function hideNotification() {
