@@ -1518,3 +1518,7 @@ video {
     padding: 5px 5px;
     border-radius: 10px;
 }
+
+#playMusic:hover {
+    cursor: pointer;
+}

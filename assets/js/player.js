@@ -1,12 +1,21 @@
+const playMusic = document.getElementById("playMusic");
+const playMusicSymbol = document.getElementById("playMusicSymbol");
 let musicplayrn = false;
 
-function playMusicOnRepeat(filePath) {
-    const audio = new Audio(filePath);
-    audio.loop = true;
-    audio.volume = 1.0;
-    
-    if(musicplayrn === false) audio.play(); musicplayrn = true;
-    if(musicplayrn === true) audio.pause(); musicplayrn = true;
-    
-    return audio;
+const audio = new Audio("../assets/music/music.mp3");
+audio.loop = true;
+audio.volume = 1.0;
+
+function toggleMusic() {
+    if (musicplayrn === false) {
+        audio.play();
+        musicplayrn = true; 
+        playMusicSymbol.innerText = "⏸";
+    } else {
+        audio.pause();
+        musicplayrn = false;
+        playMusicSymbol.innerText = "▷";
+    }
 }
+
+playMusic.addEventListener('click', toggleMusic);
