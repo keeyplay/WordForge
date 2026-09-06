@@ -1519,6 +1519,11 @@ video {
     border-radius: 10px;
 }
 
+#playMusic {
+    transition: 0.5s ease;
+}
+
 #playMusic:hover {
     cursor: pointer;
+    transform: scale(1.3);
 }
