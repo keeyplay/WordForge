@@ -1527,3 +1527,14 @@ video {
     cursor: pointer;
     transform: scale(1.3);
 }
+
+#defoltSongs p {
+    color: #0073ff;
+
+    transition: 0.2s ease;
+}
+
+#defoltSongs p:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
