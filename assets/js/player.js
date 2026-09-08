@@ -1,12 +1,15 @@
 const playMusic = document.getElementById("playMusic");
 const playMusicSymbol = document.getElementById("playMusicSymbol");
 let musicplayrn = false;
+// if(localStorage.getItem("musicplayrn")) musicplayrn = localStorage.getItem("musicplayrn");
+// else localStorage.setItem(false);
 
-const audio = new Audio("../assets/music/music.mp3");
+let audio = new Audio("../assets/music/music.mp3");
 audio.loop = true;
 audio.volume = 1.0;
 
-function toggleMusic() {
+function toggleMusic(path) {
+    // make argument path works
     if (musicplayrn === false) {
         audio.play();
         musicplayrn = true; 
