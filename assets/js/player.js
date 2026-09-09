@@ -10,6 +10,7 @@ audio.volume = 1.0;
 
 function toggleMusic(path) {
     // make argument path works
+    if(path !== undefined) audio = new Audio(path);
     if (musicplayrn === false) {
         audio.play();
         musicplayrn = true; 
