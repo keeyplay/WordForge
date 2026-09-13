@@ -1538,3 +1538,8 @@ video {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+#modal-music {
+    margin-top: 20px; 
+    padding: 5px;
+}
