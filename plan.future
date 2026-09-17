@@ -115,7 +115,7 @@ i need add/fix:
 - make security of themes system (add toward parametr special code) +
 - translate to georgian language +
 - translate oldindex.html to georgian language -
-- make standart language for countries wheres offical language is (for example Kazahstan - Russian, Belarus - Russian, US - english, North Makedonia - Serbian, etc.)
+- make standart language for countries wheres offical language is (for example Kazahstan - Russian, Belarus - Russian, US - english, North Makedonia - Serbian, etc.) -
 - make function of random count +
 - make all themes at demo.html?
 - move milestones from trainer.js to new file +
@@ -131,7 +131,7 @@ i need add/fix:
 - add finish language +
 - make chinese language +-
 - make hindi language +-
-- in main page create button of settings instead of button of change font
-- make music player
-- make hide ad of wordforge premium when man bought premium
-- upload the song which u want
+- in main page create button of settings instead of button of change font -+
+- make music player +
+- make hide ad of wordforge premium when man bought premium -
+- upload the song which u want -
