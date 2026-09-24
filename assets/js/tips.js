@@ -7,6 +7,14 @@ const TipTextUI = document.getElementById('TipText');
 const notificationIcon = document.getElementById('notification-icon');
 const notificationBox = document.getElementById('notification-box');
 
+let tips;
+
+async function loadtips() {
+    const response = await fetch('../../tips.json');
+    tips = await response.json();
+}
+loadtips();
+
 function showNotification(tiptitle, tiptext, type = "not") {
     if(type === "not") { //not = notification
         notificationIcon.innerText = "ℹ️"

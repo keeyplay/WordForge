@@ -1,0 +1,60 @@
+{
+  "welcome-notification": {
+    "en": {
+      "title": "Welcome to WordForge 🃏",
+      "text": "Learn with flashcards. Flip, memorize, repeat. Stats, streaks, and coins inside. Add your first card to start."
+    },
+    "ru": {
+      "title": "Добро пожаловать в WordForge 🃏",
+      "text": "Учите слова с карточками. Переворачивайте, запоминайте, повторяйте. Статистика, серии и монетки внутри. Добавьте первую карточку, чтобы начать."
+    },
+    "de": {
+      "title": "Willkommen bei WordForge 🃏",
+      "text": "Lerne mit Karteikarten. Drehe um, merke dir, wiederhole. Statistiken, Serien und Münzen inklusive. Füge deine erste Karte hinzu, um zu starten."
+    },
+    "pl": {
+      "title": "Witaj w WordForge 🃏",
+      "text": "Ucz się z fiszkami. Odwracaj, zapamiętuj, powtarzaj. Statystyki, serie i monety w środku. Dodaj swoją pierwszą kartę, aby rozpocząć."
+    },
+    "sr": {
+      "title": "Dobrodošli u WordForge 🃏",
+      "text": "Učite sa flashcards. Okrećite, zapamtite, ponavljajte. Statistika, nizovi i novčići unutra. Dodajte svoju prvu karticu da počnete."
+    },
+    "ja": {
+      "title": "WordForge 🃏へようこそ",
+      "text": "フラッシュカードで学びましょう。めくって、覚えて、繰り返す。統計、シーケンス、コインも搭載。最初のカードを追加して始めてください。"
+    },
+    "ka": {
+      "title": "მოგესალმებით WordForge 🃏-ში",
+      "text": "ისწავლეთ ფლეშ-ბარათებით. გადაატრიალეთ, დაიმახსოვრეთ, გაიმეორეთ. სტატისტიკა, სერიები და მონეტები შიგნით. დაამატეთ პირველი ბარათი დასაწყებად."
+    },
+    "el": {
+      "title": "Καλώς ήρθατε στο WordForge 🃏",
+      "text": "Μάθετε με κάρτες μνήμης. Γυρίστε, απομνημονεύστε, επαναλάβετε. Στατιστικά, σερί και νομίσματα μέσα. Προσθέστε την πρώτη σας κάρτα για να ξεκινήσετε."
+    },
+    "es": {
+      "title": "Bienvenido a WordForge 🃏",
+      "text": "Aprende con tarjetas interactivas. Voltea, memoriza, repite. Estadísticas, rachas y monedas dentro. Añade tu primera tarjeta para empezar."
+    },
+    "pt": {
+      "title": "Bem-vindo ao WordForge 🃏",
+      "text": "Aprenda com flashcards. Vire, memorize, repita. Estatísticas, sequências e moedas dentro. Adicione sua primeira carta para começar."
+    },
+    "fi": {
+      "title": "Tervetuloa WordForgeen 🃏",
+      "text": "Opi muistikorttien avulla. Käännä, muista, toista. Tilastot, putket ja kolikot sisällä. Lisää ensimmäinen korttisi aloittaaksesi."
+    },
+    "zh": {
+      "title": "欢迎来到WordForge 🃏",
+      "text": "使用闪卡学习。翻转、记忆、重复。内置统计、连续天数和硬币。添加您的第一张卡片开始学习。"
+    },
+    "hi": {
+      "title": "WordForge में आपका स्वागत है 🃏",
+      "text": "फ्लैशकार्ड के साथ सीखें। पलटें, याद करें, दोहराएं। आँकड़े, लगातार और सिक्के अंदर। शुरू करने के लिए अपना पहला कार्ड जोड़ें।"
+    },
+    "ar": {
+      "title": "مرحبًا بك في WordForge 🃏",
+      "text": "تعلم باستخدام البطاقات التعليمية. اقلب، احفظ، كرر. الإحصائيات والسلاسل والعملات بالداخل. أضف بطاقتك الأولى للبدء."
+    }
+  }
+}
