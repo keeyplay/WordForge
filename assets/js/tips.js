@@ -30,10 +30,7 @@ function showNotification(tiptitle, tiptext, type = "not") {
 if(localStorage.getItem('Profile') && !JSON.parse(localStorage.getItem(localStorage.getItem('Profile'))).languageCards) {
     const lang = localStorage.getItem("language") || "en";
 
-    showNotification(
-        tips["welcome-notification"][lang]["title"],
-        tips["welcome-notification"][lang]["text"]
-    );
+    showNotification(tips["welcome-notification"][lang]["title"],tips["welcome-notification"][lang]["text"], tips["welcome-notification"]["type"]);
 }
 
 function hideNotification() {

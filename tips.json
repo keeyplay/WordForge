@@ -1,5 +1,6 @@
 {
   "welcome-notification": {
+    "type": "not",
     "en": {
       "title": "Welcome to WordForge 🃏",
       "text": "Learn with flashcards. Flip, memorize, repeat. Stats, streaks, and coins inside. Add your first card to start."
