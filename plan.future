@@ -137,3 +137,5 @@ i need add/fix:
 - upload the song which u want -
 - arabian language avaliable +
 - refactoring tips +
+- refactoring trainer.js to more files for readable
+- make folders for js files
