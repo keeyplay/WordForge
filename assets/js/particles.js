@@ -1,5 +1,4 @@
 const particlesDIV = document.getElementById("particles");
-const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 function startParticles() {
     for(let i = 0; i <= 500; i++) {

@@ -1,7 +1,3 @@
-function random(min, max) {
-  return min + Math.random() * (max - min);
-}
-
 class MovingStar {
   constructor() {
     this.star = document.createElement('div');
@@ -10,12 +6,12 @@ class MovingStar {
   }
   
   init() {
-    this.x = random(0, window.innerWidth);
-    this.y = random(0, window.innerHeight);
-    this.size = random(1, 4);
-    this.speed = random(0.1, 0.5);
-    this.direction = random(0, Math.PI * 2);
-    this.alpha = random(0.3, 0.8);
+    this.x = getRandomCount(0, window.innerWidth);
+    this.y = getRandomCount(0, window.innerHeight);
+    this.size = getRandomCount(1, 4);
+    this.speed = getRandomCount(0.1, 0.5);
+    this.direction = getRandomCount(0, Math.PI * 2);
+    this.alpha = getRandomCount(0.3, 0.8);
     
     this.star.style.position = 'fixed';
     this.star.style.left = this.x + 'px';
