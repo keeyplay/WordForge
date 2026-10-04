@@ -1,24 +1,36 @@
 const playMusic = document.getElementById("playMusic");
 const playMusicSymbol = document.getElementById("playMusicSymbol");
+const listofmusic = document.getElementById("link");
+
 let musicplayrn = false;
-// if(localStorage.getItem("musicplayrn")) musicplayrn = localStorage.getItem("musicplayrn");
-// else localStorage.setItem(false);
 
 let audio = new Audio("../assets/music/music.mp3");
 audio.loop = true;
 audio.volume = 1.0;
 
-function toggleMusic(path) {
-    // make argument path works
-    if(path !== undefined) audio = new Audio(path);
+function changeTrack(newPath) {
+    audio.pause();
+    audio.currentTime = 0;
+    
+    audio.src = newPath;
+    toggleMusic();
+    
+    if (musicplayrn) {
+        audio.play();
+    }
+}
+
+function toggleMusic() {
     if (musicplayrn === false) {
         audio.play();
         musicplayrn = true; 
         playMusicSymbol.innerText = "⏸";
+        listofmusic.style.display = "none";
     } else {
         audio.pause();
         musicplayrn = false;
         playMusicSymbol.innerText = "▷";
+        listofmusic.style.display = "block";
     }
 }
 
