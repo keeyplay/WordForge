@@ -1008,20 +1008,20 @@
     "ar": "🎯 السلاسل"
   },
   "footer-info": {
-    "en": "Built by 15-yo dev • 80+ days #buildinpublic",
-    "ru": "Сделано 15-летним разработчиком • 80+ дней #buildinpublic",
-    "de": "Entwickelt von 15-jährigem Dev • 80+ Tage #buildinpublic",
-    "pl": "Stworzone przez 15-letniego dewelopera • 80+ dni #buildinpublic",
-    "sr": "Napravio 15-godišnji developer • 80+ dana #buildinpublic",
-    "ja": "15歳の開発者によって制作 • 80+日間 #buildinpublic",
-    "ka": "შექმნილია 15 წლის დეველოპერის მიერ • 80+ დღე #buildinpublic",
-    "el": "Δημιουργήθηκε από 15χρονο προγραμματιστή • 80+ ημέρες #buildinpublic",
-    "es": "Creado por un dev de 15 años • 80+ días #buildinpublic",
-    "pt": "Criado por um dev de 15 anos • 80+ dias #buildinpublic",
-    "fi": "15-vuotiaan kehittäjän rakentama • 80+ päivää #buildinpublic",
-    "zh": "由15岁开发者构建 • 80+天 #buildinpublic",
-    "hi": "15 वर्षीय डेव द्वारा निर्मित • 80+ दिन #buildinpublic",
-    "ar": "بناه مطور يبلغ 15 عامًا • أكثر من 80 يومًا #buildinpublic"
+    "en": "Built by 15-yo dev • 240+ days #buildinpublic",
+    "ru": "Сделано 15-летним разработчиком • 240+ дней #buildinpublic",
+    "de": "Entwickelt von 15-jährigem Dev • 240+ Tage #buildinpublic",
+    "pl": "Stworzone przez 15-letniego dewelopera • 240+ dni #buildinpublic",
+    "sr": "Napravio 15-godišnji developer • 240+ dana #buildinpublic",
+    "ja": "15歳の開発者によって制作 • 240+日間 #buildinpublic",
+    "ka": "შექმნილია 15 წლის დეველოპერის მიერ • 240+ დღე #buildinpublic",
+    "el": "Δημιουργήθηκε από 15χρονο προγραμματιστή • 240+ ημέρες #buildinpublic",
+    "es": "Creado por un dev de 15 años • 240+ días #buildinpublic",
+    "pt": "Criado por um dev de 15 anos • 240+ dias #buildinpublic",
+    "fi": "15-vuotiaan kehittäjän rakentama • 240+ päivää #buildinpublic",
+    "zh": "由15岁开发者构建 • 240+天 #buildinpublic",
+    "hi": "15 वर्षीय डेव द्वारा निर्मित • 240+ दिन #buildinpublic",
+    "ar": "بناه مطور يبلغ 15 عامًا • أكثر من 240 يومًا #buildinpublic"
   },
   "news-txt": {
     "en": "LATEST NEWS",
@@ -1051,9 +1051,9 @@
     "es": "WordForge Premium",
     "pt": "WordForge Premium",
     "fi": "WordForge Premium",
-    "zh": "WordForge 高级版",
-    "hi": "WordForge प्रीमियम",
-    "ar": "WordForge بريميوم"
+    "zh": "WordForge Premium",
+    "hi": "WordForge Premium",
+    "ar": "WordForge Premium"
   },
   "premiumSubtitle": {
     "en": "Stop memorizing. Start owning.",
