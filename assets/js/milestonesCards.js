@@ -16,6 +16,22 @@ const milestones = {
         hi: "पहला कार्ड जोड़ा गया! 🎉",
         ar: "تمت إضافة البطاقة الأولى! 🎉"
     },
+    2: {
+        en: "2 cards — the journey begins!",
+        ru: "2 карточки — путешествие началось!",
+        de: "2 Karten — die Reise beginnt!",
+        pl: "2 karty — podróż się zaczyna!",
+        sr: "2 kartice — putovanje počinje!",
+        ja: "2枚のカード — 旅の始まり！",
+        ka: "2 ბარათი — მოგზაურობა იწყება!",
+        el: "2 κάρτες — το ταξίδι ξεκινά!",
+        es: "2 tarjetas — ¡el viaje comienza!",
+        pt: "2 cartas — a jornada começa!",
+        fi: "2 korttia — matka alkaa!",
+        zh: "2张卡片 — 旅程开始！",
+        hi: "2 कार्ड — यात्रा शुरू होती है!",
+        ar: "2 بطاقات — الرحلة تبدأ!"
+    },
     3: {
         en: "3 cards — you started!",
         ru: "3 карточки — ты начал!",
@@ -31,6 +47,22 @@ const milestones = {
         zh: "3张卡片 — 你开始了！",
         hi: "3 कार्ड — आपने शुरू किया!",
         ar: "3 بطاقات — لقد بدأت!"
+    },
+    4: {
+        en: "4 cards — building the habit!",
+        ru: "4 карточки — формируешь привычку!",
+        de: "4 Karten — Gewohnheit aufbauen!",
+        pl: "4 karty — budujesz nawyk!",
+        sr: "4 kartice — gradiš naviku!",
+        ja: "4枚のカード — 習慣を作ろう！",
+        ka: "4 ბარათი — ჩვევას აყალიბებ!",
+        el: "4 κάρτες — χτίζεις τη συνήθεια!",
+        es: "4 tarjetas — ¡construyendo el hábito!",
+        pt: "4 cartas — construindo o hábito!",
+        fi: "4 korttia — rakennat tapaa!",
+        zh: "4张卡片 — 养成习惯！",
+        hi: "4 कार्ड — आदत बना रहे हैं!",
+        ar: "4 بطاقات — تبني العادة!"
     },
     5: {
         en: "5 cards — great start!",
@@ -48,6 +80,22 @@ const milestones = {
         hi: "5 कार्ड — बढ़िया शुरुआत!",
         ar: "5 بطاقات — بداية رائعة!"
     },
+    6: {
+        en: "6 cards — you're getting into it!",
+        ru: "6 карточек — ты втягиваешься!",
+        de: "6 Karten — du kommst rein!",
+        pl: "6 kart — wciągasz się!",
+        sr: "6 kartica — uvlačiš se!",
+        ja: "6枚のカード — のめり込んできた！",
+        ka: "6 ბარათი — შედიხარ გემოვნებაში!",
+        el: "6 κάρτες — μπαίνεις στο νόημα!",
+        es: "6 tarjetas — ¡te estás enganchando!",
+        pt: "6 cartas — você está entrando no ritmo!",
+        fi: "6 korttia — pääset vauhtiin!",
+        zh: "6张卡片 — 你渐入佳境！",
+        hi: "6 कार्ड — आप इसमें आ रहे हैं!",
+        ar: "6 بطاقات — أنت تدخل في الجو!"
+    },
     7: {
         en: "7 cards — a lucky start!",
         ru: "7 карточек — счастливое начало!",
@@ -64,6 +112,38 @@ const milestones = {
         hi: "7 कार्ड — एक भाग्यशाली शुरुआत!",
         ar: "7 بطاقات — بداية محظوظة!"
     },
+    8: {
+        en: "8 cards — steady pace!",
+        ru: "8 карточек — стабильный темп!",
+        de: "8 Karten — stabiles Tempo!",
+        pl: "8 kart — stałe tempo!",
+        sr: "8 kartica — stabilan tempo!",
+        ja: "8枚のカード — 安定したペース！",
+        ka: "8 ბარათი — სტაბილური ტემპი!",
+        el: "8 κάρτες — σταθερός ρυθμός!",
+        es: "8 tarjetas — ¡ritmo constante!",
+        pt: "8 cartas — ritmo constante!",
+        fi: "8 korttia — tasainen tahti!",
+        zh: "8张卡片 — 稳定的节奏！",
+        hi: "8 कार्ड — स्थिर गति!",
+        ar: "8 بطاقات — وتيرة ثابتة!"
+    },
+    9: {
+        en: "9 cards — one more to double digits!",
+        ru: "9 карточек — ещё одна до двузначного числа!",
+        de: "9 Karten — noch eine bis zweistellig!",
+        pl: "9 kart — jeszcze jedna do dwucyfrowej!",
+        sr: "9 kartica — još jedna do dvocifrenog!",
+        ja: "9枚のカード — あと1枚で二桁！",
+        ka: "9 ბარათი — კიდევ ერთი ორნიშნამდე!",
+        el: "9 κάρτες — άλλη μία για διψήφιο!",
+        es: "9 tarjetas — ¡una más para dos dígitos!",
+        pt: "9 cartas — mais uma para dois dígitos!",
+        fi: "9 korttia — vielä yksi kaksinumeroiseen!",
+        zh: "9张卡片 — 再来一张就到两位数了！",
+        hi: "9 कार्ड — दो अंकों के लिए एक और!",
+        ar: "9 بطاقات — واحدة أخرى للأرقام المزدوجة!"
+    },
     10: {
         en: "10 cards — you're learning!",
         ru: "10 карточек — ты уже учишься!",
@@ -79,6 +159,22 @@ const milestones = {
         zh: "10张卡片 — 你正在学习！",
         hi: "10 कार्ड — आप सीख रहे हैं!",
         ar: "10 بطاقات — أنت تتعلم!"
+    },
+    12: {
+        en: "12 cards — a dozen down!",
+        ru: "12 карточек — дюжина позади!",
+        de: "12 Karten — ein Dutzend geschafft!",
+        pl: "12 kart — tuzin za tobą!",
+        sr: "12 kartica — tuce iza tebe!",
+        ja: "12枚のカード — ダース達成！",
+        ka: "12 ბარათი — ათეული უკან!",
+        el: "12 κάρτες — μια ντουζίνα κάτω!",
+        es: "12 tarjetas — ¡una docena hecha!",
+        pt: "12 cartas — uma dúzia feita!",
+        fi: "12 korttia — tusina kasassa!",
+        zh: "12张卡片 — 一打完成！",
+        hi: "12 कार्ड — एक दर्जन पूरा!",
+        ar: "12 بطاقة — دستة كاملة!"
     },
     15: {
         en: "15 cards — keep the momentum!",
@@ -144,6 +240,22 @@ const milestones = {
         hi: "30 कार्ड — ठोस प्रगति!",
         ar: "30 بطاقة — تقدم ملموس!"
     },
+    35: {
+        en: "35 cards — over a third to 100!",
+        ru: "35 карточек — больше трети пути к 100!",
+        de: "35 Karten — über ein Drittel zu 100!",
+        pl: "35 kart — ponad trzecia część do 100!",
+        sr: "35 kartica — više od trećine do 100!",
+        ja: "35枚のカード — 100まで3分の1以上！",
+        ka: "35 ბარათი — 100-მდე მესამედზე მეტი!",
+        el: "35 κάρτες — πάνω από το ένα τρίτο για 100!",
+        es: "35 tarjetas — ¡más de un tercio a 100!",
+        pt: "35 cartas — mais de um terço para 100!",
+        fi: "35 korttia — yli kolmannes 100:een!",
+        zh: "35张卡片 — 到100超过三分之一！",
+        hi: "35 कार्ड — 100 का एक तिहाई से अधिक!",
+        ar: "35 بطاقة — أكثر من الثلث إلى 100!"
+    },
     40: {
         en: "40 cards — impressive!",
         ru: "40 карточек — впечатляет!",
@@ -159,6 +271,22 @@ const milestones = {
         zh: "40张卡片 — 令人印象深刻！",
         hi: "40 कार्ड — प्रभावशाली!",
         ar: "40 بطاقة — مثير للإعجاب!"
+    },
+    45: {
+        en: "45 cards — almost halfway!",
+        ru: "45 карточек — почти половина!",
+        de: "45 Karten — fast auf halbem Weg!",
+        pl: "45 kart — prawie w połowie!",
+        sr: "45 kartica — skoro na pola!",
+        ja: "45枚のカード — もうすぐ半分！",
+        ka: "45 ბარათი — თითქმის ნახევარი!",
+        el: "45 κάρτες — σχεδόν στα μισά!",
+        es: "45 tarjetas — ¡casi a mitad!",
+        pt: "45 cartas — quase na metade!",
+        fi: "45 korttia — melkein puolivälissä!",
+        zh: "45张卡片 — 快一半了！",
+        hi: "45 कार्ड — लगभग आधा!",
+        ar: "45 بطاقة — تقريبًا في المنتصف!"
     },
     50: {
         en: "50 cards — wow!",
@@ -176,6 +304,38 @@ const milestones = {
         hi: "50 कार्ड — वाह!",
         ar: "50 بطاقة — رائع!"
     },
+    60: {
+        en: "60 cards — over halfway to 100!",
+        ru: "60 карточек — больше половины к 100!",
+        de: "60 Karten — über die Hälfte zu 100!",
+        pl: "60 kart — ponad połowa do 100!",
+        sr: "60 kartica — više od pola do 100!",
+        ja: "60枚のカード — 100まで半分以上！",
+        ka: "60 ბარათი — 100-მდე ნახევარზე მეტი!",
+        el: "60 κάρτες — πάνω από τα μισά για 100!",
+        es: "60 tarjetas — ¡más de la mitad a 100!",
+        pt: "60 cartas — mais da metade para 100!",
+        fi: "60 korttia — yli puolet 100:een!",
+        zh: "60张卡片 — 到100超过一半！",
+        hi: "60 कार्ड — 100 का आधे से अधिक!",
+        ar: "60 بطاقة — أكثر من النصف إلى 100!"
+    },
+    70: {
+        en: "70 cards — the finish line is close!",
+        ru: "70 карточек — финишная прямая близко!",
+        de: "70 Karten — die Ziellinie ist nah!",
+        pl: "70 kart — meta jest blisko!",
+        sr: "70 kartica — cilj je blizu!",
+        ja: "70枚のカード — ゴールは近い！",
+        ka: "70 ბარათი — ფინიში ახლოსაა!",
+        el: "70 κάρτες — η γραμμή τερματισμού είναι κοντά!",
+        es: "70 tarjetas — ¡la meta está cerca!",
+        pt: "70 cartas — a linha de chegada está perto!",
+        fi: "70 korttia — maaliviiva on lähellä!",
+        zh: "70张卡片 — 终点线近了！",
+        hi: "70 कार्ड — फिनिश लाइन करीब है!",
+        ar: "70 بطاقة — خط النهاية قريب!"
+    },
     75: {
         en: "75 cards — halfway to 150!",
         ru: "75 карточек — половина пути к 150!",
@@ -191,6 +351,38 @@ const milestones = {
         zh: "75张卡片 — 到150的一半！",
         hi: "75 कार्ड — 150 का आधा रास्ता!",
         ar: "75 بطاقة — في منتصف الطريق إلى 150!"
+    },
+    80: {
+        en: "80 cards — closing in on 100!",
+        ru: "80 карточек — приближаешься к 100!",
+        de: "80 Karten — näher an 100!",
+        pl: "80 kart — zbliżasz się do 100!",
+        sr: "80 kartica — približavaš se 100!",
+        ja: "80枚のカード — 100まであと少し！",
+        ka: "80 ბარათი — 100-ს უახლოვდები!",
+        el: "80 κάρτες — πλησιάζεις τα 100!",
+        es: "80 tarjetas — ¡acercándote a 100!",
+        pt: "80 cartas — se aproximando de 100!",
+        fi: "80 korttia — lähestyt 100:aa!",
+        zh: "80张卡片 — 接近100了！",
+        hi: "80 कार्ड — 100 के करीब!",
+        ar: "80 بطاقة — تقترب من 100!"
+    },
+    90: {
+        en: "90 cards — so close to triple digits!",
+        ru: "90 карточек — так близко к трёхзначному числу!",
+        de: "90 Karten — so nah an dreistellig!",
+        pl: "90 kart — tak blisko trzycyfrowej!",
+        sr: "90 kartica — tako blizu trocifrenog!",
+        ja: "90枚のカード — 三桁まであと少し！",
+        ka: "90 ბარათი — სამნიშნამდე ძალიან ახლოს!",
+        el: "90 κάρτες — τόσο κοντά στο τριψήφιο!",
+        es: "90 tarjetas — ¡tan cerca de tres dígitos!",
+        pt: "90 cartas — tão perto de três dígitos!",
+        fi: "90 korttia — niin lähellä kolminumeroista!",
+        zh: "90张卡片 — 离三位数这么近了！",
+        hi: "90 कार्ड — तीन अंकों के इतने करीब!",
+        ar: "90 بطاقة — قريب جدًا من ثلاثة أرقام!"
     },
     100: {
         en: "100 cards — A1 Beginner! You know the essential core of language. 🎯",
@@ -495,5 +687,37 @@ const milestones = {
         zh: "20000张卡片 — WordForge传奇！🌟",
         hi: "20000 कार्ड — WordForge लीजेंड! 🌟",
         ar: "20000 بطاقة — أسطورة WordForge! 🌟"
+    },
+    25000: {
+        en: "25000 cards — beyond legend!",
+        ru: "25000 карточек — за пределами легенды!",
+        de: "25000 Karten — jenseits der Legende!",
+        pl: "25000 kart — poza legendą!",
+        sr: "25000 kartica — izvan legende!",
+        ja: "25000枚のカード — 伝説を超えて！",
+        ka: "25000 ბარათი — ლეგენდის მიღმა!",
+        el: "25000 κάρτες — πέρα από τον θρύλο!",
+        es: "25000 tarjetas — ¡más allá de la leyenda!",
+        pt: "25000 cartas — além da lenda!",
+        fi: "25000 korttia — legendan tuolla puolen!",
+        zh: "25000张卡片 — 超越传奇！",
+        hi: "25000 कार्ड — लीजेंड से परे!",
+        ar: "25000 بطاقة — ما وراء الأسطورة!"
+    },
+    30000: {
+        en: "30000 cards — you are the language now!",
+        ru: "30000 карточек — ты и есть язык теперь!",
+        de: "30000 Karten — du bist jetzt die Sprache!",
+        pl: "30000 kart — teraz ty jesteś językiem!",
+        sr: "30000 kartica — ti si sada jezik!",
+        ja: "30000枚のカード — あなた自身が言語だ！",
+        ka: "30000 ბარათი — ახლა შენ ხარ ენა!",
+        el: "30000 κάρτες — είσαι η ίδια η γλώσσα τώρα!",
+        es: "30000 tarjetas — ¡ahora eres el idioma!",
+        pt: "30000 cartas — agora você é o idioma!",
+        fi: "30000 korttia — sinä olet nyt kieli!",
+        zh: "30000张卡片 — 你就是语言本身！",
+        hi: "30000 कार्ड — अब आप ही भाषा हैं!",
+        ar: "30000 بطاقة — أنت الآن اللغة نفسها!"
     }
 };
