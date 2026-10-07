@@ -1,11 +1,10 @@
 // PARTICLES
 const particles = document.getElementById("particles");
-const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 function startParticles() {
-    let countParticles = 500 ;
-    if(isMobile) countParticles = 300;
-    for (let i = 0; i < 500; i++) {
+    let countParticles = 500;
+    if(isMobile) countParticles = 200;
+    for (let i = 0; i < countParticles; i++) {
         const p = document.createElement("div");
         p.classList.add("particle");
 
@@ -21,4 +20,26 @@ function startParticles() {
     }
 }
 
-startParticles()
+isSlowInternet().then(result => {
+    if(!result) startParticles();
+    console.log("slow connection: " + result);
+});
+
+
+async function isSlowInternet() {
+  if (navigator.connection) {
+    const type = navigator.connection.effectiveType; // 'slow-2g', '2g', '3g', '4g'
+    return type === 'slow-2g' || type === '2g' || type === '3g';
+  }
+
+  try {
+    const start = performance.now();
+    await fetch(window.location.href, { method: 'HEAD', cache: 'no-store' });
+    const duration = performance.now() - start;
+
+    return duration > 350; 
+  } catch (e) {
+    return true; 
+  }
+}
+
