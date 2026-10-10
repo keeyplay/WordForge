@@ -13,7 +13,8 @@
     "fi": "WordForge",
     "zh": "WordForge",
     "hi": "WordForge",
-    "ar": "WordForge"
+    "ar": "WordForge",
+    "fr": "WordForge"
   },
   "lewo": {
     "en": "Learn words.",
@@ -29,7 +30,8 @@
     "fi": "Opi sanoja.",
     "zh": "学习单词。",
     "hi": "शब्द सीखें।",
-    "ar": "تعلم الكلمات."
+    "ar": "تعلم الكلمات.",
+    "fr": "Apprenez des mots."
   },
   "eaco": {
     "en": "Earn coins.",
@@ -45,7 +47,8 @@
     "fi": "Ansaitse kolikoita.",
     "zh": "赚取硬币。",
     "hi": "सिक्के कमाएं।",
-    "ar": "اكسب العملات."
+    "ar": "اكسب العملات.",
+    "fr": "Gagnez des pièces."
   },
   "buyovo": {
     "en": "Build your vocabulary.",
@@ -61,7 +64,8 @@
     "fi": "Rakenna sanavarastoasi.",
     "zh": "建立你的词汇量。",
     "hi": "अपनी शब्दावली बनाएं।",
-    "ar": "ابنِ مفرداتك."
+    "ar": "ابنِ مفرداتك.",
+    "fr": "Développez votre vocabulaire."
   },
   "butt-lang": {
     "en": "🇬🇧",
@@ -77,7 +81,8 @@
     "fi": "🇫🇮",
     "zh": "🇨🇳",
     "hi": "🇮🇳",
-    "ar": "🇸🇦"
+    "ar": "🇸🇦",
+    "fr": "🇫🇷"
   },
   "nosiup": {
     "en": "No sign-up. No payments. Just open and learn. Designed for students, travelers and developers.",
@@ -93,7 +98,8 @@
     "fi": "Ei rekisteröitymistä. Ei maksuja. Avaa ja opi. Suunniteltu opiskelijoille, matkailijoille ja kehittäjille.",
     "zh": "无需注册。无需付费。打开即学。专为学生、旅行者和开发者设计。",
     "hi": "कोई साइन-अप नहीं। कोई भुगतान नहीं। बस खोलें और सीखें। छात्रों, यात्रियों और डेवलपर्स के लिए डिज़ाइन किया गया।",
-    "ar": "بدون تسجيل. بدون دفع. فقط افتح وتعلم. مصمم للطلاب والمسافرين والمطورين."
+    "ar": "بدون تسجيل. بدون دفع. فقط افتح وتعلم. مصمم للطلاب والمسافرين والمطورين.",
+    "fr": "Sans inscription. Sans paiement. Ouvrez et apprenez. Conçu pour les étudiants, les voyageurs et les développeurs."
   },
   "TryItNow": {
     "en": "Try it now",
@@ -109,7 +115,8 @@
     "fi": "Kokeile nyt",
     "zh": "立即试用",
     "hi": "अभी आज़माएं",
-    "ar": "جربه الآن"
+    "ar": "جربه الآن",
+    "fr": "Essayez maintenant"
   },
   "HowItWorks": {
     "en": "How it works",
@@ -125,7 +132,8 @@
     "fi": "Miten se toimii",
     "zh": "工作原理",
     "hi": "यह कैसे काम करता है",
-    "ar": "كيف يعمل"
+    "ar": "كيف يعمل",
+    "fr": "Comment ça marche"
   },
   "bykeeyplay": {
     "en": "By keeyplay",
@@ -141,7 +149,8 @@
     "fi": "Keeyplayn tekemä",
     "zh": "由keeyplay制作",
     "hi": "keeyplay द्वारा",
-    "ar": "بواسطة keeyplay"
+    "ar": "بواسطة keeyplay",
+    "fr": "Par keeyplay"
   },
   "stepstolearn": {
     "en": "Steps to learn languages",
@@ -157,7 +166,8 @@
     "fi": "Vaiheet kielten oppimiseen",
     "zh": "学习语言的步骤",
     "hi": "भाषाएँ सीखने के चरण",
-    "ar": "خطوات تعلم اللغات"
+    "ar": "خطوات تعلم اللغات",
+    "fr": "Étapes pour apprendre les langues"
   },
   "vocabulary": {
     "en": "1. Vocabulary",
@@ -173,7 +183,8 @@
     "fi": "1. Sanasto",
     "zh": "1. 词汇",
     "hi": "1. शब्दावली",
-    "ar": "1. المفردات"
+    "ar": "1. المفردات",
+    "fr": "1. Vocabulaire"
   },
   "buyovo1": {
     "en": "Build your vocabulary first — the foundation of everything. Without words, there's nothing to connect with grammar or use in practice. Focus on the most frequent words, repeat them daily, and train your brain to recognize them instantly. This is the base that makes every other step easier.",
@@ -189,7 +200,8 @@
     "fi": "Rakenna ensin sanastosi — kaiken perusta. Ilman sanoja ei ole mitään yhdistettävää kielioppiin tai käytettävää käytännössä. Keskity yleisimpiin sanoihin, toista niitä päivittäin ja harjoita aivosi tunnistamaan ne välittömästi. Tämä on perusta, joka tekee kaikista muista vaiheista helpompia.",
     "zh": "首先要建立你的词汇量——一切的基础。没有单词，就没有什么可以与语法连接或在实践中使用。专注于最常用的单词，每天重复它们，训练你的大脑立即识别它们。这是使其他所有步骤更容易的基础。",
     "hi": "पहले अपनी शब्दावली बनाएं — हर चीज़ की नींव। शब्दों के बिना, व्याकरण से जोड़ने या अभ्यास में उपयोग करने के लिए कुछ भी नहीं है। सबसे आम शब्दों पर ध्यान दें, उन्हें दैनिक रूप से दोहराएं, और अपने मस्तिष्क को उन्हें तुरंत पहचानने के लिए प्रशिक्षित करें। यह वह आधार है जो हर दूसरे कदम को आसान बनाता है।",
-    "ar": "ابنِ مفرداتك أولاً — أساس كل شيء. بدون كلمات، لا يوجد شيء لربطه بالقواعد أو استخدامه في الممارسة. ركز على الكلمات الأكثر شيوعًا، وكررها يوميًا، ودرب عقلك على التعرف عليها فورًا. هذا هو الأساس الذي يجعل كل خطوة أخرى أسهل."
+    "ar": "ابنِ مفرداتك أولاً — أساس كل شيء. بدون كلمات، لا يوجد شيء لربطه بالقواعد أو استخدامه في الممارسة. ركز على الكلمات الأكثر شيوعًا، وكررها يوميًا، ودرب عقلك على التعرف عليها فورًا. هذا هو الأساس الذي يجعل كل خطوة أخرى أسهل.",
+    "fr": "Développez d'abord votre vocabulaire — la base de tout. Sans mots, il n'y a rien à relier à la grammaire ni à utiliser en pratique. Concentrez-vous sur les mots les plus fréquents, répétez-les quotidiennement et entraînez votre cerveau à les reconnaître instantanément. C'est la base qui rend toutes les autres étapes plus faciles."
   },
   "grammar": {
     "en": "2. Grammar",
@@ -205,7 +217,8 @@
     "fi": "2. Kielioppi",
     "zh": "2. 语法",
     "hi": "2. व्याकरण",
-    "ar": "2. القواعد"
+    "ar": "2. القواعد",
+    "fr": "2. Grammaire"
   },
   "lehothla": {
     "en": "Learn how the language fits together — not rules, but patterns. Grammar gives your words a framework to live in, turning random vocabulary into clear, meaningful messages. Without it, you have bricks but no blueprint.",
@@ -221,7 +234,8 @@
     "fi": "Opi, miten kieli sopii yhteen — ei sääntöjä, vaan kaavoja. Kielioppi antaa sanoillesi kehyksen, muuttaen satunnaisen sanaston selkeiksi ja merkityksellisiksi viesteiksi. Ilman sitä sinulla on tiiliä, mutta ei suunnitelmaa.",
     "zh": "学习语言如何组合在一起——不是规则，而是模式。语法为你的单词提供了一个框架，将随机词汇转化为清晰、有意义的信息。没有语法，你有砖块但没有蓝图。",
     "hi": "सीखें कि भाषा एक साथ कैसे फिट होती है — नियम नहीं, बल्कि पैटर्न। व्याकरण आपके शब्दों को एक ढांचा देता है, जिससे यादृच्छिक शब्दावली स्पष्ट, सार्थक संदेशों में बदल जाती है। इसके बिना, आपके पास ईंटें हैं लेकिन कोई नक्शा नहीं है।",
-    "ar": "تعلم كيف تتلاءم اللغة معًا — ليست قواعد، بل أنماط. تمنح القواعد كلماتك إطارًا لتعيش فيه، وتحول المفردات العشوائية إلى رسائل واضحة وذات مغزى. بدونها، لديك طوب ولكن لا مخطط."
+    "ar": "تعلم كيف تتلاءم اللغة معًا — ليست قواعد، بل أنماط. تمنح القواعد كلماتك إطارًا لتعيش فيه، وتحول المفردات العشوائية إلى رسائل واضحة وذات مغزى. بدونها، لديك طوب ولكن لا مخطط.",
+    "fr": "Apprenez comment la langue s'assemble — pas des règles, mais des schémas. La grammaire donne à vos mots un cadre dans lequel vivre, transformant le vocabulaire aléatoire en messages clairs et significatifs. Sans elle, vous avez des briques mais pas de plan."
   },
   "practice": {
     "en": "3. Practice",
@@ -237,7 +251,8 @@
     "fi": "3. Harjoittelu",
     "zh": "3. 实践",
     "hi": "3. अभ्यास",
-    "ar": "3. الممارسة"
+    "ar": "3. الممارسة",
+    "fr": "3. Pratique"
   },
   "usthla": {
     "en": "Use the language every day — listen, speak, read, write, make mistakes, and try again. Every real conversation rewires your brain to think faster and react naturally. You stop studying the language and start living it.",
@@ -253,7 +268,8 @@
     "fi": "Käytä kieltä joka päivä — kuuntele, puhu, lue, kirjoita, tee virheitä ja yritä uudelleen. Jokainen todellinen keskustelu uudelleenohjaa aivosi ajattelemaan nopeammin ja reagoimaan luonnollisesti. Lopetat kielen opiskelun ja alat elää sitä.",
     "zh": "每天使用这门语言——听、说、读、写、犯错、再试一次。每一次真实的对话都会重新连接你的大脑，让你思考更快、反应更自然。你不再学习这门语言，而是开始使用它生活。",
     "hi": "हर दिन भाषा का उपयोग करें — सुनें, बोलें, पढ़ें, लिखें, गलतियाँ करें और फिर से प्रयास करें। हर वास्तविक बातचीत आपके मस्तिष्क को तेज़ी से सोचने और स्वाभाविक रूप से प्रतिक्रिया करने के लिए पुनः तार-तार करती है। आप भाषा का अध्ययन करना बंद कर देते हैं और इसे जीना शुरू कर देते हैं।",
-    "ar": "استخدم اللغة كل يوم — استمع، تحدث، اقرأ، اكتب، ارتكب الأخطاء، وحاول مرة أخرى. كل محادثة حقيقية تعيد توصيل دماغك ليفكر بشكل أسرع ويتفاعل بشكل طبيعي. تتوقف عن دراسة اللغة وتبدأ في عيشها."
+    "ar": "استخدم اللغة كل يوم — استمع، تحدث، اقرأ، اكتب، ارتكب الأخطاء، وحاول مرة أخرى. كل محادثة حقيقية تعيد توصيل دماغك ليفكر بشكل أسرع ويتفاعل بشكل طبيعي. تتوقف عن دراسة اللغة وتبدأ في عيشها.",
+    "fr": "Utilisez la langue tous les jours — écoutez, parlez, lisez, écrivez, faites des erreurs et réessayez. Chaque vraie conversation recâble votre cerveau pour penser plus vite et réagir naturellement. Vous arrêtez d'étudier la langue et commencez à la vivre."
   },
   "vocabEl": {
     "en": "Vocabulary is our element",
@@ -269,7 +285,8 @@
     "fi": "Sanasto on elementtimme",
     "zh": "词汇是我们的元素",
     "hi": "शब्दावली हमारा तत्व है",
-    "ar": "المفردات هي عنصرنا"
+    "ar": "المفردات هي عنصرنا",
+    "fr": "Le vocabulaire est notre élément"
   },
   "fea": {
     "en": "Features",
@@ -285,7 +302,8 @@
     "fi": "Ominaisuudet",
     "zh": "功能",
     "hi": "विशेषताएँ",
-    "ar": "الميزات"
+    "ar": "الميزات",
+    "fr": "Fonctionnalités"
   },
   "int": {
     "en": "Interactive Flashcards",
@@ -301,7 +319,8 @@
     "fi": "Interaktiiviset muistikortit",
     "zh": "互动式闪卡",
     "hi": "इंटरैक्टिव फ्लैशकार्ड",
-    "ar": "بطاقات تعليمية تفاعلية"
+    "ar": "بطاقات تعليمية تفاعلية",
+    "fr": "Cartes mémoire interactives"
   },
   "int-le": {
     "en": "Learn faster with visual card repetition.",
@@ -317,7 +336,8 @@
     "fi": "Opi nopeammin visuaalisella korttien toistolla.",
     "zh": "通过视觉卡片重复，学习更快。",
     "hi": "विज़ुअल कार्ड पुनरावृत्ति के साथ तेज़ी से सीखें।",
-    "ar": "تعلم بشكل أسرع مع تكرار البطاقات البصرية."
+    "ar": "تعلم بشكل أسرع مع تكرار البطاقات البصرية.",
+    "fr": "Apprenez plus vite grâce à la répétition visuelle des cartes."
   },
   "coin": {
     "en": "Coin Rewards",
@@ -333,7 +353,8 @@
     "fi": "Kolikkopalkinnot",
     "zh": "硬币奖励",
     "hi": "सिक्का पुरस्कार",
-    "ar": "مكافآت العملات"
+    "ar": "مكافآت العملات",
+    "fr": "Récompenses en pièces"
   },
   "coin-eaco": {
     "en": "Earn coins while building your vocabulary.",
@@ -349,7 +370,8 @@
     "fi": "Ansaitse kolikoita rakentaessasi sanavarastoasi.",
     "zh": "在建立词汇量的同时赚取硬币。",
     "hi": "अपनी शब्दावली बनाते समय सिक्के कमाएं।",
-    "ar": "اكسب العملات أثناء بناء مفرداتك."
+    "ar": "اكسب العملات أثناء بناء مفرداتك.",
+    "fr": "Gagnez des pièces en développant votre vocabulaire."
   },
   "streak": {
     "en": "Streak Tracking",
@@ -365,7 +387,8 @@
     "fi": "Putken seuranta",
     "zh": "连续天数追踪",
     "hi": "लगातार ट्रैकिंग",
-    "ar": "تتبع السلسلة"
+    "ar": "تتبع السلسلة",
+    "fr": "Suivi des séries"
   },
   "streak-st": {
     "en": "Stay consistent and keep your streak alive.",
@@ -381,7 +404,8 @@
     "fi": "Pysy johdonmukaisena ja pidä putkesi elossa.",
     "zh": "保持坚持，保持你的连续天数。",
     "hi": "सुसंगत रहें और अपनी लगातार बनाए रखें।",
-    "ar": "ابقَ ثابتًا وحافظ على سلسلتك."
+    "ar": "ابقَ ثابتًا وحافظ على سلسلتك.",
+    "fr": "Restez régulier et gardez votre série en vie."
   },
   "multi": {
     "en": "Multi-language",
@@ -397,7 +421,8 @@
     "fi": "Monikielinen",
     "zh": "多语言",
     "hi": "बहुभाषी",
-    "ar": "متعدد اللغات"
+    "ar": "متعدد اللغات",
+    "fr": "Multilingue"
   },
   "multi-su": {
     "en": "Supports EN, RU, DE, PL, SR and JA.",
@@ -413,7 +438,8 @@
     "fi": "Tukee EN, RU, DE, PL, SR, JA, KA, EL, ES, PT ja FI.",
     "zh": "支持英语、俄语、德语、波兰语、塞尔维亚语、日语、格鲁吉亚语、希腊语、西班牙语、葡萄牙语、芬兰语和中文。",
     "hi": "EN, RU, DE, PL, SR, JA, KA, EL, ES, PT, FI, ZH और HI का समर्थन करता है।",
-    "ar": "يدعم الإنجليزية والروسية والألمانية والبولندية والصربية واليابانية والجورجية واليونانية والإسبانية والبرتغالية والفنلندية والصينية والهندية والعربية."
+    "ar": "يدعم الإنجليزية والروسية والألمانية والبولندية والصربية واليابانية والجورجية واليونانية والإسبانية والبرتغالية والفنلندية والصينية والهندية والعربية.",
+    "fr": "Prend en charge EN, RU, DE, PL, SR, JA, KA, EL, ES, PT, FI, ZH, HI et FR."
   },
   "stats": {
     "en": "Stats Dashboard",
@@ -429,7 +455,8 @@
     "fi": "Tilastopaneeli",
     "zh": "统计面板",
     "hi": "आँकड़े डैशबोर्ड",
-    "ar": "لوحة الإحصائيات"
+    "ar": "لوحة الإحصائيات",
+    "fr": "Tableau de bord des statistiques"
   },
   "stats-tr": {
     "en": "Track words learned and progress over time.",
@@ -445,7 +472,8 @@
     "fi": "Seuraa opittuja sanoja ja edistymistä ajan myötä.",
     "zh": "追踪已学单词和随时间推移的进度。",
     "hi": "समय के साथ सीखे गए शब्दों और प्रगति को ट्रैक करें।",
-    "ar": "تتبع الكلمات التي تعلمتها والتقدم بمرور الوقت."
+    "ar": "تتبع الكلمات التي تعلمتها والتقدم بمرور الوقت.",
+    "fr": "Suivez les mots appris et les progrès au fil du temps."
   },
   "export": {
     "en": "Export Tools",
@@ -461,7 +489,8 @@
     "fi": "Vientityökalut",
     "zh": "导出工具",
     "hi": "निर्यात उपकरण",
-    "ar": "أدوات التصدير"
+    "ar": "أدوات التصدير",
+    "fr": "Outils d'exportation"
   },
   "export-vo": {
     "en": "Export vocabulary to Anki or PDF.",
@@ -477,7 +506,8 @@
     "fi": "Vie sanasto Ankiin tai PDF-tiedostoksi.",
     "zh": "将词汇导出到Anki或PDF。",
     "hi": "शब्दावली को Anki या PDF में निर्यात करें।",
-    "ar": "تصدير المفردات إلى Anki أو PDF."
+    "ar": "تصدير المفردات إلى Anki أو PDF.",
+    "fr": "Exportez le vocabulaire vers Anki ou PDF."
   },
   "howitorkd1": {
     "en": "How it works",
@@ -493,7 +523,8 @@
     "fi": "Miten se toimii",
     "zh": "工作原理",
     "hi": "यह कैसे काम करता है",
-    "ar": "كيف يعمل"
+    "ar": "كيف يعمل",
+    "fr": "Comment ça marche"
   },
   "addaword": {
     "en": "Add a word",
@@ -509,7 +540,8 @@
     "fi": "Lisää sana",
     "zh": "添加一个单词",
     "hi": "एक शब्द जोड़ें",
-    "ar": "أضف كلمة"
+    "ar": "أضف كلمة",
+    "fr": "Ajouter un mot"
   },
   "createyoow": {
     "en": "Create your own personal vocabulary list.",
@@ -525,7 +557,8 @@
     "fi": "Luo oma henkilökohtainen sanastolistasi.",
     "zh": "创建你自己的个人词汇列表。",
     "hi": "अपनी खुद की व्यक्तिगत शब्दावली सूची बनाएं।",
-    "ar": "أنشئ قائمة مفرداتك الشخصية."
+    "ar": "أنشئ قائمة مفرداتك الشخصية.",
+    "fr": "Créez votre propre liste de vocabulaire personnelle."
   },
   "learnwithcards": {
     "en": "Learn with cards",
@@ -541,7 +574,8 @@
     "fi": "Opi korteilla",
     "zh": "用卡片学习",
     "hi": "कार्डों के साथ सीखें",
-    "ar": "تعلم بالبطاقات"
+    "ar": "تعلم بالبطاقات",
+    "fr": "Apprenez avec des cartes"
   },
   "practiceus": {
     "en": "Practice using interactive flashcards.",
@@ -557,7 +591,8 @@
     "fi": "Harjoittele interaktiivisilla muistikorteilla.",
     "zh": "使用互动式闪卡进行练习。",
     "hi": "इंटरैक्टिव फ्लैशकार्ड का उपयोग करके अभ्यास करें।",
-    "ar": "تدرب باستخدام البطاقات التعليمية التفاعلية."
+    "ar": "تدرب باستخدام البطاقات التعليمية التفاعلية.",
+    "fr": "Entraînez-vous avec des cartes mémoire interactives."
   },
   "trackprogress": {
     "en": "Track progress",
@@ -573,7 +608,8 @@
     "fi": "Seuraa edistymistä",
     "zh": "追踪进度",
     "hi": "प्रगति ट्रैक करें",
-    "ar": "تتبع التقدم"
+    "ar": "تتبع التقدم",
+    "fr": "Suivez les progrès"
   },
   "seest": {
     "en": "See streaks, coins and learning statistics.",
@@ -589,7 +625,8 @@
     "fi": "Näe putket, kolikot ja oppimistilastot.",
     "zh": "查看连续天数、硬币和学习统计。",
     "hi": "लगातार, सिक्के और सीखने के आँकड़े देखें।",
-    "ar": "شاهد السلاسل والعملات وإحصائيات التعلم."
+    "ar": "شاهد السلاسل والعملات وإحصائيات التعلم.",
+    "fr": "Voyez les séries, les pièces et les statistiques d'apprentissage."
   },
   "builtinpublic": {
     "en": "Built in public",
@@ -605,7 +642,8 @@
     "fi": "Rakennettu julkisesti",
     "zh": "公开构建",
     "hi": "सार्वजनिक रूप से निर्मित",
-    "ar": "بُني علنًا"
+    "ar": "بُني علنًا",
+    "fr": "Construit en public"
   },
   "onecommit": {
     "en": "One commit. One tweet. Every single day.",
@@ -621,7 +659,8 @@
     "fi": "Yksi commit. Yksi twiitti. Joka ikinen päivä.",
     "zh": "一个提交。一条推文。每一天。",
     "hi": "एक कमिट। एक ट्वीट। हर एक दिन।",
-    "ar": "التزام واحد. تغريدة واحدة. كل يوم."
+    "ar": "التزام واحد. تغريدة واحدة. كل يوم.",
+    "fr": "Un commit. Un tweet. Chaque jour."
   },
   "writecode": {
     "en": "Write code",
@@ -637,7 +676,8 @@
     "fi": "Kirjoita koodia",
     "zh": "编写代码",
     "hi": "कोड लिखें",
-    "ar": "اكتب الكود"
+    "ar": "اكتب الكود",
+    "fr": "Écrivez du code"
   },
   "everyday": {
     "en": "Every day I open the editor and ship something. Even if it's small. Even if it's just a fix. Consistency over perfection.",
@@ -653,7 +693,8 @@
     "fi": "Joka päivä avaan editorin ja julkaisen jotain. Vaikka se olisi pieni. Vaikka se olisi vain korjaus. Johdonmukaisuus ennen täydellisyyttä.",
     "zh": "每天我打开编辑器并发布一些东西。即使很小。即使只是一个修复。坚持胜过完美。",
     "hi": "हर दिन मैं संपादक खोलता हूं और कुछ न कुछ भेजता हूं। चाहे वह छोटा हो। चाहे वह सिर्फ एक सुधार हो। पूर्णता से अधिक स्थिरता।",
-    "ar": "كل يوم أفتح المحرر وأطلق شيئًا. حتى لو كان صغيرًا. حتى لو كان مجرد إصلاح. الاستمرارية قبل الكمال."
+    "ar": "كل يوم أفتح المحرر وأطلق شيئًا. حتى لو كان صغيرًا. حتى لو كان مجرد إصلاح. الاستمرارية قبل الكمال.",
+    "fr": "Chaque jour, j'ouvre l'éditeur et je publie quelque chose. Même si c'est petit. Même si ce n'est qu'un correctif. La régularité avant la perfection."
   },
   "days150": {
     "en": "150+ days and counting",
@@ -669,7 +710,8 @@
     "fi": "150+ päivää ja lisää tulossa",
     "zh": "150多天，还在继续",
     "hi": "150+ दिन और बढ़ रहे हैं",
-    "ar": "أكثر من 150 يومًا ولا يزال مستمرًا"
+    "ar": "أكثر من 150 يومًا ولا يزال مستمرًا",
+    "fr": "150+ jours et ça continue"
   },
   "shareit": {
     "en": "Share it",
@@ -685,7 +727,8 @@
     "fi": "Jaa se",
     "zh": "分享它",
     "hi": "इसे साझा करें",
-    "ar": "شاركه"
+    "ar": "شاركه",
+    "fr": "Partagez-le"
   },
   "everycommits1": {
     "en": "Every commit turns into a tweet. I share what I built, what broke, what I learned. No filters, just real progress.",
@@ -701,7 +744,8 @@
     "fi": "Jokainen commit muuttuu twiitiksi. Jaan mitä rakensin, mitä rikkoi ja mitä opin. Ei suodattimia, vain aitoa edistystä.",
     "zh": "每个提交都变成一条推文。我分享我构建了什么，什么坏了，我学到了什么。没有过滤，只有真实的进步。",
     "hi": "हर कमिट एक ट्वीट में बदल जाता है। मैं साझा करता हूं कि मैंने क्या बनाया, क्या टूटा, और क्या सीखा। कोई फ़िल्टर नहीं, केवल वास्तविक प्रगति।",
-    "ar": "كل التزام يتحول إلى تغريدة. أشارك ما بنيته، وما انكسر، وما تعلمته. بلا فلاتر، فقط تقدم حقيقي."
+    "ar": "كل التزام يتحول إلى تغريدة. أشارك ما بنيته، وما انكسر، وما تعلمته. بلا فلاتر، فقط تقدم حقيقي.",
+    "fr": "Chaque commit devient un tweet. Je partage ce que j'ai construit, ce qui a cassé, ce que j'ai appris. Sans filtre, juste du vrai progrès."
   },
   "k5avg": {
     "en": "5K avg views per week",
@@ -717,7 +761,8 @@
     "fi": "Keskimäärin 5K näyttökertaa viikossa",
     "zh": "每周平均5000次浏览",
     "hi": "प्रति सप्ताह औसतन 5K दृश्य",
-    "ar": "متوسط 5 آلاف مشاهدة أسبوعيًا"
+    "ar": "متوسط 5 آلاف مشاهدة أسبوعيًا",
+    "fr": "5K vues en moyenne par semaine"
   },
   "growaudience": {
     "en": "Grow audience",
@@ -733,7 +778,8 @@
     "fi": "Kasvata yleisöä",
     "zh": "增加受众",
     "hi": "दर्शकों को बढ़ाएं",
-    "ar": "نمِّ جمهورك"
+    "ar": "نمِّ جمهورك",
+    "fr": "Développez votre audience"
   },
   "peoplest": {
     "en": "People started watching. They reply, they share, they follow.",
@@ -749,7 +795,8 @@
     "fi": "Ihmiset alkoivat katsoa. He vastaavat, jakavat ja seuraavat.",
     "zh": "人们开始关注。他们回复、分享和关注。",
     "hi": "लोग देखने लगे। वे जवाब देते हैं, साझा करते हैं और फ़ॉलो करते हैं।",
-    "ar": "بدأ الناس بالمشاهدة. يردون، يشاركون، ويتابعون."
+    "ar": "بدأ الناس بالمشاهدة. يردون، يشاركون، ويتابعون.",
+    "fr": "Les gens ont commencé à regarder. Ils répondent, partagent et suivent."
   },
   "dollars10": {
     "en": "$10 per month",
@@ -765,7 +812,8 @@
     "fi": "$10 kuukaudessa",
     "zh": "每月$10",
     "hi": "$10 प्रति माह",
-    "ar": "10 دولارات شهريًا"
+    "ar": "10 دولارات شهريًا",
+    "fr": "10 $ par mois"
   },
   "startlearn10": {
     "en": "Start learning in 10 seconds",
@@ -781,7 +829,8 @@
     "fi": "Aloita oppiminen 10 sekunnissa",
     "zh": "10秒内开始学习",
     "hi": "10 सेकंड में सीखना शुरू करें",
-    "ar": "ابدأ التعلم في 10 ثوانٍ"
+    "ar": "ابدأ التعلم في 10 ثوانٍ",
+    "fr": "Commencez à apprendre en 10 secondes"
   },
   "buildby": {
     "en": "Built by a 15-year-old developer from Russia 🇷🇺",
@@ -797,7 +846,8 @@
     "fi": "15-vuotiaan kehittäjän rakentama Venäjältä 🇷🇺",
     "zh": "由一位来自俄罗斯的15岁开发者构建 🇷🇺",
     "hi": "रूस 🇷🇺 से 15 वर्षीय डेवलपर द्वारा निर्मित",
-    "ar": "بناه مطور يبلغ من العمر 15 عامًا من روسيا 🇷🇺"
+    "ar": "بناه مطور يبلغ من العمر 15 عامًا من روسيا 🇷🇺",
+    "fr": "Créé par un développeur de 15 ans originaire de Russie 🇷🇺"
   },
   "beaf": {
     "en": "BEFORE & AFTER",
@@ -813,7 +863,8 @@
     "fi": "ENNEN & JÄLKEEN",
     "zh": "之前与之后",
     "hi": "पहले और बाद",
-    "ar": "قبل وبعد"
+    "ar": "قبل وبعد",
+    "fr": "AVANT & APRÈS"
   },
   "redesign-title": {
     "en": "See how far it's come",
@@ -829,7 +880,8 @@
     "fi": "Katso kuinka pitkälle se on tullut",
     "zh": "看看它走了多远",
     "hi": "देखें यह कितनी दूर आ गया है",
-    "ar": "انظر إلى أي مدى وصل"
+    "ar": "انظر إلى أي مدى وصل",
+    "fr": "Voyez jusqu'où c'est arrivé"
   },
   "redesign-desc": {
     "en": "The old landing looked different. Way different. Click below to see the before version — the one that started it all.",
@@ -845,7 +897,8 @@
     "fi": "Vanha aloitussivu näytti erilaiselta. Täysin erilaiselta. Klikkaa alta nähdäksesi aikaisemman version — sen, joka aloitti kaiken.",
     "zh": "旧的落地页看起来不同。非常不同。点击下方查看之前的版本——那个开启一切的版本。",
     "hi": "पुराना लैंडिंग अलग दिखता था। बहुत अलग। पहले वाला संस्करण देखने के लिए नीचे क्लिक करें — वह जिसने सब कुछ शुरू किया।",
-    "ar": "كانت الصفحة القديمة تبدو مختلفة. مختلفة جدًا. انقر أدناه لرؤية النسخة السابقة — تلك التي بدأت كل شيء."
+    "ar": "كانت الصفحة القديمة تبدو مختلفة. مختلفة جدًا. انقر أدناه لرؤية النسخة السابقة — تلك التي بدأت كل شيء.",
+    "fr": "L'ancienne page d'accueil était différente. Vraiment différente. Cliquez ci-dessous pour voir la version d'avant — celle qui a tout commencé."
   },
   "redesign-label-old": {
     "en": "Old design",
@@ -861,7 +914,8 @@
     "fi": "Vanha muotoilu",
     "zh": "旧设计",
     "hi": "पुराना डिज़ाइन",
-    "ar": "التصميم القديم"
+    "ar": "التصميم القديم",
+    "fr": "Ancien design"
   },
   "redesign-btn-text": {
     "en": "View old landing →",
@@ -877,7 +931,8 @@
     "fi": "Katso vanhaa aloitussivua →",
     "zh": "查看旧版落地页 →",
     "hi": "पुराना लैंडिंग देखें →",
-    "ar": "عرض الصفحة القديمة →"
+    "ar": "عرض الصفحة القديمة →",
+    "fr": "Voir l'ancienne page →"
   },
   "redesign-hint-text": {
     "en": "(opens the second version of WordForge)",
@@ -893,7 +948,8 @@
     "fi": "(avaa WordForgen toisen version)",
     "zh": "（打开WordForge的第二版本）",
     "hi": "(WordForge का दूसरा संस्करण खोलता है)",
-    "ar": "(يفتح الإصدار الثاني من WordForge)"
+    "ar": "(يفتح الإصدار الثاني من WordForge)",
+    "fr": "(ouvre la deuxième version de WordForge)"
   },
   "usalti": {
     "en": "users all time",
@@ -909,6 +965,7 @@
     "fi": "käyttäjiä kaikkina aikoina",
     "zh": "历史总用户数",
     "hi": "अब तक के उपयोगकर्ता",
-    "ar": "إجمالي المستخدمين"
+    "ar": "إجمالي المستخدمين",
+    "fr": "utilisateurs au total"
   }
 }

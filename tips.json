@@ -56,6 +56,10 @@
     "ar": {
       "title": "مرحبًا بك في WordForge 🃏",
       "text": "تعلم باستخدام البطاقات التعليمية. اقلب، احفظ، كرر. الإحصائيات والسلاسل والعملات بالداخل. أضف بطاقتك الأولى للبدء."
+    },
+    "fr": {
+      "title": "Bienvenue sur WordForge 🃏",
+      "text": "Apprenez avec des cartes mémoire. Retournez, mémorisez, répétez. Statistiques, séries et pièces incluses. Ajoutez votre première carte pour commencer."
     }
   }
 }
