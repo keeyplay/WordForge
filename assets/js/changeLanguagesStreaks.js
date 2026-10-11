@@ -531,5 +531,43 @@ function UpdateStreakMessageTranslate() {
                 "يوم آخر. التزام آخر. خطوة أخرى نحو الحياة التي تريدها. 🚀 السلسلة مأمونة."
             ];
         }
+    } else if(localStorage.getItem("language") === "fr") {
+        if(streakMessages) {
+            streakMessages = [
+                "Nouvelle série débloquée ! 🚀 La régularité avant l'intensité. Chaque jour compte.",
+                "La série continue ! 🔥 Pas rapide, mais régulier. C'est comme ça qu'on gagne.",
+                "Un jour de plus, un pas de plus. 🐢 Ta série grandit. Continue.",
+                "Tu es revenu encore une fois. 💪 C'est tout le secret. La série est vivante.",
+                "Aucun jour zéro. ✅ Série préservée. Demain est la prochaine bataille.",
+                "Brique par brique. 🧱 Ta série devient un mur. Ne t'arrête pas.",
+                "Un jour de plus vers l'objectif. 🎯 Série intacte. Respect.",
+                "Chaque jour n'est pas un bond. Mais chaque jour compte. 🦾 Série mise à jour.",
+                "Tu n'as pas abandonné aujourd'hui. 🔥 C'est la victoire. La série vit.",
+                "Petit pas, grande série. 🐢 La régularité > le talent. À chaque fois.",
+                "Série prolongée. 📈 Pas parfaite, mais présente. Ça suffit.",
+                "Un jour de plus dans les livres. 📚 Série = preuve que tu peux te faire confiance.",
+                "La série est un miroir. 🪞 Elle montre qui tu es vraiment. Aujourd'hui : fort.",
+                "Tu aurais pu sauter. Tu ne l'as pas fait. 👊 Série honorée.",
+                "Un jour de plus. Un commit de plus. Un pas de plus vers la vie que tu veux. 🚀 Série assurée."
+            ];
+        } else {
+            let streakMessages = [
+                "Nouvelle série débloquée ! 🚀 La régularité avant l'intensité. Chaque jour compte.",
+                "La série continue ! 🔥 Pas rapide, mais régulier. C'est comme ça qu'on gagne.",
+                "Un jour de plus, un pas de plus. 🐢 Ta série grandit. Continue.",
+                "Tu es revenu encore une fois. 💪 C'est tout le secret. La série est vivante.",
+                "Aucun jour zéro. ✅ Série préservée. Demain est la prochaine bataille.",
+                "Brique par brique. 🧱 Ta série devient un mur. Ne t'arrête pas.",
+                "Un jour de plus vers l'objectif. 🎯 Série intacte. Respect.",
+                "Chaque jour n'est pas un bond. Mais chaque jour compte. 🦾 Série mise à jour.",
+                "Tu n'as pas abandonné aujourd'hui. 🔥 C'est la victoire. La série vit.",
+                "Petit pas, grande série. 🐢 La régularité > le talent. À chaque fois.",
+                "Série prolongée. 📈 Pas parfaite, mais présente. Ça suffit.",
+                "Un jour de plus dans les livres. 📚 Série = preuve que tu peux te faire confiance.",
+                "La série est un miroir. 🪞 Elle montre qui tu es vraiment. Aujourd'hui : fort.",
+                "Tu aurais pu sauter. Tu ne l'as pas fait. 👊 Série honorée.",
+                "Un jour de plus. Un commit de plus. Un pas de plus vers la vie que tu veux. 🚀 Série assurée."
+            ];
+        }
     }
 }
