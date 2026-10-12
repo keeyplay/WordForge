@@ -14,7 +14,8 @@
     "zh": "WordForge",
     "hi": "WordForge",
     "ar": "WordForge",
-    "fr": "WordForge"
+    "fr": "WordForge",
+    "it": "WordForge"
   },
   "lewo": {
     "en": "Learn words.",
@@ -31,7 +32,8 @@
     "zh": "学习单词。",
     "hi": "शब्द सीखें।",
     "ar": "تعلم الكلمات.",
-    "fr": "Apprenez des mots."
+    "fr": "Apprenez des mots.",
+    "it": "Impara le parole."
   },
   "eaco": {
     "en": "Earn coins.",
@@ -48,7 +50,8 @@
     "zh": "赚取硬币。",
     "hi": "सिक्के कमाएं।",
     "ar": "اكسب العملات.",
-    "fr": "Gagnez des pièces."
+    "fr": "Gagnez des pièces.",
+    "it": "Guadagna monete."
   },
   "buyovo": {
     "en": "Build your vocabulary.",
@@ -65,7 +68,8 @@
     "zh": "建立你的词汇量。",
     "hi": "अपनी शब्दावली बनाएं।",
     "ar": "ابنِ مفرداتك.",
-    "fr": "Développez votre vocabulaire."
+    "fr": "Développez votre vocabulaire.",
+    "it": "Costruisci il tuo vocabolario."
   },
   "butt-lang": {
     "en": "🇬🇧",
@@ -82,7 +86,8 @@
     "zh": "🇨🇳",
     "hi": "🇮🇳",
     "ar": "🇸🇦",
-    "fr": "🇫🇷"
+    "fr": "🇫🇷",
+    "it": "🇮🇹"
   },
   "nosiup": {
     "en": "No sign-up. No payments. Just open and learn. Designed for students, travelers and developers.",
@@ -99,7 +104,8 @@
     "zh": "无需注册。无需付费。打开即学。专为学生、旅行者和开发者设计。",
     "hi": "कोई साइन-अप नहीं। कोई भुगतान नहीं। बस खोलें और सीखें। छात्रों, यात्रियों और डेवलपर्स के लिए डिज़ाइन किया गया।",
     "ar": "بدون تسجيل. بدون دفع. فقط افتح وتعلم. مصمم للطلاب والمسافرين والمطورين.",
-    "fr": "Sans inscription. Sans paiement. Ouvrez et apprenez. Conçu pour les étudiants, les voyageurs et les développeurs."
+    "fr": "Sans inscription. Sans paiement. Ouvrez et apprenez. Conçu pour les étudiants, les voyageurs et les développeurs.",
+    "it": "Senza registrazione. Senza pagamenti. Apri e impara. Progettato per studenti, viaggiatori e sviluppatori."
   },
   "TryItNow": {
     "en": "Try it now",
@@ -116,7 +122,8 @@
     "zh": "立即试用",
     "hi": "अभी आज़माएं",
     "ar": "جربه الآن",
-    "fr": "Essayez maintenant"
+    "fr": "Essayez maintenant",
+    "it": "Provalo ora"
   },
   "HowItWorks": {
     "en": "How it works",
@@ -133,7 +140,8 @@
     "zh": "工作原理",
     "hi": "यह कैसे काम करता है",
     "ar": "كيف يعمل",
-    "fr": "Comment ça marche"
+    "fr": "Comment ça marche",
+    "it": "Come funziona"
   },
   "bykeeyplay": {
     "en": "By keeyplay",
@@ -150,7 +158,8 @@
     "zh": "由keeyplay制作",
     "hi": "keeyplay द्वारा",
     "ar": "بواسطة keeyplay",
-    "fr": "Par keeyplay"
+    "fr": "Par keeyplay",
+    "it": "Di keeyplay"
   },
   "stepstolearn": {
     "en": "Steps to learn languages",
@@ -167,7 +176,8 @@
     "zh": "学习语言的步骤",
     "hi": "भाषाएँ सीखने के चरण",
     "ar": "خطوات تعلم اللغات",
-    "fr": "Étapes pour apprendre les langues"
+    "fr": "Étapes pour apprendre les langues",
+    "it": "Passi per imparare le lingue"
   },
   "vocabulary": {
     "en": "1. Vocabulary",
@@ -184,7 +194,8 @@
     "zh": "1. 词汇",
     "hi": "1. शब्दावली",
     "ar": "1. المفردات",
-    "fr": "1. Vocabulaire"
+    "fr": "1. Vocabulaire",
+    "it": "1. Vocabolario"
   },
   "buyovo1": {
     "en": "Build your vocabulary first — the foundation of everything. Without words, there's nothing to connect with grammar or use in practice. Focus on the most frequent words, repeat them daily, and train your brain to recognize them instantly. This is the base that makes every other step easier.",
@@ -201,7 +212,8 @@
     "zh": "首先要建立你的词汇量——一切的基础。没有单词，就没有什么可以与语法连接或在实践中使用。专注于最常用的单词，每天重复它们，训练你的大脑立即识别它们。这是使其他所有步骤更容易的基础。",
     "hi": "पहले अपनी शब्दावली बनाएं — हर चीज़ की नींव। शब्दों के बिना, व्याकरण से जोड़ने या अभ्यास में उपयोग करने के लिए कुछ भी नहीं है। सबसे आम शब्दों पर ध्यान दें, उन्हें दैनिक रूप से दोहराएं, और अपने मस्तिष्क को उन्हें तुरंत पहचानने के लिए प्रशिक्षित करें। यह वह आधार है जो हर दूसरे कदम को आसान बनाता है।",
     "ar": "ابنِ مفرداتك أولاً — أساس كل شيء. بدون كلمات، لا يوجد شيء لربطه بالقواعد أو استخدامه في الممارسة. ركز على الكلمات الأكثر شيوعًا، وكررها يوميًا، ودرب عقلك على التعرف عليها فورًا. هذا هو الأساس الذي يجعل كل خطوة أخرى أسهل.",
-    "fr": "Développez d'abord votre vocabulaire — la base de tout. Sans mots, il n'y a rien à relier à la grammaire ni à utiliser en pratique. Concentrez-vous sur les mots les plus fréquents, répétez-les quotidiennement et entraînez votre cerveau à les reconnaître instantanément. C'est la base qui rend toutes les autres étapes plus faciles."
+    "fr": "Développez d'abord votre vocabulaire — la base de tout. Sans mots, il n'y a rien à relier à la grammaire ni à utiliser en pratique. Concentrez-vous sur les mots les plus fréquents, répétez-les quotidiennement et entraînez votre cerveau à les reconnaître instantanément. C'est la base qui rend toutes les autres étapes plus faciles.",
+    "it": "Costruisci prima il tuo vocabolario — la base di tutto. Senza parole, non c'è nulla da collegare alla grammatica o da usare nella pratica. Concentrati sulle parole più frequenti, ripetile ogni giorno e allena il tuo cervello a riconoscerle all'istante. Questa è la base che rende tutti gli altri passi più facili."
   },
   "grammar": {
     "en": "2. Grammar",
@@ -218,7 +230,8 @@
     "zh": "2. 语法",
     "hi": "2. व्याकरण",
     "ar": "2. القواعد",
-    "fr": "2. Grammaire"
+    "fr": "2. Grammaire",
+    "it": "2. Grammatica"
   },
   "lehothla": {
     "en": "Learn how the language fits together — not rules, but patterns. Grammar gives your words a framework to live in, turning random vocabulary into clear, meaningful messages. Without it, you have bricks but no blueprint.",
@@ -235,7 +248,8 @@
     "zh": "学习语言如何组合在一起——不是规则，而是模式。语法为你的单词提供了一个框架，将随机词汇转化为清晰、有意义的信息。没有语法，你有砖块但没有蓝图。",
     "hi": "सीखें कि भाषा एक साथ कैसे फिट होती है — नियम नहीं, बल्कि पैटर्न। व्याकरण आपके शब्दों को एक ढांचा देता है, जिससे यादृच्छिक शब्दावली स्पष्ट, सार्थक संदेशों में बदल जाती है। इसके बिना, आपके पास ईंटें हैं लेकिन कोई नक्शा नहीं है।",
     "ar": "تعلم كيف تتلاءم اللغة معًا — ليست قواعد، بل أنماط. تمنح القواعد كلماتك إطارًا لتعيش فيه، وتحول المفردات العشوائية إلى رسائل واضحة وذات مغزى. بدونها، لديك طوب ولكن لا مخطط.",
-    "fr": "Apprenez comment la langue s'assemble — pas des règles, mais des schémas. La grammaire donne à vos mots un cadre dans lequel vivre, transformant le vocabulaire aléatoire en messages clairs et significatifs. Sans elle, vous avez des briques mais pas de plan."
+    "fr": "Apprenez comment la langue s'assemble — pas des règles, mais des schémas. La grammaire donne à vos mots un cadre dans lequel vivre, transformant le vocabulaire aléatoire en messages clairs et significatifs. Sans elle, vous avez des briques mais pas de plan.",
+    "it": "Impara come la lingua si unisce — non regole, ma schemi. La grammatica dà alle tue parole una struttura in cui vivere, trasformando il vocabolario casuale in messaggi chiari e significativi. Senza di essa, hai mattoni ma non un progetto."
   },
   "practice": {
     "en": "3. Practice",
@@ -252,7 +266,8 @@
     "zh": "3. 实践",
     "hi": "3. अभ्यास",
     "ar": "3. الممارسة",
-    "fr": "3. Pratique"
+    "fr": "3. Pratique",
+    "it": "3. Pratica"
   },
   "usthla": {
     "en": "Use the language every day — listen, speak, read, write, make mistakes, and try again. Every real conversation rewires your brain to think faster and react naturally. You stop studying the language and start living it.",
@@ -269,7 +284,8 @@
     "zh": "每天使用这门语言——听、说、读、写、犯错、再试一次。每一次真实的对话都会重新连接你的大脑，让你思考更快、反应更自然。你不再学习这门语言，而是开始使用它生活。",
     "hi": "हर दिन भाषा का उपयोग करें — सुनें, बोलें, पढ़ें, लिखें, गलतियाँ करें और फिर से प्रयास करें। हर वास्तविक बातचीत आपके मस्तिष्क को तेज़ी से सोचने और स्वाभाविक रूप से प्रतिक्रिया करने के लिए पुनः तार-तार करती है। आप भाषा का अध्ययन करना बंद कर देते हैं और इसे जीना शुरू कर देते हैं।",
     "ar": "استخدم اللغة كل يوم — استمع، تحدث، اقرأ، اكتب، ارتكب الأخطاء، وحاول مرة أخرى. كل محادثة حقيقية تعيد توصيل دماغك ليفكر بشكل أسرع ويتفاعل بشكل طبيعي. تتوقف عن دراسة اللغة وتبدأ في عيشها.",
-    "fr": "Utilisez la langue tous les jours — écoutez, parlez, lisez, écrivez, faites des erreurs et réessayez. Chaque vraie conversation recâble votre cerveau pour penser plus vite et réagir naturellement. Vous arrêtez d'étudier la langue et commencez à la vivre."
+    "fr": "Utilisez la langue tous les jours — écoutez, parlez, lisez, écrivez, faites des erreurs et réessayez. Chaque vraie conversation recâble votre cerveau pour penser plus vite et réagir naturellement. Vous arrêtez d'étudier la langue et commencez à la vivre.",
+    "it": "Usa la lingua ogni giorno — ascolta, parla, leggi, scrivi, commetti errori e riprova. Ogni vera conversazione ricabla il tuo cervello per pensare più velocemente e reagire naturalmente. Smetti di studiare la lingua e inizi a viverla."
   },
   "vocabEl": {
     "en": "Vocabulary is our element",
@@ -286,7 +302,8 @@
     "zh": "词汇是我们的元素",
     "hi": "शब्दावली हमारा तत्व है",
     "ar": "المفردات هي عنصرنا",
-    "fr": "Le vocabulaire est notre élément"
+    "fr": "Le vocabulaire est notre élément",
+    "it": "Il vocabolario è il nostro elemento"
   },
   "fea": {
     "en": "Features",
@@ -303,7 +320,8 @@
     "zh": "功能",
     "hi": "विशेषताएँ",
     "ar": "الميزات",
-    "fr": "Fonctionnalités"
+    "fr": "Fonctionnalités",
+    "it": "Funzionalità"
   },
   "int": {
     "en": "Interactive Flashcards",
@@ -320,7 +338,8 @@
     "zh": "互动式闪卡",
     "hi": "इंटरैक्टिव फ्लैशकार्ड",
     "ar": "بطاقات تعليمية تفاعلية",
-    "fr": "Cartes mémoire interactives"
+    "fr": "Cartes mémoire interactives",
+    "it": "Flashcard interattive"
   },
   "int-le": {
     "en": "Learn faster with visual card repetition.",
@@ -337,7 +356,8 @@
     "zh": "通过视觉卡片重复，学习更快。",
     "hi": "विज़ुअल कार्ड पुनरावृत्ति के साथ तेज़ी से सीखें।",
     "ar": "تعلم بشكل أسرع مع تكرار البطاقات البصرية.",
-    "fr": "Apprenez plus vite grâce à la répétition visuelle des cartes."
+    "fr": "Apprenez plus vite grâce à la répétition visuelle des cartes.",
+    "it": "Impara più velocemente con la ripetizione visiva delle carte."
   },
   "coin": {
     "en": "Coin Rewards",
@@ -354,7 +374,8 @@
     "zh": "硬币奖励",
     "hi": "सिक्का पुरस्कार",
     "ar": "مكافآت العملات",
-    "fr": "Récompenses en pièces"
+    "fr": "Récompenses en pièces",
+    "it": "Ricompense in monete"
   },
   "coin-eaco": {
     "en": "Earn coins while building your vocabulary.",
@@ -371,7 +392,8 @@
     "zh": "在建立词汇量的同时赚取硬币。",
     "hi": "अपनी शब्दावली बनाते समय सिक्के कमाएं।",
     "ar": "اكسب العملات أثناء بناء مفرداتك.",
-    "fr": "Gagnez des pièces en développant votre vocabulaire."
+    "fr": "Gagnez des pièces en développant votre vocabulaire.",
+    "it": "Guadagna monete mentre costruisci il tuo vocabolario."
   },
   "streak": {
     "en": "Streak Tracking",
@@ -388,7 +410,8 @@
     "zh": "连续天数追踪",
     "hi": "लगातार ट्रैकिंग",
     "ar": "تتبع السلسلة",
-    "fr": "Suivi des séries"
+    "fr": "Suivi des séries",
+    "it": "Monitoraggio delle serie"
   },
   "streak-st": {
     "en": "Stay consistent and keep your streak alive.",
@@ -405,7 +428,8 @@
     "zh": "保持坚持，保持你的连续天数。",
     "hi": "सुसंगत रहें और अपनी लगातार बनाए रखें।",
     "ar": "ابقَ ثابتًا وحافظ على سلسلتك.",
-    "fr": "Restez régulier et gardez votre série en vie."
+    "fr": "Restez régulier et gardez votre série en vie.",
+    "it": "Resta costante e mantieni viva la tua serie."
   },
   "multi": {
     "en": "Multi-language",
@@ -422,7 +446,8 @@
     "zh": "多语言",
     "hi": "बहुभाषी",
     "ar": "متعدد اللغات",
-    "fr": "Multilingue"
+    "fr": "Multilingue",
+    "it": "Multilingue"
   },
   "multi-su": {
     "en": "Supports EN, RU, DE, PL, SR and JA.",
@@ -439,7 +464,8 @@
     "zh": "支持英语、俄语、德语、波兰语、塞尔维亚语、日语、格鲁吉亚语、希腊语、西班牙语、葡萄牙语、芬兰语和中文。",
     "hi": "EN, RU, DE, PL, SR, JA, KA, EL, ES, PT, FI, ZH और HI का समर्थन करता है।",
     "ar": "يدعم الإنجليزية والروسية والألمانية والبولندية والصربية واليابانية والجورجية واليونانية والإسبانية والبرتغالية والفنلندية والصينية والهندية والعربية.",
-    "fr": "Prend en charge EN, RU, DE, PL, SR, JA, KA, EL, ES, PT, FI, ZH, HI et FR."
+    "fr": "Prend en charge EN, RU, DE, PL, SR, JA, KA, EL, ES, PT, FI, ZH, HI et FR.",
+    "it": "Supporta EN, RU, DE, PL, SR, JA, KA, EL, ES, PT, FI, ZH, HI, FR e IT."
   },
   "stats": {
     "en": "Stats Dashboard",
@@ -456,7 +482,8 @@
     "zh": "统计面板",
     "hi": "आँकड़े डैशबोर्ड",
     "ar": "لوحة الإحصائيات",
-    "fr": "Tableau de bord des statistiques"
+    "fr": "Tableau de bord des statistiques",
+    "it": "Pannello delle statistiche"
   },
   "stats-tr": {
     "en": "Track words learned and progress over time.",
@@ -473,7 +500,8 @@
     "zh": "追踪已学单词和随时间推移的进度。",
     "hi": "समय के साथ सीखे गए शब्दों और प्रगति को ट्रैक करें।",
     "ar": "تتبع الكلمات التي تعلمتها والتقدم بمرور الوقت.",
-    "fr": "Suivez les mots appris et les progrès au fil du temps."
+    "fr": "Suivez les mots appris et les progrès au fil du temps.",
+    "it": "Monitora le parole apprese e i progressi nel tempo."
   },
   "export": {
     "en": "Export Tools",
@@ -490,7 +518,8 @@
     "zh": "导出工具",
     "hi": "निर्यात उपकरण",
     "ar": "أدوات التصدير",
-    "fr": "Outils d'exportation"
+    "fr": "Outils d'exportation",
+    "it": "Strumenti di esportazione"
   },
   "export-vo": {
     "en": "Export vocabulary to Anki or PDF.",
@@ -507,7 +536,8 @@
     "zh": "将词汇导出到Anki或PDF。",
     "hi": "शब्दावली को Anki या PDF में निर्यात करें।",
     "ar": "تصدير المفردات إلى Anki أو PDF.",
-    "fr": "Exportez le vocabulaire vers Anki ou PDF."
+    "fr": "Exportez le vocabulaire vers Anki ou PDF.",
+    "it": "Esporta il vocabolario in Anki o PDF."
   },
   "howitorkd1": {
     "en": "How it works",
@@ -524,7 +554,8 @@
     "zh": "工作原理",
     "hi": "यह कैसे काम करता है",
     "ar": "كيف يعمل",
-    "fr": "Comment ça marche"
+    "fr": "Comment ça marche",
+    "it": "Come funziona"
   },
   "addaword": {
     "en": "Add a word",
@@ -541,7 +572,8 @@
     "zh": "添加一个单词",
     "hi": "एक शब्द जोड़ें",
     "ar": "أضف كلمة",
-    "fr": "Ajouter un mot"
+    "fr": "Ajouter un mot",
+    "it": "Aggiungi una parola"
   },
   "createyoow": {
     "en": "Create your own personal vocabulary list.",
@@ -558,7 +590,8 @@
     "zh": "创建你自己的个人词汇列表。",
     "hi": "अपनी खुद की व्यक्तिगत शब्दावली सूची बनाएं।",
     "ar": "أنشئ قائمة مفرداتك الشخصية.",
-    "fr": "Créez votre propre liste de vocabulaire personnelle."
+    "fr": "Créez votre propre liste de vocabulaire personnelle.",
+    "it": "Crea la tua lista personale di vocaboli."
   },
   "learnwithcards": {
     "en": "Learn with cards",
@@ -575,7 +608,8 @@
     "zh": "用卡片学习",
     "hi": "कार्डों के साथ सीखें",
     "ar": "تعلم بالبطاقات",
-    "fr": "Apprenez avec des cartes"
+    "fr": "Apprenez avec des cartes",
+    "it": "Impara con le carte"
   },
   "practiceus": {
     "en": "Practice using interactive flashcards.",
@@ -592,7 +626,8 @@
     "zh": "使用互动式闪卡进行练习。",
     "hi": "इंटरैक्टिव फ्लैशकार्ड का उपयोग करके अभ्यास करें।",
     "ar": "تدرب باستخدام البطاقات التعليمية التفاعلية.",
-    "fr": "Entraînez-vous avec des cartes mémoire interactives."
+    "fr": "Entraînez-vous avec des cartes mémoire interactives.",
+    "it": "Esercitati con flashcard interattive."
   },
   "trackprogress": {
     "en": "Track progress",
@@ -609,7 +644,8 @@
     "zh": "追踪进度",
     "hi": "प्रगति ट्रैक करें",
     "ar": "تتبع التقدم",
-    "fr": "Suivez les progrès"
+    "fr": "Suivez les progrès",
+    "it": "Monitora i progressi"
   },
   "seest": {
     "en": "See streaks, coins and learning statistics.",
@@ -626,7 +662,8 @@
     "zh": "查看连续天数、硬币和学习统计。",
     "hi": "लगातार, सिक्के और सीखने के आँकड़े देखें।",
     "ar": "شاهد السلاسل والعملات وإحصائيات التعلم.",
-    "fr": "Voyez les séries, les pièces et les statistiques d'apprentissage."
+    "fr": "Voyez les séries, les pièces et les statistiques d'apprentissage.",
+    "it": "Vedi serie, monete e statistiche di apprendimento."
   },
   "builtinpublic": {
     "en": "Built in public",
@@ -643,7 +680,8 @@
     "zh": "公开构建",
     "hi": "सार्वजनिक रूप से निर्मित",
     "ar": "بُني علنًا",
-    "fr": "Construit en public"
+    "fr": "Construit en public",
+    "it": "Costruito in pubblico"
   },
   "onecommit": {
     "en": "One commit. One tweet. Every single day.",
@@ -660,7 +698,8 @@
     "zh": "一个提交。一条推文。每一天。",
     "hi": "एक कमिट। एक ट्वीट। हर एक दिन।",
     "ar": "التزام واحد. تغريدة واحدة. كل يوم.",
-    "fr": "Un commit. Un tweet. Chaque jour."
+    "fr": "Un commit. Un tweet. Chaque jour.",
+    "it": "Un commit. Un tweet. Ogni giorno."
   },
   "writecode": {
     "en": "Write code",
@@ -677,7 +716,8 @@
     "zh": "编写代码",
     "hi": "कोड लिखें",
     "ar": "اكتب الكود",
-    "fr": "Écrivez du code"
+    "fr": "Écrivez du code",
+    "it": "Scrivi codice"
   },
   "everyday": {
     "en": "Every day I open the editor and ship something. Even if it's small. Even if it's just a fix. Consistency over perfection.",
@@ -694,7 +734,8 @@
     "zh": "每天我打开编辑器并发布一些东西。即使很小。即使只是一个修复。坚持胜过完美。",
     "hi": "हर दिन मैं संपादक खोलता हूं और कुछ न कुछ भेजता हूं। चाहे वह छोटा हो। चाहे वह सिर्फ एक सुधार हो। पूर्णता से अधिक स्थिरता।",
     "ar": "كل يوم أفتح المحرر وأطلق شيئًا. حتى لو كان صغيرًا. حتى لو كان مجرد إصلاح. الاستمرارية قبل الكمال.",
-    "fr": "Chaque jour, j'ouvre l'éditeur et je publie quelque chose. Même si c'est petit. Même si ce n'est qu'un correctif. La régularité avant la perfection."
+    "fr": "Chaque jour, j'ouvre l'éditeur et je publie quelque chose. Même si c'est petit. Même si ce n'est qu'un correctif. La régularité avant la perfection.",
+    "it": "Ogni giorno apro l'editor e pubblico qualcosa. Anche se è piccolo. Anche se è solo una correzione. La costanza prima della perfezione."
   },
   "days150": {
     "en": "150+ days and counting",
@@ -711,7 +752,8 @@
     "zh": "150多天，还在继续",
     "hi": "150+ दिन और बढ़ रहे हैं",
     "ar": "أكثر من 150 يومًا ولا يزال مستمرًا",
-    "fr": "150+ jours et ça continue"
+    "fr": "150+ jours et ça continue",
+    "it": "150+ giorni e continua"
   },
   "shareit": {
     "en": "Share it",
@@ -728,7 +770,8 @@
     "zh": "分享它",
     "hi": "इसे साझा करें",
     "ar": "شاركه",
-    "fr": "Partagez-le"
+    "fr": "Partagez-le",
+    "it": "Condividilo"
   },
   "everycommits1": {
     "en": "Every commit turns into a tweet. I share what I built, what broke, what I learned. No filters, just real progress.",
@@ -745,7 +788,8 @@
     "zh": "每个提交都变成一条推文。我分享我构建了什么，什么坏了，我学到了什么。没有过滤，只有真实的进步。",
     "hi": "हर कमिट एक ट्वीट में बदल जाता है। मैं साझा करता हूं कि मैंने क्या बनाया, क्या टूटा, और क्या सीखा। कोई फ़िल्टर नहीं, केवल वास्तविक प्रगति।",
     "ar": "كل التزام يتحول إلى تغريدة. أشارك ما بنيته، وما انكسر، وما تعلمته. بلا فلاتر، فقط تقدم حقيقي.",
-    "fr": "Chaque commit devient un tweet. Je partage ce que j'ai construit, ce qui a cassé, ce que j'ai appris. Sans filtre, juste du vrai progrès."
+    "fr": "Chaque commit devient un tweet. Je partage ce que j'ai construit, ce qui a cassé, ce que j'ai appris. Sans filtre, juste du vrai progrès.",
+    "it": "Ogni commit diventa un tweet. Condivido ciò che ho costruito, ciò che si è rotto, ciò che ho imparato. Senza filtri, solo vero progresso."
   },
   "k5avg": {
     "en": "5K avg views per week",
@@ -762,7 +806,8 @@
     "zh": "每周平均5000次浏览",
     "hi": "प्रति सप्ताह औसतन 5K दृश्य",
     "ar": "متوسط 5 آلاف مشاهدة أسبوعيًا",
-    "fr": "5K vues en moyenne par semaine"
+    "fr": "5K vues en moyenne par semaine",
+    "it": "5K visualizzazioni medie a settimana"
   },
   "growaudience": {
     "en": "Grow audience",
@@ -779,7 +824,8 @@
     "zh": "增加受众",
     "hi": "दर्शकों को बढ़ाएं",
     "ar": "نمِّ جمهورك",
-    "fr": "Développez votre audience"
+    "fr": "Développez votre audience",
+    "it": "Fai crescere il tuo pubblico"
   },
   "peoplest": {
     "en": "People started watching. They reply, they share, they follow.",
@@ -796,7 +842,8 @@
     "zh": "人们开始关注。他们回复、分享和关注。",
     "hi": "लोग देखने लगे। वे जवाब देते हैं, साझा करते हैं और फ़ॉलो करते हैं।",
     "ar": "بدأ الناس بالمشاهدة. يردون، يشاركون، ويتابعون.",
-    "fr": "Les gens ont commencé à regarder. Ils répondent, partagent et suivent."
+    "fr": "Les gens ont commencé à regarder. Ils répondent, partagent et suivent.",
+    "it": "Le persone hanno iniziato a guardare. Rispondono, condividono e seguono."
   },
   "dollars10": {
     "en": "$10 per month",
@@ -813,7 +860,8 @@
     "zh": "每月$10",
     "hi": "$10 प्रति माह",
     "ar": "10 دولارات شهريًا",
-    "fr": "10 $ par mois"
+    "fr": "10 $ par mois",
+    "it": "10 $ al mese"
   },
   "startlearn10": {
     "en": "Start learning in 10 seconds",
@@ -830,7 +878,8 @@
     "zh": "10秒内开始学习",
     "hi": "10 सेकंड में सीखना शुरू करें",
     "ar": "ابدأ التعلم في 10 ثوانٍ",
-    "fr": "Commencez à apprendre en 10 secondes"
+    "fr": "Commencez à apprendre en 10 secondes",
+    "it": "Inizia a imparare in 10 secondi"
   },
   "buildby": {
     "en": "Built by a 15-year-old developer from Russia 🇷🇺",
@@ -847,7 +896,8 @@
     "zh": "由一位来自俄罗斯的15岁开发者构建 🇷🇺",
     "hi": "रूस 🇷🇺 से 15 वर्षीय डेवलपर द्वारा निर्मित",
     "ar": "بناه مطور يبلغ من العمر 15 عامًا من روسيا 🇷🇺",
-    "fr": "Créé par un développeur de 15 ans originaire de Russie 🇷🇺"
+    "fr": "Créé par un développeur de 15 ans originaire de Russie 🇷🇺",
+    "it": "Creato da uno sviluppatore quindicenne russo 🇷🇺"
   },
   "beaf": {
     "en": "BEFORE & AFTER",
@@ -864,7 +914,8 @@
     "zh": "之前与之后",
     "hi": "पहले और बाद",
     "ar": "قبل وبعد",
-    "fr": "AVANT & APRÈS"
+    "fr": "AVANT & APRÈS",
+    "it": "PRIMA & DOPO"
   },
   "redesign-title": {
     "en": "See how far it's come",
@@ -881,7 +932,8 @@
     "zh": "看看它走了多远",
     "hi": "देखें यह कितनी दूर आ गया है",
     "ar": "انظر إلى أي مدى وصل",
-    "fr": "Voyez jusqu'où c'est arrivé"
+    "fr": "Voyez jusqu'où c'est arrivé",
+    "it": "Guarda quanto è arrivato lontano"
   },
   "redesign-desc": {
     "en": "The old landing looked different. Way different. Click below to see the before version — the one that started it all.",
@@ -898,7 +950,8 @@
     "zh": "旧的落地页看起来不同。非常不同。点击下方查看之前的版本——那个开启一切的版本。",
     "hi": "पुराना लैंडिंग अलग दिखता था। बहुत अलग। पहले वाला संस्करण देखने के लिए नीचे क्लिक करें — वह जिसने सब कुछ शुरू किया।",
     "ar": "كانت الصفحة القديمة تبدو مختلفة. مختلفة جدًا. انقر أدناه لرؤية النسخة السابقة — تلك التي بدأت كل شيء.",
-    "fr": "L'ancienne page d'accueil était différente. Vraiment différente. Cliquez ci-dessous pour voir la version d'avant — celle qui a tout commencé."
+    "fr": "L'ancienne page d'accueil était différente. Vraiment différente. Cliquez ci-dessous pour voir la version d'avant — celle qui a tout commencé.",
+    "it": "La vecchia landing era diversa. Molto diversa. Clicca qui sotto per vedere la versione precedente — quella che ha iniziato tutto."
   },
   "redesign-label-old": {
     "en": "Old design",
@@ -915,7 +968,8 @@
     "zh": "旧设计",
     "hi": "पुराना डिज़ाइन",
     "ar": "التصميم القديم",
-    "fr": "Ancien design"
+    "fr": "Ancien design",
+    "it": "Vecchio design"
   },
   "redesign-btn-text": {
     "en": "View old landing →",
@@ -932,7 +986,8 @@
     "zh": "查看旧版落地页 →",
     "hi": "पुराना लैंडिंग देखें →",
     "ar": "عرض الصفحة القديمة →",
-    "fr": "Voir l'ancienne page →"
+    "fr": "Voir l'ancienne page →",
+    "it": "Vedi la vecchia landing →"
   },
   "redesign-hint-text": {
     "en": "(opens the second version of WordForge)",
@@ -949,7 +1004,8 @@
     "zh": "（打开WordForge的第二版本）",
     "hi": "(WordForge का दूसरा संस्करण खोलता है)",
     "ar": "(يفتح الإصدار الثاني من WordForge)",
-    "fr": "(ouvre la deuxième version de WordForge)"
+    "fr": "(ouvre la deuxième version de WordForge)",
+    "it": "(apre la seconda versione di WordForge)"
   },
   "usalti": {
     "en": "users all time",
@@ -966,6 +1022,7 @@
     "zh": "历史总用户数",
     "hi": "अब तक के उपयोगकर्ता",
     "ar": "إجمالي المستخدمين",
-    "fr": "utilisateurs au total"
+    "fr": "utilisateurs au total",
+    "it": "utenti totali"
   }
 }

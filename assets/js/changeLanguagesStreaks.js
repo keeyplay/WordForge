@@ -569,5 +569,43 @@ function UpdateStreakMessageTranslate() {
                 "Un jour de plus. Un commit de plus. Un pas de plus vers la vie que tu veux. 🚀 Série assurée."
             ];
         }
+    } else if(localStorage.getItem("language") === "it") {
+        if(streakMessages) {
+            streakMessages = [
+                "Nuova serie sbloccata! 🚀 Costanza prima dell'intensità. Ogni singolo giorno conta.",
+                "La serie continua! 🔥 Non veloce, ma costante. È così che si vince.",
+                "Un altro giorno, un altro passo. 🐢 La tua serie sta crescendo. Continua così.",
+                "Ti sei presentato di nuovo. 💪 Questo è tutto il segreto. La serie è viva.",
+                "Nessun giorno zero. ✅ Serie preservata. Domani è la prossima battaglia.",
+                "Mattone dopo mattone. 🧱 La tua serie sta diventando un muro. Non fermarti.",
+                "Un giorno più vicino all'obiettivo. 🎯 Serie intatta. Rispetto.",
+                "Non ogni giorno è un salto. Ma ogni giorno conta. 🦾 Serie aggiornata.",
+                "Non hai mollato oggi. 🔥 Questa è la vittoria. La serie vive.",
+                "Piccolo passo, grande serie. 🐢 Costanza > talento. Ogni volta.",
+                "Serie estesa. 📈 Non perfetta, ma presente. Basta questo.",
+                "Un altro giorno nei libri. 📚 Serie = prova che puoi fidarti di te stesso.",
+                "La serie è uno specchio. 🪞 Mostra chi sei davvero. Oggi: forte.",
+                "Potevi saltare. Non l'hai fatto. 👊 Serie onorata.",
+                "Un giorno in più. Un commit in più. Un passo in più verso la vita che vuoi. 🚀 Serie assicurata."
+            ];
+        } else {
+            let streakMessages = [
+                "Nuova serie sbloccata! 🚀 Costanza prima dell'intensità. Ogni singolo giorno conta.",
+                "La serie continua! 🔥 Non veloce, ma costante. È così che si vince.",
+                "Un altro giorno, un altro passo. 🐢 La tua serie sta crescendo. Continua così.",
+                "Ti sei presentato di nuovo. 💪 Questo è tutto il segreto. La serie è viva.",
+                "Nessun giorno zero. ✅ Serie preservata. Domani è la prossima battaglia.",
+                "Mattone dopo mattone. 🧱 La tua serie sta diventando un muro. Non fermarti.",
+                "Un giorno più vicino all'obiettivo. 🎯 Serie intatta. Rispetto.",
+                "Non ogni giorno è un salto. Ma ogni giorno conta. 🦾 Serie aggiornata.",
+                "Non hai mollato oggi. 🔥 Questa è la vittoria. La serie vive.",
+                "Piccolo passo, grande serie. 🐢 Costanza > talento. Ogni volta.",
+                "Serie estesa. 📈 Non perfetta, ma presente. Basta questo.",
+                "Un altro giorno nei libri. 📚 Serie = prova che puoi fidarti di te stesso.",
+                "La serie è uno specchio. 🪞 Mostra chi sei davvero. Oggi: forte.",
+                "Potevi saltare. Non l'hai fatto. 👊 Serie onorata.",
+                "Un giorno in più. Un commit in più. Un passo in più verso la vita che vuoi. 🚀 Serie assicurata."
+            ];
+        }
     }
 }
