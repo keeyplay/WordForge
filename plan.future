@@ -140,3 +140,4 @@ i need add/fix:
 - refactoring trainer.js to more files for readable
 - make folders for js files +-
 - make italian language +
+- sorting by folders js files
