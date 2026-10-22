@@ -143,5 +143,7 @@ i need add/fix:
 - sorting by folders js files +-
 - make tests to practice (like choose correct translate of word)
  - make button +
- - make modal with instruction
+ - make modal with instruction +-
+  - make pic
+ - make structure of modal
  - make functional
