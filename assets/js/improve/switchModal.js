@@ -10,7 +10,7 @@ function improveCloseModal() {
 }
 
 document.addEventListener('click', (event) => {
-    if (!modalIM.contains(event.target) && event.target !== buttonofmodalIM) {
+    if (!modalIM.contains(event.target) && event.target !== buttonofmodalIM && modalIM.style.display == "none") {
         improveCloseModal();
   }
 });

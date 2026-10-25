@@ -10,3 +10,38 @@
     display: flex;
     transition-duration: 0.5s;
 }
+
+#improves {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+#ChooseWay {
+    display: flex;
+    flex-direction: column;
+
+    height: 90vh;
+    min-width: 100vh;
+}
+
+#ChooseWay h3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#ChooseWay hr {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#butImTrSk {
+    flex-direction: column;
+    padding: 5px;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
