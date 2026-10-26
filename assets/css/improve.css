@@ -45,3 +45,15 @@
     align-items: center;
     justify-content: center;
 }
+
+#closeImModal {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -30px;
+    transition: all ease 0.5s;
+}
+
+#closeImModal:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}

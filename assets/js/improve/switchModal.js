@@ -1,5 +1,6 @@
 const modalIM = document.getElementById('ChooseWayComp');
 const buttonofmodalIM = document.getElementById('btn-improve-card');
+const closeImModal = document.getElementById('closeImModal');
 
 function improveOpenModal() {
     modalIM.style.display = "flex";
@@ -8,9 +9,3 @@ function improveOpenModal() {
 function improveCloseModal() {
     modalIM.style.display = "none";
 }
-
-document.addEventListener('click', (event) => {
-    if (!modalIM.contains(event.target) && event.target !== buttonofmodalIM && modalIM.style.display == "none") {
-        improveCloseModal();
-  }
-});
