@@ -57,3 +57,12 @@
     transform: scale(1.5);
     cursor: pointer;
 }
+
+#butImTrSk {
+    transition: all ease 0.5s;
+}
+
+#butImTrSk:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
