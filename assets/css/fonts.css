@@ -33,3 +33,27 @@ body {
     /* font-family: "Archivo Black", sans-serif; */
     font-family: "Andika", sans-serif;
 }
+
+#halloween {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: start;
+  z-index: 10000;
+  top: 0;
+  left: 0; 
+}
+
+#halloween img {
+  width: 100px;
+
+  transition: ease 0.5s;
+}
+
+#halloween img:hover {
+  cursor: pointer;
+  width: 120px;
+  filter: drop-shadow(0 0 15px rgba(255, 138, 12, 0.8));
+}
