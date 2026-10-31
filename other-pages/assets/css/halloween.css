@@ -1,0 +1,49 @@
+#txt {
+    color: white; 
+    font-size: 100px;
+}
+
+#img-p {
+    max-width: 250px;
+    transition: ease 0.5s;
+}
+
+#img-p:hover {
+    transform: scale(1.1);
+    cursor: crosshair;
+}
+
+#cont {
+    display: flex; 
+    position: fixed; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100vh;
+}
+
+#me2026 {
+    max-width: 600px;
+    max-height: 500px;
+    background: rgb(42, 22, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: fixed;
+}
+
+@media (max-width: 768px) {
+  #txt {
+    font-size: 25px;
+  }
+  #img-p {
+    width: 50px;
+  }
+  #cont {
+    gap: 40px;
+  }
+}

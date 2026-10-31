@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HALOWEEN</title>
+    <link rel="stylesheet" href="assets/css/halloween.css">
 </head>
 <body style="background-color: black;">
-    <div style="display: flex; position: fixed; justify-content: center; align-items: center; gap: 10px; left: 0; top: 0; width: 100%; height: 100vh;">
-        <h1 style="color: white; font-size: 100px;">HAPPY HALOWEEN</h1>
-        <img src="../assets/pic/halloween2026.png" alt="" style="width: 250px;">
+    <div id="cont">
+        <h1 id="txt" onclick="document.getElementById('me2026').style.display = 'flex'; document.getElementById('me2026-2').style.display = 'flex'">HAPPY HALOWEEN</h1>
+        <img src="../assets/pic/halloween2026.png" id="img-p" onclick="rotateImage()">
     </div>
+    <div id="me2026" style="display: none;">
+        <p>Hi everyone, this is a letter to the future to myself. Right now I'm full of doubts, but I keep fighting and getting better. I hope I'll read this in the future. Tonight is Halloween night, 2026, and I'm pretty happy right now. I'm doing YouTube, music, programming — I hope it all works out for me. The main thing is not to give up. I'm slacking off a lot, listening to new music, new thoughts are coming, and I think I'm growing. For now I'm working on this project (WordForge) because it's already a habit and constant practice of my IT skills. Future me, I hope everything worked out for you, that you didn't lose faith, because I know you can't not succeed. You're trying, and it's already working out for you. Doubt less, do more, big brother :3 It's already 1 AM and my head isn't working well. I wish everyone a happy Halloween - boo ga ga. Sematary - Grave Man</p>
+    </div>
+
+    <script src="assets/js/halloween.js"></script>
 </body>
 </html>
