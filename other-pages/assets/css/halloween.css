@@ -1,6 +1,13 @@
+body {
+  background-color: black;
+}
 #txt {
     color: white; 
     font-size: 100px;
+}
+
+#txt:hover {
+    cursor: pointer;
 }
 
 #img-p {
