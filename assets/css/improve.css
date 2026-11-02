@@ -46,7 +46,7 @@
     justify-content: center;
 }
 
-#closeImModal {
+.closeImModal {
     position: absolute;
     margin-left: 47%;
     margin-top: -30px;

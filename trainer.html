@@ -627,7 +627,7 @@
     </div>
     <div id="ChooseWayComp" class="modal-overlay" style="display: none;">
         <div class="modal scroll-div" id="ChooseWay"> 
-            <h3>Choose way to improve your skills</h3><h1 id="closeImModal" onclick="improveCloseModal()">x</h1><hr>
+            <h3>Choose way to improve your skills</h3><h1 class="closeImModal" onclick="improveCloseModal()">x</h1><hr>
             <div id="improves">
                 <div class="modal" id="butImTrSk">
                     <img src="assets/pic/ImproveUrSkills/ImproveUrSkills-translatePNG.png" alt="" style="width: 50%;">
@@ -642,8 +642,10 @@
     <div id="howManyCar" style="display: none;"> 
         <h1>How many cards u wanna try (from 5 to x)</h1>
         <input type="number" id="howManyCar-inp">
+        <h1 class="closeImModal" onclick="improveCloseModal_ImproveTranslateSkills()">x</h1>
     </div>
         <div id="tesstImTrSk" style="display: none;">
+            <h1 class="closeImModal">x</h1>
             <h1>You need to choose correct answer.</h1>
             <div id='word'>word</div>
             <div id="answers">
@@ -680,5 +682,6 @@
     <script src="assets/js/InfoModal/info-modal.js"></script>
     <script src="assets/js/LocalAccounts/player.js"></script>
     <script src="assets/js/improve/switchModal.js"></script>
+    <script src="assets/js/improve/ImproveTranslateSkills.js"></script>
 </body>
 </html>
