@@ -44,12 +44,16 @@ body {
   z-index: 10000;
   top: 0;
   left: 0; 
+  pointer-events: none;
 }
 
 #halloween img {
   width: 35px;
 
   transition: ease 0.5s;
+  pointer-events: auto; 
+  position: relative; 
+  z-index: 10; 
 }
 
 #halloween img:hover {
