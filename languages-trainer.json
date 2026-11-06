@@ -1672,5 +1672,41 @@
     "ar": "اختر الترجمة الصحيحة للكلمة من بطاقتك العشوائية",
     "fr": "Choisissez la traduction correcte du mot de votre carte aléatoire",
     "it": "Scegli la traduzione corretta della parola dalla tua carta casuale"
+  },
+    "txt-uneed": {
+    "en": "You need to choose correct answer.",
+    "ru": "Вам нужно выбрать правильный ответ.",
+    "de": "Du musst die richtige Antwort wählen.",
+    "pl": "Musisz wybrać poprawną odpowiedź.",
+    "sr": "Morate izabrati tačan odgovor.",
+    "ja": "正しい答えを選んでください。",
+    "ka": "უნდა აირჩიო სწორი პასუხი.",
+    "el": "Πρέπει να επιλέξετε τη σωστή απάντηση.",
+    "es": "Debes elegir la respuesta correcta.",
+    "pt": "Você precisa escolher a resposta correta.",
+    "fi": "Sinun on valittava oikea vastaus.",
+    "zh": "你需要选择正确答案。",
+    "hi": "आपको सही उत्तर चुनना होगा।",
+    "ar": "عليك اختيار الإجابة الصحيحة.",
+    "fr": "Vous devez choisir la bonne réponse.",
+    "it": "Devi scegliere la risposta corretta."
+  },
+  "word": {
+    "en": "word",
+    "ru": "слово",
+    "de": "Wort",
+    "pl": "słowo",
+    "sr": "reč",
+    "ja": "単語",
+    "ka": "სიტყვა",
+    "el": "λέξη",
+    "es": "palabra",
+    "pt": "palavra",
+    "fi": "sana",
+    "zh": "单词",
+    "hi": "शब्द",
+    "ar": "كلمة",
+    "fr": "mot",
+    "it": "parola"
   }
 }
