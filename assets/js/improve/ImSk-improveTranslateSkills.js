@@ -1,8 +1,19 @@
 let words_itk = localStorage.getItem(localStorage.getItem('Profile')).languageCards
 
+const tesstImTrSk_modal = document.getElementById('tesstImTrSk');
 const word_d = document.getElementById('word');
 
+const ans1 = document.getElementById('ans1');
+const ans2 = document.getElementById('ans2');
+const ans3 = document.getElementById('ans3');
+const ans4 = document.getElementById('ans4');
+
 function reloadWord() {
-    word_d.innerText = words_itk[Math.floor(Math.random() * words_itk.length)]
-    // WIP ...
+    if(words_itk.length <= 4) {
+        alert("You can't improve your skills. Please, add 4 cards at least.");
+    }
+    tesstImTrSk_modal.style.display = "flex";
+    word_d.innerText = words_itk[Math.floor(Math.random() * words_itk.length)].word;
+    
+    ans1.innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
 }
