@@ -12,8 +12,14 @@ function reloadWord() {
     if(words_itk.length <= 4) {
         alert("You can't improve your skills. Please, add 4 cards at least.");
     }
+    let num = Math.floor(Math.random() * words_itk.length)
+
     tesstImTrSk_modal.style.display = "flex";
-    word_d.innerText = words_itk[Math.floor(Math.random() * words_itk.length)].word;
+    
+    word_d.innerText = words_itk[num].word;
     
     ans1.innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
+    ans2.innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
+    ans3.innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
+    ans4.innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
 }
