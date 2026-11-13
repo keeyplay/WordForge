@@ -631,7 +631,7 @@
         <div class="modal scroll-div" id="ChooseWay"> 
             <h3 id="txt-chooseway">Choose way to improve your skills</h3><h1 class="closeImModal" onclick="improveCloseModal()">x</h1><hr>
             <div id="improves">
-                <div class="modal" id="butImTrSk">
+                <div class="modal" id="butImTrSk" onclick="document.getElementById('ImTrSk').style.display = 'flex'; document.getElementById('howManyCar').style.display = 'flex'">
                     <img src="assets/pic/ImproveUrSkills/ImproveUrSkills-translatePNG.png" alt="" style="width: 50%;">
                     <h3 id="txtImTrSk">Improve translate skills</h3>
                     <hr>
@@ -644,7 +644,7 @@
         <div id="howManyCar" style="display: none;"> 
             <h1>How many cards u wanna try (from 5 to x)</h1>
             <input type="number" id="howManyCar-inp">
-            <button id="continue">Continue</button>
+            <button id="continue" onclick="document.getElementById('tesstImTrSk').style.display = 'flex';">Continue</button>
             <h1 class="closeImModal" onclick="improveCloseModal_ImproveTranslateSkills()">x</h1>
         </div>
         <div id="tesstImTrSk" style="display: none;">
