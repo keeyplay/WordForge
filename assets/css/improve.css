@@ -1,4 +1,4 @@
-#ChooseWayComp, #ImTrSk, #howManyCar, #tesstImTrSkFunc {
+#ChooseWayComp{
     position: fixed;
     inset: 0;
     z-index: 100;
@@ -11,12 +11,21 @@
     transition-duration: 0.5s;
 }
 
+
 #howManyCar {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 101;
-    display: flex;
-    width: 80%;
-    height: 80vh;
-    background-color: var(--wf-overlay-dark);
+    background: var(--wf-overlay-dark);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 820px;
+    max-height: 500px;
     border-radius: 20px;
     border: 1px solid white;
 }

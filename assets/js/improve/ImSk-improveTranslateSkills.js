@@ -8,6 +8,14 @@ const ans2 = document.getElementById('ans2');
 const ans3 = document.getElementById('ans3');
 const ans4 = document.getElementById('ans4');
 
+function openHowManyCar() {
+    document.getElementById('howManyCar').style.display = 'flex';
+}
+
+function openTesstImTrSkFunc() {
+    document.getElementById('tesstImTrSkFunc').style.display = 'flex';
+}
+
 function reloadWord() {
     if(words_itk.length <= 4) {
         alert("You can't improve your skills. Please, add 4 cards at least.");
