@@ -631,7 +631,7 @@
         <div class="modal scroll-div" id="ChooseWay"> 
             <h3 id="txt-chooseway">Choose way to improve your skills</h3><h1 class="closeImModal" onclick="improveCloseModal()">x</h1><hr>
             <div id="improves">
-                <div class="modal" id="butImTrSk" onclick="openHowManyCar()">
+                <div class="modal" id="butImTrSk" onclick="openTesstImTrSkFunc()">
                     <img src="assets/pic/ImproveUrSkills/ImproveUrSkills-translatePNG.png" alt="" style="width: 50%;">
                     <h3 id="txtImTrSk">Improve translate skills</h3>
                     <hr>
@@ -640,23 +640,15 @@
             </div>   
         </div>
     </div>
-    <div class="modal-overlay">
-        <div id="howManyCar" style="display: none;" class="modal"> 
-            <h1>How many cards u wanna try (from 5 to x)</h1>
-            <input type="number" id="howManyCar-inp">
-            <button id="continue" onclick="openTesstImTrSkFunc()">Continue</button>
-            <h1 class="closeImModal" onclick="improveCloseModal_ImproveTranslateSkills()">x</h1>
-        </div>
-    </div>
-    <div id="tesstImTrSkFunc" style="display: none;" class="modal-overlay">
+    <div id="tesstImTrSkFunc" style="display: none;" class="modal">
         <h1 class="closeImModal">x</h1>
         <h1 id="txt-uneed">You need to choose correct answer.</h1>
         <div id='word'>word</div>
         <div id="answers">
-            <div id="ans1">translate1</div>
-            <div id="ans2">translate2</div>
-            <div id="ans3">translate3</div>
-            <div id="ans4">translate4</div>
+            <div id="ans1" class="ans">translate1</div>
+            <div id="ans2" class="ans">translate2</div>
+            <div id="ans3" class="ans">translate3</div>
+            <div id="ans4" class="ans">translate4</div>
         </div>
     </div>
     <div id="halloween"><img src="assets/pic/halloween2026.png" onclick="window.location.href = 'other-pages/halloween.html'"></div>
