@@ -17,9 +17,25 @@
     left: 50%;
     z-index: 101;
     transform: translate(-50%, -50%);
+    max-width: 1500px;
+    height: 80vh;
 
     display: flex;
     flex-direction: column;
+}
+
+.ans {
+    width: 48%;
+    height: 20vh;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#answers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 #improves {
