@@ -12,6 +12,10 @@ function openTesstImTrSkFunc() {
     document.getElementById('tesstImTrSkFunc').style.display = 'flex';
 }
 
+function closeTesstImTrSkFunc() {
+    document.getElementById('tesstImTrSkFunc').style.display = 'none';
+}
+
 function reloadWord() {
     if(words_itk.length <= 4) {
         alert("You can't improve your skills. Please, add 4 cards at least.");
