@@ -9,11 +9,11 @@ const ans3 = document.getElementById('ans3');
 const ans4 = document.getElementById('ans4');
 
 function openTesstImTrSkFunc() {
-    document.getElementById('tesstImTrSkFunc').style.display = 'flex';
+    document.getElementById('modal1').style.display = 'flex';
 }
 
 function closeTesstImTrSkFunc() {
-    document.getElementById('tesstImTrSkFunc').style.display = 'none';
+    document.getElementById('modal1').style.display = 'none';
 }
 
 function reloadWord() {
