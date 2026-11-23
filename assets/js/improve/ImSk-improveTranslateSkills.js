@@ -20,17 +20,32 @@ function reloadWord() {
     if(words_itk.length <= 4) {
         alert("You can't improve your skills. Please, add 4 cards at least.");
     }
+    let clickedElement;
     let num = Math.floor(Math.random() * words_itk.length)
+    const buttons = [ans1, ans2, ans3, ans4];
 
     tesstImTrSk_modal.style.display = "flex";
     
     word_d.innerText = words_itk[num].word;
     for(let i = 0; i++; i < 4) {
         let [random1, random2, random3, random4] = [0, 1, 2, 3].sort(() => Math.random() - 0.5);
-        const buttons = [ans1, ans2, ans3, ans4];
         buttons[random1].innerText = words_itk[num].translation
         buttons[random2].innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
         buttons[random3].innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
         buttons[random4].innerText = words_itk[Math.floor(Math.random() * words_itk.length)].translation
     }
+
+    buttons.forEach(btn => {
+        btn.onclick = (event) => {
+            clickedElement = event.target;
+
+            if (clickedElement.innerText === words_itk[num].translation) {
+                alert("win!");
+                addCoins(10);
+                reloadWord();
+            } else {
+                alert("lose!");
+            }
+        };
+    });
 }
