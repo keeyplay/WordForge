@@ -16,6 +16,10 @@ function closeTesstImTrSkFunc() {
     document.getElementById('modal1').style.display = 'none';
 }
 
+function OpenCloseModal(id, flex = "flex") {
+    document.getElementById(`${id}`).style.display = flex;
+}
+
 function reloadWord() {
     if(words_itk.length <= 4) {
         alert("You can't improve your skills. Please, add 4 cards at least.");
