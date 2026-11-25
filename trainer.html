@@ -631,7 +631,7 @@
         <div class="modal scroll-div" id="ChooseWay"> 
             <h3 id="txt-chooseway">Choose way to improve your skills</h3><h1 class="closeImModal" onclick="improveCloseModal()">x</h1><hr>
             <div id="improves">
-                <div class="modal" id="butImTrSk" onclick="openTesstImTrSkFunc()">
+                <div class="modal" id="butImTrSk" onclick="OpenCloseModal('modal1', 'flex')">
                     <img src="assets/pic/ImproveUrSkills/ImproveUrSkills-translatePNG.png" alt="" style="width: 50%;">
                     <h3 id="txtImTrSk">Improve translate skills</h3>
                     <hr>
@@ -643,7 +643,7 @@
 
     <div class="modal-overlay" style="display: none;" id="modal1">
     <div id="tesstImTrSkFunc" class="modal" class="modal-overlay">
-        <h1 class="closeImModal" id="xCloseImModal" onclick="closeTesstImTrSkFunc()">x</h1>
+        <h1 class="closeImModal" id="xCloseImModal" onclick="OpenCloseModal('modal1', 'none')">x</h1>
         <h1 id="txt-uneed">You need to choose correct answer</h1>
         <div id='word'>word</div>
         <div id="answers">
