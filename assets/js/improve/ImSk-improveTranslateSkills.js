@@ -32,11 +32,12 @@ function reloadWord() {
             clickedElement = event.target;
 
             if (clickedElement.innerText === words_itk[num].translation) {
-                alert("win!");
+                alert("Correct");
                 addCoins(10);
                 reloadWord();
             } else {
-                alert("lose!");
+                alert(`Not correct, correct answer ${words_itk[num].translation}!`);
+                reloadWord();
             }
         };
     });
